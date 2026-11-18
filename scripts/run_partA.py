@@ -7,6 +7,7 @@ Usage:
   run_partA.py --arm A --split test --out DIR --lora L --tag RL # RL greedy + RL_search
 """
 import argparse, json, os, sys, time, zlib
+os.environ.setdefault("VLLM_ENABLE_V1_MULTIPROCESSING", "0")  # LR-E1: in-process engine; spawn fails after HF CUDA init
 sys.path.insert(0, os.path.dirname(__file__))
 import numpy as np, pandas as pd
 from common import *
@@ -14,7 +15,7 @@ from common import *
 ap = argparse.ArgumentParser()
 ap.add_argument("--arm", required=True); ap.add_argument("--split", required=True); ap.add_argument("--out", required=True)
 ap.add_argument("--calib", action="store_true"); ap.add_argument("--lora", default=None); ap.add_argument("--tag", default="RL")
-ap.add_argument("--limit", type=int, default=None); ap.add_argument("--gpu_mem", type=float, default=0.35)
+ap.add_argument("--limit", type=int, default=None); ap.add_argument("--gpu_mem", type=float, default=0.28)
 ap.add_argument("--no_search", action="store_true")
 a = ap.parse_args()
 os.makedirs(a.out, exist_ok=True)
@@ -37,12 +38,13 @@ N = min(len(pids), a.limit or len(pids)); pids = pids[:N]
 IMGS = [arm_images(a.arm, rgb[i], fcc[i]) for i in range(N)]
 desc = pd.read_parquet(f"{ARR}/descriptors.parquet").set_index("patch_id")
 
-sc = QwenScorer()
+sc = QwenScorer(); evict_model_cache(VLM)
 tick("hf_loaded")
 llm = LLM(VLM, revision=rev(VLM), dtype="bfloat16", max_model_len=4096, gpu_memory_utilization=a.gpu_mem,
           limit_mm_per_prompt={"image": 2}, enable_lora=a.lora is not None, max_lora_rank=16, seed=0,
           mm_processor_kwargs={"min_pixels": IMG_SIDE * IMG_SIDE, "max_pixels": IMG_SIDE * IMG_SIDE})
 LR = LoRARequest("policy", 1, a.lora) if a.lora else None
+evict_model_cache(VLM)
 tick("vllm_loaded")
 
 
@@ -96,6 +98,8 @@ if a.calib:
     Z1 = np.concatenate([all_layers([sc._prompt(image_user(a.arm, Q))] * len(IMGS[k:k + 16]), [im for ims in IMGS[k:k + 16] for im in ims]) for k in range(0, N, 16)])
     Z2 = np.concatenate([all_layers([sc._prompt(pass2_user(w)) for w in W[k:k + 32]]) for k in range(0, N, 32)])
     for L in range(Z1.shape[1]):
+        if np.allclose(Z1[:, L].std(0), 0) or np.allclose(Z2[:, L].std(0), 0):
+            diag[L] = None; continue  # LR-E2: layer 0 (token embedding of the fixed prefill token) is constant
         S_L = unit(Z1[:, L], Z1[:, L].mean(0)) @ unit(Z2[:, L], Z2[:, L].mean(0)).T
         diag[L] = float(roc_auc_score(lab, S_L.ravel()))
     res = {"arm": a.arm, "n": N, "auc_own_vs_other": auc, "top1_retrieval": top1, "mean_s_own": float(np.diag(S).mean()),

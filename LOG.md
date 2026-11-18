@@ -35,3 +35,19 @@
 - Stretch (2-98 pct, RL pool): {"B02":[37.0,1834.0],"B03":[57.0,1924.0],"B04":[23.0,2250.0],"B08":[1.0,5060.0]}
 - Descriptors: descriptors.parquet (mean NDVI/NDWI/NDMI per patch, eps 1e-6 in denominator, + labels).
 - Software deviations added: LR-X17 preamble joined to instruction with one space in one text block; LR-X18 rewrite list format "Description k (score x.xxx): w", best first; LR-X19 B1 = "Land cover: " + comma-joined labels + "."; LR-X20 if no search candidate <=100 words, best overall is picked and flagged; LR-X21 check VLM uses the -hf processor's shipped chat template (no system message); LR-X22 InternVL3-8B loaded as official HF-native conversion OpenGVLab/InternVL3-8B-hf@259a3b6 because the original remote code fails under transformers 5.22 (AttributeError all_tied_weights_keys); verified LM 339/339 tensors and projector 6/6 bit-identical, vision differs only by qkv split (340 -> 436 tensors).
+
+## LR-2 Calibration
+- Prithvi z cached (~/langres_data/prithvi), standardized with RL pool stats; pos_embed rebuilt (sincos) for num_frames=1.
+- LR-E1: run_partA.py vLLM engine failed at start ("An attempt has been made to start a new process before the current process has finished its bootstrapping phase": spawn after HF model initialized CUDA). Fix: `os.environ.setdefault("VLLM_ENABLE_V1_MULTIPROCESSING", "0")` at top of run_partA.py (in-process engine). No behaviour change.
+- LR-E2: layer-sweep diagnostic crashed (sklearn "Input contains NaN"): at hidden_states[0] the last prefilled token's embedding is identical for all patches, so centering gives a zero vector. Fix: skip layers with zero variance (diag value None). Primary layer-21 readout unaffected.
+- LR-2 result: calibration AUC (own vs other summary, 200x200, layer 21): arm A 0.800, arm B 0.812 (>= 0.7, pass). Top-1 retrieval A 4.5 %, B 3.5 %. Mean s own A 0.188 / other 0.009; B 0.171 / 0.003. Layer sweep (diagnostic only) in runs/calib_{A,B}/calib_result.json.
+- Check VLM (InternVL3-8B-hf, layer 21) calibration AUC: arm A 0.788, arm B 0.745. Means: ~/langres_data/calib/check_means_{A,B}.npz.
+- Frozen means: ~/langres_data/calib/means_{A,B}.npz.
+
+## LR-3 Smoke
+- A2 arm A attempt 1 failed: "torch.AcceleratorError: CUDA error: out of memory" at model.to(cuda); A2 free RAM 2 GB, 77 GB page cache (our 63 GB archive). Fix (runtime, not design): evict our own files from page cache with posix_fadvise DONTNEED (scripts/evict_cache.py; 68.8 GB evicted; free 2 -> 34 GB), evict model blobs after each load, vLLM gpu_memory_utilization 0.35 -> 0.28.
+- Host B: foreign GPU procs hold ~96 GB; arm B smoke waits in gpu_gate.sh polling every 10 min (log: B:~/langres_state/logs/smoke_B.log).
+- LR-3 arm A val (100 patches, A2, 1,022 s): s B0 0.037, B1 0.027, B2 0.173, A_search 0.340 (diff vs B2 +0.167 [0.149, 0.187]); s' B0 -0.045, B1 0.046, B2 0.196, A_search 0.259 (+0.063 [0.035, 0.091]); paraphrase of A_search: s 0.340 -> 0.276, s' 0.259 -> 0.221. Full numbers: runs/val_A/readouts_val.json.
+
+## USER-APPROVED CHANGE (2026-11-18): test split reduced 10x
+- User instruction: "reduce the test data by 10 fold at least." Test = 100 patches, stratified by label set (largest remainder, seed 0) from the frozen 1,000-patch test split. Split name `test100`; ids ~/langres_data/arrays/test100_ids.json sha256 4e8a5c95131e9ee5f651c15303b5fa8d2ba0a38db1c7f640ba17ffe7b85f5571; 16 labels present. The 1,000-patch membership stays frozen and unchanged.

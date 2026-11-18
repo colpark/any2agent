@@ -113,3 +113,13 @@ def unit(x, mu):
 def load_means(arm):
     m = np.load(f"{CAL}/means_{arm}.npz")
     return m["mu_img"], m["mu_txt"]
+
+
+def evict_model_cache(repo):
+    """Drop page cache of our own HF blobs for `repo` (GB10 unified memory: cache competes with CUDA allocations)."""
+    import glob
+    for p in glob.glob(os.path.expanduser(f"~/.cache/huggingface/hub/models--{repo.replace('/', '--')}/blobs/*")):
+        try:
+            fd = os.open(p, os.O_RDONLY); os.posix_fadvise(fd, 0, 0, os.POSIX_FADV_DONTNEED); os.close(fd)
+        except OSError:
+            pass
