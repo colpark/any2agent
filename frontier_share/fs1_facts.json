@@ -1,0 +1,137 @@
+{
+ "thresholds": {
+  "ndmi_median": 0.192,
+  "b08_std_median": 640.0,
+  "b08_edge_median": 178.0
+ },
+ "top6_labels": [
+  "Arable land",
+  "Mixed forest",
+  "Coniferous forest",
+  "Transitional woodland, shrub",
+  "Broad-leaved forest",
+  "Land principally occupied by agriculture, with significant areas of natural vegetation"
+ ],
+ "ndvi_tertile_cuts": [
+  0.44353199005126953,
+  0.6998640894889832
+ ],
+ "ndmi_tertile_cuts": [
+  0.08480557799339294,
+  0.26152583956718445
+ ],
+ "cell_population": {
+  "00": 21,
+  "01": 5,
+  "02": 7,
+  "10": 12,
+  "11": 19,
+  "12": 2,
+  "20": 0,
+  "21": 9,
+  "22": 25
+ },
+ "most_populated_cell": [
+  2,
+  2
+ ],
+ "notes": [
+  "cell (2, 0) empty, filled from most populated cell (2, 2)"
+ ],
+ "rl_yes_rate": {
+  "Q1": 0.5849,
+  "Q2": 0.177,
+  "Q3": 0.2878,
+  "Q4": 0.495,
+  "Q5": 0.371,
+  "Q6": 0.3317,
+  "Q7": 0.3209,
+  "Q8": 0.2695,
+  "Q9": 0.269,
+  "Q10": 0.2527,
+  "Q11": 0.5002,
+  "Q12": 0.2104,
+  "Q13": 0.5032,
+  "Q14": 0.5001,
+  "Q15": 0.3281,
+  "Q16": 0.5
+ },
+ "majority": {
+  "Q1": "yes",
+  "Q2": "no",
+  "Q3": "no",
+  "Q4": "no",
+  "Q5": "no",
+  "Q6": "no",
+  "Q7": "no",
+  "Q8": "no",
+  "Q9": "no",
+  "Q10": "no",
+  "Q11": "yes",
+  "Q12": "no",
+  "Q13": "yes",
+  "Q14": "yes",
+  "Q15": "no",
+  "Q16": "no"
+ },
+ "selected_key_yes_rate": {
+  "Q1": 0.7,
+  "Q2": 0.1,
+  "Q3": 0.3,
+  "Q4": 0.3,
+  "Q5": 0.3,
+  "Q6": 0.8,
+  "Q7": 0.5,
+  "Q8": 0.4,
+  "Q9": 0.2,
+  "Q10": 0.2,
+  "Q11": 0.6,
+  "Q12": 0.2,
+  "Q13": 0.4,
+  "Q14": 0.7,
+  "Q15": 0.2,
+  "Q16": 0.7
+ },
+ "selected_cells": [
+  [
+   0,
+   0
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   1
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   2,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   2,
+   2
+  ]
+ ]
+}

@@ -1,0 +1,242 @@
+{
+ "global": {
+  "cover": [
+   {
+    "class": "Woody vegetation, including probable forest and scrub; medium confidence",
+    "percent": 64
+   },
+   {
+    "class": "Open water; high confidence",
+    "percent": 23
+   },
+   {
+    "class": "Low vegetation and probable wet shoreline vegetation; medium confidence",
+    "percent": 9
+   },
+   {
+    "class": "Sparse vegetation or exposed ground, potentially including rock; low confidence",
+    "percent": 4
+   }
+  ],
+  "landscape": "Vegetation-dominated shoreline mosaic with a large water body along the western edge and a smaller water area in the southeast; high confidence. A wooded landscape with locally wet openings is likely; medium confidence.",
+  "season_cues": "Widespread red vegetation in false color indicates substantial near-infrared reflectance, consistent with foliage being present and photosynthetically active vegetation; medium confidence. Exact season, deciduous phenology and evergreen contribution are unresolved; low confidence.",
+  "heterogeneity": "Strong water\u2013land contrast, moderately mottled woody cover and narrow, brighter vegetation corridors produce substantial spatial heterogeneity; high confidence. Percentages are approximate visual estimates rather than a measured classification; medium confidence."
+ },
+ "grid": [
+  {
+   "cell": "top_left",
+   "cover": "Predominantly open water, with wooded land entering from the right; high confidence.",
+   "texture": "Water is smooth and very dark; land is mottled; high confidence.",
+   "features": "An irregular shoreline runs approximately northeast\u2013southwest through the eastern portion of the cell; high confidence."
+  },
+  {
+   "cell": "top_center",
+   "cover": "Predominantly woody vegetation, with water in the upper-left portion; medium confidence.",
+   "texture": "Coarse mottling with red vegetation interspersed with muted gray-green patches in false color; high confidence.",
+   "features": "An irregular wooded shore and scattered sparse-cover patches are visible; medium confidence."
+  },
+  {
+   "cell": "top_right",
+   "cover": "Predominantly woody vegetation; medium confidence.",
+   "texture": "Mottled canopy with a narrow, relatively smooth diagonal interruption; high confidence.",
+   "features": "A pale, locally dark-edged linear corridor trends northwest\u2013southeast and exits the right edge; high confidence for its presence, low confidence that it is a track."
+  },
+  {
+   "cell": "middle_left",
+   "cover": "Open water and wooded shoreline occupy comparable portions; medium confidence.",
+   "texture": "Smooth dark water contrasts with irregular vegetation and narrow shore strips; high confidence.",
+   "features": "A constricted water passage separates the main eastern landmass from a western land projection; high confidence. A tiny bright shoreline or water-adjacent patch is unresolved; low confidence."
+  },
+  {
+   "cell": "middle_center",
+   "cover": "Mostly woody vegetation with small openings; medium confidence.",
+   "texture": "Mottled vegetation crossed by lighter, discontinuous bands; high confidence.",
+   "features": "An approximately east\u2013west to northeast\u2013southwest irregular band crosses the upper part, while brighter vegetation occurs toward the lower edge; medium confidence."
+  },
+  {
+   "cell": "middle_right",
+   "cover": "Predominantly woody vegetation with narrow low-vegetation bands; medium confidence.",
+   "texture": "Dark, coarse patches bordered by stronger pink-red vegetation in false color; high confidence.",
+   "features": "A bright vegetation strip follows the eastern margin and bends inward near the lower edge; high confidence. Several tiny bright spots cannot be classified; low confidence."
+  },
+  {
+   "cell": "bottom_left",
+   "cover": "Woody vegetation and western-edge water, with a lighter land patch near the bottom; medium confidence.",
+   "texture": "Mottled red vegetation grades into muted gray-green cover near the bottom; high confidence.",
+   "features": "The western water passage continues beyond the image; high confidence. A diffuse sparse-cover opening is probable; medium confidence."
+  },
+  {
+   "cell": "bottom_center",
+   "cover": "Woody vegetation with a conspicuous band of low vegetation; medium confidence.",
+   "texture": "Coarse dark-red patches contrast with smoother, bright pink-red strips; high confidence.",
+   "features": "An irregular branching vegetation corridor approaches the southeastern water area; high confidence. Wet ground within this corridor is plausible; medium confidence."
+  },
+  {
+   "cell": "bottom_right",
+   "cover": "Open water bordered by woody and low vegetation; high confidence.",
+   "texture": "Smooth dark water, a muted blue-green northern margin and rough surrounding vegetation; high confidence.",
+   "features": "A partially cropped pond- or lake-like water area has an irregular shoreline and a tiny bright interior patch; high confidence for the water, low confidence for the patch's identity."
+  }
+ ],
+ "boundaries": "Water\u2013land boundaries are generally sharp but locally softened by mixed shoreline pixels; high confidence. The western shore curves inward in middle_left, producing a narrow passage; high confidence. Woody-cover boundaries with openings are mostly irregular and diffuse, without a clear agricultural parcel pattern; medium confidence. Bright low-vegetation bands link parts of middle_left, bottom_center and the northern shore of bottom_right, with another strip along middle_right; high confidence for the pattern, medium confidence for ecological continuity. The top_right diagonal corridor is comparatively straight; high confidence.",
+ "features": [
+  {
+   "type": "Western open-water body and constricted passage; high confidence",
+   "cell": "top_left, top_center, middle_left, bottom_left",
+   "size_m": "Visible length approximately 1200 m; width roughly 100\u2013450 m; medium confidence",
+   "shape": "Irregular, broad in the northwest and constricted centrally; high confidence",
+   "orientation": "Broadly north\u2013south; high confidence",
+   "count": 1
+  },
+  {
+   "type": "Southeastern open-water area; high confidence",
+   "cell": "bottom_right",
+   "size_m": "Visible footprint approximately 350 \u00d7 300 m, extending beyond the bottom edge; medium confidence",
+   "shape": "Irregular rounded basin with indented margins; high confidence",
+   "orientation": "Broadly north\u2013south elongation within the visible portion; medium confidence",
+   "count": 1
+  },
+  {
+   "type": "Wooded western land projection; high confidence",
+   "cell": "middle_left",
+   "size_m": "Visible footprint approximately 180 \u00d7 250 m; medium confidence",
+   "shape": "Rounded projection entering from the western edge; high confidence",
+   "orientation": "Projects eastward; high confidence",
+   "count": 1
+  },
+  {
+   "type": "Narrow linear corridor, possibly a track or exposed-ground strip; low confidence for function",
+   "cell": "top_center, top_right",
+   "size_m": "Approximately 450\u2013550 m long and 10\u201330 m wide; low confidence for width",
+   "shape": "Mostly straight with a slight bend near the eastern edge; high confidence",
+   "orientation": "Northwest\u2013southeast; high confidence",
+   "count": 1
+  },
+  {
+   "type": "Discontinuous lighter band through woody cover; medium confidence",
+   "cell": "middle_left, middle_center, middle_right",
+   "size_m": "Approximately 850\u20131000 m long and 20\u201360 m wide; low confidence",
+   "shape": "Irregular and gently sinuous; high confidence",
+   "orientation": "Broadly west\u2013east; high confidence",
+   "count": 1
+  },
+  {
+   "type": "Branching bright vegetation corridor, possibly wet ground or connected openings; medium confidence",
+   "cell": "middle_left, bottom_center, middle_right, bottom_right",
+   "size_m": "Visible network spans approximately 850\u20131000 m; individual bands roughly 20\u2013100 m wide; low confidence",
+   "shape": "Irregular, branching and locally expanded; high confidence",
+   "orientation": "Mainly west\u2013east with northeast\u2013southwest branches; medium confidence",
+   "count": 1
+  },
+  {
+   "type": "Diffuse sparse-cover opening; medium confidence",
+   "cell": "bottom_left",
+   "size_m": "Approximately 200\u2013300 m across, partly cropped; low confidence",
+   "shape": "Irregular and diffuse; high confidence",
+   "orientation": "No clear preferred orientation; medium confidence",
+   "count": 1
+  },
+  {
+   "type": "Tiny bright patch within southeastern water, possibly rock, emergent vegetation or a small islet; low confidence",
+   "cell": "bottom_right",
+   "size_m": "Approximately 20\u201340 m across; low confidence",
+   "shape": "Compact and slightly elongated; low confidence",
+   "orientation": "Unresolved; low confidence",
+   "count": 1
+  }
+ ],
+ "spectral": {
+  "true_color": "The scene is relatively dark: water is nearly black to blue-green, woody cover is dark green and olive, and narrow openings are brighter green; high confidence. Scattered gray-brown patches interrupt the vegetation; high confidence. No large bright built surface or opaque cloud is apparent; medium confidence.",
+  "false_color": "Most land becomes mottled red to dark crimson, while narrow shoreline and interior vegetation bands become vivid pink-red; high confidence. Water remains near-black to dark blue, with a more cyan northern margin in the southeastern water area; high confidence. Muted gray-green patches show weaker vegetation-like contrast; high confidence.",
+  "implications": [
+   {
+    "claim": "Widespread red supports extensive foliage-bearing vegetation, but relative redness alone does not establish plant health or productivity.",
+    "confidence": "high"
+   },
+   {
+    "claim": "Brighter pink-red bands likely differ from surrounding woody cover in vegetation density, structure, species composition or illumination.",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Some bright bands may represent moist low vegetation because they adjoin water and occupy connecting openings.",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Dark, smooth areas with low near-infrared response are open water.",
+    "confidence": "high"
+   },
+   {
+    "claim": "The southeastern cyan margin could reflect shallow water, submerged material, suspended matter or shoreline mixing; turbidity cannot be isolated.",
+    "confidence": "low"
+   },
+   {
+    "claim": "Muted gray-brown land patches could contain exposed soil, rock or sparse vegetation; built surfaces are not securely identified.",
+    "confidence": "low"
+   }
+  ],
+  "not_revealed": "These display composites do not establish calibrated reflectance, quantitative vegetation indices, soil moisture, water depth, turbidity, species, crop identity or vegetation health; high confidence. Without shortwave-infrared bands, temporal observations and ancillary information, substrate composition, wetness and disturbance timing remain poorly constrained; high confidence."
+ },
+ "interpretation": [
+  {
+   "claim": "The patch is predominantly a wooded aquatic landscape.",
+   "confidence": "high",
+   "evidence": "Levels 1\u20132: widespread mottled vegetation across center and right cells, beside smooth dark water in the left column and bottom_right."
+  },
+  {
+   "claim": "Some shoreline and interior openings plausibly support wetland or moist herbaceous vegetation.",
+   "confidence": "medium",
+   "evidence": "Levels 2\u20134: vivid pink-red strips in bottom_center, middle_right and along the northern margin of bottom_right, with irregular shapes and proximity to water."
+  },
+  {
+   "claim": "Agricultural cultivation is not clearly expressed in the visible patch.",
+   "confidence": "medium",
+   "evidence": "Levels 2\u20133: center and right cells lack convincing rectangular fields, repeated crop rows or a regular parcel network."
+  },
+  {
+   "claim": "A possible access corridor indicates limited human modification, but forestry management is unconfirmed.",
+   "confidence": "low",
+   "evidence": "Level 3: the narrow diagonal line in top_right could be a track; no associated clear-cut geometry or timber infrastructure is resolved."
+  },
+  {
+   "claim": "No settlement can be identified reliably.",
+   "confidence": "medium",
+   "evidence": "Levels 2\u20134: tiny bright spots in middle_right lack resolved building shapes, associated streets or a coherent built footprint."
+  },
+  {
+   "claim": "Vegetation is extensive and spectrally heterogeneous, but ecological condition and degradation cannot be established.",
+   "confidence": "high",
+   "evidence": "Levels 1 and 4: widespread red vegetation with variable brightness across all land cells; no temporal or calibrated health evidence is available."
+  },
+  {
+   "claim": "The openings provide insufficient evidence to diagnose active clearing, harvest, irrigation, erosion or flooding.",
+   "confidence": "high",
+   "evidence": "Levels 2\u20134: irregular lighter patches and bright vegetation bands have multiple plausible explanations, and no diagnostic machinery, sediment plume, irrigation layout or dated change is visible."
+  },
+  {
+   "claim": "A forest\u2013freshwater or forest\u2013wetland biome setting is plausible, but salinity and climate zone are unresolved.",
+   "confidence": "low",
+   "evidence": "Levels 1\u20134: wooded shorelines and small water areas are compatible with multiple climatic and hydrological settings; no unique geographic or climatic indicator appears."
+  }
+ ],
+ "uncertainties": [
+  "High confidence: cover percentages are visual approximations, with potentially several percentage points of error per class.",
+  "High confidence: upsampling adds display pixels without improving the native 10 m spatial resolution.",
+  "High confidence: individual trees, narrow channels, small buildings, road surfaces and small shoreline objects are not reliably resolved.",
+  "Medium confidence: dark land patches may combine canopy composition, canopy shadow and lower vegetation cover.",
+  "High confidence: bright red is a relative composite response, not a direct measurement of health, moisture or productivity.",
+  "High confidence: low vegetation, scrub, wetland vegetation and open woodland can overlap spectrally and spatially.",
+  "High confidence: pale patches cannot be securely separated into rock, bare soil, senescent vegetation or built material.",
+  "High confidence: water bodies continue beyond the patch, so their full extent and external connectivity are unknown.",
+  "High confidence: no visible connecting channel establishes whether the western and southeastern waters are hydrologically linked.",
+  "Medium confidence: shoreline color fringes and tiny bright spots may be affected by mixed pixels, resampling and display contrast.",
+  "Medium confidence: no obvious opaque cloud obscures the patch, but subtle haze or cloud shadow cannot be excluded from these renderings alone.",
+  "High confidence: exact season, crop rotation, forestry history and active environmental change require information beyond a single paired rendering."
+ ],
+ "summaries": {
+  "w25": "Wooded shores surround western and southeastern water areas (high confidence). Bright vegetation bands may mark wet openings (medium confidence); land management remains unresolved.",
+  "w50": "This wooded aquatic mosaic contains approximately 64% woody cover and 23% water (medium confidence). Western water narrows centrally; another water area occupies the southeast (high confidence). Bright red vegetation bands may indicate moist openings (medium confidence). A possible northeastern track is uncertain (low confidence); management and climate remain unresolved.",
+  "w100": "The patch is a wooded shoreline mosaic (high confidence), with estimated cover of 64% woody vegetation, 23% water, 9% low vegetation and 4% sparse cover or exposed ground (medium confidence overall). Western water narrows into a passage, while a smaller water area occupies the southeast (high confidence). Vivid false-color vegetation bands cross the lower center and border water; some may be moist openings (medium confidence). A northeastern diagonal corridor could be a track (low confidence). Agriculture, settlement and active disturbance are not securely identified (medium confidence). Exact season, climate and vegetation health remain unresolved (high confidence).",
+  "w200": "A wooded aquatic landscape dominates the patch (high confidence). Visual estimates allocate 64% to woody vegetation, 23% to water, 9% to low vegetation and 4% to sparse cover or exposed ground (medium confidence overall). Open water occupies much of the western edge, narrowing around a western land projection; another irregular water area is cropped by the southeastern boundary (high confidence).\n\nLand has a mottled dark-green appearance in true color and extensive crimson-red response in false color (high confidence). Brighter pink-red strips cross the lower center and follow parts of the eastern and southeastern shores. These likely represent vegetation differing in structure or density, with moist herbaceous cover plausible in some strips (medium confidence).\n\nA diagonal northeastern corridor could be an access track (low confidence). There is no convincing field pattern or settlement footprint (medium confidence). Gray-brown openings cannot be assigned confidently to soil, rock or sparse vegetation (low confidence). The southeastern water's cyan margin has ambiguous causes, including shallow water and mixed shoreline pixels (low confidence). These images cannot establish active flooding, clearing, harvest, ecological health, exact season or climate zone (high confidence).",
+  "w400": "The scene is a wooded shoreline mosaic containing substantial open water (high confidence). Approximate visual cover estimates are 64% woody vegetation, 23% water, 9% low vegetation and 4% sparse vegetation or exposed ground (medium confidence overall). These are interpretive estimates rather than pixel-derived measurements.\n\nWater dominates the northwest and continues down the western edge, constricting around an eastward-projecting land fragment in the middle-left cell (high confidence). Its visible length spans approximately 1.2 km, with widths roughly 100\u2013450 m (medium confidence). A separate visible water area occupies the southeast and extends beyond the lower boundary; its visible footprint is approximately 350 by 300 m (medium confidence). Connectivity between these waters is unresolved (high confidence).\n\nMost central and eastern land is mottled, consistent with woody vegetation (medium confidence). Narrow bright vegetation strips cross the lower center and border the southeastern water, while another strip follows the eastern margin (high confidence). Moist herbaceous vegetation or wetland margins are plausible interpretations of some strips (medium confidence). A diffuse lighter opening occurs near the southwestern bottom edge (medium confidence). A roughly 450\u2013550 m diagonal corridor in the northeast could be an access track, but its function is uncertain (low confidence).\n\nTrue color shows dark-green and olive vegetation, nearly black water, brighter green strips and scattered gray-brown patches (high confidence). False color shows extensive crimson vegetation with vivid pink-red bands and dark water (high confidence). Redness supports foliage-bearing cover but cannot independently establish health or productivity (high confidence). The southeastern water's cyan northern margin could reflect shallow water, suspended material, submerged cover or mixed pixels (low confidence).\n\nNo convincing agricultural parcel system or settlement footprint is apparent (medium confidence). Forestry, crop rotation and active irrigation, harvest, clearing, erosion or flooding cannot be diagnosed from these observations (high confidence). A forest\u2013wetland setting is plausible, but climate, salinity and biome subtype remain uncertain (low confidence). Native 10 m resolution limits interpretation of tiny bright spots, narrow channels, individual trees and small structures (high confidence)."
+ }
+}

@@ -1,0 +1,251 @@
+{
+ "global": {
+  "cover": [
+   {
+    "class": "Brown exposed ground and sparse vegetation, visually combined; medium confidence",
+    "percent": 55
+   },
+   {
+    "class": "Very dark areas, probably predominantly terrain shadow; underlying cover unresolved; medium confidence",
+    "percent": 35
+   },
+   {
+    "class": "Distinct green vegetation patches with enhanced near-infrared response; high confidence",
+    "percent": 10
+   }
+  ],
+  "landscape": "Apparently rugged terrain with elongated ridges or slope breaks, extensive dark recesses, and scattered vegetation patches; medium confidence.",
+  "season_cues": "Brown background vegetation or exposed substrate contrasts with localized green growth, consistent with seasonal dryness or sparse vegetation; low confidence. A specific season cannot be assigned; high confidence.",
+  "heterogeneity": "Strong spatial variation in illumination and vegetation cover at scales of tens to hundreds of meters; high confidence. Much of the apparent heterogeneity may be topographic rather than differences in land use; medium confidence."
+ },
+ "grid": [
+  {
+   "cell": "top_left",
+   "cover": "Predominantly brown, sparsely vegetated or exposed terrain; medium confidence.",
+   "texture": "Mottled surfaces interrupted by an oblique dark band; high confidence.",
+   "features": "An elongated bright slope borders a dark northwest\u2013southeast band; small vegetation patches occur at the western edge; medium confidence."
+  },
+  {
+   "cell": "top_center",
+   "cover": "Brown terrain with a conspicuous green vegetation strip; high confidence.",
+   "texture": "Irregular, locally coarse tonal variation; high confidence.",
+   "features": "A broken vegetation strip extends southeastward across the cell and becomes bright pink-red in false color; high confidence."
+  },
+  {
+   "cell": "top_right",
+   "cover": "Mixed brown terrain, dark recesses, and scattered vegetation; medium confidence.",
+   "texture": "Uneven and mottled, with curved and elongated tonal boundaries; high confidence.",
+   "features": "Several narrow vegetation patches lie around darker upper slopes; medium confidence."
+  },
+  {
+   "cell": "middle_left",
+   "cover": "Brown terrain with distinct vegetation patches and dark bands; high confidence.",
+   "texture": "Patchy bright surfaces separated by comparatively smooth dark areas; high confidence.",
+   "features": "An irregular vegetation cluster lies near the upper cell boundary; a dark oblique band crosses the western side, and the broad central dark corridor enters below; high confidence."
+  },
+  {
+   "cell": "middle_center",
+   "cover": "Brown terrain above a broad very dark zone, with small vegetation patches; high confidence.",
+   "texture": "Strong contrast between mottled ground and nearly featureless darkness; high confidence.",
+   "features": "Small bright-red vegetation patches occur along the northern margin of the main dark corridor; high confidence."
+  },
+  {
+   "cell": "middle_right",
+   "cover": "Mostly very dark terrain with a brighter brown strip near the lower edge; high confidence.",
+   "texture": "Largely smooth darkness with weak internal brown detail; high confidence.",
+   "features": "The broad central dark zone reaches the eastern edge; a narrow brighter terrain band separates it from darkness farther south; medium confidence."
+  },
+  {
+   "cell": "bottom_left",
+   "cover": "Dark terrain and brown exposed or sparsely vegetated surfaces; medium confidence.",
+   "texture": "Broad dark zone above narrow bright and dark bands; high confidence.",
+   "features": "The southwestern end of the main dark corridor and a small vegetation patch at the western edge are visible; high confidence."
+  },
+  {
+   "cell": "bottom_center",
+   "cover": "Mostly brown terrain with an isolated vegetation patch and dark margins; medium confidence.",
+   "texture": "Mottled, with approximately parallel curved bands; high confidence.",
+   "features": "A rounded green patch near the upper part of the cell becomes muted pink-red in false color; high confidence. Lower bands may represent terrain steps or exposed strata; low confidence."
+  },
+  {
+   "cell": "bottom_right",
+   "cover": "A large dark area bordered by brown terrain; high confidence.",
+   "texture": "Smooth dark interior with irregular, locally banded margins; high confidence.",
+   "features": "An elongated dark lobe is separated from the central dark zone by a brighter strip; medium confidence."
+  }
+ ],
+ "boundaries": "High confidence: vegetation boundaries are irregular, and no consistent rectangular parcel pattern is evident. Medium confidence: upper bright and dark bands trend approximately northwest\u2013southeast, while the principal central dark corridor trends southwest\u2013northeast. Medium confidence: abrupt bright\u2013dark boundaries mostly reflect terrain illumination; the vegetation-to-brown-ground transitions are more patchy and gradual.",
+ "features": [
+  {
+   "type": "Broad dark corridor, probably terrain shadow; medium confidence; water remains a low-confidence alternative",
+   "cell": "bottom_left, middle_left, middle_center, middle_right",
+   "size_m": "Approximately 1100\u20131400 long and 120\u2013300 wide; medium confidence",
+   "shape": "Irregular, widening toward the eastern edge; high confidence",
+   "orientation": "Southwest\u2013northeast; high confidence",
+   "count": 1
+  },
+  {
+   "type": "Upper oblique dark band, probably terrain shadow; medium confidence",
+   "cell": "top_left, top_center, middle_center",
+   "size_m": "Approximately 800\u20131000 long and 40\u2013120 wide; medium confidence",
+   "shape": "Tapered and irregular; high confidence",
+   "orientation": "Northwest\u2013southeast; high confidence",
+   "count": 1
+  },
+  {
+   "type": "Western dark band, probably terrain shadow; medium confidence",
+   "cell": "middle_left",
+   "size_m": "Approximately 300\u2013450 long and 60\u2013120 wide; medium confidence",
+   "shape": "Elongated, clipped by the image boundary; high confidence",
+   "orientation": "Northwest\u2013southeast; medium confidence",
+   "count": 1
+  },
+  {
+   "type": "Southeastern dark lobe, probably terrain shadow; medium confidence",
+   "cell": "bottom_right",
+   "size_m": "Approximately 300\u2013450 long and 150\u2013250 wide; medium confidence",
+   "shape": "Irregular elongated patch; high confidence",
+   "orientation": "Approximately north\u2013south; medium confidence",
+   "count": 1
+  },
+  {
+   "type": "Broken vegetation strip; high confidence",
+   "cell": "top_center, top_right",
+   "size_m": "Approximately 350\u2013500 long and 30\u2013100 wide; medium confidence",
+   "shape": "Irregular and discontinuous; high confidence",
+   "orientation": "Mainly northwest\u2013southeast; medium confidence",
+   "count": 1
+  },
+  {
+   "type": "Prominent vegetation cluster; high confidence",
+   "cell": "middle_left",
+   "size_m": "Approximately 150\u2013200 across; medium confidence",
+   "shape": "Lobed; high confidence",
+   "orientation": "No strong orientation; medium confidence",
+   "count": 1
+  },
+  {
+   "type": "Small vegetation clusters along the central dark-zone margin; high confidence; grouping count approximate",
+   "cell": "middle_left, middle_center",
+   "size_m": "Approximately 40\u2013100 across each; medium confidence",
+   "shape": "Irregular patches; high confidence",
+   "orientation": "Collectively southwest\u2013northeast; medium confidence",
+   "count": 2
+  },
+  {
+   "type": "Isolated vegetation cluster; high confidence",
+   "cell": "bottom_center",
+   "size_m": "Approximately 150\u2013200 across; medium confidence",
+   "shape": "Rounded to irregular; high confidence",
+   "orientation": "Approximately north\u2013south; low confidence",
+   "count": 1
+  },
+  {
+   "type": "Curved terrain bands or slope breaks; medium confidence; individual-band count uncertain",
+   "cell": "bottom_left, bottom_center",
+   "size_m": "Grouped extent approximately 500\u2013700 long and 150\u2013250 wide; low confidence",
+   "shape": "Several discontinuous, approximately parallel arcs; medium confidence",
+   "orientation": "Approximately west\u2013east to southwest\u2013northeast; medium confidence",
+   "count": 1
+  }
+ ],
+ "spectral": {
+  "true_color": "High confidence: orange-brown and dark-brown surfaces dominate, interrupted by localized green patches and extensive nearly black areas. Brightness differences are strong, while fine surface detail is limited.",
+  "false_color": "High confidence: many green patches become conspicuous pink or bright red, especially in the upper center and middle left. The brown background becomes muted olive, tan, or gray-brown. The darkest areas remain nearly black.",
+  "implications": [
+   {
+    "claim": "The green-to-red correspondence identifies vegetation with stronger near-infrared response than the surrounding brown background.",
+    "confidence": "high"
+   },
+   {
+    "claim": "Bright-red patches likely contain greater green vegetation cover or leaf area than adjacent muted surfaces; vigor cannot be separated reliably from cover and illumination.",
+    "confidence": "medium"
+   },
+   {
+    "claim": "The background likely mixes exposed soil or rock with sparse or dry vegetation.",
+    "confidence": "medium"
+   },
+   {
+    "claim": "Vegetation patches may occupy locally favorable moisture or soil conditions, but moisture availability is not directly demonstrated.",
+    "confidence": "low"
+   },
+   {
+    "claim": "Persistent darkness in both composites is compatible with deep shadow and also with water; terrain association favors shadow for much of it.",
+    "confidence": "medium"
+   },
+   {
+    "claim": "No confirmed water surface supports an assessment of turbidity or flooding.",
+    "confidence": "high"
+   },
+   {
+    "claim": "No coherent bright, rectilinear pattern clearly identifies buildings or other built surfaces.",
+    "confidence": "medium"
+   }
+  ],
+  "not_revealed": "High confidence: these display composites do not establish quantitative reflectance, vegetation indices, soil moisture, species, crop identity, water depth or turbidity, terrain elevation, or change through time. Red display intensity alone does not establish plant health."
+ },
+ "interpretation": [
+  {
+   "claim": "The patch most likely depicts rugged, sparsely vegetated terrain with substantial topographic shadow.",
+   "confidence": "medium",
+   "evidence": "Levels 1\u20133: alternating elongated bright and dark surfaces in top_left, top_center, middle_left, bottom_center, and bottom_right."
+  },
+  {
+   "claim": "Visible vegetation is concentrated in localized patches rather than a continuous dense canopy.",
+   "confidence": "high",
+   "evidence": "Levels 2 and 4: discrete green and red patches in top_center, top_right, middle_left, middle_center, and bottom_center."
+  },
+  {
+   "claim": "Natural or lightly managed vegetation is more plausible than an organized agricultural field system.",
+   "confidence": "medium",
+   "evidence": "Levels 2\u20133: irregular vegetation boundaries and absence of a coherent parcel or access-road network throughout the grid."
+  },
+  {
+   "claim": "Crop type, rotation, irrigation, harvest, and forestry management cannot be established.",
+   "confidence": "high",
+   "evidence": "Levels 2\u20134: no diagnostic field geometry or management signature is resolved in any cell, and only one scene is available."
+  },
+  {
+   "claim": "No settlement is clearly resolved, although small structures could be present.",
+   "confidence": "medium",
+   "evidence": "Levels 2\u20133: no convincing building clusters or associated road pattern across the grid."
+  },
+  {
+   "claim": "The vegetation pattern may reflect local differences in water availability, substrate, or exposure.",
+   "confidence": "low",
+   "evidence": "Levels 2 and 4: isolated red patches embedded in muted brown terrain, particularly in middle_left and bottom_center."
+  },
+  {
+   "claim": "Terrain bands may reflect erosional dissection or exposed geological structure; active erosion is not demonstrated.",
+   "confidence": "low",
+   "evidence": "Levels 2\u20133: elongated slope-like boundaries in the upper row and curved bands in bottom_center."
+  },
+  {
+   "claim": "A dry or seasonally dry open vegetation setting is plausible, but a specific biome or climate cannot be assigned.",
+   "confidence": "low",
+   "evidence": "Levels 1 and 4: extensive brown surfaces and limited green cover; illumination and unknown phenology allow alternative explanations."
+  },
+  {
+   "claim": "Current flooding, clearing, or ecological degradation cannot be inferred reliably.",
+   "confidence": "high",
+   "evidence": "Levels 1\u20134: ambiguous dark surfaces, no diagnostic disturbance boundary, and no temporal comparison."
+  }
+ ],
+ "uncertainties": [
+  "High confidence: percentages are approximate visual display-area estimates, not a classified map; the shadow category conceals unknown underlying cover.",
+  "Medium confidence: terrain shadow explains much of the darkness, but water cannot be excluded within the main central corridor.",
+  "High confidence: individual trees, narrow channels, small buildings, tracks, and fine vegetation boundaries may be unresolved at 10 m.",
+  "High confidence: upsampling smooths boundaries without adding spatial information; feature sizes and counts are approximate.",
+  "High confidence: brown soil, rock, dry herbaceous vegetation, and sparse woody vegetation cannot be reliably separated here.",
+  "High confidence: vegetation redness depends on display scaling, cover, substrate, and illumination as well as vegetation condition.",
+  "Medium confidence: some apparent bands could be terrain benches, strata, or managed terraces; their origin is unresolved.",
+  "High confidence: no clear cloud forms are visible, but darkness alone cannot conclusively establish the source of every shadow."
+ ],
+ "summaries": {
+  "w25": "Apparently rugged terrain has brown surfaces, dark corridors, and scattered vegetation. Vegetation identification has high confidence; terrain-shadow interpretation has medium confidence. Land use remains unresolved.",
+  "w50": "Apparently rugged terrain contains brown exposed or sparsely vegetated surfaces, extensive dark corridors, and scattered green patches. Vegetation identification has high confidence because patches turn red in false color. Terrain-shadow interpretation has medium confidence, with water unresolved. No clear field system, settlement, or active management is identifiable.",
+  "w100": "The patch likely shows rugged, sparsely vegetated terrain with extensive topographic shadow, at medium confidence. Approximate display-area fractions are 55% brown ground or sparse vegetation, 35% darkness, and 10% distinct vegetation; these estimates have medium confidence. Vegetation identification has high confidence from green-to-red correspondence between composites. Upper bands trend northwest\u2013southeast, while the principal dark corridor trends southwest\u2013northeast, at medium confidence. Water cannot be excluded from that corridor. No clear agricultural parcels or settlement are resolved, at medium confidence. Season, climate, management, and active disturbance remain uncertain.",
+  "w200": "The patch most likely depicts rugged terrain with sparse vegetation and extensive terrain shadow, at medium confidence. Visual area estimates are approximately 55% brown exposed ground or sparse vegetation, 35% very dark surfaces, and 10% distinct vegetation, at medium confidence. Darkness conceals the underlying cover.\n\nVegetation identification has high confidence: localized green patches become pink or bright red in the near-infrared composite. Prominent patches occur in the upper center, middle left, and lower center. Their stronger response indicates greater green cover or leaf area relative to surrounding ground, at medium confidence; physiological health and moisture are not directly measured.\n\nUpper elongated boundaries trend northwest\u2013southeast, and a broad central dark corridor runs southwest\u2013northeast, at medium confidence. A separate dark lobe occupies the lower right. Shadow is favored, but water remains possible within the central corridor.\n\nNo coherent field system, road network, or settlement is apparent, at medium confidence. A dry or seasonally dry setting is plausible at low confidence. Specific biome, crop type, forestry, irrigation, erosion activity, and flooding cannot be established from these renderings.",
+  "w400": "The 1.2 km patch most likely shows rugged, sparsely vegetated terrain with extensive topographic shadow, at medium confidence. Approximate visual fractions are 55% brown ground or sparse vegetation, 35% very dark surfaces, and 10% distinct green vegetation, at medium confidence. These describe visible appearance; shadow obscures an unknown mixture of underlying covers.\n\nThe upper row contains mottled brown surfaces, elongated dark recesses, and a broken vegetation strip across the upper center toward the right. The middle left contains a prominent irregular vegetation cluster. Smaller patches occur near the northern edge of the central dark corridor. An isolated rounded vegetation patch occupies the upper part of the bottom-center cell. These vegetation observations have high confidence.\n\nUpper bright\u2013dark bands trend approximately northwest\u2013southeast, whereas the broad central dark corridor trends southwest\u2013northeast, at medium confidence. That corridor spans much of the patch and is roughly 120\u2013300 m wide, at medium confidence. A separate elongated dark lobe lies in the bottom right. Curved bands across the lower center may represent slope breaks or exposed strata, at low confidence. Their appearance does not establish active erosion or terracing.\n\nSpectrally, green patches become pink or bright red in the near-infrared rendering, providing high-confidence evidence of vegetation. The muted brown and olive background likely combines exposed substrate with sparse or dry vegetation, at medium confidence. Stronger redness can reflect greater green cover or leaf area, at medium confidence, but does not independently measure vigor or moisture. The darkest zones remain dark in both composites. Terrain shadow is favored at medium confidence, although water cannot be excluded from the central corridor; turbidity therefore cannot be assessed.\n\nNo coherent agricultural parcel pattern, settlement, or road network is resolved, at medium confidence. Natural or lightly managed cover is plausible at medium confidence. A dry or seasonally dry environment is a low-confidence possibility, but season and biome remain indeterminate. Crop identity, rotation, forestry, irrigation, harvest, flooding, clearing, and ecological degradation cannot be established. At 10 m, small structures, individual trees, narrow channels, and tracks may escape detection; upsampling and display contrast further limit feature counts, dimensions, and spectral interpretation, at high confidence."
+ }
+}

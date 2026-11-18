@@ -1,0 +1,256 @@
+{
+ "global": {
+  "cover": [
+   {
+    "class": "Open water (high confidence in class; medium confidence in estimated area)",
+    "percent": 61
+   },
+   {
+    "class": "Vegetated land, probably including woody vegetation (high confidence in vegetation; medium confidence in structure and estimated area)",
+    "percent": 31
+   },
+   {
+    "class": "Pale exposed substrate and sparsely vegetated shoreline, including mixed land-water pixels (medium confidence)",
+    "percent": 8
+   }
+  ],
+  "landscape": "An island-rich water landscape with irregular land fragments, narrow channels and a broad connected water area toward the center and south (high confidence). A coastal archipelago and an island-rich lake cannot be distinguished confidently (low confidence in either specific setting).",
+  "season_cues": "Widespread red vegetation in false color indicates substantial near-infrared reflectance consistent with foliage being present (high confidence). A growing-season acquisition is plausible, but evergreen vegetation prevents reliable seasonal identification (low confidence). No extensive snow or ice is visible (high confidence).",
+  "heterogeneity": "Strong spatial contrast between smooth dark water and mottled vegetated land, with numerous pale shoreline edges (high confidence). Land is concentrated in the northern portion and along the eastern and southwestern edges; connected water dominates much of the central and southern interior (high confidence)."
+ },
+ "grid": [
+  {
+   "cell": "top_left",
+   "cover": "Vegetated island fragments interspersed with water (high confidence).",
+   "texture": "Mottled green-gray land and red false-color vegetation contrast with smooth dark channels (high confidence).",
+   "features": "Several irregular land fragments with pale margins; the largest cluster extends into middle_left (high confidence)."
+  },
+  {
+   "cell": "top_center",
+   "cover": "Mixed vegetated land and water, with the largest landmass occupying the eastern portion (high confidence).",
+   "texture": "Coarsely mottled vegetation with scattered pale patches; comparatively uniform dark water between land fragments (high confidence).",
+   "features": "A large landmass enters from the northern boundary and extends southward; a narrow channel separates it from western islands (high confidence)."
+  },
+  {
+   "cell": "top_right",
+   "cover": "Vegetated land on the west and dark water on the east, with additional land entering from the right boundary (high confidence).",
+   "texture": "Patchy vegetation and pale shoreline rims beside smooth water (high confidence).",
+   "features": "A broad channel runs approximately north-south between the main northern landmass and the eastern edge land (high confidence)."
+  },
+  {
+   "cell": "middle_left",
+   "cover": "Predominantly water with northern island margins and several small islets (high confidence).",
+   "texture": "Mostly smooth dark water; small mottled land patches with light edges (high confidence).",
+   "features": "The southern tip of the upper-left island cluster, several isolated islets and a compact dark patch within the northern land area (high confidence in visibility; low confidence in the dark patch's identity)."
+  },
+  {
+   "cell": "middle_center",
+   "cover": "Predominantly water, with the tip of the main northern landmass and a separate elongated island (high confidence).",
+   "texture": "Smooth water interrupted by red, mottled vegetation and pale land margins (high confidence).",
+   "features": "An elongated island lies southwest of the main landmass's southern tip; narrow water gaps separate these features (high confidence)."
+  },
+  {
+   "cell": "middle_right",
+   "cover": "Water surrounding several vegetated land fragments (high confidence).",
+   "texture": "Strong contrast between dark water, red vegetation and pale irregular shorelines (high confidence).",
+   "features": "A compact island near the cell center, small nearby islets and the northern portion of the southeastern landmass (high confidence)."
+  },
+  {
+   "cell": "bottom_left",
+   "cover": "Mostly water, with land entering from the left boundary and an elongated island near the bottom (high confidence).",
+   "texture": "Dark smooth water and mottled land with conspicuous pale margins (high confidence).",
+   "features": "An irregular southwestern edge landmass and a roughly east-west elongated island separated by water (high confidence)."
+  },
+  {
+   "cell": "bottom_center",
+   "cover": "Almost entirely open water (high confidence).",
+   "texture": "Smooth dark blue-black appearance, with faint small tonal variations (high confidence).",
+   "features": "A few tiny pale or greenish patches may be small rocks, shallow areas or mixed pixels (low confidence). No large landmass is visible (high confidence)."
+  },
+  {
+   "cell": "bottom_right",
+   "cover": "Vegetated land toward the east and open water toward the west and south (high confidence).",
+   "texture": "Mottled red vegetation with a pale, indented edge against dark water (high confidence).",
+   "features": "A large irregular landmass reaches the eastern image boundary; small detached patches occur near the southeastern edge (high confidence)."
+  }
+ ],
+ "boundaries": "Land-water boundaries are mostly abrupt, irregular and locally fringed by pale cyan-gray pixels (high confidence). These fringes may combine exposed substrate, shallow water and spatial mixing (medium confidence). Narrow channels divide the northern land clusters, while water becomes more spatially continuous toward bottom_center (high confidence). There are no clearly resolved rectilinear field boundaries or regular settlement patterns (high confidence at the supplied resolution).",
+ "features": [
+  {
+   "type": "Largest northern vegetated landmass; continuation beyond the image is unknown (high confidence)",
+   "cell": "top_center, top_right, middle_center",
+   "size_m": "Approximately 400\u2013500 m wide and 550\u2013600 m visible length (medium confidence)",
+   "shape": "Irregular, elongated, with a tapering southern end (high confidence)",
+   "orientation": "Approximately north-south (high confidence)",
+   "count": 1
+  },
+  {
+   "type": "Upper-left vegetated island complex; narrow internal separations are partly unresolved (high confidence)",
+   "cell": "top_left, top_center, middle_left",
+   "size_m": "Approximately 500 m across the main complex (medium confidence)",
+   "shape": "Lobed and fragmented, with pale margins (high confidence)",
+   "orientation": "Main southern cluster trends approximately west-east (medium confidence)",
+   "count": 1
+  },
+  {
+   "type": "Elongated central vegetated island (high confidence)",
+   "cell": "middle_center",
+   "size_m": "Approximately 100\u2013160 m wide and 200\u2013250 m long (medium confidence)",
+   "shape": "Elongated oval with irregular edges (high confidence)",
+   "orientation": "Northwest-southeast (medium confidence)",
+   "count": 1
+  },
+  {
+   "type": "Compact eastern vegetated island (high confidence)",
+   "cell": "middle_right",
+   "size_m": "Approximately 150\u2013190 m across (medium confidence)",
+   "shape": "Rounded to angular, with an indented perimeter (high confidence)",
+   "orientation": "No strong long-axis orientation (medium confidence)",
+   "count": 1
+  },
+  {
+   "type": "Southeastern vegetated edge landmass (high confidence)",
+   "cell": "middle_right, bottom_right",
+   "size_m": "Approximately 300\u2013350 m wide and 300\u2013350 m visible length (medium confidence)",
+   "shape": "Broad, lobed and irregular; clipped by the eastern boundary (high confidence)",
+   "orientation": "Approximately north-south (medium confidence)",
+   "count": 1
+  },
+  {
+   "type": "Southwestern edge landmass (high confidence)",
+   "cell": "bottom_left",
+   "size_m": "Approximately 100\u2013180 m visible width and 350\u2013400 m visible length (medium confidence)",
+   "shape": "Irregular and partly outside the patch (high confidence)",
+   "orientation": "Approximately north-south (medium confidence)",
+   "count": 1
+  },
+  {
+   "type": "Elongated southern island (high confidence)",
+   "cell": "bottom_left",
+   "size_m": "Approximately 200\u2013230 m long and 60\u201390 m wide (medium confidence)",
+   "shape": "Low-aspect-width, irregular oval (high confidence)",
+   "orientation": "Approximately east-west (high confidence)",
+   "count": 1
+  },
+  {
+   "type": "Connected open-water area with branching channels (high confidence)",
+   "cell": "all cells",
+   "size_m": "Extends across the 1,200 m patch; narrow visible gaps are roughly 20\u2013100 m wide (medium confidence)",
+   "shape": "Broad southern water area branching between northern land fragments (high confidence)",
+   "orientation": "Multiple orientations; the eastern passage is broadly north-south (high confidence)",
+   "count": 1
+  },
+  {
+   "type": "Small detached islets or exposed rocks; approximate grouped count excludes major landmasses (medium confidence)",
+   "cell": "top_left, top_center, middle_left, middle_center, middle_right, bottom_left, bottom_right",
+   "size_m": "Approximately 20\u2013100 m across (medium confidence)",
+   "shape": "Rounded, oval or irregular patches (medium confidence)",
+   "orientation": "Variable, without a consistent alignment (medium confidence)",
+   "count": 15
+  },
+  {
+   "type": "Compact dark patch within the western island complex; possible water or shadow (low confidence in identity)",
+   "cell": "middle_left",
+   "size_m": "Approximately 30\u201350 m across (low confidence)",
+   "shape": "Compact and roughly rounded (medium confidence)",
+   "orientation": "No clear orientation (medium confidence)",
+   "count": 1
+  }
+ ],
+ "spectral": {
+  "true_color": "Water is very dark blue-green to nearly black; land is muted green, olive and gray, with brighter gray-beige margins and scattered interior patches (high confidence). The strongest contrast follows shorelines, while vegetation interiors show subtler mottling (high confidence).",
+  "false_color": "Most substantial land patches appear moderately to strongly red, with spatial variation in saturation and brightness (high confidence). Water remains dark navy-black, and many land margins become pale cyan-gray (high confidence). Small islands contain both red centers and pale edges (high confidence).",
+  "implications": [
+   {
+    "claim": "Vegetation occupies most island interiors; its red false-color response is consistent with substantial near-infrared scattering by foliage.",
+    "confidence": "high"
+   },
+   {
+    "claim": "Variation in red intensity may reflect vegetation cover, canopy structure, species, substrate exposure or illumination; it does not independently establish differences in vegetation health.",
+    "confidence": "high"
+   },
+   {
+    "claim": "Dark water is consistent with low near-infrared reflectance. No conspicuous bright sediment plume is visible.",
+    "confidence": "high"
+   },
+   {
+    "claim": "The water may have relatively little visible suspended sediment, but depth, dissolved organic matter and display scaling prevent a reliable turbidity estimate.",
+    "confidence": "low"
+   },
+   {
+    "claim": "Pale margins probably include exposed mineral substrate or sparse vegetation, although shallow water and mixed pixels may contribute.",
+    "confidence": "medium"
+   },
+   {
+    "claim": "The images do not establish vegetation moisture status, soil wetness or drought stress.",
+    "confidence": "high"
+   },
+   {
+    "claim": "There are no clearly resolved built surfaces; isolated pale patches cannot reliably be classified as buildings, roads or bare soil.",
+    "confidence": "high"
+   }
+  ],
+  "not_revealed": "These display renderings do not provide calibrated reflectance, reliable vegetation indices, water depth, salinity, quantitative turbidity, species identity, canopy height, soil moisture or change through time (high confidence). Their stretches may differ, so brightness cannot be compared quantitatively between renderings (high confidence)."
+ },
+ "interpretation": [
+  {
+   "claim": "The patch is dominated by a connected water system surrounding vegetated islands and edge landmasses.",
+   "confidence": "high",
+   "evidence": "Levels 1\u20133, all grid cells: dark connected water, repeated enclosed land outlines and irregular channels."
+  },
+  {
+   "claim": "The visible landscape appears predominantly natural or weakly modified.",
+   "confidence": "medium",
+   "evidence": "Levels 2\u20133, top_left, top_center, middle_right and bottom_right: irregular shorelines and vegetation patterns, with no clear road network, field geometry or settlement."
+  },
+  {
+   "claim": "Woody vegetation, potentially forest or shrub cover, is plausible on the larger landmasses.",
+   "confidence": "medium",
+   "evidence": "Levels 2 and 4, top_center, top_right and bottom_right: heterogeneous green-gray texture and widespread red false-color response. Individual crowns and heights are unresolved."
+  },
+  {
+   "claim": "Crop type, rotation, forestry management and settlement activity cannot be established.",
+   "confidence": "high",
+   "evidence": "Levels 2\u20134, all land-bearing cells: no diagnostic agricultural parcels, harvest blocks or clearly resolved structures."
+  },
+  {
+   "claim": "Most island interiors support substantial vegetation cover, but ecological condition and vegetation health remain undetermined.",
+   "confidence": "high",
+   "evidence": "Levels 1 and 4, top_left, top_center, middle_center and bottom_right: extensive red false-color response without temporal or calibrated spectral information."
+  },
+  {
+   "claim": "Exposed shoreline substrate may reflect rocky margins, but substrate composition is uncertain.",
+   "confidence": "medium",
+   "evidence": "Levels 2\u20134, middle_center, middle_right and bottom_left: persistent pale rims and small pale detached patches."
+  },
+  {
+   "claim": "No diagnostic evidence establishes active irrigation, harvest, clearing, erosion or flooding.",
+   "confidence": "high",
+   "evidence": "Levels 2\u20134, all cells: no clear irrigation geometry, cut blocks, sediment plumes or inundation reference. A single image cannot establish whether shorelines have changed."
+  },
+  {
+   "claim": "A temperate or boreal wooded lake or archipelago is a plausible environmental setting, but biome and climate cannot be identified reliably.",
+   "confidence": "low",
+   "evidence": "Levels 1, 2 and 4, northern and eastern land cells: mottled vegetated islands with pale margins. These traits are not geographically or climatically unique."
+  }
+ ],
+ "uncertainties": [
+  "Cover percentages are visual estimates rather than measured segmentation; uncertainty is several percentage points, especially for pale margins and sparse vegetation (medium confidence).",
+  "At 10 m, small buildings, narrow paths, individual trees and tiny channels may be unresolved or mixed within pixels (high confidence).",
+  "Upsampling smooths boundaries without adding spatial information; exact island counts and narrow land connections remain uncertain (high confidence).",
+  "Feature dimensions are approximate measurements from the stated patch extent, with greater relative uncertainty for objects only a few pixels across (high confidence).",
+  "Pale shoreline pixels may represent rock, sediment, sparse vegetation, shallow bottoms or land-water mixing (medium confidence).",
+  "The compact dark inland patch may be a small water body, canopy shadow or another low-reflectance surface (low confidence in any specific identification).",
+  "Forest, shrubland and other dense vegetation cannot be separated reliably from these renderings alone (high confidence).",
+  "Water depth, clarity, salinity and whether the system is coastal or inland remain unresolved (high confidence).",
+  "No obvious cloud obscuration is visible, but small dark patches cannot be assigned confidently to cloud or terrain shadows (medium confidence).",
+  "Season, climate, management history and active change cannot be established from this single paired observation (high confidence)."
+ ],
+ "summaries": {
+  "w25": "Vegetated islands and irregular shores surround connected dark water (high confidence). Water covers approximately 61% (medium confidence); season and coastal versus inland setting remain unresolved.",
+  "w50": "Connected dark water surrounds irregular vegetated islands (high confidence), occupying approximately 61% of the patch (medium confidence). Red false-color interiors indicate vegetation (high confidence); pale shorelines suggest exposed substrate or mixed pixels (medium confidence). Coastal versus inland setting, season, vegetation health and management remain unresolved (high confidence).",
+  "w100": "The patch shows connected dark water surrounding irregular vegetated islands and edge landmasses (high confidence). Estimated cover is 61% water, 31% vegetation and 8% pale substrate or shoreline mixtures (medium confidence). Larger landmasses occupy the north and southeast; broad water dominates the southern center (high confidence). Red false-color interiors indicate vegetation, while pale margins may include exposed rock, sparse cover or shallow-water mixtures (medium confidence). No clear fields, roads or settlement patterns are resolved (high confidence). Season, water properties, vegetation health and coastal versus inland setting remain uncertain (high confidence).",
+  "w200": "An island-rich water landscape dominates this 1.2 km patch (high confidence). Visual estimates assign 61% to water, 31% to vegetation and 8% to pale substrate, sparse cover and shoreline mixtures (medium confidence). The largest northern landmass extends southward between channels; smaller western islands and southeastern edge land surround a broad central-southern water area (high confidence).\n\nLand is mottled green-gray in true color and broadly red in false color, supporting substantial vegetation cover (high confidence). Woody vegetation is plausible, but forest and shrub cover cannot be separated reliably (medium confidence). Pale irregular margins suggest exposed substrate, potentially rock, with shallow water and pixel mixing also contributing (medium confidence).\n\nWater remains dark in both renderings, with no conspicuous sediment plume (high confidence); this does not establish depth, clarity or salinity. No clear agricultural parcels, road network, settlement or harvest blocks are resolved (high confidence). The scene appears predominantly natural or weakly modified (medium confidence). Season, ecological health, management and active shoreline change remain unresolved (high confidence). A temperate or boreal setting is plausible but weakly constrained (low confidence).",
+  "w400": "The two renderings show an island-rich landscape with connected dark water, irregular vegetated land and pale shoreline margins (high confidence). Approximate cover is 61% water, 31% vegetation and 8% exposed substrate, sparse vegetation or shoreline mixtures (medium confidence). These are visual estimates, with uncertainty concentrated along narrow margins and small islands.\n\nThe largest northern landmass extends approximately 550\u2013600 m into the patch, tapering southward (medium confidence in size). A fragmented western island complex is separated from it by narrow channels. An elongated central island trends northwest-southeast, a compact island occupies the middle-right area, and a larger southeastern landmass enters from the eastern boundary (high confidence in layout). The southwest contains an edge landmass and a separate east-west elongated island. Broad connected water dominates bottom_center (high confidence). Numerous small detached patches are likely islets or rocks, although their exact count is uncertain (medium confidence).\n\nVegetated interiors are muted green-gray in true color and moderately to strongly red in false color (high confidence). Their near-infrared response supports foliage presence but does not establish physiological health, moisture status or species (high confidence). Mottled texture suggests woody vegetation on larger landmasses (medium confidence). Pale cyan-gray margins may combine exposed rock or sediment, sparse vegetation, shallow bottoms and mixed pixels (medium confidence).\n\nWater is consistently dark, without a conspicuous bright sediment plume (high confidence). Turbidity, depth, salinity and whether the water is inland or coastal cannot be determined reliably (high confidence). No clear field boundaries, roads, settlement network or forestry cuts are resolved (high confidence); a predominantly natural or weakly modified landscape is therefore plausible (medium confidence).\n\nThere is no diagnostic evidence for active irrigation, harvest, clearing, erosion or flooding (high confidence in this observational limitation). A temperate or boreal wooded lake or archipelago is plausible, but biome and climate attribution have low confidence. Season is likewise weakly constrained because evergreen foliage could produce red land signatures outside summer. Upsampling does not resolve features smaller than the original 10 m pixels, limiting identification of buildings, paths, tiny channels and individual trees (high confidence)."
+ }
+}

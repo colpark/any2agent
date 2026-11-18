@@ -1,0 +1,114 @@
+[
+ {
+  "id": "Q1",
+  "tag": "visible",
+  "text": "Is the mean NDVI over the whole patch above 0.5, meaning most of the patch is dense, healthy vegetation?",
+  "majority": "yes",
+  "rl_yes_rate": 0.5849
+ },
+ {
+  "id": "Q2",
+  "tag": "visible",
+  "text": "Is the mean NDVI over the whole patch below 0.2, meaning most of the patch is sparse or not vegetated?",
+  "majority": "no",
+  "rl_yes_rate": 0.177
+ },
+ {
+  "id": "Q3",
+  "tag": "visible",
+  "text": "Is open water present, meaning that in at least one cell of a 3 \u00d7 3 grid more than 5% of pixels have NDWI above 0?",
+  "majority": "no",
+  "rl_yes_rate": 0.2878
+ },
+ {
+  "id": "Q4",
+  "tag": "visible",
+  "text": "Is vegetation denser in the left half than in the right half (higher mean NDVI on the left)?",
+  "majority": "no",
+  "rl_yes_rate": 0.495
+ },
+ {
+  "id": "Q5",
+  "tag": "visible",
+  "text": "Does the patch contain any Arable land, following the CORINE-based BigEarthNet land cover labels?",
+  "majority": "no",
+  "rl_yes_rate": 0.371
+ },
+ {
+  "id": "Q6",
+  "tag": "visible",
+  "text": "Does the patch contain any Mixed forest, following the CORINE-based BigEarthNet land cover labels?",
+  "majority": "no",
+  "rl_yes_rate": 0.3317
+ },
+ {
+  "id": "Q7",
+  "tag": "visible",
+  "text": "Does the patch contain any Coniferous forest, following the CORINE-based BigEarthNet land cover labels?",
+  "majority": "no",
+  "rl_yes_rate": 0.3209
+ },
+ {
+  "id": "Q8",
+  "tag": "visible",
+  "text": "Does the patch contain any Transitional woodland, shrub, following the CORINE-based BigEarthNet land cover labels?",
+  "majority": "no",
+  "rl_yes_rate": 0.2695
+ },
+ {
+  "id": "Q9",
+  "tag": "visible",
+  "text": "Does the patch contain any Broad-leaved forest, following the CORINE-based BigEarthNet land cover labels?",
+  "majority": "no",
+  "rl_yes_rate": 0.269
+ },
+ {
+  "id": "Q10",
+  "tag": "visible",
+  "text": "Does the patch contain any Land principally occupied by agriculture, with significant areas of natural vegetation, following the CORINE-based BigEarthNet land cover labels?",
+  "majority": "no",
+  "rl_yes_rate": 0.2527
+ },
+ {
+  "id": "Q11",
+  "tag": "shortwave",
+  "text": "Is the mean NDMI (B8A and B11) above 0.192, meaning the vegetation and soil are wetter than for a typical patch in this dataset?",
+  "majority": "yes",
+  "rl_yes_rate": 0.5002
+ },
+ {
+  "id": "Q12",
+  "tag": "shortwave",
+  "text": "Is the mean NDBI (B11 and B08) above 0, a sign of built-up or bare surfaces?",
+  "majority": "no",
+  "rl_yes_rate": 0.2104
+ },
+ {
+  "id": "Q13",
+  "tag": "shortwave",
+  "text": "Is the mean NDMI higher in the top half than in the bottom half?",
+  "majority": "yes",
+  "rl_yes_rate": 0.5032
+ },
+ {
+  "id": "Q14",
+  "tag": "texture",
+  "text": "Is the near-infrared texture rougher than for a typical patch in this dataset, meaning the B08 spatial standard deviation exceeds 640.0?",
+  "majority": "yes",
+  "rl_yes_rate": 0.5001
+ },
+ {
+  "id": "Q15",
+  "tag": "texture",
+  "text": "Does the patch carry more than 3 BigEarthNet land cover labels?",
+  "majority": "no",
+  "rl_yes_rate": 0.3281
+ },
+ {
+  "id": "Q16",
+  "tag": "texture",
+  "text": "Is the edge density higher than for a typical patch, meaning the mean absolute difference between neighboring B08 pixels exceeds 178.0?",
+  "majority": "no",
+  "rl_yes_rate": 0.5
+ }
+]

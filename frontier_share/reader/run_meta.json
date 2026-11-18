@@ -1,0 +1,11 @@
+{
+ "model": "microsoft/phi-4",
+ "revision": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+ "decoding": "greedy, max_new_tokens 700, bf16, sdpa, batch 8 left-padded",
+ "head_template_sha256": "db82baad13cc1a72219d1ef5009f73c93f8da0cdf98738679dbe2da5cf2ca632",
+ "n_jobs": 120,
+ "n_valid": 106,
+ "seconds": 3008,
+ "parser": "reader_parse.py (FS-E1)",
+ "fs_e2_rerun": 3
+}

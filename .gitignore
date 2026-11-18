@@ -9,3 +9,5 @@ data/
 __pycache__/
 .venv/
 runs/
+frontier_share/private/
+frontier_share/renders/

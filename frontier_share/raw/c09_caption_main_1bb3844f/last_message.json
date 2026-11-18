@@ -1,0 +1,257 @@
+{
+  "global": {
+    "cover": [
+      {
+        "class": "Dense woody vegetation, including forest and possible managed stands",
+        "percent": 67
+      },
+      {
+        "class": "Open herbaceous vegetation, including possible grassland or fields",
+        "percent": 21
+      },
+      {
+        "class": "Sparse vegetation or exposed soil in clearings",
+        "percent": 10
+      },
+      {
+        "class": "Roads, tracks and other narrow open corridors",
+        "percent": 2
+      }
+    ],
+    "landscape": "A predominantly wooded rural mosaic with irregular openings and narrow access corridors; medium confidence. Cover percentages are approximate visual estimates with medium confidence.",
+    "season_cues": "Extensive green foliage and strong false-color red suggest substantial photosynthetically active vegetation; high confidence. A growing-season acquisition is plausible, but evergreen cover prevents reliable seasonal dating; low confidence.",
+    "heterogeneity": "Strong contrasts between textured woody cover, smoother open parcels and thin pale corridors; high confidence. Differences among wooded blocks may reflect stand composition, density or management; medium confidence."
+  },
+  "grid": [
+    {
+      "cell": "top_left",
+      "cover": "Predominantly woody vegetation with a partly clipped pale opening along the left edge; medium confidence.",
+      "texture": "Coarse, mottled canopy surrounding smoother brownish and muted-green patches; high confidence.",
+      "features": "An irregular upper-left clearing and the northern tip of a larger opening extending into middle_left; high confidence."
+    },
+    {
+      "cell": "top_center",
+      "cover": "Woody vegetation mixed with an elongated green opening; medium confidence.",
+      "texture": "Smoother central vegetation bordered by darker, more heterogeneous canopy; high confidence.",
+      "features": "The upper portion of a central open parcel and faint linear stand boundaries; medium confidence."
+    },
+    {
+      "cell": "top_right",
+      "cover": "Mostly woody vegetation surrounding a narrow pale corridor; medium confidence.",
+      "texture": "Dark canopy blocks with variable false-color red intensity; high confidence.",
+      "features": "A roughly north–south winding corridor bends southeast near the upper portion, with a small pale lateral extension; high confidence for its presence, low confidence for its function."
+    },
+    {
+      "cell": "middle_left",
+      "cover": "Woody vegetation surrounding a large brownish clearing; high confidence.",
+      "texture": "The clearing is relatively smooth but contains several dark vegetation-like inclusions; medium confidence.",
+      "features": "An irregular open parcel with an angular northern edge and a rounded southern end; high confidence."
+    },
+    {
+      "cell": "middle_center",
+      "cover": "Mixed open herbaceous vegetation and woody margins; medium confidence.",
+      "texture": "Relatively smooth olive-green surfaces interrupted by darker lobes and a pale line; high confidence.",
+      "features": "A pale cross-patch track appears to connect the central openings with the eastern winding corridor; medium confidence."
+    },
+    {
+      "cell": "middle_right",
+      "cover": "Predominantly woody vegetation, including a relatively dark angular block; medium confidence.",
+      "texture": "Broad, comparatively uniform dark patches bounded by narrow contrasting strips; high confidence.",
+      "features": "The winding corridor follows the western side of several angular vegetation blocks; medium confidence."
+    },
+    {
+      "cell": "bottom_left",
+      "cover": "Mostly woody vegetation with small open patches; medium confidence.",
+      "texture": "Mottled canopy crossed by a smooth bright linear feature; high confidence.",
+      "features": "A curved pale road or substantial track enters from the left edge and continues toward bottom_center; high confidence."
+    },
+    {
+      "cell": "bottom_center",
+      "cover": "An elongated pale grassy or sparsely vegetated opening surrounded by woodland; medium confidence.",
+      "texture": "The opening is mottled internally but smoother than adjacent canopy; high confidence.",
+      "features": "A north–south open parcel occupies the eastern part of the cell; the southwestern road curves out through the lower edge; high confidence."
+    },
+    {
+      "cell": "bottom_right",
+      "cover": "Predominantly woody vegetation with a smaller angular opening; medium confidence.",
+      "texture": "Dark canopy contrasts with a lighter triangular or quadrilateral patch and a thin pale corridor; high confidence.",
+      "features": "The winding corridor continues toward the lower edge, west of the smaller opening; high confidence for geometry, low confidence for corridor type."
+    }
+  ],
+  "boundaries": "Open–wooded boundaries are mostly distinct, irregular or locally angular; high confidence. A sequence of central openings extends from top_center through middle_center into bottom_center, bordered by wooded areas; high confidence. The eastern winding corridor separates this central mosaic from darker vegetation blocks in middle_right and bottom_right; medium confidence. Some straight edges suggest parcel or stand boundaries, while scalloped margins suggest uneven woody encroachment or retained vegetation; medium confidence. No consistent scene-wide moisture or elevation gradient can be established; high confidence.",
+  "features": [
+    {
+      "type": "Partly clipped sparse-vegetation clearing; medium confidence for classification and approximate geometry",
+      "cell": "top_left",
+      "size_m": "Approximately 150–200 wide and 250–330 long within the image",
+      "shape": "Irregular, partly outside the image",
+      "orientation": "Approximately north–south",
+      "count": 1
+    },
+    {
+      "type": "Brownish open parcel with scattered dark inclusions; high confidence for presence, medium confidence for approximate geometry",
+      "cell": "top_left, top_center, middle_left, middle_center",
+      "size_m": "Approximately 250–320 wide and 350–430 long",
+      "shape": "Irregular polygon with an angular upper boundary and tapering southern end",
+      "orientation": "North-northwest–south-southeast",
+      "count": 1
+    },
+    {
+      "type": "Elongated vegetated opening; medium confidence for classification, delineation and geometry",
+      "cell": "top_center, middle_center",
+      "size_m": "Approximately 200–280 wide and 350–480 long",
+      "shape": "Elongated, with uneven wooded margins",
+      "orientation": "Approximately north–south",
+      "count": 1
+    },
+    {
+      "type": "Central herbaceous opening; medium confidence for classification and geometry",
+      "cell": "middle_center",
+      "size_m": "Approximately 250–330 across",
+      "shape": "Broad irregular polygon with woody indentations",
+      "orientation": "Weak northwest–southeast elongation",
+      "count": 1
+    },
+    {
+      "type": "Pale southern open parcel; medium confidence for classification and geometry",
+      "cell": "bottom_center",
+      "size_m": "Approximately 120–180 wide and 300–380 long",
+      "shape": "Elongated, locally tapering",
+      "orientation": "Approximately north–south",
+      "count": 1
+    },
+    {
+      "type": "Small angular vegetated opening; medium confidence for classification and geometry",
+      "cell": "middle_right, bottom_right",
+      "size_m": "Approximately 160–220 by 150–210",
+      "shape": "Irregular quadrilateral or wedge",
+      "orientation": "Northwest–southeast",
+      "count": 1
+    },
+    {
+      "type": "Curved road or substantial track; high confidence for presence, medium confidence for dimensions",
+      "cell": "bottom_left, bottom_center",
+      "size_m": "Approximately 550–650 visible length; width unresolved, likely around one 10 m pixel or less",
+      "shape": "Gently curving linear feature",
+      "orientation": "West-northwest–east-southeast, bending south at the lower edge",
+      "count": 1
+    },
+    {
+      "type": "Pale winding corridor, possibly a track or drainage feature; high confidence for presence, low confidence for function, medium confidence for geometry",
+      "cell": "top_right, middle_right, bottom_right",
+      "size_m": "Approximately 1,200–1,350 visible path length; width unresolved at 10 m",
+      "shape": "Narrow, sinuous and locally discontinuous",
+      "orientation": "Approximately north–south",
+      "count": 1
+    },
+    {
+      "type": "Probable connecting track; medium confidence for classification and geometry",
+      "cell": "middle_center, middle_right",
+      "size_m": "Approximately 300–380 visible length; width unresolved at 10 m",
+      "shape": "Bent linear feature",
+      "orientation": "Approximately west–east",
+      "count": 1
+    }
+  ],
+  "spectral": {
+    "true_color": "Woody areas are predominantly dark green, while openings range from olive green to pale tan and brown; high confidence. Narrow corridors are pale gray or whitish and contrast strongly with their surroundings; high confidence. Bright roofs or a coherent built-up pattern are not apparent; medium confidence.",
+    "false_color": "Much of the textured woody cover becomes strong red, while several eastern blocks remain darker maroon; high confidence. Central vegetated openings show muted pink or red, and the large brownish western opening becomes gray-green; high confidence. Narrow corridors remain pale cyan or whitish; high confidence.",
+    "implications": [
+      {
+        "claim": "Strong red over much of the woody cover indicates substantial near-infrared response consistent with abundant live foliage.",
+        "confidence": "high"
+      },
+      {
+        "claim": "Muted red and gray-green openings likely have less live green vegetation, more exposed soil, dry vegetation or some combination of these.",
+        "confidence": "medium"
+      },
+      {
+        "claim": "Differences between bright-red and dark-maroon vegetation may reflect canopy density, vegetation type, shadow or phenological differences; they do not uniquely measure vigor.",
+        "confidence": "high"
+      },
+      {
+        "claim": "Brown true-color and gray-green false-color surfaces are compatible with exposed soil or senescent vegetation, but cannot reliably distinguish them.",
+        "confidence": "medium"
+      },
+      {
+        "claim": "The pale linear surfaces are compatible with roads or tracks, but their spectra do not establish paving material or exclude drainage-related features.",
+        "confidence": "medium"
+      },
+      {
+        "claim": "No clearly resolved open-water body supports an assessment of water turbidity.",
+        "confidence": "high"
+      },
+      {
+        "claim": "Moisture differences cannot be isolated from these display colors because vegetation structure, soil background and shadow can produce similar contrasts.",
+        "confidence": "high"
+      }
+    ],
+    "not_revealed": "These renderings do not provide calibrated reflectance, quantitative vegetation indices, soil moisture, canopy height, species identification or reliable crop identification; high confidence. They cannot establish irrigation, water turbidity, management history or temporal change; high confidence. Display stretching and mixed pixels limit interpretation of relative brightness; high confidence."
+  },
+  "interpretation": [
+    {
+      "claim": "The patch is a wooded rural landscape containing multiple open parcels and access routes.",
+      "confidence": "high",
+      "evidence": "Levels 1–3: extensive textured green/red cover across all cells, central openings and the curved road in bottom_left and bottom_center."
+    },
+    {
+      "claim": "Some openings are likely managed fields, pasture, meadow or maintained clearings.",
+      "confidence": "medium",
+      "evidence": "Levels 2–4: smoother surfaces, locally angular margins and track access in middle_left, middle_center and bottom_center."
+    },
+    {
+      "claim": "Crop species, grazing, mowing and crop rotation cannot be determined.",
+      "confidence": "high",
+      "evidence": "Levels 2–4: the open parcels lack diagnostic resolved crop patterns, and only one acquisition is available."
+    },
+    {
+      "claim": "Some eastern woody blocks may represent managed forest stands.",
+      "confidence": "medium",
+      "evidence": "Levels 2 and 4: angular boundaries and relatively uniform dark-green/dark-maroon blocks in top_right and middle_right."
+    },
+    {
+      "claim": "Much of the woody vegetation carries substantial live foliage, without a clearly resolved widespread canopy-loss signature.",
+      "confidence": "medium",
+      "evidence": "Levels 1 and 4: extensive strong false-color red across top_left, top_center, middle_left and bottom_left."
+    },
+    {
+      "claim": "The pale and brown openings could reflect cutting, harvest, senescence or sparse ground cover, but a recent clearing or harvest event is not established.",
+      "confidence": "low",
+      "evidence": "Levels 3–4: brown/gray-green surfaces in middle_left and pale muted-red vegetation in bottom_center; no temporal comparison."
+    },
+    {
+      "claim": "The woodland is locally interrupted by open parcels and narrow corridors, while remaining visually connected around much of the patch.",
+      "confidence": "high",
+      "evidence": "Levels 1–3: central openings and eastern and southwestern corridors embedded within contiguous woody cover."
+    },
+    {
+      "claim": "There is no convincing resolved evidence of a settlement, irrigation installation, active erosion or flooding.",
+      "confidence": "medium",
+      "evidence": "Levels 2–4: no coherent roof cluster, diagnostic irrigation geometry, obvious sediment plume, broad inundated surface or clear erosion channel."
+    },
+    {
+      "claim": "A temperate forest–open-land mosaic is plausible, but biome and climate cannot be assigned reliably.",
+      "confidence": "low",
+      "evidence": "Levels 1 and 4: extensive green woody vegetation and interspersed open parcels are compatible with this setting but are not geographically diagnostic."
+    }
+  ],
+  "uncertainties": [
+    "Medium confidence: cover percentages may differ by several percentage points because woody margins, sparse vegetation and open parcels have mixed pixels.",
+    "High confidence: the 10 m source resolution does not reliably resolve individual buildings, narrow road widths, small drainage channels, fences or isolated trees.",
+    "Low confidence: the eastern winding corridor's function is ambiguous; a track, drainage feature or combination remains possible.",
+    "Medium confidence: dark eastern blocks could differ in vegetation composition, canopy density or illumination; shadow cannot be separated cleanly.",
+    "Medium confidence: the large brownish opening may contain exposed soil, dry herbaceous material or recently managed vegetation.",
+    "Medium confidence: the central openings may form connected parcels rather than the separate units used in the feature inventory.",
+    "High confidence: feature dimensions are approximate visual estimates; display upsampling adds no spatial information.",
+    "High confidence: narrow bright features may be widened or rendered discontinuous by mixed pixels, resampling and display contrast.",
+    "Medium confidence: no obvious cloud or broad cloud-shadow feature is visible, although subtle illumination effects cannot be excluded.",
+    "High confidence: season, management history and active change cannot be established from a single paired rendering."
+  ],
+  "summaries": {
+    "w25": "High confidence: woodland dominates a mosaic of central openings and pale corridors. Medium confidence: openings include managed grassland or fields; management timing remains unresolved.",
+    "w50": "High confidence: woodland dominates, interrupted by central openings and narrow pale corridors. Medium-confidence estimates assign 67% woody cover, 21% herbaceous cover, 10% sparse vegetation or soil, and 2% corridors. Strong false-color red indicates abundant live foliage. Field use and eastern corridor function remain uncertain.",
+    "w100": "High confidence: this is a predominantly wooded mosaic with central open parcels and pale linear corridors. Medium-confidence cover estimates are 67% woody vegetation, 21% herbaceous vegetation, 10% sparse vegetation or soil, and 2% corridors. Strong false-color red indicates abundant live foliage, while brown and gray-green openings likely contain less green vegetation; medium confidence. A curved southwestern road is clear; the eastern winding corridor has uncertain function. Managed fields or grassland and forestry blocks are plausible; medium confidence. Crop identity, moisture, recent harvest, season and climate remain unresolved.",
+    "w200": "High confidence: the patch is a predominantly wooded landscape interrupted by central openings and narrow corridors. Medium-confidence visual estimates assign 67% to woody vegetation, 21% to herbaceous vegetation, 10% to sparse vegetation or exposed soil, and 2% to corridors.\n\nHigh confidence: a large brownish opening lies left of center, greener openings occupy the center, and an elongated pale parcel extends southward. A curved road crosses the southwest. A thin winding corridor runs approximately north–south in the eastern third; its interpretation as a track or drainage feature has low confidence.\n\nStrong false-color red across much of the canopy indicates abundant live foliage; high confidence. Muted red and gray-green openings likely have less green cover or more soil and dry vegetation; medium confidence. Darker eastern vegetation blocks may reflect different stand composition, density or management; medium confidence.\n\nManaged open parcels and possible forestry are medium-confidence interpretations. Crop types, rotation, recent harvest, irrigation and moisture cannot be established. No clearly resolved water body supports turbidity analysis; high confidence. A temperate woodland setting is plausible with low confidence. At 10 m, small structures, narrow channels and individual trees remain unresolved.",
+    "w400": "High confidence: this 1.2 km square patch depicts a predominantly wooded mosaic with irregular open parcels and narrow pale corridors. Medium-confidence visual estimates assign 67% to dense woody vegetation, 21% to open herbaceous vegetation, 10% to sparse vegetation or exposed soil, and 2% to roads, tracks and other corridors. The boundaries between these classes remain approximate.\n\nHigh confidence: the upper-left edge contains a partly clipped clearing, and a larger brownish opening occupies the area left of center. Greener, smoother openings extend through the central column. A pale elongated parcel occupies bottom_center, while a smaller angular opening lies farther east. Woody vegetation surrounds these openings and remains connected around much of the patch. Some eastern blocks have comparatively straight boundaries and uniform dark tones; medium confidence that these represent distinct stands.\n\nA curved pale road or substantial track crosses bottom_left and exits through bottom_center; high confidence. A probable connecting track crosses middle_center toward an approximately north–south winding corridor in the eastern third; medium confidence. The eastern corridor is clearly visible, but its identification as a road, drainage feature or combination has low confidence. Its width is unresolved.\n\nHigh confidence: much of the woody cover is dark green in true color and strongly red in the near-infrared composite, consistent with abundant live foliage. The large brownish opening becomes gray-green, suggesting reduced green cover, exposed soil or dry vegetation; medium confidence. Dark-maroon eastern blocks could differ in canopy density, vegetation composition or illumination. Their color alone does not establish poor vegetation health; high confidence.\n\nManaged grassland, fields or maintained clearings are plausible, as is some forest management; medium confidence. Specific crops, rotation, grazing and recent cutting remain unidentified. There is no convincing resolved evidence of settlement, irrigation, flooding or active erosion; medium confidence. No clear open-water body permits turbidity assessment; high confidence.\n\nA temperate forest–open-land setting is plausible with low confidence, but climate and season are not diagnostic. High confidence: one paired acquisition cannot establish change, and 10 m mixed pixels plus display resampling limit small-feature classification, dimensions and quantitative spectral interpretation."
+  }
+}

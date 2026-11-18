@@ -1,0 +1,283 @@
+{
+  "global": {
+    "cover": [
+      {
+        "class": "Vegetated agricultural fields and grass-like cover; medium confidence, approximate visual estimate",
+        "percent": 52
+      },
+      {
+        "class": "Bare, harvested, or sparsely vegetated agricultural surfaces; medium confidence, approximate visual estimate",
+        "percent": 35
+      },
+      {
+        "class": "Woody vegetation, including tree belts and small woodland patches; medium confidence, approximate visual estimate",
+        "percent": 12
+      },
+      {
+        "class": "Tracks and possible built surfaces; low confidence, approximate visual estimate",
+        "percent": 1
+      }
+    ],
+    "landscape": "High confidence: predominantly agricultural landscape with geometric parcels, contrasting crop conditions, and irregular woody vegetation concentrated toward the northwest.",
+    "season_cues": "Medium confidence: vigorous vegetation alongside pale agricultural surfaces suggests differing crop stages or management, potentially including harvest or fallow. Low confidence: a growing-season acquisition is plausible, but the month and season cannot be established.",
+    "heterogeneity": "High confidence: strong parcel-scale heterogeneity, with relatively uniform field interiors, narrow cultivated strips, and a more irregular, coarse-textured northwestern vegetation complex."
+  },
+  "grid": [
+    {
+      "cell": "top_left",
+      "cover": "Medium confidence: woody vegetation mixed with smaller vegetated and pale agricultural parcels.",
+      "texture": "High confidence: irregular, mottled vegetation contrasts with smoother field interiors.",
+      "features": "Medium confidence: connected tree belts and small woodland patches surround angular openings; pale parcels intersect the upper and left edges."
+    },
+    {
+      "cell": "top_center",
+      "cover": "High confidence: alternating vegetated and pale agricultural strips, with woody cover toward the left.",
+      "texture": "High confidence: smooth elongated parcels above an irregular vegetation margin.",
+      "features": "High confidence: approximately north–south strips terminate against a broad pale belt crossing the upper-middle scene. Medium confidence: the belt is predominantly agricultural ground."
+    },
+    {
+      "cell": "top_right",
+      "cover": "High confidence: a large dark-green vegetated parcel bordered by pale agricultural surfaces.",
+      "texture": "High confidence: mostly smooth surfaces with faint linear and tonal variation.",
+      "features": "High confidence: a roughly rectangular vegetated field occupies the upper portion; angled pale boundaries and a narrow vegetated sliver occur toward the lower-right edge."
+    },
+    {
+      "cell": "middle_left",
+      "cover": "High confidence: predominantly a large green agricultural field.",
+      "texture": "High confidence: relatively uniform, with subtle mottling and faint internal lines.",
+      "features": "High confidence: the large field is bright pink-red in false color and has straight boundaries; darker vegetation borders its lower edge."
+    },
+    {
+      "cell": "middle_center",
+      "cover": "High confidence: mixed vegetated fields and a broad pale north–south agricultural strip.",
+      "texture": "High confidence: smooth parcels with abrupt spectral transitions.",
+      "features": "High confidence: the large western field ends here; a narrow darker inset occurs near its eastern edge, and a narrow vegetated strip lies farther east."
+    },
+    {
+      "cell": "middle_right",
+      "cover": "High confidence: pale agricultural ground surrounding a dark vegetated parcel.",
+      "texture": "High confidence: smooth, strongly contrasting surfaces with faint parallel markings on pale ground.",
+      "features": "High confidence: the vegetated parcel has an L-like footprint extending from middle_center into this cell; narrow oblique vegetated strips reach the eastern edge."
+    },
+    {
+      "cell": "bottom_left",
+      "cover": "High confidence: predominantly dark-green agricultural vegetation, with a small pale inset. Low confidence: minor built surfaces near the corner.",
+      "texture": "High confidence: mostly smooth fields, becoming mottled around the lower-left edge.",
+      "features": "Medium confidence: a curving field-access line and a pale rectangular plot. Low confidence: several unresolved bright objects may be roofs or hard surfaces."
+    },
+    {
+      "cell": "bottom_center",
+      "cover": "High confidence: dark vegetated fields to the west and a lighter agricultural parcel to the east.",
+      "texture": "High confidence: smooth to subtly striped surfaces.",
+      "features": "High confidence: a pale-green, approximately north–south parcel reaches the bottom edge. Medium confidence: a curved track or field margin follows the adjacent darker field."
+    },
+    {
+      "cell": "bottom_right",
+      "cover": "High confidence: predominantly pale agricultural surfaces, with limited vegetation along parcel edges.",
+      "texture": "High confidence: faint diagonal parallel markings and broad tonal bands.",
+      "features": "Medium confidence: a diagonal track or field boundary separates pale parcels; a small dark vegetated wedge touches the bottom edge."
+    }
+  ],
+  "boundaries": "High confidence: most boundaries are sharp, straight, or angular, supporting agricultural subdivision. North–south strips dominate the upper-center and central areas, while diagonal boundaries are more prominent in the southeast. Medium confidence: the irregular northwestern vegetation margin represents woody cover adjoining fields. High confidence: spectral changes mainly follow parcel boundaries rather than a continuous landscape-wide gradient.",
+  "features": [
+    {
+      "type": "Large actively vegetated field; high confidence",
+      "cell": "middle_left, middle_center",
+      "size_m": "Approximately 500–550 east–west by 380–420 north–south; medium confidence",
+      "shape": "Broad quadrilateral with nearly rectangular outline; high confidence",
+      "orientation": "Long axis approximately east–west; high confidence",
+      "count": 1
+    },
+    {
+      "type": "Narrow darker inset within or beside the large field; medium confidence",
+      "cell": "middle_center",
+      "size_m": "Approximately 60–90 wide by 150–190 long; medium confidence",
+      "shape": "Elongated rectangle; high confidence",
+      "orientation": "Approximately north–south; high confidence",
+      "count": 1
+    },
+    {
+      "type": "L-shaped vegetated field or adjoining fields with similar cover; high confidence for footprint, medium confidence for parcel unity",
+      "cell": "middle_center, middle_right, bottom_right",
+      "size_m": "Overall envelope approximately 250 by 500; medium confidence",
+      "shape": "L-like, with a narrow northern stem and wider southern block; high confidence",
+      "orientation": "Main axis north–south; high confidence",
+      "count": 1
+    },
+    {
+      "type": "Prominent vegetated strips along the northern edge; high confidence",
+      "cell": "top_center, top_right",
+      "size_m": "Approximately 80–250 wide and at least 180–240 long within the patch; medium confidence",
+      "shape": "Elongated rectangles, clipped by the image boundary; high confidence",
+      "orientation": "Approximately north–south; high confidence",
+      "count": 2
+    },
+    {
+      "type": "Broad pale agricultural strip; high confidence",
+      "cell": "middle_center",
+      "size_m": "Approximately 100–150 wide by 480–520 long; medium confidence",
+      "shape": "Elongated, slightly tapered quadrilateral; high confidence",
+      "orientation": "Approximately north–south; high confidence",
+      "count": 1
+    },
+    {
+      "type": "Connected woody vegetation complex; medium confidence",
+      "cell": "top_left, top_center",
+      "size_m": "Combined visible envelope approximately 600 east–west by 400 north–south, including openings; medium confidence",
+      "shape": "Irregular branching belts and patches; high confidence",
+      "orientation": "Main belt approximately east–west, with northward extensions; medium confidence",
+      "count": 1
+    },
+    {
+      "type": "Lighter agricultural parcel at the southern edge; high confidence",
+      "cell": "bottom_center, bottom_right",
+      "size_m": "Approximately 180–240 wide by at least 280–310 long; medium confidence",
+      "shape": "Tapered quadrilateral clipped by the bottom edge; high confidence",
+      "orientation": "Approximately north–south; high confidence",
+      "count": 1
+    },
+    {
+      "type": "Small pale agricultural plot; medium confidence",
+      "cell": "bottom_left",
+      "size_m": "Approximately 100–140 wide by 180–200 long; medium confidence",
+      "shape": "Roughly rectangular; high confidence",
+      "orientation": "Approximately north–south; high confidence",
+      "count": 1
+    },
+    {
+      "type": "Curving access track or field margin; medium confidence",
+      "cell": "bottom_left, bottom_center",
+      "size_m": "Approximately 500–650 visible length; width unresolved, likely around one to two native pixels; low confidence",
+      "shape": "Curved and locally branching linear feature; medium confidence",
+      "orientation": "Generally southwest–northeast; medium confidence",
+      "count": 1
+    },
+    {
+      "type": "Diagonal access track or field boundary; medium confidence",
+      "cell": "bottom_right",
+      "size_m": "Approximately 300–400 visible length; width unresolved at 10 m; medium confidence",
+      "shape": "Mostly straight with an angular bend near the eastern edge; medium confidence",
+      "orientation": "Southwest–northeast; high confidence",
+      "count": 1
+    },
+    {
+      "type": "Possible small built-surface cluster; low confidence",
+      "cell": "bottom_left",
+      "size_m": "Visible cluster envelope approximately 100–140 by 180–220; low confidence",
+      "shape": "Scattered bright objects among vegetation and linear access features; low confidence",
+      "orientation": "No reliable dominant orientation; low confidence",
+      "count": 1
+    }
+  ],
+  "spectral": {
+    "true_color": "High confidence: agricultural surfaces range from light tan and cream to pale green and deep green. The large western field is brighter green than the central-right L-shaped parcel and southern dark fields. Northwestern vegetation is dark and mottled. Pale surfaces dominate much of the east and central corridor.",
+    "false_color": "High confidence: the large western field is vivid pink-red; northwestern vegetation includes intense red patches and darker maroon areas. The L-shaped parcel and southern vegetated fields are red to deep red. Most tan surfaces become pale cyan, while the lighter southern parcel appears muted pink-gray.",
+    "implications": [
+      {
+        "claim": "Strong red responses identify substantial near-infrared-reflecting vegetation, particularly in the large western field and northwestern vegetation complex.",
+        "confidence": "high"
+      },
+      {
+        "claim": "The western field likely supports substantial active vegetation, but its brighter pink appearance does not establish greater plant health than every darker-red parcel.",
+        "confidence": "medium"
+      },
+      {
+        "claim": "Pale cyan agricultural surfaces likely have less green vegetation and may contain exposed soil, crop residue, or sparse cover.",
+        "confidence": "medium"
+      },
+      {
+        "claim": "The muted southern parcel may have lower vegetation cover or a different crop stage, although soil background and display scaling can produce similar differences.",
+        "confidence": "medium"
+      },
+      {
+        "claim": "Dark true-color parcels that remain red in false color are vegetated surfaces rather than obvious open water.",
+        "confidence": "high"
+      },
+      {
+        "claim": "Vegetation and surface brightness differences do not uniquely diagnose soil moisture, irrigation, or water stress.",
+        "confidence": "high"
+      },
+      {
+        "claim": "No open-water body is confidently identifiable, so water turbidity cannot be assessed.",
+        "confidence": "high"
+      },
+      {
+        "claim": "Small pale objects near the southwest corner could be built surfaces, but bare soil and mixed pixels offer alternative explanations.",
+        "confidence": "low"
+      }
+    ],
+    "not_revealed": "High confidence: these rendered composites do not provide calibrated reflectance, reliable numerical vegetation indices, direct soil moisture, crop species, yield, canopy height, water turbidity without identifiable water, or management history. Display stretching prevents quantitative comparisons of red intensity. Timing and change require additional observations."
+  },
+  "interpretation": [
+    {
+      "claim": "Agriculture is the dominant land use.",
+      "confidence": "high",
+      "evidence": "Levels 1–3; all grid cells, especially middle_left, middle_center, and middle_right: geometric parcels, uniform interiors, and abrupt parcel-aligned spectral differences."
+    },
+    {
+      "claim": "Fields have differing vegetation cover or developmental states, consistent with varied crops or management schedules.",
+      "confidence": "medium",
+      "evidence": "Levels 2 and 4; middle_left, middle_center, middle_right, and bottom_center: bright-red, dark-red, cyan, and muted pink-gray parcels occur side by side."
+    },
+    {
+      "claim": "Some pale parcels may be harvested, fallow, recently cultivated, or sparsely established.",
+      "confidence": "medium",
+      "evidence": "Levels 2 and 4; top_center, middle_center, middle_right, and bottom_right: tan true-color surfaces and weak red expression in false color."
+    },
+    {
+      "claim": "Specific crop types and crop rotation cannot be identified reliably.",
+      "confidence": "high",
+      "evidence": "Levels 2–4; agricultural parcels throughout: field geometry and composite color are not species-specific, and only one observation is supplied."
+    },
+    {
+      "claim": "The northwestern irregular vegetation likely includes trees or shrubs forming small woodland patches and field-edge belts.",
+      "confidence": "medium",
+      "evidence": "Levels 2–4; top_left and top_center: irregular outlines, coarse texture, dark true-color tones, and strong red response."
+    },
+    {
+      "claim": "Commercial forestry or recent woodland clearing is not established.",
+      "confidence": "high",
+      "evidence": "Levels 2–3; top_left and top_center: woody-looking cover is visible, but no unambiguous plantation pattern or clearing chronology is available."
+    },
+    {
+      "claim": "Small rural structures may occur at the southwest edge, but settlement extent and function are unresolved.",
+      "confidence": "low",
+      "evidence": "Levels 2–3; bottom_left: small bright objects near access-like lines and vegetation."
+    },
+    {
+      "claim": "Woody margins may provide habitat connectivity within the agricultural matrix; biodiversity and ecological condition cannot be assessed.",
+      "confidence": "medium",
+      "evidence": "Levels 1–3; top_left and top_center: connected irregular vegetation belts between cultivated parcels."
+    },
+    {
+      "claim": "No active irrigation, flooding, erosion, or ongoing harvest operation is clearly demonstrated.",
+      "confidence": "high",
+      "evidence": "Levels 2–4; all cells: no unambiguous equipment, water spread, erosion network, or irrigation pattern is resolved. Pale fields alone do not establish an active process."
+    },
+    {
+      "claim": "A temperate agricultural setting is plausible, but climate and potential natural biome remain weakly constrained.",
+      "confidence": "low",
+      "evidence": "Levels 1–2; scene-wide mosaic of green fields, pale cultivated parcels, and woody boundaries is compatible with temperate farming but is not geographically diagnostic."
+    }
+  ],
+  "uncertainties": [
+    "High confidence: cover percentages are visual estimates, not a pixel classification; mixed pixels and uncertain field states could shift them by several percentage points.",
+    "High confidence: display upsampling adds no spatial information beyond the native 10 m pixels.",
+    "High confidence: individual buildings, narrow roads, ditches, hedges, crop rows, machinery, and small water features are unresolved or only partly resolved.",
+    "High confidence: pale agricultural surfaces cannot be reliably separated into bare soil, dry residue, harvested crops, or sparse vegetation.",
+    "Medium confidence: some dark irregular vegetation may be dense herbaceous cover rather than woodland; individual tree crowns and species are unresolved.",
+    "High confidence: one observation cannot establish crop rotation, harvest timing, irrigation practice, clearing history, or seasonal change.",
+    "High confidence: feature dimensions are approximate, and edge-clipped fields extend beyond their reported visible sizes.",
+    "Medium confidence: faint linear features may be tracks, field margins, crop-management lines, or mixed-pixel effects.",
+    "High confidence: resampling, contrast stretching, and mixed pixels can alter apparent texture and color; exact rendering parameters are unavailable.",
+    "Medium confidence: no obvious cloud or large cloud-shadow feature is visible, but small canopy shadows cannot be separated confidently from dark vegetation.",
+    "High confidence: lack of a visible feature at this resolution does not establish its absence."
+  ],
+  "summaries": {
+    "w25": "High confidence: geometric agricultural fields dominate. Medium confidence: contrasting vegetation and pale parcels reflect different management stages, with woody cover concentrated in the northwest.",
+    "w50": "High confidence: this agricultural mosaic contains sharply bounded green and pale fields. Medium confidence: cover is approximately 52% vegetated agriculture, 35% bare or sparse agriculture, and 12% woody vegetation; possible infrastructure occupies 1% with low confidence. Crop identities, management timing, and climate remain unresolved with high confidence.",
+    "w100": "High confidence: geometric agricultural parcels dominate the patch, including a large western green field, northern strips, and an eastern L-shaped vegetated parcel. Medium confidence: cover is approximately 52% vegetated agriculture, 35% pale agricultural surfaces, and 12% woody vegetation; possible infrastructure occupies 1% with low confidence. Strong false-color red confirms vegetation with high confidence. Medium confidence: pale cyan fields represent sparse cover, exposed soil, or residue, while northwestern irregular vegetation includes woody belts. High confidence: crop species, rotation, moisture status, and active irrigation cannot be determined from these renderings.",
+    "w200": "High confidence: the patch is an agricultural mosaic with straight parcel boundaries and contrasting field states. Medium confidence: estimated cover is 52% vegetated agriculture, 35% bare or sparsely vegetated agricultural surfaces, and 12% woody vegetation. Possible infrastructure accounts for 1% with low confidence.\n\nHigh confidence: a large green field dominates the middle-left, narrow vegetated strips meet the northern edge, and an L-shaped vegetated footprint occupies the central-right. Pale agricultural ground separates these parcels. Medium confidence: irregular northwestern vegetation forms woodland patches and field-edge belts. Curved and diagonal lines in the south may be access tracks or field margins. Small southwestern bright objects may be structures, with low confidence.\n\nHigh confidence: strong red in false color identifies substantial vegetation, including fields that appear dark in true color. Medium confidence: cyan and muted parcels indicate reduced green cover or different developmental stages; harvest and fallow are possible explanations. High confidence: red brightness alone does not rank plant health, and neither soil moisture nor irrigation is established. No open water is confidently identifiable. High confidence: crop identities, rotation, exact season, and management history remain unresolved; a temperate setting is only a low-confidence possibility.",
+    "w400": "High confidence: this 1.2 km square patch is dominated by agriculture, with smooth geometric fields and abrupt spectral boundaries. Medium confidence: approximate cover is 52% vegetated agriculture, 35% bare, harvested, or sparsely vegetated agricultural surfaces, and 12% woody vegetation. Possible tracks and built surfaces occupy about 1%, with low confidence. These are visual estimates rather than measured classifications.\n\nHigh confidence: the middle-left contains a broad green field approximately 500–550 m east–west by 380–420 m north–south. Its false-color response is vivid pink-red, and a narrow darker inset lies near its eastern margin. Northern parcels form elongated strips. A central-right vegetated footprint is L-shaped, approximately 250 by 500 m overall, although its interpretation as one parcel has medium confidence. A broad pale north–south strip separates major vegetated areas. Southern parcels include dark vegetation and a lighter, tapered field reaching the bottom edge.\n\nMedium confidence: the northwest contains connected woody patches and belts, distinguished by irregular outlines and coarser texture. Curving lines in the southwest and a diagonal southeastern line may be tracks or field margins. Low confidence: bright objects near the southwest corner could represent small rural structures; individual buildings are unresolved.\n\nHigh confidence: strong false-color red identifies substantial vegetation, including dark-green fields in true color. Medium confidence: pale tan surfaces rendered cyan contain less green cover and may comprise soil, residue, or sparse crops. Adjacent spectral contrasts plausibly reflect differing crop stages or management. High confidence: display brightness cannot establish a ranking of vegetation health, and these composites do not directly measure moisture or diagnose irrigation. No open water is confidently identifiable, preventing turbidity assessment.\n\nHigh confidence: specific crop types, rotation, active harvest, flooding, erosion, and clearing history are not established. Medium confidence: woody boundaries may provide habitat connections, but biodiversity and ecological condition remain unresolved. A temperate agricultural setting is plausible with low confidence; the imagery does not establish climate or potential natural biome.\n\nHigh confidence: native 10 m resolution, mixed pixels, unknown display scaling, and a single observation limit interpretation. Upsampling does not reveal additional ground detail. Small structures, narrow drainage features, machinery, and individual trees require finer observations; seasonal and management conclusions require a time series."
+  }
+}

@@ -1,0 +1,84 @@
+{
+ "answers": [
+  {
+   "id": "Q1",
+   "answer": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "Q2",
+   "answer": "no",
+   "confidence": "high"
+  },
+  {
+   "id": "Q3",
+   "answer": "no",
+   "confidence": "medium"
+  },
+  {
+   "id": "Q4",
+   "answer": "yes",
+   "confidence": "low"
+  },
+  {
+   "id": "Q5",
+   "answer": "yes",
+   "confidence": "high"
+  },
+  {
+   "id": "Q6",
+   "answer": "yes",
+   "confidence": "medium"
+  },
+  {
+   "id": "Q7",
+   "answer": "yes",
+   "confidence": "medium"
+  },
+  {
+   "id": "Q8",
+   "answer": "yes",
+   "confidence": "low"
+  },
+  {
+   "id": "Q9",
+   "answer": "no",
+   "confidence": "low"
+  },
+  {
+   "id": "Q10",
+   "answer": "no",
+   "confidence": "low"
+  },
+  {
+   "id": "Q11",
+   "answer": "yes",
+   "confidence": "medium"
+  },
+  {
+   "id": "Q12",
+   "answer": "no",
+   "confidence": "medium"
+  },
+  {
+   "id": "Q13",
+   "answer": "no",
+   "confidence": "low"
+  },
+  {
+   "id": "Q14",
+   "answer": "yes",
+   "confidence": "medium"
+  },
+  {
+   "id": "Q15",
+   "answer": "yes",
+   "confidence": "medium"
+  },
+  {
+   "id": "Q16",
+   "answer": "yes",
+   "confidence": "medium"
+  }
+ ]
+}

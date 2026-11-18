@@ -1,0 +1,252 @@
+{
+  "global": {
+    "cover": [
+      {
+        "class": "Bright white/cyan cover, interpreted mainly as snow (medium confidence)",
+        "percent": 45
+      },
+      {
+        "class": "Mottled gray-blue terrain, plausibly woody vegetation with patchy snow (medium confidence)",
+        "percent": 48
+      },
+      {
+        "class": "Dark linear margins and shaded terrain of uncertain cover (low confidence)",
+        "percent": 7
+      }
+    ],
+    "landscape": "A probable snow-covered terrestrial mosaic with open areas interspersed with darker, possibly wooded patches (medium confidence). Relief is uncertain (low confidence).",
+    "season_cues": "Extensive snow-like brightness suggests cold-season conditions or persistent snow at elevation (medium confidence). The acquisition season and vegetation phenology cannot be established (high confidence).",
+    "heterogeneity": "Strong patch-scale heterogeneity: smooth bright areas alternate with coarse mottled terrain and narrow dark margins (high confidence). Percentages are visual estimates of apparent surface classes, not measured ground-cover fractions (high confidence)."
+  },
+  "grid": [
+    {
+      "cell": "top_left",
+      "cover": "Bright snow-like cover along the upper edge and mottled terrain below (medium confidence).",
+      "texture": "Smooth white upper area adjoining densely speckled gray-blue terrain (high confidence).",
+      "features": "A dark, gently curving boundary runs approximately west–east before bending south near the cell's right side (high confidence)."
+    },
+    {
+      "cell": "top_center",
+      "cover": "Predominantly mottled terrain with bright margins, possibly snow-covered woodland (medium confidence).",
+      "texture": "Coarse granular gray and pale cyan pattern with darker internal streaks (high confidence).",
+      "features": "An irregular terrain block extends south into the central patch; bright cover borders its northeastern side (high confidence)."
+    },
+    {
+      "cell": "top_right",
+      "cover": "Predominantly bright white/cyan snow-like cover with darker terrain at the upper-right edge (medium confidence).",
+      "texture": "Smooth saturated white transitions into faintly mottled cyan (high confidence).",
+      "features": "An irregular bright opening occupies much of the cell; its southern continuation becomes more textured (high confidence)."
+    },
+    {
+      "cell": "middle_left",
+      "cover": "Mixed bright cover and rounded mottled patches (high confidence for appearance; medium confidence for snow interpretation).",
+      "texture": "Strong contrast between smooth white corridors and granular gray-blue interiors (high confidence).",
+      "features": "A broad bright corridor crosses diagonally toward the center, separating darker patches (high confidence)."
+    },
+    {
+      "cell": "middle_center",
+      "cover": "Mainly mottled gray-blue terrain, plausibly woody cover with snow (medium confidence).",
+      "texture": "Dense granular pattern with irregular bright intrusions and dark edges (high confidence).",
+      "features": "A broad terrain block trends northwest–southeast, bordered by bright cover toward the southwest (high confidence)."
+    },
+    {
+      "cell": "middle_right",
+      "cover": "Mixed pale cyan terrain, darker margins and bright cover (high confidence for appearance; medium confidence for snow interpretation).",
+      "texture": "Mottled upper portion, a conspicuous dark curved band, and smoother bright lower-right area (high confidence).",
+      "features": "A roughly west–east dark band bends across the upper portion; its physical identity is uncertain (low confidence)."
+    },
+    {
+      "cell": "bottom_left",
+      "cover": "Bright snow-like cover above darker mottled terrain along the lower edge (medium confidence).",
+      "texture": "Smooth white area with a broad blue-dark margin and coarse terrain below (high confidence).",
+      "features": "A curved dark boundary sweeps from the left edge toward the bottom center (high confidence)."
+    },
+    {
+      "cell": "bottom_center",
+      "cover": "Large bright opening above a darker mottled southern strip (medium confidence).",
+      "texture": "Smooth white/cyan interior containing small darker inclusions; coarse texture below (high confidence).",
+      "features": "An irregular bright opening spans the left and center cells, bounded southward by a scalloped dark band (high confidence)."
+    },
+    {
+      "cell": "bottom_right",
+      "cover": "Mottled terrain with a bright opening near the right edge (medium confidence).",
+      "texture": "Granular gray-cyan surface with narrow dark streaks and smooth white patches (high confidence).",
+      "features": "The central terrain block continues southeastward, adjoining the bright right-edge opening (high confidence)."
+    }
+  ],
+  "boundaries": "Most boundaries are irregular, curved or locally angular rather than a repeated rectangular parcel grid (high confidence). A mottled belt connects the upper center, middle center and lower right (high confidence). Bright openings interrupt this belt on both sides, and several contacts have cyan-to-dark fringes (high confidence). These fringes could combine shaded snow, vegetation edges and display effects; their cause is uncertain (low confidence).",
+  "features": [
+    {
+      "type": "Bright snow-like opening; medium confidence",
+      "cell": "top_left",
+      "size_m": "Approximately 350–450 long and 100–180 wide",
+      "shape": "Irregular, clipped by the northern edge",
+      "orientation": "Approximately west–east",
+      "count": 1
+    },
+    {
+      "type": "Bright snow-like complex; medium confidence",
+      "cell": "top_right",
+      "size_m": "Approximately 350–550 across; continues into middle_right",
+      "shape": "Lobed and irregular, partly clipped by image edges",
+      "orientation": "Broadly north–south",
+      "count": 1
+    },
+    {
+      "type": "Bright corridor, possibly snow-covered open ground; medium confidence",
+      "cell": "middle_left",
+      "size_m": "Approximately 450–650 long and 80–200 wide",
+      "shape": "Branching, irregular strip",
+      "orientation": "Southwest–northeast",
+      "count": 1
+    },
+    {
+      "type": "Bright opening with darker inclusions, possibly snow-covered clearing; medium confidence",
+      "cell": "bottom_center",
+      "size_m": "Approximately 500–650 long and 200–300 wide; extends into bottom_left",
+      "shape": "Broad irregular lobe",
+      "orientation": "Approximately west–east",
+      "count": 1
+    },
+    {
+      "type": "Bright snow-like opening at right edge; medium confidence",
+      "cell": "bottom_right",
+      "size_m": "Approximately 150–220 across within the image",
+      "shape": "Irregular, clipped by eastern edge",
+      "orientation": "No clear dominant orientation",
+      "count": 1
+    },
+    {
+      "type": "Mottled terrain block, possibly woodland; medium confidence",
+      "cell": "top_left",
+      "size_m": "Approximately 350–400 across; extends into middle_left",
+      "shape": "Rounded irregular block",
+      "orientation": "No clear dominant orientation",
+      "count": 1
+    },
+    {
+      "type": "Connected mottled terrain belt, possibly woodland; medium confidence",
+      "cell": "top_center, middle_center, bottom_right",
+      "size_m": "Approximately 900–1100 long and 200–400 wide",
+      "shape": "Irregular connected belt with lobed edges",
+      "orientation": "Northwest–southeast",
+      "count": 1
+    },
+    {
+      "type": "Dark boundary band, possibly vegetation edge or shadow; low confidence",
+      "cell": "top_left",
+      "size_m": "Approximately 350–500 long and 20–60 apparent width",
+      "shape": "Bent narrow band",
+      "orientation": "West–east, turning south",
+      "count": 1
+    },
+    {
+      "type": "Dark curved band of uncertain origin; low confidence",
+      "cell": "middle_right",
+      "size_m": "Approximately 250–350 long and 20–60 apparent width",
+      "shape": "Sinuous band",
+      "orientation": "Approximately west–east",
+      "count": 1
+    },
+    {
+      "type": "Dark margin, possibly shaded snow and woody vegetation; low confidence",
+      "cell": "bottom_left, bottom_center",
+      "size_m": "Approximately 650–850 long and 40–100 apparent width",
+      "shape": "Curved, scalloped band",
+      "orientation": "Approximately west–east",
+      "count": 1
+    }
+  ],
+  "spectral": {
+    "true_color": "Large areas are nearly white, with pale cyan transitions and blue-gray mottled interiors. Narrow dark blue-gray bands create strong boundary contrast. Natural green and brown tones are weak or absent (high confidence).",
+    "false_color": "The rendering remains predominantly white, cyan, gray and dark blue. Some mottled terrain has a faint muted pink-gray cast, but conspicuous bright-red vegetation is absent (high confidence). Bright boundaries are somewhat clearer than in true color (medium confidence).",
+    "implications": [
+      {
+        "claim": "The shared white/cyan pattern is consistent with substantial snow cover, although these bands and display stretches cannot conclusively separate snow from cloud.",
+        "confidence": "medium"
+      },
+      {
+        "claim": "The images provide no strong bright-red signature of exposed vigorous vegetation. Snow masking, sparse canopy, vegetation condition and rendering choices could all contribute.",
+        "confidence": "high"
+      },
+      {
+        "claim": "Mottled darker patches may represent woody vegetation mixed with snow, but vegetation type and physiological condition cannot be determined.",
+        "confidence": "medium"
+      },
+      {
+        "claim": "Cyan and blue tones alone do not establish wet snow, soil moisture or meltwater.",
+        "confidence": "high"
+      },
+      {
+        "claim": "No open-water body is confidently delineated, so water turbidity cannot be assessed.",
+        "confidence": "high"
+      },
+      {
+        "claim": "Bare soil and built surfaces cannot be reliably separated within the gray-blue terrain.",
+        "confidence": "high"
+      }
+    ],
+    "not_revealed": "These displayed composites do not provide calibrated reflectance, reliable vegetation indices, snow depth, snow water equivalent, canopy species, soil moisture, surface temperature or acquisition history (high confidence). Snow/cloud discrimination and moisture assessment would benefit from additional spectral bands and metadata (high confidence)."
+  },
+  "interpretation": [
+    {
+      "claim": "The most plausible scene interpretation is a snowy mosaic of open ground and darker, possibly wooded terrain.",
+      "confidence": "medium",
+      "evidence": "Levels 1–2, all cells: smooth white/cyan openings alternate with granular gray-blue blocks; Level 4: similar bright patterns persist in both composites."
+    },
+    {
+      "claim": "Cold conditions at acquisition are plausible, but winter season versus persistent high-elevation snow cannot be distinguished.",
+      "confidence": "medium",
+      "evidence": "Levels 1 and 4, especially top_left, top_right and bottom_center: extensive snow-like bright cover."
+    },
+    {
+      "claim": "Woody cover is plausible in the mottled blocks, but forest type, plantation status and forestry management are unresolved.",
+      "confidence": "medium",
+      "evidence": "Levels 2–3, top_left, top_center and middle_center: granular texture and broad connected patches; no diagnostic management pattern is resolved."
+    },
+    {
+      "claim": "Agricultural use, crop identity, rotation and harvest status cannot be established.",
+      "confidence": "high",
+      "evidence": "Levels 2–3, all cells: no clear repeated field grid, crop rows or diagnostic agricultural structures are resolved."
+    },
+    {
+      "claim": "Settlement and transport infrastructure are not confidently identifiable.",
+      "confidence": "high",
+      "evidence": "Levels 2–3, all cells: no unambiguous building clusters or connected road network; dark bands have uncertain identities."
+    },
+    {
+      "claim": "Uneven snow exposure could reflect canopy interception, shading or differences in ground cover; active melting is not demonstrated.",
+      "confidence": "low",
+      "evidence": "Levels 2 and 4, middle_center and bottom_center: bright openings adjoin mottled terrain and blue-dark margins."
+    },
+    {
+      "claim": "The images do not establish irrigation, flooding, erosion, recent clearing or vegetation stress.",
+      "confidence": "high",
+      "evidence": "Levels 3–4, all cells: no diagnostic process features or temporal changes are available."
+    },
+    {
+      "claim": "A seasonally snowy temperate, boreal or montane setting is plausible, but no particular biome or climate regime can be selected reliably.",
+      "confidence": "low",
+      "evidence": "Levels 1 and 4, entire patch: probable snow and possible woody cover, without identifiable species, elevation or geographic context."
+    }
+  ],
+  "uncertainties": [
+    "Snow is the leading interpretation of bright cover, but cloud contamination cannot be excluded from these composites alone (medium confidence).",
+    "Gray-blue mottling could combine trees, exposed ground, rock, snow and shadow; its composition is unresolved (high confidence).",
+    "Apparent cover percentages are approximate and could shift substantially if bright cloud obscures the ground (high confidence).",
+    "Individual trees, small buildings, narrow tracks, ditches and streams cannot be reliably identified at this resolution (high confidence).",
+    "Upsampling does not add spatial information; smoothing and color fringes may exaggerate apparent feature width (high confidence).",
+    "Feature dimensions are approximate apparent extents, and listed complexes are not an exhaustive inventory of small patches (high confidence).",
+    "Bright saturation and unknown display stretches limit spectral comparison and obscure detail within white areas (high confidence).",
+    "Dark bands may be vegetation margins, terrain shadows or other surfaces; interpreting them as roads or rivers would be speculative (high confidence).",
+    "Absence of strong red does not by itself demonstrate unhealthy or dormant vegetation (high confidence).",
+    "Topography, acquisition season, snow persistence and change through time remain unresolved (high confidence)."
+  ],
+  "summaries": {
+    "w25": "Probable snow-covered terrain alternates with mottled, possibly wooded patches (medium confidence). Strong red vegetation is absent (high confidence); land use remains unresolved (high confidence).",
+    "w50": "Probable snow cover forms bright openings among mottled, possibly wooded terrain (medium confidence). Dark curved margins separate patches (high confidence). Strong red vegetation is absent (high confidence), but vigor cannot be diagnosed. Roads, water and buildings are unresolved; season, biome and active processes remain uncertain (high confidence).",
+    "w100": "The patch likely depicts snowy open ground interspersed with darker, possibly wooded terrain (medium confidence). Apparent cover is estimated at 45% bright snow-like surfaces, 48% mottled terrain and 7% dark margins (low confidence in exact fractions). A mottled belt trends northwest–southeast, while large bright openings occupy northern and lower-central areas (high confidence). False color shows little strong red, limiting evidence for exposed vigorous vegetation (high confidence). Snow masking and display effects prevent health diagnosis. Roads, buildings, water, management and active processes are unresolved (high confidence). Cloud contamination remains possible (low confidence).",
+    "w200": "The leading interpretation is a snow-covered mosaic of open ground and darker, possibly wooded patches (medium confidence). Visual estimates assign 45% to bright white/cyan cover, 48% to mottled gray-blue terrain and 7% to dark margins; exact fractions have low confidence.\n\nA connected mottled belt runs from the upper center through the middle toward the lower right (high confidence). Bright openings occur along the northern edge, across the middle left, and prominently in the lower center. Curved dark bands border several openings, including a long southern margin (high confidence). Their interpretation as vegetation edges or shadows has low confidence.\n\nBoth composites retain extensive white and cyan areas. Strong bright-red vegetation is absent (high confidence), but this cannot establish poor vegetation health because snow masking and rendering choices may suppress the signal. Woody cover is plausible from texture (medium confidence); crop identity, forestry management and settlement remain unresolved (high confidence).\n\nCold-season or persistent elevated snow is plausible (medium confidence), but the biome and climate are poorly constrained. No diagnostic evidence establishes flooding, irrigation, erosion, harvesting or recent clearing (high confidence). Snow/cloud ambiguity, saturation, mixed pixels and display upsampling limit interpretation (high confidence).",
+    "w400": "The patch most plausibly shows snow-covered open ground interspersed with mottled, possibly wooded terrain (medium confidence). Approximate apparent cover is 45% bright white/cyan surfaces, 48% mottled gray-blue terrain and 7% dark margins. These are visual estimates with low confidence in exact fractions, rather than measured land-cover proportions.\n\nThe spatial pattern is strongly heterogeneous (high confidence). In the upper left, a bright northern opening adjoins a granular terrain block bounded by a dark curved edge. The upper center contains mottled terrain continuing southeast through the middle into the lower right. The upper right is mainly bright white/cyan, with some darker terrain near the image edge. A broad bright corridor crosses the middle left, and a large irregular opening spans the lower-left and lower-center cells. Dark, scalloped margins trace parts of its southern boundary (high confidence for these visible patterns).\n\nThe largest bright openings and terrain blocks extend several hundred meters. Narrow dark bands have apparent widths of tens of meters, although their dimensions are sensitive to mixed pixels and display smoothing (medium confidence). They cannot confidently be assigned to roads, streams or other infrastructure. No buildings or open-water bodies are unambiguously resolved (high confidence).\n\nTrue color is dominated by near-white brightness, cyan transitions and blue-gray texture. False color retains these patterns without conspicuous bright-red vegetation (high confidence). This supports limited evidence for exposed vigorous vegetation, but does not demonstrate stress or dormancy. Snow masking, canopy structure and display stretching could explain the weak red response (medium confidence). Moisture, wet snow, water turbidity, bare soil and built surfaces cannot be reliably diagnosed (high confidence).\n\nPossible woody cover is suggested by granular texture and connected darker patches (medium confidence). Agricultural use, crop rotation, plantation management and settlement are unresolved (high confidence). Uneven snow exposure might reflect shading, canopy interception or ground-cover differences (low confidence); active melting, irrigation, flooding, erosion, harvest and recent clearing are not established (high confidence).\n\nA seasonally snowy temperate, boreal or montane setting is plausible (low confidence), but snow persistence, acquisition season and climate cannot be selected from these views. Cloud contamination remains an alternative explanation for some brightness (low confidence). Saturation, uncertain spectral stretches, mixed pixels and upsampling constrain all finer interpretation (high confidence)."
+  }
+}

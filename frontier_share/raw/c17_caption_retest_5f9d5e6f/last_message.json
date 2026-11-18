@@ -1,0 +1,229 @@
+{
+  "global": {
+    "cover": [
+      {
+        "class": "Dense woody vegetation, probably woodland or forest (medium confidence)",
+        "percent": 65
+      },
+      {
+        "class": "Open or sparse vegetation mixed with exposed ground (medium confidence)",
+        "percent": 28
+      },
+      {
+        "class": "Predominantly exposed soil or rock (medium confidence)",
+        "percent": 7
+      }
+    ],
+    "landscape": "Predominantly vegetated landscape with irregular openings and elongated dark belts; probably wooded, uneven terrain (medium confidence). No clear urban fabric or large water body is visible (high confidence).",
+    "season_cues": "Extensive red responses in false color indicate substantial leafy vegetation (high confidence). Pale openings may represent sparse vegetation, exposed ground or locally senescent cover (medium confidence). A specific season cannot be assigned (low confidence).",
+    "heterogeneity": "Moderate to high heterogeneity: connected vegetation surrounds fragmented pale openings, with strong local differences in canopy density or illumination (high confidence). Cover percentages are approximate visual estimates (medium confidence)."
+  },
+  "grid": [
+    {
+      "cell": "top_left",
+      "cover": "Predominantly woody vegetation with scattered open patches (medium confidence).",
+      "texture": "Mottled green in true color and red in false color; irregular coarse tonal variation (high confidence).",
+      "features": "Pale openings become more conspicuous toward the right edge; a dark vegetated belt approaches the lower edge (high confidence)."
+    },
+    {
+      "cell": "top_center",
+      "cover": "Mixed woody vegetation and a prominent pale clearing complex (high confidence).",
+      "texture": "Strong contrast between tan or gray openings and dark green vegetation; curved, branching edges (high confidence).",
+      "features": "Lobed pale opening with vegetated internal islands in the upper and left portions; a dark elongated vegetation belt lies toward the right (high confidence)."
+    },
+    {
+      "cell": "top_right",
+      "cover": "Mostly woody vegetation with diffuse sparse-cover patches (medium confidence).",
+      "texture": "Mottled dark green, with red to dark burgundy false-color tones (high confidence).",
+      "features": "Broad darker cover near the upper-right corner and irregular lighter patches toward the center and lower edge (high confidence)."
+    },
+    {
+      "cell": "middle_left",
+      "cover": "Predominantly dense vegetation (medium confidence).",
+      "texture": "Relatively dark and continuous across the upper portion, becoming mottled below (high confidence).",
+      "features": "A broad dark belt runs approximately southwest–northeast; small pale flecks occur within surrounding vegetation (medium confidence)."
+    },
+    {
+      "cell": "middle_center",
+      "cover": "Intermixed woody vegetation and open, sparsely vegetated ground (medium confidence).",
+      "texture": "Coarse patchwork of gray-green openings and darker vegetation, with locally curved margins (high confidence).",
+      "features": "Broad irregular opening in the upper half, pale narrow segments near its lower margin, and darker connecting vegetation below (high confidence)."
+    },
+    {
+      "cell": "middle_right",
+      "cover": "Mixed woody cover and elongated sparse or exposed patches (medium confidence).",
+      "texture": "Strongly mottled, with pale gray streaks and darker intervening strips (high confidence).",
+      "features": "Several roughly north–south openings; a compact bright patch near the lower portion approaches the bottom-row boundary (high confidence)."
+    },
+    {
+      "cell": "bottom_left",
+      "cover": "Mostly woody vegetation with small openings (medium confidence).",
+      "texture": "Dark green mottling with elongated dark and bright-red bands in false color (high confidence).",
+      "features": "Oblique vegetation bands trend southwest–northeast; isolated pale flecks lack a recognizable built pattern (medium confidence)."
+    },
+    {
+      "cell": "bottom_center",
+      "cover": "Predominantly vegetation with scattered sparse-cover patches (medium confidence).",
+      "texture": "Irregular green and red mosaic, locally interrupted by gray patches (high confidence).",
+      "features": "A dark diagonal belt crosses the cell; small pale openings cluster toward the right and lower portions (medium confidence)."
+    },
+    {
+      "cell": "bottom_right",
+      "cover": "Mostly woody vegetation with fragmented openings (medium confidence).",
+      "texture": "Red vegetation surrounds gray-green patches and a dark diagonal strip (high confidence).",
+      "features": "Dark belt extends toward the upper-right; pale ground enters at the bottom edge, and small bright patches occur near the upper-left boundary (high confidence)."
+    }
+  ],
+  "boundaries": "Most boundaries are irregular, lobed or diffuse, with no clear rectilinear field network (high confidence). The strongest pale-ground contrast occurs in top_center; additional openings extend through middle_center and middle_right (high confidence). Dark, approximately southwest–northeast belts connect several cells, potentially reflecting vegetation structure and terrain illumination (medium confidence). Narrow linear features cannot be traced confidently as roads or streams (low confidence).",
+  "features": [
+    {
+      "type": "Pale clearing or sparse-cover complex with vegetated islands (high confidence for appearance; medium confidence for cover interpretation)",
+      "cell": "top_center, extending into top_left",
+      "size_m": "Approximately 250–350 wide and 300–400 long; visual estimate, medium confidence",
+      "shape": "Irregular, lobed and locally arcuate (high confidence)",
+      "orientation": "Broadly north–south (medium confidence)",
+      "count": 1
+    },
+    {
+      "type": "Central open-cover complex (medium confidence)",
+      "cell": "middle_center",
+      "size_m": "Approximately 250–350 across; visual estimate, medium confidence",
+      "shape": "Irregular broad patch with narrow vegetated divisions (high confidence)",
+      "orientation": "No strong single orientation (medium confidence)",
+      "count": 1
+    },
+    {
+      "type": "Eastern fragmented sparse-cover complex (medium confidence)",
+      "cell": "middle_right, extending into middle_center",
+      "size_m": "Approximately 250–400 wide and 350–500 long overall; visual estimate, medium confidence",
+      "shape": "Elongated lobes separated by vegetation; counted as one complex (high confidence)",
+      "orientation": "Broadly north–south (medium confidence)",
+      "count": 1
+    },
+    {
+      "type": "Compact bright ground patch, possibly exposed soil or rock (medium confidence)",
+      "cell": "middle_right near bottom_right boundary",
+      "size_m": "Approximately 30–60 across; visual estimate, low confidence",
+      "shape": "Compact and irregular (medium confidence)",
+      "orientation": "No clear orientation (high confidence)",
+      "count": 1
+    },
+    {
+      "type": "Broad dark vegetated belt (medium confidence)",
+      "cell": "middle_left through top_center",
+      "size_m": "Approximately 80–180 wide and 600–800 long within the patch; visual estimate, low confidence",
+      "shape": "Elongated and gently curving, with diffuse edges (high confidence)",
+      "orientation": "Southwest–northeast (medium confidence)",
+      "count": 1
+    },
+    {
+      "type": "Lower dark vegetated belt (medium confidence)",
+      "cell": "bottom_left through bottom_center toward middle_right",
+      "size_m": "Approximately 40–100 wide and 650–900 long; continuity and dimensions have low confidence",
+      "shape": "Elongated, irregular and locally interrupted (medium confidence)",
+      "orientation": "Southwest–northeast (medium confidence)",
+      "count": 1
+    }
+  ],
+  "spectral": {
+    "true_color": "Dark to medium greens dominate, interrupted by olive-gray and tan openings (high confidence). The top-center opening is particularly pale; a few smaller whitish flecks occur centrally and toward the right (high confidence). Dark belts have diffuse margins and retain a vegetated appearance (medium confidence).",
+    "false_color": "Red occupies most of the patch, ranging from vivid red to dark crimson or burgundy (high confidence). Many pale true-color openings become gray-green or muted reddish gray, while surrounding vegetation remains distinctly red (high confidence). The darkest true-color belts retain red responses in several places (high confidence).",
+    "implications": [
+      {
+        "claim": "Widespread red responses support extensive leafy vegetation with appreciable near-infrared reflectance.",
+        "confidence": "high"
+      },
+      {
+        "claim": "Variation in red intensity likely reflects a mixture of vegetation density, foliage properties and illumination; it does not independently establish vegetation health.",
+        "confidence": "high"
+      },
+      {
+        "claim": "Pale tan areas with weak red responses probably contain more exposed soil or rock and less leafy cover than their surroundings.",
+        "confidence": "medium"
+      },
+      {
+        "claim": "Dark belts are more consistent with shaded or dense vegetation than with clearly identifiable open water.",
+        "confidence": "medium"
+      },
+      {
+        "claim": "Differences in soil or canopy moisture cannot be isolated confidently from these displayed colors.",
+        "confidence": "high"
+      },
+      {
+        "claim": "No confidently identifiable water surface is available for assessing turbidity.",
+        "confidence": "high"
+      },
+      {
+        "claim": "Small bright patches do not provide sufficient spectral or geometric evidence to identify buildings or other built surfaces.",
+        "confidence": "high"
+      }
+    ],
+    "not_revealed": "These renderings do not establish species, crop identity, canopy height, biomass, soil moisture, water quality, substrate composition or disturbance timing (high confidence). Display scaling prevents quantitative reflectance or vegetation-index measurement from color alone (high confidence)."
+  },
+  "interpretation": [
+    {
+      "claim": "The patch is predominantly wooded, with a connected vegetation matrix surrounding irregular openings.",
+      "confidence": "medium",
+      "evidence": "Levels 1, 2 and 4; all cells: dominant green cover, extensive red response and coarse irregular texture."
+    },
+    {
+      "claim": "The landscape may have appreciable relief, with terrain contributing to elongated dark belts and cover contrasts.",
+      "confidence": "medium",
+      "evidence": "Levels 2 and 3; middle_left, top_center, bottom_left and bottom_center: oblique dark belts and irregular, locally curved boundaries. Elevation is not directly observed."
+    },
+    {
+      "claim": "The openings could represent managed clearings, naturally sparse ground or a mixture of both.",
+      "confidence": "low",
+      "evidence": "Levels 2–4; top_center, middle_center and middle_right: pale lobed patches with weaker red responses, but no diagnostic management geometry."
+    },
+    {
+      "claim": "There is insufficient evidence to identify crops, crop rotation, irrigation or harvesting.",
+      "confidence": "high",
+      "evidence": "Levels 2 and 3; all cells: no clear crop rows, regular parcel system or irrigation structures; only one observation is available."
+    },
+    {
+      "claim": "Forestry activity is possible but cannot be established from the openings alone.",
+      "confidence": "low",
+      "evidence": "Levels 2 and 3; top_center and middle_center: openings interrupt woody cover, but logging roads, stumps and stand-age patterns are unresolved."
+    },
+    {
+      "claim": "No settlement cluster is confidently identifiable.",
+      "confidence": "high",
+      "evidence": "Levels 2 and 3; all cells: no coherent roof, street or block pattern; isolated bright flecks remain ambiguous."
+    },
+    {
+      "claim": "Leafy vegetation remains extensive, but ecological condition and recovery stage cannot be determined.",
+      "confidence": "high",
+      "evidence": "Levels 1 and 4; all cells: widespread red response, with no temporal or calibrated physiological measurements."
+    },
+    {
+      "claim": "Active erosion, flooding and recent clearing cannot be confirmed.",
+      "confidence": "high",
+      "evidence": "Levels 3 and 4; central and eastern openings lack diagnostic sediment plumes, inundation boundaries or dated changes."
+    },
+    {
+      "claim": "A wooded terrestrial setting is supported, but a particular biome or climate regime is not distinguishable.",
+      "confidence": "high",
+      "evidence": "Levels 1, 2 and 4; all cells: woody-looking vegetation and exposed patches occur in many climatic and ecological settings."
+    }
+  ],
+  "uncertainties": [
+    "Cover fractions are visual estimates rather than a pixel classification; uncertainty is approximately several to ten percentage points per major class (medium confidence).",
+    "At 10 m resolution, individual trees, narrow tracks, small channels and most isolated structures cannot be reliably separated (high confidence).",
+    "Upsampling enlarges the display without adding ground detail; small flecks and apparent curves may reflect mixed pixels and interpolation (high confidence).",
+    "Dense shrubland, woodland and forest cannot be consistently distinguished from these renderings (high confidence).",
+    "Sparse vegetation, dry vegetation, exposed soil and rock overlap spectrally in the pale patches (high confidence).",
+    "Terrain shadow and canopy differences are confounded in the dark belts; their physical origin remains uncertain (high confidence).",
+    "No obvious cloud cover is visible, but subtle haze and illumination effects cannot be quantified (medium confidence).",
+    "Feature sizes describe approximate visible extents; fragmented complexes do not have uniquely defined boundaries or component counts (high confidence).",
+    "No clear roads, rivers, lakes or buildings are resolved; small examples may still be present (medium confidence).",
+    "Season, management history and active change cannot be inferred reliably from a single undated image pair (high confidence)."
+  ],
+  "summaries": {
+    "w25": "Probably wooded terrain contains irregular sparse or exposed openings (medium confidence). Widespread red indicates leafy vegetation (high confidence); season and management remain unresolved.",
+    "w50": "The patch is probably dominated by woody vegetation, with irregular pale openings concentrated toward the upper center and middle right (medium confidence). Extensive false-color red supports leafy cover (high confidence). Dark diagonal belts may reflect terrain and canopy variation (medium confidence). Season, management and climate remain unresolved.",
+    "w100": "The 1.2 km patch probably contains about 65% dense woody cover, 28% sparse vegetation mixed with ground, and 7% exposed soil or rock (medium confidence). Irregular openings are strongest in the upper center and central to eastern cells (high confidence). Dark southwest–northeast belts may reflect canopy and terrain illumination (medium confidence). Extensive false-color red confirms substantial leafy vegetation, while pale openings have weaker responses (high confidence). No settlement or large water body is confidently identified. Crop identity, forestry activity, season, moisture and climate cannot be established from these renderings (high confidence).",
+    "w200": "This 1.2 km scene is probably a wooded landscape with irregular openings and uneven terrain (medium confidence). Visual cover estimates are 65% dense woody vegetation, 28% sparse vegetation mixed with exposed ground, and 7% predominantly bare soil or rock (medium confidence).\n\nThe strongest pale clearing complex occupies the upper center, with curved margins and vegetated islands (high confidence). Additional fragmented openings cross the middle center and middle right. Lower and western cells retain more continuous vegetation (medium confidence). Several dark belts trend approximately southwest–northeast; canopy differences and terrain illumination are plausible explanations (medium confidence).\n\nTrue color is dominated by greens with tan and gray openings. False color shows extensive red vegetation and weaker red responses over pale ground (high confidence). This supports differences in leafy cover, but does not independently measure health or moisture (high confidence).\n\nNo clear settlement, large water body or regular crop-field system is identified (high confidence). Natural sparse ground and managed clearings remain difficult to distinguish (low confidence). Season, crop type, forestry history, active erosion, flooding and specific biome or climate remain unresolved. Ten-meter pixels and display interpolation limit identification of small structures, tracks and channels (high confidence).",
+    "w400": "The paired renderings show a predominantly vegetated 1.2 km landscape with connected woody-looking cover and irregular openings (medium confidence). Approximate visual fractions are 65% dense woody vegetation, 28% sparse vegetation mixed with exposed ground, and 7% predominantly bare soil or rock (medium confidence). These are broad estimates, not measured classifications.\n\nThe upper-center cell contains the most conspicuous pale complex, roughly 250–350 m wide and 300–400 m long, with lobed margins and vegetated internal islands (medium confidence). The middle center contains another broad opening, while the middle right has elongated, fragmented pale patches (high confidence). Western and lower cells generally retain more continuous cover, punctuated by small openings (medium confidence). Boundaries are mostly irregular or diffuse, and there is no clear rectangular field network (high confidence).\n\nDark belts cross the western and lower portions approximately southwest–northeast (medium confidence). Their appearance is consistent with dense or shaded vegetation, potentially influenced by relief, although elevation and drainage cannot be established directly (medium confidence). Narrow pale segments and isolated bright flecks cannot be identified confidently as roads or buildings (high confidence).\n\nTrue color is predominantly dark to medium green, with tan and olive-gray openings. False color shows extensive vivid red through dark crimson vegetation, whereas many pale openings become gray-green or muted reddish gray (high confidence). This supports substantial leafy cover and spatial differences in vegetation density (high confidence). Red brightness alone does not establish physiological health, and moisture cannot be isolated from illumination and cover effects (high confidence). No confidently recognized water surface permits a turbidity assessment.\n\nNatural sparse ground, exposed substrate and managed clearings are plausible explanations for the openings, but their relative contributions remain uncertain (low confidence). Forestry, crop rotation, irrigation, harvest, recent clearing, erosion and flooding cannot be confirmed (high confidence). No settlement cluster or large water body is confidently resolved. A wooded terrestrial setting is supported, but season, specific biome and climate are undetermined (high confidence).\n\nAt 10 m resolution, mixed pixels obscure small structures, individual trees, narrow tracks and channels. Upsampling adds no ground detail, and display colors do not support quantitative reflectance measurements. Temporal imagery and additional measurements would be required to establish change, management history or ecological condition (high confidence)."
+  }
+}
