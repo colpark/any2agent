@@ -58,3 +58,45 @@ Host A only. Python: `~/langres_state/venv/bin/python` (LangRes venv; sklearn 1.
 ## FS-4
 - `scripts/fs4_readouts.py` -> readouts.json, readouts_tables.md. Classification uses the main caption's reader answers; the retest caption feeds only the test-retest readout.
 - REPORT_FS_PILOT.md written. Pilot stopped.
+
+# Feature bridge (FB-0 to FB-4)
+
+## FB-0 (2026-11-18)
+- Read REPORT_FS_PILOT.md and LOG.md. `DESIGN_FB_v1.md` = section "Frozen design" copied verbatim, sha256 b937afce093b28b4831a04d72b06f2ffc406d5019d87e8231a1fc29b65b69ebf.
+- Codex: codex-cli 0.164.0, "Logged in using ChatGPT" (existing login; no credential handled). Config values validated locally (`codex -c ... mcp list`, no model call).
+- **Read-only sandbox check (no model call): it fails.** `codex sandbox -P :read-only -C ~/langres_state/fb/sbtest echo hello` -> `bwrap: loopback: Failed RTM_NEWADDR: Operation not permitted`.
+  - `:workspace` fails the same way; `:danger-full-access` runs.
+  - Cause: `kernel.apparmor_restrict_unprivileged_userns = 1` on host A. Node A2 has the same setting (read with sysctl over ssh).
+  - Effect: under `-s read-only`, Astra could run no command in A1 or A0.
+  - Filed `CHANGE_REQUEST_FB-X1.md`. No Astra call until approval. Astra calls used for FB: 0/3.
+
+## FB-1
+- `scripts/fb1_prepare.py`:
+  - Q17 OLS (with intercept) of mean NDMI on mean B02, B03, B04, B08, mean NDVI and mean NDWI, on the RL pool (20,000). R² = 0.592. The NDMI recomputed here matches the pilot's stored values (assert).
+  - Q17 RL-pool yes-rate 0.456, so majority = no.
+  - Q17 Prithvi probe (C=1.0, max_iter 3000, 5-fold stratified CV, seed 0): CV acc 0.949 (majority 0.544); test100 acc 0.95. On the 10 targets: 4/10 keys are yes, and the probe is right on 9/10. Saved to fb/q17_facts.json and ~/langres_state/fb/q17.npz.
+- Bank: 1,000 RL-pool patches drawn with make_splits.strat's procedure (default_rng(0), proportional by exact label set, largest remainder); 424 label sets. Saved to ~/langres_state/fb/bank.json.
+- Neighbors: cosine on the standardized Prithvi features; top-5 cosine across targets is 0.61–0.93. Saved to ~/langres_state/fb/neighbors.json.
+  - Random control: `default_rng(0).choice(1000, 5)` for each target. Read literally, "seed 0 per target" gives every target the same 5 random bank patches. Noted, not changed.
+- Bank captions: `scripts/fb1_bank_captions.py`. Qwen2.5-VL-7B-Instruct @cc594898 on vLLM 0.34.0, greedy, max_tokens 160, seed 0. Arm B prompt (true color + false color, preamble, DESCRIBE), 448 px, gpu_memory_utilization 0.5, nice -n 10. 327 s.
+  - Prompt sha256 72d81c4ee868cdd91b77d0656aaccfb5878dc4909d52316afc2cec16d228cd45.
+  - 1,000 captions, mean 116.7 words (max 142); 861 are over 100 words; 244 stopped at the 160-token limit. Expected under the frozen settings.
+  - Saved to ~/langres_state/fb/bank_captions.jsonl. That file holds patch ids, but readers and agents get bank ids and captions only.
+- FB-X1 (sandbox): the user approved option 1 and installed the bwrap AppArmor profile. Sandbox re-test passed; see CHANGE_REQUEST_FB-X1.md. The design settings are unchanged, so FB-X1 needs no deviation.
+
+## FB-2
+- `scripts/fb2_reader.py`: Phi-4 @2db69c1c, greedy, max_new_tokens 2000 (none hit the limit), batch 8 left-padded, nice -n 10, 783 s. 30 jobs: C0_Q17 ×10, C1 ×10, C2 ×10. Parsed with reader_parse.py.
+  - Template: the pilot head. The entry count follows the questions asked (17; 1 for C0_Q17). The verbatim FB block sits between the head and the question list, with items written "[r] cosine 0.xx: caption".
+- 14/30 outputs have every answer as yes or no. In the other 16, C1 and C2 answered "unknown" or "uncertain" despite the best-guess instruction: 70/170 C1 answers and 39/170 C2 answers. Following the pilot convention, they count as wrong.
+
+## FB-3
+- calls.jsonl:
+  - A1 (try 1): 211 s, 8 commands, all exit 0.
+  - A0 (try 2): 196 s, 5 commands, all exit 0.
+  - FB Astra calls used: 2/3, no retry. No usage limit.
+- FB-E1 (bug, my audit): A1 was marked voided_audit. The flagged token "/np.sqrt(p.explained_variance_" is a division in Astra's Python code, not a path.
+  - Fix: a path must start at a word boundary with a real top-level directory, ~, $HOME or ../. Tests: it flags /etc/passwd, a ~/langres_data path inside Python, ~/, ../x and curl; it does not flag x/np.sqrt(y).
+  - Re-audit (`scripts/fb3_reaudit.py`, no model call): A1 clean, 0 flags; output kept. A0 clean under both audits. Every command read only workspace files with the venv Python or ls/cat/head; listed in fb/raw_*/commands.json.
+
+## FB-4
+- `scripts/fb4_readouts.py` -> fb/readouts.json, fb/readouts_tables.md. Sign tests are two-sided binomial tests on discordant items. REPORT_FB.md written. FB stopped.

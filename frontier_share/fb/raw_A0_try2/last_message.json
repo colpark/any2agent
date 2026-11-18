@@ -1,0 +1,225 @@
+{
+  "answers": [
+    {
+      "target_id": "fc0369af-2c2d-404e-af72-f649b48fd310",
+      "entries": [
+        {"id":"Q1","answer":"no","confidence":"high"},
+        {"id":"Q2","answer":"yes","confidence":"medium"},
+        {"id":"Q3","answer":"yes","confidence":"high"},
+        {"id":"Q4","answer":"no","confidence":"medium"},
+        {"id":"Q5","answer":"no","confidence":"high"},
+        {"id":"Q6","answer":"no","confidence":"low"},
+        {"id":"Q7","answer":"yes","confidence":"medium"},
+        {"id":"Q8","answer":"no","confidence":"low"},
+        {"id":"Q9","answer":"no","confidence":"low"},
+        {"id":"Q10","answer":"no","confidence":"high"},
+        {"id":"Q11","answer":"yes","confidence":"medium"},
+        {"id":"Q12","answer":"no","confidence":"medium"},
+        {"id":"Q13","answer":"no","confidence":"low"},
+        {"id":"Q14","answer":"yes","confidence":"medium"},
+        {"id":"Q15","answer":"no","confidence":"medium"},
+        {"id":"Q16","answer":"no","confidence":"low"},
+        {"id":"Q17","answer":"yes","confidence":"low"}
+      ]
+    },
+    {
+      "target_id": "bcec7e27-2d53-4111-b902-8fca173ba248",
+      "entries": [
+        {"id":"Q1","answer":"no","confidence":"medium"},
+        {"id":"Q2","answer":"no","confidence":"high"},
+        {"id":"Q3","answer":"yes","confidence":"high"},
+        {"id":"Q4","answer":"no","confidence":"high"},
+        {"id":"Q5","answer":"no","confidence":"high"},
+        {"id":"Q6","answer":"yes","confidence":"low"},
+        {"id":"Q7","answer":"yes","confidence":"medium"},
+        {"id":"Q8","answer":"yes","confidence":"low"},
+        {"id":"Q9","answer":"no","confidence":"low"},
+        {"id":"Q10","answer":"no","confidence":"high"},
+        {"id":"Q11","answer":"yes","confidence":"medium"},
+        {"id":"Q12","answer":"no","confidence":"medium"},
+        {"id":"Q13","answer":"no","confidence":"low"},
+        {"id":"Q14","answer":"yes","confidence":"medium"},
+        {"id":"Q15","answer":"yes","confidence":"low"},
+        {"id":"Q16","answer":"yes","confidence":"low"},
+        {"id":"Q17","answer":"yes","confidence":"low"}
+      ]
+    },
+    {
+      "target_id": "ffa692a8-0cb0-4c93-9fd4-d57a22d5294f",
+      "entries": [
+        {"id":"Q1","answer":"no","confidence":"high"},
+        {"id":"Q2","answer":"yes","confidence":"high"},
+        {"id":"Q3","answer":"yes","confidence":"low"},
+        {"id":"Q4","answer":"yes","confidence":"low"},
+        {"id":"Q5","answer":"no","confidence":"low"},
+        {"id":"Q6","answer":"no","confidence":"low"},
+        {"id":"Q7","answer":"no","confidence":"low"},
+        {"id":"Q8","answer":"no","confidence":"low"},
+        {"id":"Q9","answer":"no","confidence":"low"},
+        {"id":"Q10","answer":"no","confidence":"low"},
+        {"id":"Q11","answer":"yes","confidence":"low"},
+        {"id":"Q12","answer":"no","confidence":"low"},
+        {"id":"Q13","answer":"yes","confidence":"low"},
+        {"id":"Q14","answer":"yes","confidence":"medium"},
+        {"id":"Q15","answer":"no","confidence":"low"},
+        {"id":"Q16","answer":"yes","confidence":"medium"},
+        {"id":"Q17","answer":"yes","confidence":"low"}
+      ]
+    },
+    {
+      "target_id": "354d86b7-c2c2-4231-854d-767edc81e5bb",
+      "entries": [
+        {"id":"Q1","answer":"no","confidence":"high"},
+        {"id":"Q2","answer":"yes","confidence":"medium"},
+        {"id":"Q3","answer":"yes","confidence":"low"},
+        {"id":"Q4","answer":"yes","confidence":"medium"},
+        {"id":"Q5","answer":"no","confidence":"high"},
+        {"id":"Q6","answer":"no","confidence":"medium"},
+        {"id":"Q7","answer":"no","confidence":"medium"},
+        {"id":"Q8","answer":"no","confidence":"low"},
+        {"id":"Q9","answer":"no","confidence":"medium"},
+        {"id":"Q10","answer":"no","confidence":"high"},
+        {"id":"Q11","answer":"no","confidence":"medium"},
+        {"id":"Q12","answer":"yes","confidence":"medium"},
+        {"id":"Q13","answer":"yes","confidence":"low"},
+        {"id":"Q14","answer":"yes","confidence":"low"},
+        {"id":"Q15","answer":"no","confidence":"medium"},
+        {"id":"Q16","answer":"no","confidence":"low"},
+        {"id":"Q17","answer":"no","confidence":"low"}
+      ]
+    },
+    {
+      "target_id": "3f747420-913a-44d0-8cc8-49088e9b77c8",
+      "entries": [
+        {"id":"Q1","answer":"no","confidence":"low"},
+        {"id":"Q2","answer":"no","confidence":"high"},
+        {"id":"Q3","answer":"no","confidence":"medium"},
+        {"id":"Q4","answer":"yes","confidence":"medium"},
+        {"id":"Q5","answer":"yes","confidence":"high"},
+        {"id":"Q6","answer":"no","confidence":"medium"},
+        {"id":"Q7","answer":"no","confidence":"medium"},
+        {"id":"Q8","answer":"no","confidence":"medium"},
+        {"id":"Q9","answer":"no","confidence":"medium"},
+        {"id":"Q10","answer":"no","confidence":"low"},
+        {"id":"Q11","answer":"no","confidence":"low"},
+        {"id":"Q12","answer":"no","confidence":"medium"},
+        {"id":"Q13","answer":"yes","confidence":"medium"},
+        {"id":"Q14","answer":"yes","confidence":"medium"},
+        {"id":"Q15","answer":"no","confidence":"low"},
+        {"id":"Q16","answer":"yes","confidence":"medium"},
+        {"id":"Q17","answer":"no","confidence":"low"}
+      ]
+    },
+    {
+      "target_id": "2c3e8d2b-ff94-421d-b1fe-773fe8f2164d",
+      "entries": [
+        {"id":"Q1","answer":"yes","confidence":"low"},
+        {"id":"Q2","answer":"no","confidence":"high"},
+        {"id":"Q3","answer":"no","confidence":"high"},
+        {"id":"Q4","answer":"yes","confidence":"high"},
+        {"id":"Q5","answer":"yes","confidence":"high"},
+        {"id":"Q6","answer":"no","confidence":"medium"},
+        {"id":"Q7","answer":"no","confidence":"medium"},
+        {"id":"Q8","answer":"no","confidence":"medium"},
+        {"id":"Q9","answer":"yes","confidence":"low"},
+        {"id":"Q10","answer":"yes","confidence":"low"},
+        {"id":"Q11","answer":"no","confidence":"low"},
+        {"id":"Q12","answer":"no","confidence":"medium"},
+        {"id":"Q13","answer":"yes","confidence":"low"},
+        {"id":"Q14","answer":"yes","confidence":"medium"},
+        {"id":"Q15","answer":"no","confidence":"low"},
+        {"id":"Q16","answer":"no","confidence":"low"},
+        {"id":"Q17","answer":"no","confidence":"low"}
+      ]
+    },
+    {
+      "target_id": "5f9d5e6f-e221-43ef-b73f-7e4f895df271",
+      "entries": [
+        {"id":"Q1","answer":"yes","confidence":"medium"},
+        {"id":"Q2","answer":"no","confidence":"high"},
+        {"id":"Q3","answer":"no","confidence":"medium"},
+        {"id":"Q4","answer":"yes","confidence":"medium"},
+        {"id":"Q5","answer":"no","confidence":"medium"},
+        {"id":"Q6","answer":"no","confidence":"low"},
+        {"id":"Q7","answer":"no","confidence":"low"},
+        {"id":"Q8","answer":"yes","confidence":"medium"},
+        {"id":"Q9","answer":"yes","confidence":"low"},
+        {"id":"Q10","answer":"no","confidence":"medium"},
+        {"id":"Q11","answer":"yes","confidence":"low"},
+        {"id":"Q12","answer":"no","confidence":"medium"},
+        {"id":"Q13","answer":"no","confidence":"medium"},
+        {"id":"Q14","answer":"no","confidence":"low"},
+        {"id":"Q15","answer":"no","confidence":"low"},
+        {"id":"Q16","answer":"yes","confidence":"low"},
+        {"id":"Q17","answer":"no","confidence":"low"}
+      ]
+    },
+    {
+      "target_id": "0bf20967-86c2-4e27-96df-5220f4108873",
+      "entries": [
+        {"id":"Q1","answer":"yes","confidence":"high"},
+        {"id":"Q2","answer":"no","confidence":"high"},
+        {"id":"Q3","answer":"no","confidence":"high"},
+        {"id":"Q4","answer":"yes","confidence":"high"},
+        {"id":"Q5","answer":"yes","confidence":"medium"},
+        {"id":"Q6","answer":"yes","confidence":"low"},
+        {"id":"Q7","answer":"no","confidence":"low"},
+        {"id":"Q8","answer":"yes","confidence":"low"},
+        {"id":"Q9","answer":"yes","confidence":"medium"},
+        {"id":"Q10","answer":"yes","confidence":"low"},
+        {"id":"Q11","answer":"yes","confidence":"medium"},
+        {"id":"Q12","answer":"no","confidence":"high"},
+        {"id":"Q13","answer":"yes","confidence":"medium"},
+        {"id":"Q14","answer":"yes","confidence":"low"},
+        {"id":"Q15","answer":"yes","confidence":"low"},
+        {"id":"Q16","answer":"yes","confidence":"medium"},
+        {"id":"Q17","answer":"no","confidence":"low"}
+      ]
+    },
+    {
+      "target_id": "1bb3844f-c810-4173-b6f5-2654009e3d90",
+      "entries": [
+        {"id":"Q1","answer":"yes","confidence":"medium"},
+        {"id":"Q2","answer":"no","confidence":"high"},
+        {"id":"Q3","answer":"no","confidence":"medium"},
+        {"id":"Q4","answer":"no","confidence":"low"},
+        {"id":"Q5","answer":"no","confidence":"low"},
+        {"id":"Q6","answer":"yes","confidence":"low"},
+        {"id":"Q7","answer":"yes","confidence":"medium"},
+        {"id":"Q8","answer":"yes","confidence":"low"},
+        {"id":"Q9","answer":"yes","confidence":"low"},
+        {"id":"Q10","answer":"yes","confidence":"low"},
+        {"id":"Q11","answer":"yes","confidence":"medium"},
+        {"id":"Q12","answer":"no","confidence":"medium"},
+        {"id":"Q13","answer":"no","confidence":"low"},
+        {"id":"Q14","answer":"yes","confidence":"low"},
+        {"id":"Q15","answer":"yes","confidence":"medium"},
+        {"id":"Q16","answer":"yes","confidence":"medium"},
+        {"id":"Q17","answer":"yes","confidence":"low"}
+      ]
+    },
+    {
+      "target_id": "9931d1e8-7c27-4411-bb57-415b841dbb3c",
+      "entries": [
+        {"id":"Q1","answer":"yes","confidence":"medium"},
+        {"id":"Q2","answer":"no","confidence":"high"},
+        {"id":"Q3","answer":"no","confidence":"medium"},
+        {"id":"Q4","answer":"no","confidence":"medium"},
+        {"id":"Q5","answer":"yes","confidence":"high"},
+        {"id":"Q6","answer":"no","confidence":"low"},
+        {"id":"Q7","answer":"no","confidence":"low"},
+        {"id":"Q8","answer":"no","confidence":"low"},
+        {"id":"Q9","answer":"yes","confidence":"medium"},
+        {"id":"Q10","answer":"yes","confidence":"medium"},
+        {"id":"Q11","answer":"yes","confidence":"medium"},
+        {"id":"Q12","answer":"no","confidence":"medium"},
+        {"id":"Q13","answer":"no","confidence":"medium"},
+        {"id":"Q14","answer":"yes","confidence":"medium"},
+        {"id":"Q15","answer":"yes","confidence":"low"},
+        {"id":"Q16","answer":"yes","confidence":"medium"},
+        {"id":"Q17","answer":"no","confidence":"low"}
+      ]
+    }
+  ],
+  "method": "I used only the three supplied files. I combined estimated cover fractions, false-color vegetation responses, grid descriptions, parcel geometry, canopy texture and shoreline patterns. I also retrieved comparable bank captions using TF-IDF cosine similarity; matches were weak and sometimes spectrally questionable, so they received little weight. NDVI judgments reflect approximate vegetation–water–bare-surface mixtures; directional comparisons use the spatial descriptions. CORINE labels are inferred from landscape structure, with uncertainty for forest subtypes and small features that may not receive separate labels. NDMI, NDBI and texture thresholds are qualitative predictions, not calculated measurements. For Q3, I followed the stated NDWI criterion, allowing possible positive responses from cloud, snow or deep shadow despite unconfirmed open water. Confidence is lower for obscured scenes, ambiguous classes and threshold-sensitive estimates. Q17 receives low confidence throughout because neither SWIR measurements nor the expected-value model is available."
+}

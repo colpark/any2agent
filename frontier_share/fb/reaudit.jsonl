@@ -1,0 +1,2 @@
+{"call": "A1", "raw_dir": "raw_A1_try1", "reaudit": "FB-E1", "n_commands": 8, "audit_flags": [], "errors": [], "status": "ok"}
+{"call": "A0", "raw_dir": "raw_A0_try2", "reaudit": "FB-E1", "n_commands": 5, "audit_flags": [], "errors": [], "status": "ok"}
