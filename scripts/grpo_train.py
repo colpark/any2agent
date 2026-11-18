@@ -15,6 +15,10 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--arm", required=True); ap.add_argument("--out", required=True)
 ap.add_argument("--steps", type=int, default=450); ap.add_argument("--save_steps", type=int, default=150)
 ap.add_argument("--seed", type=int, default=0); ap.add_argument("--micro_bs", type=int, default=16)
+# LR-X24 single-patch sanity test (user-approved 2026-11-18); defaults = frozen design
+ap.add_argument("--single_patch", type=int, default=None, help="train on one rlpool index only")
+ap.add_argument("--lr", type=float, default=1e-5); ap.add_argument("--penalty", choices=["step", "graded"], default="step")
+ap.add_argument("--n_gen", type=int, default=4); ap.add_argument("--patches_per_step", type=int, default=32)
 a = ap.parse_args()
 os.makedirs(a.out, exist_ok=True)
 
@@ -27,17 +31,22 @@ rgb = np.load(f"{ARR}/rlpool_rgb.npy", mmap_mode="r"); fcc = np.load(f"{ARR}/rlp
 mu_img, mu_txt = load_means(a.arm)
 
 
-class PatchDS(torch.utils.data.Dataset):
-    def __len__(self):
-        return len(pids)
-
-    def __getitem__(self, i):
+def _build(batch):
+    # LR-E3: TRL needs a datasets.Dataset; images are built lazily on access
+    prompts = []
+    for i in batch["idx"]:
         msg = [image_user(a.arm, DESCRIBE)]
         it = iter(arm_images(a.arm, rgb[i], fcc[i]))
         for part in msg[0]["content"]:
             if part["type"] == "image":
                 part["image"] = next(it)
-        return {"prompt": msg, "idx": i}
+        prompts.append(msg)
+    return {"prompt": prompts, "idx": list(batch["idx"])}
+
+
+import datasets
+TRAIN_DS = datasets.Dataset.from_dict({"idx": [a.single_patch] * 100000 if a.single_patch is not None else list(range(len(pids)))})
+TRAIN_DS.set_transform(_build)
 
 
 proc = AutoProcessor.from_pretrained(VLM, revision=rev(VLM)); proc.tokenizer.padding_side = "left"
@@ -66,7 +75,10 @@ def reward_fn(prompts, completions, idx, **kw):
         pm.train()
     s = np.einsum("nd,nd->n", np.stack([UI[i] for i in idx]), ut)
     nw = np.array([n_words(t) for t in texts])
-    rew = s - 0.5 * (nw > 100)
+    if a.penalty == "graded":  # LR-X24: 0.05 per word over 100, capped at 0.5
+        rew = s - np.minimum(0.5, 0.05 * np.maximum(0, nw - 100))
+    else:
+        rew = s - 0.5 * (nw > 100)
     st = kw.get("trainer_state"); step = st.global_step if st is not None else -1
     for j, t in enumerate(texts):
         ROLL.write(json.dumps({"step": step, "arm": a.arm, "condition": "RL_rollout", "patch_id": pids[idx[j]], "summary": t,
@@ -83,17 +95,17 @@ class LogCB(TrainerCallback):
         self.f.write(json.dumps({"step": st.global_step, "wall_s": round(time.time() - self.t, 1), **(logs or {})}) + "\n"); self.f.flush()
 
 
-N_GEN, PATCHES = 4, 32
+N_GEN, PATCHES = a.n_gen, a.patches_per_step
 GEN_BS = N_GEN * PATCHES
 cfg = GRPOConfig(
-    output_dir=a.out, max_steps=a.steps, learning_rate=1e-5, beta=0.04, epsilon=0.2, num_generations=N_GEN,
+    output_dir=a.out, max_steps=a.steps, learning_rate=a.lr, beta=0.04, epsilon=0.2, num_generations=N_GEN,
     per_device_train_batch_size=a.micro_bs, gradient_accumulation_steps=GEN_BS // a.micro_bs, generation_batch_size=GEN_BS,
     num_iterations=1, temperature=1.0, top_p=1.0, top_k=0, max_completion_length=160, loss_type="grpo", scale_rewards="group",
     lr_scheduler_type="constant", warmup_steps=0, weight_decay=0.0, max_grad_norm=1.0, bf16=True, gradient_checkpointing=True,
     logging_steps=1, save_strategy="steps", save_steps=a.save_steps, report_to=[], remove_unused_columns=False,
     seed=a.seed, data_seed=a.seed, use_vllm=False, log_completions=False, dataloader_num_workers=2,
 )
-trainer = GRPOTrainer(model=model, reward_funcs=[reward_fn], args=cfg, train_dataset=PatchDS(), processing_class=proc,
+trainer = GRPOTrainer(model=model, reward_funcs=[reward_fn], args=cfg, train_dataset=TRAIN_DS, processing_class=proc,
                       peft_config=lcfg, callbacks=[LogCB()])
 TR["t"] = trainer
 json.dump({"args": vars(a), "grpo_config": {k: str(v) for k, v in cfg.to_dict().items()}}, open(f"{a.out}/config.json", "w"), indent=1)

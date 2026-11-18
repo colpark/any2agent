@@ -51,5 +51,21 @@
   "revision": "259a3b64a14623c0ec91a045cb43f7c5af5fa6af",
   "ok": true,
   "note": "official HF-native conversion of OpenGVLab/InternVL3-8B"
+ },
+ "llava-hf/llava-onevision-qwen2-7b-ov-hf": {
+  "revision": "0d50680527681998e456c7b78950205bedd8a068",
+  "role": "LR-X26 writer"
+ },
+ "mistral-community/pixtral-12b": {
+  "revision": "c2756cbbb9422eba9f6c5c439a214b0392dfc998",
+  "role": "LR-X26 writer"
+ },
+ "HuggingFaceM4/Idefics3-8B-Llama3": {
+  "revision": "fddb4ff79181e55a994674777e06cd5456ce3dc3",
+  "role": "LR-X26 writer"
+ },
+ "microsoft/phi-4": {
+  "revision": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+  "role": "LR-X26 fusion"
  }
 }
