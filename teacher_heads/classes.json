@@ -1,0 +1,78 @@
+[
+ {
+  "id": 1,
+  "name": "Urban fabric"
+ },
+ {
+  "id": 2,
+  "name": "Industrial or commercial units"
+ },
+ {
+  "id": 3,
+  "name": "Arable land"
+ },
+ {
+  "id": 4,
+  "name": "Permanent crops"
+ },
+ {
+  "id": 5,
+  "name": "Pastures"
+ },
+ {
+  "id": 6,
+  "name": "Complex cultivation patterns"
+ },
+ {
+  "id": 7,
+  "name": "Land principally occupied by agriculture, with significant areas of natural vegetation"
+ },
+ {
+  "id": 8,
+  "name": "Agro-forestry areas"
+ },
+ {
+  "id": 9,
+  "name": "Broad-leaved forest"
+ },
+ {
+  "id": 10,
+  "name": "Coniferous forest"
+ },
+ {
+  "id": 11,
+  "name": "Mixed forest"
+ },
+ {
+  "id": 12,
+  "name": "Natural grassland and sparsely vegetated areas"
+ },
+ {
+  "id": 13,
+  "name": "Moors, heathland and sclerophyllous vegetation"
+ },
+ {
+  "id": 14,
+  "name": "Transitional woodland, shrub"
+ },
+ {
+  "id": 15,
+  "name": "Beaches, dunes, sands"
+ },
+ {
+  "id": 16,
+  "name": "Inland wetlands"
+ },
+ {
+  "id": 17,
+  "name": "Coastal wetlands"
+ },
+ {
+  "id": 18,
+  "name": "Inland waters"
+ },
+ {
+  "id": 19,
+  "name": "Marine waters"
+ }
+]

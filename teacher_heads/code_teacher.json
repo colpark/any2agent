@@ -1,0 +1,101 @@
+{
+ "definitions": [
+  {
+   "id": 1,
+   "name": "Urban fabric",
+   "definition": "Residential and mixed urban areas form a dense or discontinuous network of buildings, streets and associated gardens or other vegetation."
+  },
+  {
+   "id": 2,
+   "name": "Industrial or commercial units",
+   "definition": "Industrial and commercial sites contain large buildings, paved yards, parking areas and access infrastructure, often with extensive roofs and relatively little vegetation."
+  },
+  {
+   "id": 3,
+   "name": "Arable land",
+   "definition": "Land cultivated for annually harvested crops typically forms managed fields that may appear vegetated, recently harvested, ploughed or temporarily fallow."
+  },
+  {
+   "id": 4,
+   "name": "Permanent crops",
+   "definition": "Long-lived agricultural plantings such as orchards, vineyards and olive groves often show repeated rows or regularly spaced woody plants."
+  },
+  {
+   "id": 5,
+   "name": "Pastures",
+   "definition": "Managed grassland used for grazing or fodder production usually appears as bounded herbaceous fields with few trees."
+  },
+  {
+   "id": 6,
+   "name": "Complex cultivation patterns",
+   "definition": "A fine-grained agricultural mosaic combines small parcels of annual crops, permanent crops and pasture with differing colors, textures and seasonal states."
+  },
+  {
+   "id": 7,
+   "name": "Land principally occupied by agriculture, with significant areas of natural vegetation",
+   "definition": "An agriculture-dominated landscape contains substantial interspersed patches of natural woodland, scrub, grassland or other seminatural vegetation."
+  },
+  {
+   "id": 8,
+   "name": "Agro-forestry areas",
+   "definition": "Agricultural crops or grazing land occupy the same land as an overstory of scattered trees or other forest elements."
+  },
+  {
+   "id": 9,
+   "name": "Broad-leaved forest",
+   "definition": "Forest dominated by broad-leaved trees generally forms a continuous or broken canopy whose appearance varies strongly with species and season."
+  },
+  {
+   "id": 10,
+   "name": "Coniferous forest",
+   "definition": "Forest dominated by needle-leaved or scale-leaved trees often has a relatively dark canopy and fine crown texture, although its appearance varies with stand structure and season."
+  },
+  {
+   "id": 11,
+   "name": "Mixed forest",
+   "definition": "Forest contains substantial broad-leaved and coniferous tree components, potentially visible as intermingled crowns or adjoining canopy patches."
+  },
+  {
+   "id": 12,
+   "name": "Natural grassland and sparsely vegetated areas",
+   "definition": "Natural herbaceous landscapes and sparsely vegetated terrain range from largely continuous grass cover to scattered plants over extensive exposed substrate."
+  },
+  {
+   "id": 13,
+   "name": "Moors, heathland and sclerophyllous vegetation",
+   "definition": "Open landscapes dominated by low shrubs, heath or hard-leaved evergreen vegetation typically show irregular scrub cover rather than a closed forest canopy."
+  },
+  {
+   "id": 14,
+   "name": "Transitional woodland, shrub",
+   "definition": "Shrub and young-tree vegetation forms an intermediate stage between open land and established forest, often following regeneration, abandonment or disturbance."
+  },
+  {
+   "id": 15,
+   "name": "Beaches, dunes, sands",
+   "definition": "Exposed sand or gravel forms beaches, dunes or sandy expanses with little vegetation and often smooth, rippled or ridge-shaped surfaces."
+  },
+  {
+   "id": 16,
+   "name": "Inland wetlands",
+   "definition": "Noncoastal marshes and peatlands contain waterlogged ground, wetland vegetation and sometimes interspersed shallow open water."
+  },
+  {
+   "id": 17,
+   "name": "Coastal wetlands",
+   "definition": "Coastal salt marshes, salines and intertidal flats form periodically inundated landscapes associated with tidal or saline coastal environments."
+  },
+  {
+   "id": 18,
+   "name": "Inland waters",
+   "definition": "Inland rivers, canals, lakes and reservoirs form open-water channels or basins whose color varies with depth, sediment and aquatic material."
+  },
+  {
+   "id": 19,
+   "name": "Marine waters",
+   "definition": "Seas, oceans, estuaries and coastal lagoons form marine or coastally connected water surfaces whose geographic identity cannot generally be determined from water color alone."
+  }
+ ],
+ "code": "import numpy as np\nfrom scipy import ndimage\n\n_CLASS_IDS = tuple(range(1, 20))\n\n\ndef _nd(a, b):\n    return (a - b) / np.maximum(a + b, 1e-6)\n\n\ndef label(x):\n    \"\"\"Return conservative, abstention-heavy spectral exclusions.\n\n    x: (12, 120, 120), reflectance * 10000, in the specified band order.\n    'no' for water means no spectrally resolved open water in the patch;\n    it does not establish absence from a CORINE reference polygon.\n    These rules deliberately make no positive CORINE assignments.\n    \"\"\"\n    x = np.asarray(x)\n    if x.shape != (12, 120, 120):\n        raise ValueError('Expected shape (12, 120, 120).')\n    if not np.issubdtype(x.dtype, np.number) or np.iscomplexobj(x):\n        raise TypeError('Expected real numeric reflectance DNs.')\n\n    out = {i: 'abstain' for i in _CLASS_IDS}\n    if not np.isfinite(x).all():\n        return out\n    r = x.astype(np.float64) / 10000.0\n    if np.any(r < 0):\n        return out\n\n    # Preserve high values for quality checks; do not clip reflectance.\n    # B01 and B09 are coarse atmospheric bands, not texture measurements.\n    blue, green, red = r[1], r[2], r[3]\n    nir, narrow_nir = r[7], r[8]\n    swir1, swir2 = r[10], r[11]\n    visible = (blue + green + red) / 3.0\n    ndvi = _nd(nir, red)\n    ndwi = _nd(green, nir)\n    mndwi = _nd(green, swir1)\n    whiteness = (\n        np.maximum.reduce([blue, green, red])\n        - np.minimum.reduce([blue, green, red])\n    ) / np.maximum(visible, 1e-6)\n\n    # Suspicion masks, not a replacement for an SCL/cloud mask.\n    # Dark water is intentionally also ambiguous under the shadow guard.\n    cloud = (visible > 0.20) & (whiteness < 0.30)\n    snow = (green > 0.12) & (mndwi > 0.40)\n    dark = (visible < 0.025) & (nir < 0.05)\n    suspect = cloud | snow | dark | np.any(r > 1.2, axis=0)\n    if suspect.any():\n        return out\n\n    # Strong vegetation or SWIR-bright, clearly non-water surfaces.\n    # Require vegetation-index agreement with the narrow-NIR band.\n    vegetation = (\n        (ndvi > 0.45) & (_nd(narrow_nir, red) > 0.45)\n        & (nir > 0.15) & (swir1 > 0.06)\n    )\n    dry_surface = (\n        (swir1 > 0.18) & (swir2 > 0.12) & (nir > 0.22)\n        & (ndwi < -0.25) & (mndwi < -0.30)\n    )\n    nonwater = vegetation | dry_surface\n\n    # A 30 m neighborhood statistic flags strong local spectral variation.\n    # Resampling does not create independent 10 m SWIR observations.\n    mean = ndimage.uniform_filter(ndwi, size=3, mode='reflect')\n    variance = np.maximum(\n        ndimage.uniform_filter(ndwi * ndwi, size=3, mode='reflect')\n        - mean * mean, 0.0\n    )\n    uncertain_edge = np.sqrt(variance) > 0.12\n\n    # No minimum-area cutoff: any unresolved pixel retains abstention.\n    # Water color and contact with patch edges cannot settle inland/marine.\n    if np.all(nonwater) and not uncertain_edge.any():\n        out[18] = 'no'\n        out[19] = 'no'\n    return out\n",
+ "notes": "The bands support physical-cover evidence, but do not reliably settle these 19 CORINE categories. This is therefore an exclusion-only baseline, not a useful complete classifier: it deliberately never emits 'yes'. Vegetation indices and texture cannot by themselves establish agricultural use, naturalness, tree species composition, or coastal context; flooding also prevents treating observed water as proof that agricultural classes are absent. The water exclusions concern visible open water, not official CORINE polygon membership or subpixel features. Thresholds are uncalibrated heuristics. Tested on the 50 supplied patches without fitting thresholds: classes 1\u201317 abstained on all patches; classes 18 and 19 each returned 'no' on 1 patch and 'abstain' on 49. Runtime, output-contract and basic quality-guard checks passed. These are decision rates, not estimated prevalence or accuracy. The supplied function performs no file, network or system access."
+}
