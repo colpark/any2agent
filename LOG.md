@@ -24,3 +24,14 @@
 | LR-X7 | 60 m bands B01, B09 also bilinear-resampled to 10 m | needed for a 12-band array |
 | LR-X15 | Page-cache drop skipped before each GPU job | not permitted |
 | LR-X16 | Layer ℓ readout = hidden_states[21] | "layer 21" indexing |
+
+## LR-1 Data (2026-11-18T04:28:18Z)
+- metadata.parquet md5 55687065e77b6d0b0f1ff604a6e7b49c (Zenodo record 10891137, v2.0.0).
+- Zenodo S2 at ~2 MB/s; HF mirror lldewqd/BigEarthNet-S2@47b0b53 fetched on node A2 (ranged, 12 workers, ~35 MB/s; slow CDN range retried). md5 2245ed2d1a93f6ce637d839bc856396e == Zenodo official -> MD5_OK. 63.25 GB < 150 GB.
+- Splits (scripts/make_splits.py, seed 0): calib 200 + rlpool 20,000 (official train, disjoint), val 100 (official validation), test 1,000 (official test). Labels present: calib 17, rlpool 19, val 15, test 17.
+- Extracted 21,300 patch dirs (255,600 tifs) on A2 in 1,140 s; rsynced to host A.
+- Arrays (scripts/build_arrays.py): 12 bands float32 at 10 m (20 m and 60 m bands bilinear), per-patch sha256 over the 12 raw tif files in band order.
+- **Frozen**: ~/langres_data/arrays/splits_frozen.parquet sha256 `47a1d94665106dda3c1ab584dcfa0586539b7a542f625cf109f4644c07cc92fc` (ids + per-patch sha256; read-only). Frozen before any model saw pixels.
+- Stretch (2-98 pct, RL pool): {"B02":[37.0,1834.0],"B03":[57.0,1924.0],"B04":[23.0,2250.0],"B08":[1.0,5060.0]}
+- Descriptors: descriptors.parquet (mean NDVI/NDWI/NDMI per patch, eps 1e-6 in denominator, + labels).
+- Software deviations added: LR-X17 preamble joined to instruction with one space in one text block; LR-X18 rewrite list format "Description k (score x.xxx): w", best first; LR-X19 B1 = "Land cover: " + comma-joined labels + "."; LR-X20 if no search candidate <=100 words, best overall is picked and flagged; LR-X21 check VLM uses the -hf processor's shipped chat template (no system message); LR-X22 InternVL3-8B loaded as official HF-native conversion OpenGVLab/InternVL3-8B-hf@259a3b6 because the original remote code fails under transformers 5.22 (AttributeError all_tied_weights_keys); verified LM 339/339 tensors and projector 6/6 bit-identical, vision differs only by qkv split (340 -> 436 tensors).
