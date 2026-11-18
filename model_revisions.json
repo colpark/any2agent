@@ -1,0 +1,50 @@
+{
+ "facebook/dinov2-base": {
+  "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+  "ok": true,
+  "sec": 5
+ },
+ "ibm-nasa-geospatial/Prithvi-EO-2.0-300M": {
+  "revision": "9eb1b1102806593963daa333bcc491b1c6f8562f",
+  "ok": true,
+  "sec": 39
+ },
+ "Qwen/Qwen2.5-VL-7B-Instruct": {
+  "revision": "cc594898137f460bfe9f0759e9844b3ce807cfb5",
+  "ok": true,
+  "sec": 0
+ },
+ "BAAI/bge-base-en-v1.5": {
+  "revision": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+  "ok": true,
+  "sec": 4
+ },
+ "intfloat/e5-base-v2": {
+  "revision": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
+  "ok": true,
+  "sec": 19
+ },
+ "sentence-transformers/all-mpnet-base-v2": {
+  "revision": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "ok": true,
+  "sec": 5
+ },
+ "Qwen/Qwen2.5-7B-Instruct": {
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "ok": true,
+  "sec": 492
+ },
+ "meta-llama/Llama-3.1-8B-Instruct": {
+  "ok": false,
+  "error": "GatedRepoError: 403 Client Error. (Request ID: Root=1-6afd1cbc-229062977314b1e44114bc51;e6ef2ad9-e83e-4eac-b64d-d82b1f7c09b8)\n\nCannot access gated repo for url https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct/resolve/0e9e39f249a16976918f6564b8830bc894c89659/USE_POLICY.md.\nAccess to model meta-llama/Llama-3.1"
+ },
+ "unsloth/Llama-3.1-8B-Instruct": {
+  "revision": "4699cc75b550f9c6f3173fb80f4703b62d946aa5",
+  "ok": true,
+  "note": "mirror of gated meta-llama/Llama-3.1-8B-Instruct@0e9e39f249a16976918f6564b8830bc894c89659; safetensors LFS sha256 identical"
+ },
+ "OpenGVLab/InternVL3-8B": {
+  "revision": "853e3a797a661694b1b8ece0cb72dc2b23e3dac9",
+  "ok": true
+ }
+}
