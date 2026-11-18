@@ -88,3 +88,29 @@ Figures: `figs/e2_teacher_vs_head.png` (teacher BA against head BA, Astra and Qw
 - Test200 is small for rare classes: urban fabric has 14 positives there, and the CIs are wide.
 - The batching check passed exactly at its 80% threshold.
 - The code teacher contributed nothing, so "Astra + code" is a single-teacher condition here.
+
+## Interpretation: why the strong teacher's student does not beat it
+The strong teacher did train the student well. What the student did not do is exceed the teacher, which is what E2 asked.
+
+**What transferred**
+- On 10 of 12 classes the Astra heads are within ±0.03 BA of Astra. Astra's knowledge moved into a linear readout of Prithvi features that costs essentially nothing per patch.
+- Teacher strength carries through. Astra-taught heads beat Qwen-taught heads by up to +0.33 BA: +0.33 on marine water, +0.26 coniferous, +0.25 mixed forest.
+- With 0 true labels, the Astra heads beat a head trained on 500 true labels on 7 of 15 classes.
+
+**Why the student does not beat the teacher**
+1. **It copies systematic errors.** A student beats its teacher only when the teacher's errors look like noise from the student's features. Astra's errors are systematic:
+   - It over-calls urban fabric (16.5% yes, truth 7%) and inland water (26%, truth 11.5%). It likely reads any visible buildings or water as the class, while CORINE applies minimum mapping units and land-use conventions.
+   - Qwen is worse: on several classes it nearly always says no (BA 0.50), and no student recovers a signal absent from its labels.
+2. **It can only reproduce what is linearly decodable from Prithvi.** Astra judges 512-pixel images; the head sees one mean-pooled 1,024-d vector. Cues outside that vector are lost; for broad-leaved forest both are weak (0.58 and 0.55).
+3. **Rare classes and a fixed 0.5 cutoff cause most of the gap.** Agro-forestry had 17 positive teacher labels in 500. The head ranks well (AUC 0.94) but its probabilities stay low: it says yes on 1.0% of patches, against Astra's 3.5% and the true 6.5%. Urban fabric behaves the same way (AUC 0.85; 10.5% yes against Astra's 16.5%). The knowledge is there; the operating point is not.
+4. **Small evaluation set.** Test200 holds 13–14 positives for these classes, so single-class CIs are about ±0.1–0.15, and two classes tip a mean gate.
+
+**What it means for the thesis**
+- **Part 1 (use the FM beyond human-label heads): partly supported.** A frontier VLM can supervise Prithvi with no human labels to near-teacher quality, worth up to hundreds of human labels per class. The FM acts as a cheap container for the teacher's knowledge, not yet a source of extra knowledge.
+- This matches the feature-bridge result: without labels, Prithvi's features did not lift a language model past its own captions.
+- Weak-to-strong gains need teacher errors that look random to the student. CORINE conventions make a VLM's errors systematic.
+
+**Tests that would settle it (not run; each needs a CHANGE_REQUEST)**
+- Set each head's cutoff at its teacher's bank yes-rate. This uses no true labels and targets cause 3.
+- Train on Astra's confidence, not only yes or no, so the student can discount uncertain calls.
+- Enlarge the bank for rare classes.
