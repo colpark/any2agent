@@ -138,3 +138,8 @@
 - Single-patch adapters on val (vLLM greedy), s / s':
   - RL1p (sp_A ckpt-150): 0.154 / 0.117 (s' -0.079 vs B2).
   - RFT1p: 0.037 / 0.007. It emits the memorized patch-0 summary for every patch.
+
+### 2026-11-18 Published to GitHub (user request)
+- Pushed main to the public repo colpark/any2agent (4 commits, ~100 KB: code, LOG, DESIGN_v1, change requests, revisions). Data and checkpoints are excluded by .gitignore.
+- The user chose to redact host IPs and hostnames before the push. LOG.md history was rewritten with filter-branch; the pre-redaction state is kept locally as branch backup-pre-redact, which was not pushed. DESIGN_v1.md sha256 is unchanged.
+- The token was passed only through a one-shot environment variable and an inline credential helper. No remote was saved, and no file or log contains it.
