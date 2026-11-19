@@ -29,8 +29,7 @@ nd = lambda a, b: (a - b) / (a + b + 1e-6)
 
 def ask():
     p = f"{ST}/schema_ask.json"; json.dump(ASK_SCHEMA, open(p, "w"), indent=1)
-    rec, obj = call("ask", ASK, p, [], lambda o: [e.message for e in jsonschema.Draft202012Validator(ASK_SCHEMA).iter_errors(o)],
-                    extra=("--enable", "skip_host_skill_discovery"))  # QC-X1
+    rec, obj = call("ask", ASK, p, [], lambda o: [e.message for e in jsonschema.Draft202012Validator(ASK_SCHEMA).iter_errors(o)])  # QC-X1 flag removed: skill moved out by the user
     if rec and rec["status"] == "ok": json.dump(obj["questions"], open(f"{QC}/generated.json", "w"), indent=1); print(len(obj["questions"]), "questions")
 
 

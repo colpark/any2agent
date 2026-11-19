@@ -1,0 +1,754 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Are at least three adjoining open parcels visibly separated by boundaries?",
+      "definition": "Count three open areas sharing boundaries marked by color changes, vegetation strips, or tracks, excluding subdivisions caused only by shadows."
+    },
+    {
+      "id": 2,
+      "question": "Do at least two open parcels have approximately rectangular outlines?",
+      "definition": "Count parcels with four predominantly straight sides and approximately right-angle corners, allowing minor irregularities along their edges."
+    },
+    {
+      "id": 3,
+      "question": "Are several open parcels bounded mainly by curved or irregular edges?",
+      "definition": "Count at least three distinguishable open parcels whose visible perimeters are more than half curved or irregular."
+    },
+    {
+      "id": 4,
+      "question": "Are several open parcels distinctly long and narrow?",
+      "definition": "Count at least three bounded open parcels whose visible lengths are at least three times their widths."
+    },
+    {
+      "id": 5,
+      "question": "Does one uninterrupted open parcel occupy at least a quarter of the patch?",
+      "definition": "Count one visually continuous field-like area covering at least 25% of the image without an internal track, woody strip, or clear parcel boundary."
+    },
+    {
+      "id": 6,
+      "question": "Does part of the patch contain a tightly packed mosaic of small parcels?",
+      "definition": "Count at least six adjoining open parcels, each occupying less than 5% of the patch."
+    },
+    {
+      "id": 7,
+      "question": "Do large and small open parcels occur side by side?",
+      "definition": "Count neighboring, fully visible parcels when one has at least four times the area of the other."
+    },
+    {
+      "id": 8,
+      "question": "Do adjoining open parcels display at least three distinct surface appearances?",
+      "definition": "Count three neighboring parcels distinguishable by dominant color or texture in either composite, excluding differences attributable to shadow."
+    },
+    {
+      "id": 9,
+      "question": "Does a green, red-responsive parcel directly adjoin a predominantly tan or brown parcel?",
+      "definition": "Require a shared boundary between a parcel that is green in true color and red-dominant in false color and one that is predominantly tan or brown with weaker red response."
+    },
+    {
+      "id": 10,
+      "question": "Do two neighboring vegetated parcels differ clearly in false-color redness?",
+      "definition": "Count adjoining parcels with vegetation visible in both whose interiors have clearly different red intensity or saturation under comparable illumination."
+    },
+    {
+      "id": 11,
+      "question": "Do several separate parcels form a visually uniform group?",
+      "definition": "Count at least three adjoining parcels with similar dominant color and texture but boundaries independently visible as tracks, strips, or edges."
+    },
+    {
+      "id": 12,
+      "question": "Is there a straight parcel boundary extending for at least 300 m?",
+      "definition": "Count a boundary between open parcels that remains approximately straight for at least one quarter of the patch width."
+    },
+    {
+      "id": 13,
+      "question": "Does an open parcel have a long, smoothly curving boundary?",
+      "definition": "Count a parcel edge that bends continuously over at least 200 m rather than forming a sequence of straight corners."
+    },
+    {
+      "id": 14,
+      "question": "Do several parcel boundaries share a common direction?",
+      "definition": "Count at least three distinct boundaries, each at least 150 m long, whose orientations differ by no more than approximately 15 degrees."
+    },
+    {
+      "id": 15,
+      "question": "Is there a visible junction where at least three open parcels meet?",
+      "definition": "Count a point or junction area no wider than 30 m where three distinguishable parcel interiors converge."
+    },
+    {
+      "id": 16,
+      "question": "Does a vegetation strip separate two open parcels?",
+      "definition": "Require a resolved strip at least 100 m long with a vegetation-like red response separating open surfaces on its two sides."
+    },
+    {
+      "id": 17,
+      "question": "Does an open parcel share a long boundary with a woody block?",
+      "definition": "Count at least 200 m of direct contact between a field-like open area and a contiguous area with woody canopy texture."
+    },
+    {
+      "id": 18,
+      "question": "Is an open parcel bordered by woody vegetation on three sides?",
+      "definition": "Count a bounded field-like area with woody cover along at least three quarters of its visible perimeter, allowing small access gaps."
+    },
+    {
+      "id": 19,
+      "question": "Does an open parcel wrap around a projecting woody patch?",
+      "definition": "Require the same open parcel to contact at least three sides of a woody projection extending at least 50 m into it."
+    },
+    {
+      "id": 20,
+      "question": "Is there an isolated woody clump inside an open parcel?",
+      "definition": "Count a canopy-textured clump at least 30 m across that is separated from other woody cover by open ground on every visible side."
+    },
+    {
+      "id": 21,
+      "question": "Does an open parcel narrow markedly at one end?",
+      "definition": "Count a fully visible parcel whose width near one end is less than half its width near the other, excluding narrowing created by the image boundary."
+    },
+    {
+      "id": 22,
+      "question": "Are broad parallel bands visible inside an open parcel?",
+      "definition": "Count at least three alternating bands, each at least 20 m wide, within one parcel, excluding unresolved crop rows and image artifacts."
+    },
+    {
+      "id": 23,
+      "question": "Does a single open parcel contain an abrupt internal color division?",
+      "definition": "Require two contrasting interior regions each covering at least one fifth of the parcel without a separating road, woody strip, or shadow edge."
+    },
+    {
+      "id": 24,
+      "question": "Does an open parcel have a visibly mottled interior?",
+      "definition": "Count at least three irregular interior patches at least 30 m across that contrast with the surrounding parcel and are not identifiable shadows."
+    },
+    {
+      "id": 25,
+      "question": "Is an open parcel edged by a broad strip that is redder than its center?",
+      "definition": "Require a strip at least 20 m wide along at least half the parcel perimeter that is more red-dominant in false color than the interior."
+    },
+    {
+      "id": 26,
+      "question": "Does an open parcel have a redder center than its surrounding margins?",
+      "definition": "Count a central vegetated region at least 50 m across with consistently stronger false-color redness than margins on at least three sides."
+    },
+    {
+      "id": 27,
+      "question": "Does a narrow vegetated band cross a predominantly pale open parcel?",
+      "definition": "Require a red-responsive band at least 100 m long and no more than 50 m wide extending through the parcel interior."
+    },
+    {
+      "id": 28,
+      "question": "Does a pale, weakly vegetated band cross a red-responsive open parcel?",
+      "definition": "Count an interior band at least 20 m wide and 100 m long with a pale true-color appearance and weaker false-color redness than the surrounding vegetation."
+    },
+    {
+      "id": 29,
+      "question": "Do neighboring parcel boundaries form a stepped outline?",
+      "definition": "Count an outer boundary of an open-parcel group with at least three successive, visibly resolved right-angle or near-right-angle turns."
+    },
+    {
+      "id": 30,
+      "question": "Does a curved landscape feature truncate several otherwise straight-sided parcels?",
+      "definition": "Require at least three parcels with straight boundaries that terminate against the same curved woody edge, corridor, or shoreline."
+    },
+    {
+      "id": 31,
+      "question": "Does one woody block occupy between a quarter and three quarters of the patch?",
+      "definition": "Count a single connected canopy-textured area covering 25–75% of the image, treating narrow internal gaps under 20 m as interruptions rather than separate blocks."
+    },
+    {
+      "id": 32,
+      "question": "Are two substantial woody blocks separated by a broad open gap?",
+      "definition": "Require two woody areas each covering at least 5% of the patch with at least 50 m of open ground between their nearest edges."
+    },
+    {
+      "id": 33,
+      "question": "Are several small woody patches scattered through an open landscape?",
+      "definition": "Count at least four separate canopy-textured patches, each 30–150 m across, surrounded predominantly by open land."
+    },
+    {
+      "id": 34,
+      "question": "Does a connected woody area extend between opposite image edges?",
+      "definition": "Require a continuous canopy-textured route joining the left and right edges or the top and bottom edges without a resolved open break."
+    },
+    {
+      "id": 35,
+      "question": "Does a broad open corridor pass between woody areas?",
+      "definition": "Count an open corridor at least 50 m wide and 300 m long with woody cover along both sides for most of its length."
+    },
+    {
+      "id": 36,
+      "question": "Does a narrow woody corridor connect two broader woody areas?",
+      "definition": "Require a canopy-textured connection at least 100 m long whose width is less than one third the width of both areas it joins."
+    },
+    {
+      "id": 37,
+      "question": "Is a long woody strip interrupted by a clearly visible gap?",
+      "definition": "Count an otherwise aligned woody strip at least 200 m long with a nonwoody interruption 20–100 m wide."
+    },
+    {
+      "id": 38,
+      "question": "Do narrow woody strips form a branching network?",
+      "definition": "Require at least three resolved woody arms, each at least 100 m long, meeting at a common junction."
+    },
+    {
+      "id": 39,
+      "question": "Do woody strips form a nearly closed enclosure around open land?",
+      "definition": "Count an open area at least 50 m across enclosed by narrow woody strips around at least 80% of its perimeter."
+    },
+    {
+      "id": 40,
+      "question": "Is a woody feature much longer than it is wide?",
+      "definition": "Count a distinct canopy-textured strip at least 200 m long whose length is at least five times its typical width."
+    },
+    {
+      "id": 41,
+      "question": "Does a woody block have a long straight outer edge?",
+      "definition": "Require at least 200 m of approximately straight boundary between woody cover and a contrasting nonwoody surface."
+    },
+    {
+      "id": 42,
+      "question": "Does a woody block have a strongly indented outer edge?",
+      "definition": "Count at least three open indentations, each extending at least 30 m into the same woody block."
+    },
+    {
+      "id": 43,
+      "question": "Does a woody block project into open land as a narrow finger?",
+      "definition": "Require a connected woody projection at least 100 m long and less than 50 m wide with open land along both sides."
+    },
+    {
+      "id": 44,
+      "question": "Does open land penetrate deeply into a woody block?",
+      "definition": "Count an open inlet at least 100 m deep whose mouth is narrower than its depth and whose sides are bordered by woody cover."
+    },
+    {
+      "id": 45,
+      "question": "Is there a substantial clearing enclosed within woody cover?",
+      "definition": "Count an open area at least 50 m across with woody cover around its entire visible perimeter, allowing one access gap no wider than 20 m."
+    },
+    {
+      "id": 46,
+      "question": "Does a woody block contain several visible openings?",
+      "definition": "Count at least three non-shadow openings, each at least 30 m across, inside the same connected woody area."
+    },
+    {
+      "id": 47,
+      "question": "Does a pale linear corridor cut through a woody block?",
+      "definition": "Require a resolved pale or gray corridor extending at least 200 m through canopy-textured cover, excluding bright canopy edges."
+    },
+    {
+      "id": 48,
+      "question": "Is a woody block divided into sharply contrasting false-color sections?",
+      "definition": "Count adjoining canopy-textured sections each at least 50 m across separated by a clear red-color change that does not follow a shadow boundary."
+    },
+    {
+      "id": 49,
+      "question": "Does a woody block show a coarse mosaic of canopy colors?",
+      "definition": "Require at least three irregular canopy regions at least 30 m across with distinguishable colors, excluding illumination differences confined to shadowed sides."
+    },
+    {
+      "id": 50,
+      "question": "Do smooth and coarse canopy textures occur within the same woody block?",
+      "definition": "Require adjoining canopy-covered regions each at least 100 m across that differ consistently in visible texture at the same display scale."
+    },
+    {
+      "id": 51,
+      "question": "Are woody clumps concentrated along the boundary of an open area?",
+      "definition": "Count at least three separate canopy-textured clumps within 30 m of the same open-area boundary while its central portion lacks comparable clumps."
+    },
+    {
+      "id": 52,
+      "question": "Is most woody cover concentrated in one half of the patch?",
+      "definition": "Require woody cover to occupy at least 10% of the patch with at least 80% of that cover lying in one left, right, upper, or lower half."
+    },
+    {
+      "id": 53,
+      "question": "Do broad woody and open bands alternate across part of the patch?",
+      "definition": "Count at least four successive alternating woody and open bands, each at least 30 m wide and 100 m long."
+    },
+    {
+      "id": 54,
+      "question": "Does the patch contain one large woody block and several much smaller woody patches?",
+      "definition": "Require a woody block covering at least 10% of the patch and at least three detached woody patches each smaller than one tenth of that block."
+    },
+    {
+      "id": 55,
+      "question": "Do woody cover and open land occupy comparable portions of the patch?",
+      "definition": "Count yes when woody cover and nonbuilt open land each occupy 30–60% of the image."
+    },
+    {
+      "id": 56,
+      "question": "Is a substantial open area uniformly red-dominant in false color?",
+      "definition": "Require a contiguous nonwoody vegetated area covering 10–50% of the patch with little visible variation in red hue or intensity."
+    },
+    {
+      "id": 57,
+      "question": "Do similarly green areas in true color separate clearly in false color?",
+      "definition": "Require two vegetated areas each at least 50 m across that look similarly green in true color but show clearly different red responses in false color."
+    },
+    {
+      "id": 58,
+      "question": "Does a tan-looking open area retain a visible vegetation signal?",
+      "definition": "Count a predominantly tan area at least 50 m across that contains spatially coherent red-responsive vegetation in false color rather than only isolated mixed pixels."
+    },
+    {
+      "id": 59,
+      "question": "Does bright-red open vegetation contrast with adjacent darker woody vegetation?",
+      "definition": "Require directly adjoining open and canopy-textured areas each at least 50 m across, with the open vegetation distinctly brighter red in false color."
+    },
+    {
+      "id": 60,
+      "question": "Does one vegetated area look uniform while another looks patchy?",
+      "definition": "Require two areas each at least 100 m across, one with consistent vegetation color and the other with at least three resolved internal color patches."
+    },
+    {
+      "id": 61,
+      "question": "Do separate woody blocks differ markedly in false-color redness?",
+      "definition": "Count two detached canopy-textured blocks each at least 50 m across whose dominant red responses clearly differ under comparable illumination."
+    },
+    {
+      "id": 62,
+      "question": "Do green-looking and brown-looking woody areas occur together?",
+      "definition": "Require canopy-textured regions each at least 50 m across with predominantly green versus brown true-color appearances, excluding exposed soil and shadows."
+    },
+    {
+      "id": 63,
+      "question": "Does tan or brown open land occupy more area than green open vegetation?",
+      "definition": "Require both appearances to cover at least 10% of the patch and the tan or brown open area to be at least twice as extensive as the green open area."
+    },
+    {
+      "id": 64,
+      "question": "Does green open vegetation occupy more area than tan or brown open land?",
+      "definition": "Require both appearances to cover at least 10% of the patch and the green open area to be at least twice as extensive as the tan or brown open area."
+    },
+    {
+      "id": 65,
+      "question": "Are green and straw-colored patches interspersed within one open vegetated area?",
+      "definition": "Count at least two green and two straw-colored patches, each at least 20 m across, within one continuous open area without intervening parcel boundaries."
+    },
+    {
+      "id": 66,
+      "question": "Does vegetation color change gradually across an open parcel?",
+      "definition": "Require a progressive color change over at least 100 m within one parcel rather than an abrupt boundary or an identifiable shadow gradient."
+    },
+    {
+      "id": 67,
+      "question": "Does vegetation color form broad curved bands within an open area?",
+      "definition": "Count at least two curved bands, each at least 20 m wide, distinguished by vegetation color within one continuous open area."
+    },
+    {
+      "id": 68,
+      "question": "Are strongly red-responsive vegetation patches embedded in weaker vegetation?",
+      "definition": "Count at least three redder patches at least 20 m across within a visibly vegetated matrix with weaker false-color redness."
+    },
+    {
+      "id": 69,
+      "question": "Does otherwise continuous open vegetation contain pale interior gaps?",
+      "definition": "Require at least three pale, weakly red-responsive gaps at least 20 m across inside one red-responsive open area, excluding buildings and shadows."
+    },
+    {
+      "id": 70,
+      "question": "Does vegetation remain visibly greener along a linear corridor than beside it?",
+      "definition": "Require a green and red-responsive band at least 150 m long bordered on both sides by paler or browner nonwoody ground."
+    },
+    {
+      "id": 71,
+      "question": "Is woody vegetation redder than nearby open vegetation?",
+      "definition": "Require woody and open vegetated areas each at least 50 m across with the woody area clearly more red-dominant in false color under comparable illumination."
+    },
+    {
+      "id": 72,
+      "question": "Does open vegetation contain a resolved mixture of plant cover and exposed ground?",
+      "definition": "Count an area at least 100 m across containing interspersed red-responsive vegetation and nonred soil-like patches each at least 20 m across."
+    },
+    {
+      "id": 73,
+      "question": "Do small vegetation clumps punctuate a predominantly pale surface?",
+      "definition": "Require at least five separate red-responsive clumps at least 20 m across within one pale area covering at least 5% of the patch."
+    },
+    {
+      "id": 74,
+      "question": "Does a distinct vegetation-color anomaly cross a parcel boundary?",
+      "definition": "Require a coherent stronger or weaker red-responsive zone at least 30 m wide continuing across a separately visible boundary between two vegetated parcels."
+    },
+    {
+      "id": 75,
+      "question": "Do vegetation-color changes repeatedly coincide with parcel boundaries?",
+      "definition": "Count at least three parcel boundaries with clear, persistent vegetation-color differences between their two sides."
+    },
+    {
+      "id": 76,
+      "question": "Does a low-red vegetation patch have an irregular rather than parcel-shaped outline?",
+      "definition": "Require a visibly vegetated region at least 50 m across with weaker false-color redness than its surroundings and a boundary that does not follow parcel edges."
+    },
+    {
+      "id": 77,
+      "question": "Are pale vegetation bands interleaved with greener bands?",
+      "definition": "Count at least two pale and two green nonwoody vegetation bands, each at least 20 m wide, within the same open area."
+    },
+    {
+      "id": 78,
+      "question": "Is there a broad transition from sparse to nearly continuous vegetation?",
+      "definition": "Require an open area at least 100 m across where resolved ground gaps progressively decrease as red-responsive vegetation becomes more continuous."
+    },
+    {
+      "id": 79,
+      "question": "Does woody vegetation have a differently colored outer belt?",
+      "definition": "Require an outer canopy belt at least 20 m wide along at least 200 m of a woody block that differs consistently in color from its interior, excluding shadow."
+    },
+    {
+      "id": 80,
+      "question": "Do neighboring vegetation patches differ in both color and texture?",
+      "definition": "Require adjoining vegetated areas each at least 50 m across with a clear color difference and a separate smooth-versus-coarse texture difference."
+    },
+    {
+      "id": 81,
+      "question": "Do visible roof groups and roads form a compact built cluster?",
+      "definition": "Count a connected concentration of resolved angular roofs and associated roads covering at least 5% of the patch."
+    },
+    {
+      "id": 82,
+      "question": "Are separate roof groups dispersed across otherwise open land?",
+      "definition": "Require at least three recognizable roof groups separated from one another by at least 100 m of predominantly nonbuilt land."
+    },
+    {
+      "id": 83,
+      "question": "Does a built cluster directly border open parcels?",
+      "definition": "Require recognizable roofs and associated access surfaces to meet field-like open land along a boundary at least 100 m long."
+    },
+    {
+      "id": 84,
+      "question": "Does a built cluster directly border woody cover?",
+      "definition": "Require a roof-and-road cluster to lie within 20 m of canopy-textured cover along at least 100 m of its edge."
+    },
+    {
+      "id": 85,
+      "question": "Are built areas arranged mainly along a linear route?",
+      "definition": "Count a recognizable roof-and-road pattern extending at least 300 m whose length is at least three times its typical width."
+    },
+    {
+      "id": 86,
+      "question": "Do streets divide visible roof groups into several blocks?",
+      "definition": "Require at least three roof-bearing groups separated by resolved intersecting streets rather than merely by roof-color differences."
+    },
+    {
+      "id": 87,
+      "question": "Are substantial vegetated spaces interspersed among buildings?",
+      "definition": "Count at least three red-responsive spaces at least 30 m across situated between recognizable roof groups."
+    },
+    {
+      "id": 88,
+      "question": "Does a built area have an abrupt edge against nonbuilt land?",
+      "definition": "Require a roof-and-road concentration to end along a boundary at least 200 m long with few isolated roofs extending beyond it."
+    },
+    {
+      "id": 89,
+      "question": "Does building density visibly decrease toward open land?",
+      "definition": "Require a transition over at least 200 m from closely spaced roof groups through separated groups to predominantly open ground."
+    },
+    {
+      "id": 90,
+      "question": "Are two built clusters separated by a broad vegetated gap?",
+      "definition": "Count recognizable roof-and-road clusters with at least 100 m of predominantly vegetated land between their nearest edges."
+    },
+    {
+      "id": 91,
+      "question": "Does a road-like corridor cross most of the patch?",
+      "definition": "Require a continuous, resolved corridor with road-like width and alignment extending between image edges separated by at least 800 m."
+    },
+    {
+      "id": 92,
+      "question": "Do road-like corridors form a visible junction?",
+      "definition": "Count three or more resolved road-like arms each extending at least 100 m from a common meeting point."
+    },
+    {
+      "id": 93,
+      "question": "Does a road or track connect a built cluster to open parcels?",
+      "definition": "Require a visually continuous access corridor from recognizable roofs to field-like land over a distance of at least 100 m."
+    },
+    {
+      "id": 94,
+      "question": "Does a road-like corridor divide a continuous vegetated area?",
+      "definition": "Count a resolved road-like strip at least 200 m long with matching vegetation appearance on both sides for most of its length."
+    },
+    {
+      "id": 95,
+      "question": "Are several straight tracks visible within open land?",
+      "definition": "Require at least three resolved pale or gray linear routes, each at least 100 m long, with track-like continuity rather than broad cultivation bands."
+    },
+    {
+      "id": 96,
+      "question": "Does a broad exposed surface adjoin a recognizable built area?",
+      "definition": "Count a nonvegetated open surface at least 50 m across directly adjoining roofs or associated access surfaces, without assigning its purpose."
+    },
+    {
+      "id": 97,
+      "question": "Does a built cluster contain clearly contrasting roof colors?",
+      "definition": "Require at least two spatially coherent roof groups with different true-color appearances confirmed by angular outlines and their relationship to streets."
+    },
+    {
+      "id": 98,
+      "question": "Does a road follow the edge of a woody block?",
+      "definition": "Require a resolved road-like corridor within 20 m of a woody boundary for at least 200 m."
+    },
+    {
+      "id": 99,
+      "question": "Does a road visibly bend around an open or woody parcel?",
+      "definition": "Require a resolved road-like corridor to change direction while following at least two adjoining sides of a distinct parcel or woody block."
+    },
+    {
+      "id": 100,
+      "question": "Is an isolated built group surrounded predominantly by vegetation?",
+      "definition": "Count a recognizable roof group separated from other built groups by at least 100 m, with vegetated ground around at least three quarters of its perimeter."
+    },
+    {
+      "id": 101,
+      "question": "Does a water-like surface have a visibly vegetated margin?",
+      "definition": "Require a smooth, low-red surface with a coherent shoreline and a vegetation band along at least 100 m of that shoreline, excluding identifiable shadows."
+    },
+    {
+      "id": 102,
+      "question": "Does a water-like feature form an elongated corridor?",
+      "definition": "Count a smooth, low-red feature bounded by coherent banks that is at least 100 m long, at least 20 m wide, and at least three times longer than wide."
+    },
+    {
+      "id": 103,
+      "question": "Does a visible shoreline continue beyond the image boundary?",
+      "definition": "Require a coherent land–water boundary at least 100 m long that intersects an image edge, excluding boundaries attributable to shadow."
+    },
+    {
+      "id": 104,
+      "question": "Is a compact water-like feature enclosed by land?",
+      "definition": "Count a smooth, low-red feature at least 30 m across with a complete visible shoreline and a length less than four times its width."
+    },
+    {
+      "id": 105,
+      "question": "Is exposed ground visible along part of a water-like feature?",
+      "definition": "Require a pale or brown nonvegetated band at least 20 m wide and 50 m long between a coherent water-like surface and adjacent land cover."
+    },
+    {
+      "id": 106,
+      "question": "Do water-like surfaces and vegetation form a fine mosaic?",
+      "definition": "Require at least three smooth, low-red patches at least 20 m across interspersed with red-responsive vegetation inside one coherent area, excluding canopy shadows."
+    },
+    {
+      "id": 107,
+      "question": "Does a dark, sinuous corridor pass through open land?",
+      "definition": "Count a non-shadow corridor at least 150 m long with at least two bends and a darker appearance than the adjacent open ground, without requiring proof of flowing water."
+    },
+    {
+      "id": 108,
+      "question": "Do dark linear features form a branching pattern in open land?",
+      "definition": "Require at least three resolved dark arms each at least 50 m long meeting within an open area and not explained by roads or cast shadows."
+    },
+    {
+      "id": 109,
+      "question": "Does an exposed-ground parcel contain dark, wet-looking patches?",
+      "definition": "Count irregular soil-like patches at least 30 m across that are darker in both composites than surrounding exposed ground, excluding vegetation and identifiable shadows without asserting actual moisture."
+    },
+    {
+      "id": 110,
+      "question": "Does a broad dark band cross otherwise lighter exposed ground?",
+      "definition": "Require a non-shadow, soil-like band at least 30 m wide and 100 m long that is darker in both composites than the surrounding open surface."
+    },
+    {
+      "id": 111,
+      "question": "Is greener vegetation concentrated along a sinuous corridor?",
+      "definition": "Require a curving band at least 150 m long that is greener in true color and redder in false color than the open ground on both sides."
+    },
+    {
+      "id": 112,
+      "question": "Does dark open ground occur beside a narrow vegetated strip?",
+      "definition": "Require an irregular, low-red dark area at least 30 m across directly adjoining a vegetation strip at least 100 m long, excluding obvious shadow."
+    },
+    {
+      "id": 113,
+      "question": "Does one water-like surface show a broad internal color contrast?",
+      "definition": "Require two smooth regions each at least 30 m across within the same coherent shoreline that differ in true-color appearance without matching a cast-shadow pattern."
+    },
+    {
+      "id": 114,
+      "question": "Do several dark, wet-looking patches align across an open area?",
+      "definition": "Count at least three non-shadow dark ground patches at least 20 m across arranged along one straight or curving course, without inferring hydrological connection."
+    },
+    {
+      "id": 115,
+      "question": "Does a water-like corridor have noticeably different vegetation on its two sides?",
+      "definition": "Require a smooth, low-red corridor with coherent banks extending at least 100 m and contrasting vegetation color or texture on opposite banks."
+    },
+    {
+      "id": 116,
+      "question": "Does a narrow woody strip separate buildings from open parcels?",
+      "definition": "Require a canopy-textured strip at least 100 m long positioned between recognizable roofs and field-like open land."
+    },
+    {
+      "id": 117,
+      "question": "Does a built cluster adjoin both green vegetation and pale exposed ground?",
+      "definition": "Require separate boundaries at least 50 m long between the same recognizable built cluster and each of the two contrasting open surfaces."
+    },
+    {
+      "id": 118,
+      "question": "Does a road separate open parcels with contrasting vegetation appearances?",
+      "definition": "Require a resolved road-like corridor at least 150 m long with red-responsive vegetation on one side and predominantly pale or brown open ground on the other."
+    },
+    {
+      "id": 119,
+      "question": "Does a sinuous vegetation corridor cross a pattern of straight parcel boundaries?",
+      "definition": "Require a curving red-responsive strip at least 200 m long that crosses or successively meets at least three straight parcel boundaries."
+    },
+    {
+      "id": 120,
+      "question": "Are small parcels concentrated beside woody cover while larger parcels lie farther away?",
+      "definition": "Require at least three parcels touching one woody block whose visible areas are each less than half those of at least two fully visible parcels farther from that block."
+    },
+    {
+      "id": 121,
+      "question": "Are woody clumps aligned with the surrounding parcel pattern?",
+      "definition": "Count at least three separate canopy-textured clumps arranged along a line parallel to nearby parcel boundaries."
+    },
+    {
+      "id": 122,
+      "question": "Does a road run parallel to a separate woody strip?",
+      "definition": "Require a road-like corridor and woody strip to remain approximately parallel for at least 200 m with 20–100 m of open ground between them."
+    },
+    {
+      "id": 123,
+      "question": "Does the same road pass through both open and woody surroundings?",
+      "definition": "Require one visually continuous road-like corridor with at least 100 m bordered predominantly by open land and another 100 m bordered predominantly by woody cover."
+    },
+    {
+      "id": 124,
+      "question": "Does a pale access corridor connect buildings to a pale open surface?",
+      "definition": "Require a continuous pale road or track linking recognizable roofs to a nonvegetated open area at least 50 m across."
+    },
+    {
+      "id": 125,
+      "question": "Does a dark, wet-looking zone interrupt a regular parcel pattern?",
+      "definition": "Require an irregular non-shadow dark-ground zone at least 50 m across that cuts through otherwise straight parcel boundaries, without claiming confirmed wetness."
+    },
+    {
+      "id": 126,
+      "question": "Is strongly red-responsive vegetation concentrated in woody areas while open parcels are mostly pale?",
+      "definition": "Require woody and field-like open areas each to occupy at least 15% of the patch, with most woody cover red-responsive and most open-parcel area pale and weakly red-responsive."
+    },
+    {
+      "id": 127,
+      "question": "Do narrow vegetation strips remain red-responsive between mostly pale parcels?",
+      "definition": "Require at least three boundary strips at least 100 m long that appear red-dominant in false color while the adjoining parcel interiors are predominantly pale."
+    },
+    {
+      "id": 128,
+      "question": "Do both woody cover and open parcels contain visible color mosaics?",
+      "definition": "Require a woody area and a field-like open area each at least 100 m across to contain at least three resolved, non-shadow color regions."
+    },
+    {
+      "id": 129,
+      "question": "Does a straight boundary separate landscapes with different spatial textures?",
+      "definition": "Require an approximately straight boundary at least 300 m long between a relatively uniform area and an area containing at least five resolved patches or objects."
+    },
+    {
+      "id": 130,
+      "question": "Do three contrasting surface types meet at one junction?",
+      "definition": "Count a junction no wider than 30 m where three areas, each extending at least 50 m away, differ clearly in both appearance and surface structure."
+    },
+    {
+      "id": 131,
+      "question": "Is a finely divided landscape next to a much more uniform area?",
+      "definition": "Require adjoining areas each covering at least 20% of the patch, one containing at least six distinct parcels or cover patches and the other no more than two."
+    },
+    {
+      "id": 132,
+      "question": "Are two distinct orientations visible in the parcel or corridor pattern?",
+      "definition": "Require two groups of at least three linear boundaries or corridors, with consistent orientation within each group and an angle of at least 30 degrees between groups."
+    },
+    {
+      "id": 133,
+      "question": "Do several contrasting landscape bands share a common orientation?",
+      "definition": "Count at least three approximately parallel bands, each at least 50 m wide and 200 m long, distinguished by vegetation, exposed-ground, or built-surface appearance."
+    },
+    {
+      "id": 134,
+      "question": "Does one broad cover block occupy a corner while smaller patches fill the rest?",
+      "definition": "Require a visually uniform block covering at least 25% of the image and touching two adjacent edges, with at least five distinct patches in the remaining area."
+    },
+    {
+      "id": 135,
+      "question": "Does a narrow neck connect two broad open areas?",
+      "definition": "Require two open areas each at least 100 m across joined by an open passage no wider than 50 m and bordered laterally by contrasting cover."
+    },
+    {
+      "id": 136,
+      "question": "Does a linear feature separate woody cover from open vegetation?",
+      "definition": "Require a resolved road, track, or water-like corridor at least 200 m long with woody cover predominantly on one side and nonwoody vegetation on the other."
+    },
+    {
+      "id": 137,
+      "question": "Do isolated built groups coincide with junctions in the access network?",
+      "definition": "Count at least two roof groups separated by at least 100 m, each within 30 m of a visible road or track junction."
+    },
+    {
+      "id": 138,
+      "question": "Does a woody strip widen into a broader block along its length?",
+      "definition": "Require a connected woody feature with a section no wider than 40 m and another at least 100 m wide, each extending for at least 100 m."
+    },
+    {
+      "id": 139,
+      "question": "Does an open clearing contrast in vegetation color with nearby open land outside the woods?",
+      "definition": "Require an enclosed or nearly enclosed clearing and an external open area each at least 50 m across with clearly different non-shadow vegetation colors."
+    },
+    {
+      "id": 140,
+      "question": "Does a parcel boundary continue into a different land-cover setting?",
+      "definition": "Require a straight boundary or corridor to retain its alignment for at least 100 m on each side of a transition between field-like, woody, or built surroundings."
+    },
+    {
+      "id": 141,
+      "question": "Are visibly exposed surfaces concentrated along the road network?",
+      "definition": "Count at least three separate pale or brown nonvegetated areas at least 30 m across that directly adjoin resolved roads or tracks."
+    },
+    {
+      "id": 142,
+      "question": "Does one woody block border several differently colored open parcels?",
+      "definition": "Require the same connected woody block to contact at least three open parcels with clearly distinguishable dominant colors."
+    },
+    {
+      "id": 143,
+      "question": "Does an open parcel border both a broad woody block and a narrow woody strip?",
+      "definition": "Require one parcel to touch canopy-textured cover at least 100 m wide on one side and a distinct woody strip no wider than 40 m on another."
+    },
+    {
+      "id": 144,
+      "question": "Are vegetation-rich and vegetation-poor areas interlocked along an irregular boundary?",
+      "definition": "Require at least three alternating projections, each at least 30 m deep, between strongly red-responsive vegetation and predominantly weak-red open or built surfaces."
+    },
+    {
+      "id": 145,
+      "question": "Does a smooth open area adjoin a coarse mosaic of woody clumps and gaps?",
+      "definition": "Require a shared boundary at least 100 m long between a uniform nonwoody area and an area containing at least five resolved woody clumps separated by openings."
+    },
+    {
+      "id": 146,
+      "question": "Do narrow vegetation corridors connect several otherwise separate woody patches?",
+      "definition": "Require at least three broader canopy-textured patches linked by resolved red-responsive strips narrower than half the width of the patches."
+    },
+    {
+      "id": 147,
+      "question": "Does one half of the patch contain substantially more parcel edges than the other?",
+      "definition": "Require one left–right or upper–lower half to contain at least six distinct open-parcel boundary segments while the other contains no more than two."
+    },
+    {
+      "id": 148,
+      "question": "Does a broad, uniform area contain several contrasting inclusions?",
+      "definition": "Count at least three enclosed features each at least 30 m across whose color or texture differs from one surrounding area covering at least 25% of the patch."
+    },
+    {
+      "id": 149,
+      "question": "Does a continuous vegetation route cross an otherwise fragmented landscape?",
+      "definition": "Require a resolved connected route of red-responsive vegetation between opposite image edges through a patch containing at least six distinct nonvegetated or differently structured areas."
+    },
+    {
+      "id": 150,
+      "question": "Do straight and irregular boundaries contribute visibly to the same landscape mosaic?",
+      "definition": "Require at least three straight boundary segments each at least 100 m long and three irregular boundary segments of comparable length between resolved surface areas."
+    }
+  ]
+}
