@@ -1,0 +1,29 @@
+{
+ "ws_code": {
+  "files": [
+   "bank_descriptors.npy",
+   "classes.json",
+   "descriptors.json",
+   "sample_bands.npy"
+  ],
+  "label_check": []
+ },
+ "ws_free": {
+  "files": [
+   "bank_astra.jsonl",
+   "bank_captions.jsonl",
+   "bank_descriptors.npy",
+   "bank_features.npy",
+   "bank_qwen.jsonl",
+   "classes.json",
+   "descriptors.json",
+   "test_captions.jsonl",
+   "test_descriptors.npy",
+   "test_features.npy",
+   "test_ids.json",
+   "test_qwen.jsonl"
+  ],
+  "label_check": [],
+  "bank_rows": 497
+ }
+}

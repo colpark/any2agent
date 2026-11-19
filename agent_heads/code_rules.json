@@ -1,0 +1,65 @@
+{
+ "code": "import numpy as np\n\n_IDS = (1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 16, 18, 19)\n_TERRESTRIAL = (1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14)\n_NAMES = (\n    \"Brightness\", \"NDVI mean\", \"NDVI standard deviation\",\n    \"Vegetated share\", \"NDWI mean\", \"Water share\", \"NDMI mean\",\n    \"SWIR1 mean\", \"SWIR2 mean\", \"NIR texture\",\n)\n\n\ndef _nd(a, b):\n    # Reflectance equivalent of the documented 1e-6 DN denominator floor.\n    return (a - b) / np.maximum(a + b, 1e-10)\n\n\ndef label(desc, x):\n    \"\"\"Return conservative spectral evidence, not validated CORINE labels.\n\n    Inputs: descriptors in documented units; x contains reflectance * 10000.\n    No I/O, training, geographic information, or assumed class frequencies.\n\n    'no' indicates strong contrary evidence at acquisition time. Flooding,\n    seasonality, subpixel cover and CORINE boundaries can defeat these rules.\n    Exclusion requires every pixel to satisfy the relevant spectral test;\n    a dominant surface alone does not exclude another class in a mixed patch.\n\n    No reliable 'yes' rule is available for these particular classes:\n    spectra cannot establish water geography, management, canopy height,\n    forest composition, or vegetation succession. Those distinctions abstain.\n\n    Distribution checks:\n    - 59 bank entries had Water share > .95, NDWI mean > .2, NDVI mean < .1.\n      Their SWIR1/2 mean p95 values were .01527/.01391 reflectance.\n      Water ceilings below are approximately twice those values.\n    - Bank-wide SWIR1/2 mean p25 values were .09908/.05200 reflectance.\n    - Water-like sample pixels had NIR p99=.0278; .08 allows some turbidity.\n    These thresholds are heuristics, not statistically calibrated boundaries.\n\n    Tested against all 50 samples, using matching bank descriptors:\n    60 'no', 690 'abstain', zero 'yes' across 750 decisions.\n    Also checked missing descriptors, NaNs, zeros and incorrect input units.\n    Execution checks do not establish classification accuracy.\n    \"\"\"\n    out = dict.fromkeys(_IDS, \"abstain\")\n    a = np.asarray(x, dtype=np.float64)\n    if a.shape != (12, 120, 120):\n        raise ValueError(\"x must have shape (12, 120, 120)\")\n    if not np.isfinite(a).all() or np.any(a < 0):\n        return out\n    try:\n        supplied = np.array([desc[k] for k in _NAMES], dtype=np.float64)\n    except (KeyError, TypeError, ValueError):\n        return out\n    if supplied.shape != (10,) or not np.isfinite(supplied).all():\n        return out\n\n    # Apply the supplied scale exactly; do not infer an additional DN offset.\n    r = a / 10000.0\n    blue, green, red = r[1], r[2], r[3]\n    re1, re3, nir, nir_narrow = r[4], r[6], r[7], r[8]\n    swir1, swir2 = r[10], r[11]\n    visible = (blue + green + red) / 3.0\n    ndvi = _nd(nir, red)\n    ndwi = _nd(green, nir)\n    ndmi = _nd(nir_narrow, swir1)\n    mndwi = _nd(green, swir1)\n\n    # Check descriptor correspondence and units; means cannot identify land use.\n    measured = np.array([\n        visible.mean() * 10000, ndvi.mean(), ndvi.std(),\n        (ndvi > .5).mean(), ndwi.mean(), (ndwi > 0).mean(),\n        ndmi.mean(), swir1.mean() * 10000, swir2.mean() * 10000,\n        nir.std() * 10000,\n    ])\n    tolerance = np.array([2, .002, .002, .002, .002, .002, .002, 2, 2, 2])\n    if np.any(np.abs(supplied - measured) > tolerance):\n        return out\n\n    # Conservative quality vetoes; these cannot replace a cloud/scene mask.\n    obscured = (\n        (visible < .003)\n        | ((blue > .20) & (visible > .20) & (ndvi < .25))\n        | ((green > .15) & (nir > .10) & (mndwi > .40))\n    )\n    if obscured.any() or np.any(r > 1.2):\n        return out\n\n    # Water absorbs strongly in NIR/SWIR relative to visible green.\n    water = (\n        (ndwi > .20) & (mndwi > .35) & (ndvi < .15)\n        & (green > .01) & (nir < .08) & (nir_narrow < .08)\n        & (swir1 < .031) & (swir2 < .028)\n    )\n\n    # Chlorophyll absorption and a red-edge rise support vegetation,\n    # but do not separate crops, pasture, shrubs and tree canopies.\n    vegetation = (\n        (ndvi > .40) & (_nd(re3, re1) > .15)\n        & (nir > .10) & (swir1 > .05)\n    )\n\n    # Substantial SWIR reflection contradicts an exposed open-water surface.\n    nonwater_surface = (\n        (swir1 > .099) & (swir2 > .052)\n        & (mndwi < -.20) & (nir > .08)\n    )\n\n    # Upsampled pixels are not independent observations. No significance\n    # calculation or texture-derived claim about management is made.\n    if water.all():\n        for class_id in _TERRESTRIAL:\n            out[class_id] = \"no\"\n    if (vegetation | nonwater_surface).all():\n        out[18] = \"no\"\n        out[19] = \"no\"\n\n    # Wetlands can contain vegetation, exposed peat or open water.\n    return out\n",
+ "evidence": [
+  {
+   "id": 1,
+   "text": "Urban fabric: Uniform open-water absorption contradicts an exposed built surface; otherwise abstain."
+  },
+  {
+   "id": 3,
+   "text": "Arable land: Uniform open water supplies negative surface evidence; crop management remains unidentifiable."
+  },
+  {
+   "id": 4,
+   "text": "Permanent crops: Uniform open water contradicts exposed perennial plantings; otherwise abstain."
+  },
+  {
+   "id": 5,
+   "text": "Pastures: Uniform open water contradicts exposed grass cover; grazing management remains unidentifiable."
+  },
+  {
+   "id": 6,
+   "text": "Complex cultivation patterns: Uniform open water opposes an exposed agricultural mosaic; otherwise abstain."
+  },
+  {
+   "id": 7,
+   "text": "Agriculture with natural vegetation: Uniform open water opposes exposed terrestrial cover; otherwise abstain."
+  },
+  {
+   "id": 8,
+   "text": "Agro-forestry: Uniform open water opposes exposed vegetation; tree\u2013agriculture coexistence remains unidentifiable."
+  },
+  {
+   "id": 9,
+   "text": "Broad-leaved forest: Uniform open water contradicts exposed canopy; leaf type otherwise remains ambiguous."
+  },
+  {
+   "id": 10,
+   "text": "Coniferous forest: Uniform open water contradicts exposed canopy; dark vegetation alone cannot identify conifers."
+  },
+  {
+   "id": 11,
+   "text": "Mixed forest: Uniform open water contradicts exposed canopy; spectral variability cannot establish forest composition."
+  },
+  {
+   "id": 13,
+   "text": "Moors, heathland, sclerophyllous vegetation: Uniform open water contradicts exposed shrub cover; otherwise abstain."
+  },
+  {
+   "id": 14,
+   "text": "Transitional woodland, shrub: Uniform open water contradicts exposed woody vegetation; succession remains unidentifiable."
+  },
+  {
+   "id": 16,
+   "text": "Inland wetlands: Moisture and vegetation cannot establish wetland ecology, persistence, or inland location; abstain."
+  },
+  {
+   "id": 18,
+   "text": "Inland waters: Everywhere strong vegetation or SWIR reflection opposes open water; inland identity remains ambiguous."
+  },
+  {
+   "id": 19,
+   "text": "Marine waters: Everywhere strong vegetation or SWIR reflection opposes open water; marine identity remains ambiguous."
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+Loaded 497 bank and 997 test patches; pseudo-label rates [0.213 0.473 0.098 0.444 0.291 0.34  0.08  0.519 0.464 0.36  0.21  0.487
+ 0.149 0.307 0.127]
+feature_linear MSE 0.05025 alphas [0.1 0.1 0.3 0.1 0.1 0.1 0.1 0.3 0.3 0.3 0.3 0.1 0.3 0.1 0.1]
+feature_rbf_0.25 MSE 0.0529 alphas [0.3  0.1  1.   0.3  0.03 0.1  0.3  0.3  0.3  0.3  0.3  0.3  1.   0.3
+ 0.1 ]
+feature_rbf_0.5 MSE 0.05088 alphas [0.3 0.3 1.  0.3 0.1 0.1 0.3 0.3 0.3 0.3 0.3 0.3 1.  0.3 0.1]
+feature_rbf_1.0 MSE 0.05019 alphas [0.1 0.1 0.3 0.1 0.1 0.1 0.1 0.1 0.3 0.3 0.3 0.3 0.3 0.1 0.1]
+feature_rbf_2.0 MSE 0.04989 alphas [0.1  0.1  0.3  0.1  0.03 0.03 0.1  0.1  0.1  0.1  0.1  0.1  0.3  0.1
+ 0.1 ]
+physical MSE 0.0646 alphas [1.  0.3 1.  1.  1.  0.1 0.3 0.3 0.3 0.3 0.1 0.3 0.3 0.1 0.3]
+text MSE 0.06469 alphas [0.3 0.3 1.  1.  0.3 0.3 1.  0.3 0.3 0.3 0.3 1.  1.  1.  0.3]
+answers MSE 0.06723 alphas [1.  0.3 1.  1.  1.  3.  3.  1.  1.  3.  3.  0.3 1.  1.  0.3]
+evidence MSE 0.05776 alphas [1.  0.3 3.  0.3 1.  0.3 1.  0.3 1.  1.  0.3 0.3 1.  1.  0.3]
+image_physical MSE 0.05105 alphas [0.3 0.1 1.  0.3 0.1 0.1 0.1 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3]
+combined MSE 0.04731 alphas [0.3 0.3 1.  0.3 0.1 0.1 0.3 0.3 0.3 0.3 0.3 0.3 1.  0.3 0.1]
+combined_linear MSE 0.04771 alphas [0.3 0.3 1.  0.3 0.3 0.1 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.1]
+combined_text MSE 0.04822 alphas [0.3 0.3 1.  0.3 0.1 0.1 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.1]
+calibration MSE 0.08456
+trees_image MSE 0.06019
+trees_all MSE 0.05478
+trees_evidence MSE 0.05653
+Urban fabric MSE 0.0522 AUC 0.932 weights [0.23 0.56 0.16 0.   0.06 0.  ] test mean 0.212
+Arable land MSE 0.0508 AUC 0.959 weights [0.28 0.38 0.14 0.12 0.07 0.  ] test mean 0.485
+Permanent crops MSE 0.0263 AUC 0.843 weights [0.3  0.36 0.08 0.22 0.02 0.02] test mean 0.1
+Pastures MSE 0.0617 AUC 0.91 weights [0.36 0.39 0.17 0.08 0.   0.  ] test mean 0.478
+Complex cultivation patte MSE 0.0524 AUC 0.947 weights [0.4  0.44 0.05 0.11 0.   0.  ] test mean 0.314
+Land principally occupied MSE 0.0717 AUC 0.893 weights [0.32 0.47 0.05 0.09 0.07 0.  ] test mean 0.37
+Agro-forestry areas MSE 0.0146 AUC 0.951 weights [0.37 0.4  0.05 0.18 0.   0.  ] test mean 0.093
+Broad-leaved forest MSE 0.057 AUC 0.896 weights [0.42 0.33 0.17 0.08 0.   0.  ] test mean 0.555
+Coniferous forest MSE 0.0552 AUC 0.926 weights [0.41 0.36 0.03 0.2  0.   0.  ] test mean 0.497
+Mixed forest MSE 0.0423 AUC 0.925 weights [0.36 0.41 0.1  0.13 0.   0.  ] test mean 0.383
+Moors, heathland and scle MSE 0.0409 AUC 0.896 weights [0.39 0.32 0.   0.22 0.   0.07] test mean 0.223
+Transitional woodland, sh MSE 0.0447 AUC 0.939 weights [0.39 0.46 0.01 0.14 0.   0.  ] test mean 0.522
+Inland wetlands MSE 0.0363 AUC 0.879 weights [0.28 0.45 0.06 0.14 0.   0.06] test mean 0.155
+Inland waters MSE 0.0743 AUC 0.843 weights [0.32 0.33 0.01 0.   0.16 0.19] test mean 0.308
+Marine waters MSE 0.0081 AUC 0.995 weights [0.31 0.4  0.03 0.19 0.02 0.05] test mean 0.097
+Wrote scores.npy; finite: True range 0.0074479543086570996 0.9753547936287355
