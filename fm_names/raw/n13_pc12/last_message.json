@@ -1,0 +1,12 @@
+{
+  "name_a": "Bright, open surfaces",
+  "name_b": "Dark water and green cover",
+  "definition": "A patch lies closer to A when its background contains more pale or exposed surfaces—snow, tan agricultural soil, or light-colored water—and less dark water or dense green vegetation. Judge the underlying surface where visible; isolated bright clouds alone should not move a patch toward A.",
+  "cues": [
+    "Extensive pale surfaces versus nearly black or dark-blue water in both composites.",
+    "Tan or pale agricultural fields versus predominantly green fields.",
+    "Broad white snow cover or uniformly pale water, rather than isolated white clouds.",
+    "More exposed ground and mixed field colors versus continuous vegetation that appears red in false color."
+  ],
+  "visible": "medium"
+}

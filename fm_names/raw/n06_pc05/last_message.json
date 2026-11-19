@@ -1,0 +1,11 @@
+{
+  "name_a": "Mostly snow-free terrain",
+  "name_b": "Snow-covered terrain",
+  "definition": "A patch lies closer to A when less of its land surface is covered by bright white to cyan snow and more exposed vegetation or brown ground is visible. B has extensive snow cover, often interrupted by dark wooded slopes.",
+  "cues": [
+    "B has widespread bright white areas in true color that remain white or cyan in false color; A largely lacks these.",
+    "A shows extensive green or brown ground in true color, with vegetation often turning red in false color.",
+    "B shows snow filling openings and forming bands along terrain, interspersed with dark vegetation."
+  ],
+  "visible": "high"
+}

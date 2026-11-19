@@ -1,0 +1,12 @@
+{
+  "name_a": "Near-black, low-detail patches",
+  "name_b": "Bright, clearly textured land",
+  "definition": "A patch lies closer to end A when both its true-color and false-color halves are predominantly near-black, with faint contrast and few discernible surface features. End B has brighter, varied colors and recognizable landscape structure.",
+  "cues": [
+    "Near-black coverage across both halves is much greater toward A.",
+    "Fields, roads, buildings, and vegetation boundaries are readily discernible toward B.",
+    "False-color vegetation appears strongly red toward B but is barely visible toward A.",
+    "Local color and brightness variation are much weaker toward A."
+  ],
+  "visible": "high"
+}

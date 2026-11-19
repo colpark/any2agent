@@ -1,0 +1,12 @@
+{
+  "name_a": "Greener, summer-like surfaces",
+  "name_b": "Dormant, winter-like surfaces",
+  "definition": "A patch lies closer to A when it shows greener, snow-free land with stronger red vegetation in false color, or relatively bright green-blue water. B favors dark, sparsely vegetated fields, snow-like white/cyan cover, and very dark water. This describes visible appearance rather than establishing the season.",
+  "cues": [
+    "Vegetation: extensive green land and strong false-color red favor A; subdued fields with isolated red strips favor B.",
+    "White cover with cyan detail in false color, as in B6, favors B.",
+    "Water: brighter green/teal in true color favors A; nearly black water in both composites favors B.",
+    "Water texture: smoother surfaces favor A; conspicuous repeated ripples favor B."
+  ],
+  "visible": "medium"
+}

@@ -1,0 +1,12 @@
+{
+  "name_a": "Vegetation or open water",
+  "name_b": "Exposed-soil cropland",
+  "definition": "A patch lies closer to A when exposed brown or tan soil occupies less of its area and leafy vegetation or open water occupies more. B is dominated by bare or sparsely vegetated agricultural fields.",
+  "cues": [
+    "B has extensive brown–tan fields in true color, appearing cyan or muted gray-green in false color.",
+    "A generally has more green vegetation that becomes vivid red in false color.",
+    "B shows repeated narrow agricultural strips, with green or red vegetation confined to scattered strips and margins.",
+    "Continuous tree cover or open water favors A; water appears blue-green in true color and dark blue in false color."
+  ],
+  "visible": "high"
+}

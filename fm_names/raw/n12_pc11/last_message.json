@@ -1,0 +1,12 @@
+{
+  "name_a": "Smooth, continuous cover",
+  "name_b": "Contrasting, fragmented cover",
+  "definition": "A patch lies closer to A when broad, relatively uniform surfaces dominate, with fewer strong internal boundaries. It lies closer to B when contrasting surfaces form a dense mosaic of strips, blocks, or irregular fragments. Judge spatial texture and contrast across the whole patch.",
+  "cues": [
+    "A has broad areas of nearly constant color; B has frequent abrupt changes in color or brightness.",
+    "B shows many distinct edges, including long field boundaries or intricate shorelines.",
+    "A is mostly continuous water, with one predominantly green landscape; B mixes dark surfaces with conspicuously lighter areas.",
+    "B’s agricultural patches alternate vegetated red strips with muted cyan or gray fields in false color."
+  ],
+  "visible": "high"
+}

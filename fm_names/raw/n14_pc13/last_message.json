@@ -1,0 +1,12 @@
+{
+  "name_a": "Fine, fragmented texture",
+  "name_b": "Broad, continuous cover",
+  "definition": "A patch lies closer to A when its visible pattern breaks into smaller, more irregular elements with frequent local changes in brightness, color or texture. It lies closer to B when larger continuous areas dominate, with fewer internal interruptions. Compare spatial organization rather than land-cover identity.",
+  "cues": [
+    "Fine mottling and frequent local transitions versus broad areas of similar appearance.",
+    "Small interwoven buildings, fields, vegetation or exposed ground versus larger coherent blocks.",
+    "Broken snow or shoreline patterns versus more continuous snow or vegetation cover.",
+    "Numerous irregular boundaries versus fewer long boundaries enclosing large parcels."
+  ],
+  "visible": "medium"
+}

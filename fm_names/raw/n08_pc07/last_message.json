@@ -1,0 +1,11 @@
+{
+  "name_a": "Reflective water and open cropland",
+  "name_b": "Dark water and dense woodland",
+  "definition": "A patch lies closer to A when water has visible blue-green or gray reflectance and surface texture, or land forms open rectangular agricultural parcels. It lies closer to B when water is nearly black in both composites, or land has extensive dark-green woodland turning strongly red in false color. Use brightness together with spatial structure.",
+  "cues": [
+    "Water: visible blue-green/gray tones and ripples toward A; nearly black, featureless surfaces toward B.",
+    "Land: straight boundaries and rectangular fields toward A; irregular, continuous wooded areas toward B.",
+    "Vegetation: varied green, muted red or pink parcels toward A; extensive vivid-red canopy toward B."
+  ],
+  "visible": "medium"
+}

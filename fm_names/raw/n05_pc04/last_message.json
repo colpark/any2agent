@@ -1,0 +1,12 @@
+{
+  "name_a": "Pervasive surface texture",
+  "name_b": "Smooth water with discrete land",
+  "definition": "A patch lies closer to A when fine ridges, ripples, or mottled relief form a continuous texture across most of its area. It lies closer to B when broad, relatively uniform water surrounds distinct islands or borders a localized coastline. Judge spatial texture rather than overall brightness or color.",
+  "cues": [
+    "A has repeated light–dark variations throughout the patch; B has large nearly uniform areas.",
+    "A’s water shows conspicuous elongated, often diagonal ripple bands.",
+    "B’s strongest contrasts outline isolated islands, rocks, or a coastal margin.",
+    "A’s land examples also show extensive irregular ridge-and-hollow texture."
+  ],
+  "visible": "high"
+}

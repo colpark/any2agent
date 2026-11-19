@@ -1,0 +1,12 @@
+{
+  "name_a": "Snow-free surfaces",
+  "name_b": "Snow-covered terrain",
+  "definition": "A patch lies closer to A when it shows less visible ground snow or ice: predominantly vegetation, bare ground, or dark open water. B has extensive or patchy snow, appearing white in true color and bright cyan in false color, interspersed with darker terrain. Distinguish ground-following snow from clouds.",
+  "cues": [
+    "White areas in true color that turn bright cyan in false color favor B.",
+    "Irregular snow patches tracing terrain and filling gaps among dark vegetation or rock favor B.",
+    "Green vegetation turning strongly red, including clear agricultural parcels, favors A.",
+    "Broad, uniformly dark water without bright snow or ice favors A."
+  ],
+  "visible": "high"
+}

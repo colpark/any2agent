@@ -1,0 +1,11 @@
+{
+  "name_a": "Broad agricultural fields",
+  "name_b": "Narrow agricultural strips",
+  "definition": "A patch lies closer to A when its farmland is dominated by fewer, wider, more expansive parcels. It lies closer to B when farmland is divided into many thin, elongated strips with closely spaced parallel boundaries. Judge parcel geometry across the patch rather than crop color.",
+  "cues": [
+    "A has wider, blockier fields; B has more long, narrow ribbons.",
+    "B shows denser sequences of parallel field boundaries and alternating crop or soil bands.",
+    "A more often contains broad, uninterrupted field interiors with mottled texture."
+  ],
+  "visible": "high"
+}

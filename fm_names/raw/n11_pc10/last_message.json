@@ -1,0 +1,12 @@
+{
+  "name_a": "Vegetated, gentle terrain",
+  "name_b": "Rugged, sparsely vegetated mountains",
+  "definition": "A patch lies closer to A when it shows relatively gentle terrain dominated by green vegetation, woodland or cultivated fields. It lies closer to B when pronounced ridges, shadowed valleys and brown or gray slopes dominate, often with scattered snow and less extensive vivid-red vegetation in false color.",
+  "cues": [
+    "B has repeated ridges and deep terrain shadows; A generally lacks strong relief shading.",
+    "A has extensive green vegetation that turns red in false color; B has more brown, gray or muted vegetation cover.",
+    "Regular agricultural parcels support A; irregular slopes and branching valleys support B.",
+    "Scattered bright snow patches among exposed slopes support B; nearly complete white obscuration, as in A6, is inconclusive."
+  ],
+  "visible": "high"
+}

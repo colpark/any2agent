@@ -1,0 +1,4553 @@
+{
+ "evr": [
+  0.3281429409980774,
+  0.10354207456111908,
+  0.07822861522436142,
+  0.06636705994606018,
+  0.05007512494921684,
+  0.032201822847127914,
+  0.02759021334350109,
+  0.024134814739227295,
+  0.02138727717101574,
+  0.01775496080517769,
+  0.016911789774894714,
+  0.013827195391058922,
+  0.012827388942241669,
+  0.010084666311740875,
+  0.009290812537074089,
+  0.008067748509347439,
+  0.0074988058768212795,
+  0.007212821859866381,
+  0.006835418753325939,
+  0.006349930074065924
+ ],
+ "evr_sum": 0.8483314514160156,
+ "ends": {
+  "0": "high",
+  "1": "low",
+  "2": "high",
+  "3": "high",
+  "4": "high",
+  "5": "high",
+  "6": "low",
+  "7": "high",
+  "8": "high",
+  "9": "low",
+  "10": "high",
+  "11": "low",
+  "12": "high",
+  "13": "high",
+  "14": "low",
+  "15": "high",
+  "16": "high",
+  "17": "high",
+  "18": "high",
+  "19": "high"
+ },
+ "diag": {
+  "0": {
+   "visible_r2": 0.8406064510345459,
+   "full_r2": 0.8813232779502869,
+   "swir_gain": 0.04071682691574097
+  },
+  "1": {
+   "visible_r2": 0.38920843601226807,
+   "full_r2": 0.4445977210998535,
+   "swir_gain": 0.05538928508758545
+  },
+  "2": {
+   "visible_r2": 0.6911729574203491,
+   "full_r2": 0.7970824241638184,
+   "swir_gain": 0.10590946674346924
+  },
+  "3": {
+   "visible_r2": 0.41881734132766724,
+   "full_r2": 0.5286802053451538,
+   "swir_gain": 0.10986286401748657
+  },
+  "4": {
+   "visible_r2": 0.22822946310043335,
+   "full_r2": 0.2906695604324341,
+   "swir_gain": 0.06244009733200073
+  },
+  "5": {
+   "visible_r2": 0.4665074944496155,
+   "full_r2": 0.48287755250930786,
+   "swir_gain": 0.016370058059692383
+  },
+  "6": {
+   "visible_r2": 0.2738814353942871,
+   "full_r2": 0.3756974935531616,
+   "swir_gain": 0.10181605815887451
+  },
+  "7": {
+   "visible_r2": 0.18003112077713013,
+   "full_r2": 0.2512857913970947,
+   "swir_gain": 0.0712546706199646
+  },
+  "8": {
+   "visible_r2": 0.22364598512649536,
+   "full_r2": 0.3988972306251526,
+   "swir_gain": 0.17525124549865723
+  },
+  "9": {
+   "visible_r2": 0.05855077505111694,
+   "full_r2": 0.09322923421859741,
+   "swir_gain": 0.03467845916748047
+  },
+  "10": {
+   "visible_r2": 0.15162378549575806,
+   "full_r2": 0.19114965200424194,
+   "swir_gain": 0.03952586650848389
+  },
+  "11": {
+   "visible_r2": 0.2348417043685913,
+   "full_r2": 0.26993101835250854,
+   "swir_gain": 0.035089313983917236
+  },
+  "12": {
+   "visible_r2": 0.028619110584259033,
+   "full_r2": 0.08816218376159668,
+   "swir_gain": 0.059543073177337646
+  },
+  "13": {
+   "visible_r2": 0.2518038749694824,
+   "full_r2": 0.3068092465400696,
+   "swir_gain": 0.05500537157058716
+  },
+  "14": {
+   "visible_r2": 0.1536923050880432,
+   "full_r2": 0.22258484363555908,
+   "swir_gain": 0.06889253854751587
+  },
+  "15": {
+   "visible_r2": 0.1645154356956482,
+   "full_r2": 0.2834808826446533,
+   "swir_gain": 0.11896544694900513
+  },
+  "16": {
+   "visible_r2": 0.14294278621673584,
+   "full_r2": 0.15635931491851807,
+   "swir_gain": 0.013416528701782227
+  },
+  "17": {
+   "visible_r2": 0.12275928258895874,
+   "full_r2": 0.2530753016471863,
+   "swir_gain": 0.13031601905822754
+  },
+  "18": {
+   "visible_r2": 0.09824997186660767,
+   "full_r2": 0.13615763187408447,
+   "swir_gain": 0.03790766000747681
+  },
+  "19": {
+   "visible_r2": 0.045662641525268555,
+   "full_r2": 0.09400618076324463,
+   "swir_gain": 0.048343539237976074
+  }
+ },
+ "exemplar_images": {
+  "0": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/3cc58825f91142889f6a324310a4da7f.png",
+    "/home/aid1/langres_state/fn/renders/8d2850ff6f584142b9d8849b5df36668.png",
+    "/home/aid1/langres_state/fn/renders/8814b163d7b747749868dd440caef526.png",
+    "/home/aid1/langres_state/fn/renders/28fa132145f04375b47b8b021b2a1e6d.png",
+    "/home/aid1/langres_state/fn/renders/262bcc7b062a46a488e7aee890c5f6ba.png",
+    "/home/aid1/langres_state/fn/renders/26243839c7964494accfab6f20861a11.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/ab3e645ef300463e9f801824c452b7c9.png",
+    "/home/aid1/langres_state/fn/renders/3c6049c6af5f4ea1b0e3fa0271c61314.png",
+    "/home/aid1/langres_state/fn/renders/5dfec493fb53432786f7b534de4665de.png",
+    "/home/aid1/langres_state/fn/renders/a43495429af84a14b9fb0ffe13873bc1.png",
+    "/home/aid1/langres_state/fn/renders/61d92f5a2e86469484e98943daa691af.png",
+    "/home/aid1/langres_state/fn/renders/627755e052c5499e85af0057157192b7.png"
+   ]
+  },
+  "1": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/3d49460216db45f49608b08b04e92dd6.png",
+    "/home/aid1/langres_state/fn/renders/f6f5821b18624b269497dabf9aa858d7.png",
+    "/home/aid1/langres_state/fn/renders/9b11a4ccad0644199d722fd226ff6808.png",
+    "/home/aid1/langres_state/fn/renders/4bf53152975e47abbec7ec85cc56b662.png",
+    "/home/aid1/langres_state/fn/renders/cd22364bc5f14d79b97f1469bb7a8234.png",
+    "/home/aid1/langres_state/fn/renders/14e84b37a29c4fb6955ab53cef4c1a9d.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/b5955ce648f44c06bf3e415e4392c0f2.png",
+    "/home/aid1/langres_state/fn/renders/4d6922cc63f14c7c84c8e98830e597cd.png",
+    "/home/aid1/langres_state/fn/renders/8c36a4ad28644e6d9469bc2825b6bb97.png",
+    "/home/aid1/langres_state/fn/renders/b52cd59efd674584a1fbb63a62f66514.png",
+    "/home/aid1/langres_state/fn/renders/76e9bfdd946643beac39ba9a1352388b.png",
+    "/home/aid1/langres_state/fn/renders/838631df3f1a4b82bfe8c88e0c8b12ad.png"
+   ]
+  },
+  "2": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/6b5c8e46c7c44e359429e333fdee1b36.png",
+    "/home/aid1/langres_state/fn/renders/a1f6589e735d4fc69592228017d6f478.png",
+    "/home/aid1/langres_state/fn/renders/5846878bb17f48d6ad3c8e2d8afed5da.png",
+    "/home/aid1/langres_state/fn/renders/c3e192fb7c1a4a7a990a078369eafce1.png",
+    "/home/aid1/langres_state/fn/renders/4a5f7cd00c274fd58e6171b1f5ea3b02.png",
+    "/home/aid1/langres_state/fn/renders/54becb740b714edb8edc1e9a119224ad.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/597ea6d87ce0483d96718f92b52409dd.png",
+    "/home/aid1/langres_state/fn/renders/29dd174fcb164117a08f069ac1a03ee8.png",
+    "/home/aid1/langres_state/fn/renders/9aac3bff58984d8c9d643e0329327849.png",
+    "/home/aid1/langres_state/fn/renders/7dd50f83542f4930bcbd3604449ff47f.png",
+    "/home/aid1/langres_state/fn/renders/74bf439d05004db5bc4a3f0d6ed73fca.png",
+    "/home/aid1/langres_state/fn/renders/ffa41bfe58014f22912205d84e8393dd.png"
+   ]
+  },
+  "3": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/6ef4cbbbd5d74427a9af075c27a7453e.png",
+    "/home/aid1/langres_state/fn/renders/59662b2890a74dab85e2f39ef981624a.png",
+    "/home/aid1/langres_state/fn/renders/dcc69ec94bc5404b986329fd612cfadf.png",
+    "/home/aid1/langres_state/fn/renders/0f897d9d18f54af59bd15d761c40712f.png",
+    "/home/aid1/langres_state/fn/renders/ab8ffa4aa43d456889131015ad14b0bd.png",
+    "/home/aid1/langres_state/fn/renders/df7709972d374aa6ad905ccc88bc5854.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/3b72c8ffbcc44669b2de99e5f814fcf4.png",
+    "/home/aid1/langres_state/fn/renders/4bf53152975e47abbec7ec85cc56b662.png",
+    "/home/aid1/langres_state/fn/renders/3eb9776b1baf498db0d0ad2b111ffcaa.png",
+    "/home/aid1/langres_state/fn/renders/0f14df6bb5264d4f8860dfcc53912177.png",
+    "/home/aid1/langres_state/fn/renders/6a54101c90cd4db2a77e2633b2cd5389.png",
+    "/home/aid1/langres_state/fn/renders/968ed97008df4f88a3d5c388e82e3c23.png"
+   ]
+  },
+  "4": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/23ecc861741043f9beb4c6354cbe7b06.png",
+    "/home/aid1/langres_state/fn/renders/ac4d8eb6d91e4db48d0af56a25638419.png",
+    "/home/aid1/langres_state/fn/renders/558e215221e44b61accf00dfce845d2f.png",
+    "/home/aid1/langres_state/fn/renders/be544a3d391c4ff5b55a5464c67b2cbb.png",
+    "/home/aid1/langres_state/fn/renders/0bd91cfcc8c94a19b8430e9d0f885f28.png",
+    "/home/aid1/langres_state/fn/renders/7dd50f83542f4930bcbd3604449ff47f.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/52e0692a39fb40f59ff7577f32457642.png",
+    "/home/aid1/langres_state/fn/renders/ea2715f686e54f1a8718a5c16e96a063.png",
+    "/home/aid1/langres_state/fn/renders/339a4394996e4472a82d0ff4fb37bf37.png",
+    "/home/aid1/langres_state/fn/renders/5dab256949d346f7a616147a3b298d73.png",
+    "/home/aid1/langres_state/fn/renders/5097dd709cef429a9fcd9a35174ab365.png",
+    "/home/aid1/langres_state/fn/renders/485bb209f7a24f6eb122bf90ac3c33c2.png"
+   ]
+  },
+  "5": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/9ac2809f21ae40d98eb7c52df70263b8.png",
+    "/home/aid1/langres_state/fn/renders/dc8376683be94830a7f39923226a04d2.png",
+    "/home/aid1/langres_state/fn/renders/ed1bd3ab545242fcadacc971b05cfffc.png",
+    "/home/aid1/langres_state/fn/renders/2f896f3e26124af7a8378d48817369f8.png",
+    "/home/aid1/langres_state/fn/renders/59662b2890a74dab85e2f39ef981624a.png",
+    "/home/aid1/langres_state/fn/renders/b4750fd8542b4cb1b57f5c082d8d9313.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/872660d2a4164936b7fb5538f12f1a1b.png",
+    "/home/aid1/langres_state/fn/renders/597ea6d87ce0483d96718f92b52409dd.png",
+    "/home/aid1/langres_state/fn/renders/7dd50f83542f4930bcbd3604449ff47f.png",
+    "/home/aid1/langres_state/fn/renders/29dd174fcb164117a08f069ac1a03ee8.png",
+    "/home/aid1/langres_state/fn/renders/74bf439d05004db5bc4a3f0d6ed73fca.png",
+    "/home/aid1/langres_state/fn/renders/2f3af9352eaa4970bb6c7fc8f33590b9.png"
+   ]
+  },
+  "6": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/f3be1f555a3f427ab29369c54a4bf2db.png",
+    "/home/aid1/langres_state/fn/renders/1e6abc20becc4cf6ba78628309bfb0d6.png",
+    "/home/aid1/langres_state/fn/renders/8dd2dda44e7e47858d0c92b1ee9d474e.png",
+    "/home/aid1/langres_state/fn/renders/0d429b67172944f4904a6e3efa008c89.png",
+    "/home/aid1/langres_state/fn/renders/31643720ef194d1593c45f458083d5ca.png",
+    "/home/aid1/langres_state/fn/renders/52e0692a39fb40f59ff7577f32457642.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/d25777b8155441eca632288c35d557a2.png",
+    "/home/aid1/langres_state/fn/renders/b0302892cd5344298bb70ed2cccecbf0.png",
+    "/home/aid1/langres_state/fn/renders/b57982d23ba34c0bb24f3b7f3b484c30.png",
+    "/home/aid1/langres_state/fn/renders/fe14d2c9b7a44571a19e3267dbab615f.png",
+    "/home/aid1/langres_state/fn/renders/edce12cf264c49009f127ce498cf9277.png",
+    "/home/aid1/langres_state/fn/renders/e2b0018959924d0cb0824e9a3b105f74.png"
+   ]
+  },
+  "7": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/d7d83928806d4cc5975262fb8ada35cb.png",
+    "/home/aid1/langres_state/fn/renders/31ae9f5b67cf499c87c5e45c9d5b7330.png",
+    "/home/aid1/langres_state/fn/renders/003e1043fe1549ab839aff511b54c121.png",
+    "/home/aid1/langres_state/fn/renders/6fd4cf87463d4ecb8b9fd7229925403e.png",
+    "/home/aid1/langres_state/fn/renders/22f7fdcec0a4452791b6c84a3f3ae8c3.png",
+    "/home/aid1/langres_state/fn/renders/03f3e9df3269457b8259a08e76461241.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/3cc58825f91142889f6a324310a4da7f.png",
+    "/home/aid1/langres_state/fn/renders/8d2850ff6f584142b9d8849b5df36668.png",
+    "/home/aid1/langres_state/fn/renders/5d4801a16f0d49179ed9bd8ab7b6428a.png",
+    "/home/aid1/langres_state/fn/renders/26243839c7964494accfab6f20861a11.png",
+    "/home/aid1/langres_state/fn/renders/262bcc7b062a46a488e7aee890c5f6ba.png",
+    "/home/aid1/langres_state/fn/renders/654a8c218db94046a3c33173390db3bb.png"
+   ]
+  },
+  "8": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/dca87f6313f540cfb9c96c2360d569a1.png",
+    "/home/aid1/langres_state/fn/renders/89237e8fb5f748c2bb5c759364bb4e13.png",
+    "/home/aid1/langres_state/fn/renders/f23676bd553d4a5089b521bab2974c58.png",
+    "/home/aid1/langres_state/fn/renders/97b9b574134a46ca99a8ed08108f4b67.png",
+    "/home/aid1/langres_state/fn/renders/b669fbea5e44429a9de93dea85c9051d.png",
+    "/home/aid1/langres_state/fn/renders/0b34e7b3dced43f6acc0f706076f7842.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/ae588c3ff3f4493a8de0eb1a01cdfaf7.png",
+    "/home/aid1/langres_state/fn/renders/26ced9d3ae58478d9d721058e102d9ec.png",
+    "/home/aid1/langres_state/fn/renders/97ff7ca7467a4c9197e5fb2d8d1fafb8.png",
+    "/home/aid1/langres_state/fn/renders/b22f0157e948434b920eee650fe02765.png",
+    "/home/aid1/langres_state/fn/renders/1e204b1c24dd41bfa4178e8988f4ad15.png",
+    "/home/aid1/langres_state/fn/renders/c3b2bf309e3e478e8e53795752d1f2b5.png"
+   ]
+  },
+  "9": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/237b26f1da8f4132850b56d96658b31b.png",
+    "/home/aid1/langres_state/fn/renders/dc441644c7c54060be187e2b7fc1d80f.png",
+    "/home/aid1/langres_state/fn/renders/2026334f338e41048f7f6e44f54a2957.png",
+    "/home/aid1/langres_state/fn/renders/d1b7ef28c164488a87f3757647cacd32.png",
+    "/home/aid1/langres_state/fn/renders/b242727bece04777bdeaf8579598ca53.png",
+    "/home/aid1/langres_state/fn/renders/c2f26fe6ceab45b79b0614d77e87d682.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/327cbcffcdeb4e41a2e85bfa06f0c70e.png",
+    "/home/aid1/langres_state/fn/renders/edce12cf264c49009f127ce498cf9277.png",
+    "/home/aid1/langres_state/fn/renders/cd0f550a513b42ff98e9fa472fafbc6a.png",
+    "/home/aid1/langres_state/fn/renders/fe14d2c9b7a44571a19e3267dbab615f.png",
+    "/home/aid1/langres_state/fn/renders/eebdcac95cd441049b704049aa3db812.png",
+    "/home/aid1/langres_state/fn/renders/2b07538b50f14a62b017efc0cfc7f9d0.png"
+   ]
+  },
+  "10": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/c2be0ff02fac4529b040bd57ed481d50.png",
+    "/home/aid1/langres_state/fn/renders/d6419a0076d040a597782d7fe7f13953.png",
+    "/home/aid1/langres_state/fn/renders/d07cfe841c8341fa95daf0327888a3c4.png",
+    "/home/aid1/langres_state/fn/renders/fa0bda0896dd4c678bc72da3966a980d.png",
+    "/home/aid1/langres_state/fn/renders/267c87c15da04b4cabc6c5cf3b7d601e.png",
+    "/home/aid1/langres_state/fn/renders/d9e6497536564e3d966bcb44a93d3514.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/0e681c49162948cab77f70eb506912db.png",
+    "/home/aid1/langres_state/fn/renders/43e8b9a8aceb451dbf8d69181da15356.png",
+    "/home/aid1/langres_state/fn/renders/45ec9fdf8ebf40a4a61ed37d14d88b12.png",
+    "/home/aid1/langres_state/fn/renders/9438777983de4fe78031bcf9ff11b3fd.png",
+    "/home/aid1/langres_state/fn/renders/5913fe198dbb4ff8b0ed9bd59cbcd42e.png",
+    "/home/aid1/langres_state/fn/renders/794f33325a5845f096c0da7afe79f7b4.png"
+   ]
+  },
+  "11": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/327ac981984941bc9dd9609f49602de8.png",
+    "/home/aid1/langres_state/fn/renders/52e0692a39fb40f59ff7577f32457642.png",
+    "/home/aid1/langres_state/fn/renders/3fbeba46ad6f49aca3931872e20533ec.png",
+    "/home/aid1/langres_state/fn/renders/f7f170299752425eb4d949b107b3152d.png",
+    "/home/aid1/langres_state/fn/renders/b843ab8e53574fd499fe734193d18849.png",
+    "/home/aid1/langres_state/fn/renders/d6d020aeff2d4977ae2fc86bfb5ec293.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/921b6907d6d74787a17210e5cf363c22.png",
+    "/home/aid1/langres_state/fn/renders/d7e5796be9674dfba51cec4f4eb16397.png",
+    "/home/aid1/langres_state/fn/renders/c6c08c160b1a434e8f2d24a3b4600975.png",
+    "/home/aid1/langres_state/fn/renders/89237e8fb5f748c2bb5c759364bb4e13.png",
+    "/home/aid1/langres_state/fn/renders/dca87f6313f540cfb9c96c2360d569a1.png",
+    "/home/aid1/langres_state/fn/renders/26e1eecff5534e0c98facae866579f3b.png"
+   ]
+  },
+  "12": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/1a577995c8d84b53b28bddb069fd853d.png",
+    "/home/aid1/langres_state/fn/renders/a7178009109e41c8b6c5cb3f93f45856.png",
+    "/home/aid1/langres_state/fn/renders/0d9f8ca7832444d086dbac611678f7f2.png",
+    "/home/aid1/langres_state/fn/renders/97b9b574134a46ca99a8ed08108f4b67.png",
+    "/home/aid1/langres_state/fn/renders/9b11a4ccad0644199d722fd226ff6808.png",
+    "/home/aid1/langres_state/fn/renders/d6d020aeff2d4977ae2fc86bfb5ec293.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/23a71028e7844d83aeefd8845698aeb2.png",
+    "/home/aid1/langres_state/fn/renders/9580db9d215344a58f9df949cb39c4c6.png",
+    "/home/aid1/langres_state/fn/renders/4bf53152975e47abbec7ec85cc56b662.png",
+    "/home/aid1/langres_state/fn/renders/ac4d8eb6d91e4db48d0af56a25638419.png",
+    "/home/aid1/langres_state/fn/renders/558e215221e44b61accf00dfce845d2f.png",
+    "/home/aid1/langres_state/fn/renders/0bd91cfcc8c94a19b8430e9d0f885f28.png"
+   ]
+  },
+  "13": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/3383a22ab10b49589c5c2c14d0032309.png",
+    "/home/aid1/langres_state/fn/renders/d7e5796be9674dfba51cec4f4eb16397.png",
+    "/home/aid1/langres_state/fn/renders/8f840e96c258467990d0ed8462acaf0e.png",
+    "/home/aid1/langres_state/fn/renders/8e56b684974640f595fb89f5a962e0a6.png",
+    "/home/aid1/langres_state/fn/renders/6540f9ecc72541659472488a1a9d524b.png",
+    "/home/aid1/langres_state/fn/renders/d7d83928806d4cc5975262fb8ada35cb.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/d2ca0af14f374200bdf5767360f1a24d.png",
+    "/home/aid1/langres_state/fn/renders/9edbd5c89fdd42aa9aae35cfe94bde98.png",
+    "/home/aid1/langres_state/fn/renders/fb8dd0c9bc09438cb8ddc80ff1ceab13.png",
+    "/home/aid1/langres_state/fn/renders/80754c1c27bb430c951be5bd1d59987b.png",
+    "/home/aid1/langres_state/fn/renders/25da9caecd9845798d93b949d11e02a8.png",
+    "/home/aid1/langres_state/fn/renders/7bf67e66952e40fe9ab768184b8aed62.png"
+   ]
+  },
+  "14": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/267c87c15da04b4cabc6c5cf3b7d601e.png",
+    "/home/aid1/langres_state/fn/renders/635e2b6d47874f2eb1d3252e3da108ad.png",
+    "/home/aid1/langres_state/fn/renders/093c3478f8424a06bc8001400e02a10f.png",
+    "/home/aid1/langres_state/fn/renders/f6f5821b18624b269497dabf9aa858d7.png",
+    "/home/aid1/langres_state/fn/renders/339a4394996e4472a82d0ff4fb37bf37.png",
+    "/home/aid1/langres_state/fn/renders/08d1b2648c894dec9f5f94711f4b9d0a.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/3120981f6ca6444f9dbad372777719e7.png",
+    "/home/aid1/langres_state/fn/renders/114e1a74a2af4a238b75d447e9bef3aa.png",
+    "/home/aid1/langres_state/fn/renders/4bf53152975e47abbec7ec85cc56b662.png",
+    "/home/aid1/langres_state/fn/renders/fac02e9c4b724ca5a7397b8ba067ab2c.png",
+    "/home/aid1/langres_state/fn/renders/c8edebfe6c8b4b15b6fc79062da28879.png",
+    "/home/aid1/langres_state/fn/renders/17b3c90802c14c7082a47f87f969236e.png"
+   ]
+  },
+  "15": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/26e1eecff5534e0c98facae866579f3b.png",
+    "/home/aid1/langres_state/fn/renders/a7178009109e41c8b6c5cb3f93f45856.png",
+    "/home/aid1/langres_state/fn/renders/635e2b6d47874f2eb1d3252e3da108ad.png",
+    "/home/aid1/langres_state/fn/renders/d9e6497536564e3d966bcb44a93d3514.png",
+    "/home/aid1/langres_state/fn/renders/11cc8b14a7d24a5db1a0e36d5f9e23f1.png",
+    "/home/aid1/langres_state/fn/renders/0f897d9d18f54af59bd15d761c40712f.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/840de5a745b341b1b39275e3afdc7fd0.png",
+    "/home/aid1/langres_state/fn/renders/43e8b9a8aceb451dbf8d69181da15356.png",
+    "/home/aid1/langres_state/fn/renders/d7d83928806d4cc5975262fb8ada35cb.png",
+    "/home/aid1/langres_state/fn/renders/794f33325a5845f096c0da7afe79f7b4.png",
+    "/home/aid1/langres_state/fn/renders/0e681c49162948cab77f70eb506912db.png",
+    "/home/aid1/langres_state/fn/renders/45ec9fdf8ebf40a4a61ed37d14d88b12.png"
+   ]
+  },
+  "16": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/4bf53152975e47abbec7ec85cc56b662.png",
+    "/home/aid1/langres_state/fn/renders/ac4d8eb6d91e4db48d0af56a25638419.png",
+    "/home/aid1/langres_state/fn/renders/558e215221e44b61accf00dfce845d2f.png",
+    "/home/aid1/langres_state/fn/renders/0bd91cfcc8c94a19b8430e9d0f885f28.png",
+    "/home/aid1/langres_state/fn/renders/089e72bd62d740ff9fd528294cfdb13a.png",
+    "/home/aid1/langres_state/fn/renders/25da9caecd9845798d93b949d11e02a8.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/b03e540c04b342dc9fae53085f389be1.png",
+    "/home/aid1/langres_state/fn/renders/ed33ec6809b147be8c533f06f50a0a1a.png",
+    "/home/aid1/langres_state/fn/renders/ee6f49bfc77f44aaaced4ac553eb1bd5.png",
+    "/home/aid1/langres_state/fn/renders/495581a5476d41d0b81eb7c9e32286c0.png",
+    "/home/aid1/langres_state/fn/renders/9f6b09f911a74769b27dfee0bbb6704f.png",
+    "/home/aid1/langres_state/fn/renders/3383a22ab10b49589c5c2c14d0032309.png"
+   ]
+  },
+  "17": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/8f840e96c258467990d0ed8462acaf0e.png",
+    "/home/aid1/langres_state/fn/renders/d7cfb0c143d640e3a0fe846b71c23930.png",
+    "/home/aid1/langres_state/fn/renders/97b3cc7105814f889759925ac4f810f5.png",
+    "/home/aid1/langres_state/fn/renders/ea47a186965648db82d46c7ee65172ad.png",
+    "/home/aid1/langres_state/fn/renders/700d4ed0f0e947fe885b4637fff5062e.png",
+    "/home/aid1/langres_state/fn/renders/c2f26fe6ceab45b79b0614d77e87d682.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/a7178009109e41c8b6c5cb3f93f45856.png",
+    "/home/aid1/langres_state/fn/renders/d9e6497536564e3d966bcb44a93d3514.png",
+    "/home/aid1/langres_state/fn/renders/de6c7a06b77442f3b38b85c552258b1d.png",
+    "/home/aid1/langres_state/fn/renders/6fd4cf87463d4ecb8b9fd7229925403e.png",
+    "/home/aid1/langres_state/fn/renders/120db240999d4ff19b2d07e17dd611a4.png",
+    "/home/aid1/langres_state/fn/renders/0d9f8ca7832444d086dbac611678f7f2.png"
+   ]
+  },
+  "18": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/4bf53152975e47abbec7ec85cc56b662.png",
+    "/home/aid1/langres_state/fn/renders/34d4805af2b54a0fba9ddb998c388a89.png",
+    "/home/aid1/langres_state/fn/renders/114e1a74a2af4a238b75d447e9bef3aa.png",
+    "/home/aid1/langres_state/fn/renders/9fcaf6f0934347ccbfbea3c2c33f7a17.png",
+    "/home/aid1/langres_state/fn/renders/327ac981984941bc9dd9609f49602de8.png",
+    "/home/aid1/langres_state/fn/renders/c8767bad9e9b498294f141fc19c54f2b.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/6fd4cf87463d4ecb8b9fd7229925403e.png",
+    "/home/aid1/langres_state/fn/renders/1d225712aedb492993003ef856e3538f.png",
+    "/home/aid1/langres_state/fn/renders/5097dd709cef429a9fcd9a35174ab365.png",
+    "/home/aid1/langres_state/fn/renders/31ae9f5b67cf499c87c5e45c9d5b7330.png",
+    "/home/aid1/langres_state/fn/renders/6bbd53b321b04bea8132f9474a987670.png",
+    "/home/aid1/langres_state/fn/renders/0f897d9d18f54af59bd15d761c40712f.png"
+   ]
+  },
+  "19": {
+   "A": [
+    "/home/aid1/langres_state/fn/renders/5782685252384e089cf9732339017fa6.png",
+    "/home/aid1/langres_state/fn/renders/4c2b5974b46c48218795a840a6bcf6e6.png",
+    "/home/aid1/langres_state/fn/renders/15cec31d32054fccae2bc2534bdfeef7.png",
+    "/home/aid1/langres_state/fn/renders/23ecc861741043f9beb4c6354cbe7b06.png",
+    "/home/aid1/langres_state/fn/renders/558e215221e44b61accf00dfce845d2f.png",
+    "/home/aid1/langres_state/fn/renders/ac4d8eb6d91e4db48d0af56a25638419.png"
+   ],
+   "B": [
+    "/home/aid1/langres_state/fn/renders/dc39e48b510c42e2841b5c55f3ff364d.png",
+    "/home/aid1/langres_state/fn/renders/3120981f6ca6444f9dbad372777719e7.png",
+    "/home/aid1/langres_state/fn/renders/9580db9d215344a58f9df949cb39c4c6.png",
+    "/home/aid1/langres_state/fn/renders/114e1a74a2af4a238b75d447e9bef3aa.png",
+    "/home/aid1/langres_state/fn/renders/2428052c10a841748d4715d85abb2bee.png",
+    "/home/aid1/langres_state/fn/renders/9b11a4ccad0644199d722fd226ff6808.png"
+   ]
+  }
+ },
+ "pairs": {
+  "0": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8b4d08c001354635a65f36b31c66e8c3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9d733abd7cca4c72a26f89138ec4ed42.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/18a67690cd5e41caa4bdbeab83d746b5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/95411a948d1a4527b5970050490704b8.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/24661a0802fd4a7b9cbae2f1531593f7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/051a0f9c810d4ad0b27f7c9f9e8da916.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/06be381a59664409a646a774348c014c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/bacbc68c2f7c4ced98303a63de21cfb2.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2e4d4cc7d1214c8c84b15612f75cde19.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/947d7dcb27df42dc82534535d413e6ce.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/642b5cae0ca94c4cacf95052563c44b7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8613f91b12f743dfad08797c6e6127aa.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fe6d7475316542bf87f5b4e56b7b14f4.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/225a577810a94504a34185ad238e5ad5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f01c3997cb5f461c88e0233894a68e1d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cad091c7a10a4500ab8bc0feece6638e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0511e940c362431883e186f9bb1b015e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d02acc8dacdb438e971b53303571fb4b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/36adee322cc54d6e91f859cd2daf6afb.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/826cf8fc18b64e648119d3584648e0af.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c2f9abc52193452aa92a0300aa6e84a3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b187b7c0b0e540248f975bc10b5bb810.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ddbce7f126b949ceb53759ae0f9f2235.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9c19659a2da049a5ab0a18f3a9ed553a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/695b2096fb6743ed8ed42fd2535c4e27.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/dbb6329c37634cf1b842b95012c726ff.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f702cbdf4e8e4bb584f232399974a0b0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/be78c9152d004488a41cdee090e7b6b4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/654094de0da9478c851b34ede2a1a41e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e9ab2012c9eb4aeeace5a2dbba1e7242.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/098fe9bb08b542699a7d4991223f4c48.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/87b62f249b5a42ddb72a829f57329895.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/41f9c359868444e186f0ddac5425f2a0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/55a34d9065cc42b9878200a286e6c58d.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/babc0dd8e35e44579c5e34f7b60b32d9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9f1b78c798d74487ad0853e03f45505f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ea0ca5f248724d15835a0aee4e19d218.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7137ae536756404dab2d4738a8476f7e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d6fcc7f3fb1e44cea18c18ed7936d920.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0ae3d9c53c494f0bb0896a2fb29599eb.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/91587859d512474fb2329eecd64cc946.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/10cb646c1c1f4904974c2121b2872d8d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1715e254018742ebb7c91042307bb5e1.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7c08833a737c47e89a563fb48641056a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f870191614c746b4bd4e746ca0efe128.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e6c7a728a3334d18875c097f803d184e.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/89171e44207042f3b70bc187e7bcd854.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/69015f25f5d84eee95d9afae1c9e8506.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/97c1669c31044548b95e21ffd7384f2a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e9b1750aef124b65b8cc29534fcd481f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0f3d2d45a18248f08010b1a1b5dcee38.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/86c46f1b207d464e998dbdc197b9f228.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/286aa1b544874b3bb2c3966a8b927017.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/51c6fd68d7e349118970c34af38a1efd.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cce0736b9b0441a193d346685868ea55.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/45b105f96ef44abc9260148f26a9c729.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/643553f831074c81bc8cb75b7e1a9365.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/88d5e83c8a874b8ca89bc9a068fa7557.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c3aa8da53858414580f16db22a648a14.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/056317664f874eafa5c2543621386b38.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9e3ed4cc7b29404ba95bd6d3d8d48c4b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c772323c6f1c4a0dbda8dee099c08c2c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8e4a86629ac84a689c0a4c3e54da3eab.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f0f374132c604b93be6ed4a1b2c1ec2b.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cf0c60784d4949e9bb96e71be9a31544.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1c703088c042469baf349783d1c7dd9b.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/70ea99c86684410caab8d90e35966965.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0ba56bccd73b454fab2c94b1c8eb425b.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/83b2cfe6742b475ebb4c6745ab0f3cc7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/39ec063c498b42cdbbc38506c12402f2.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cba2e309e540453c8d444a7a9db51d4c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fad363e9e21c47118e6882a5136cec3c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f43d6e590ef34761bc114f76f53f000a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/db71d90bc31245dcaaff49ca4f75de4d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ace3756798cf491fa09125a77483364e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e51792a83b274e979a0a3a6e40caffe0.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/18f148661abe4efd8e96e876c1d74654.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5ef4dd6a26264f41a3de022464c306f7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/44f5623490ea4267b2c4a1ba7c85b5dc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/394cd2de213945b08006e83a3917add6.png",
+    "a_pos": 2
+   }
+  ],
+  "1": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/794e24d3604a4ab5a5234e7364ed60f1.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/babc0dd8e35e44579c5e34f7b60b32d9.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f59c3e4649924c4485eae8fec789ac63.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b5ddd88d2d2b429eaed3d4f288b0a206.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a57fd57159624e88bc8c6fab8ecf0974.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7c485e3fb0db409687447a107cfbe2a1.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3d06f3855f014b52b8d8049b2b6183a6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0d5c85b241114572828e717917a2ce42.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d439b6ae221745a7a2030bce0bae1671.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a47512226b724a0891e1101e64a44907.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0d9081b61b41403ab140c221f9dfcf79.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0270d4e44e604981bdae240f398f7766.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4fcf7c2b056c462abb9368a08a6d824a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/48f55cb1117d4c598dede5e0e14a909f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/69380c4f8f3047f0b2bf86f40f03dac6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c66dcb15cf3c42f4bc05832837fddb6a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6f70c2d1f85047f6b9429a6a19aeb342.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c59d82e7c07b41fdb6c9bc1d0257af79.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2569d39ad03b48efb5b296ec3ea9c06e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c634355cdfcf45ac91e063cb70d5e987.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a98916ef7d2e4b929c7ab129a1a93ff6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/198948aa8e654bea8b54c8574cb73bc6.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b148b76db0e44136916bba45f76a30d2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4d79101eecb2453baf8e545466f5f897.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/de57ac522f934bb0afe280a7bbd2c1cd.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2e742ee72b3842f3a905c1cc31f8c17f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5657d67f45da43e788867e4c3d6afd9a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/85d550c0e45241f7961c0132845764e4.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/88cbf5a432704b86921230b735852b6d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4c3da542f96d4491bbb7b683689854e6.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6069d46ee3f74cc99ec230f8d0c2ee9d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/67e37c3e29a941478c0f2176ec4c1417.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/44f5623490ea4267b2c4a1ba7c85b5dc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9c9d02df74fa4e74a17e9103fc06a527.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2f0c598ee25348f8b16a310613e07099.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9623f34812ae40c990e1670e96511bf4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/113a34c87dda452b8d2303ba5f2a2158.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0c0b0a19848c4c12afe710cf29b84924.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d6765e9f30c14c58803c510e68cb4469.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ecf96708702a40b3b9287bc12545af28.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/39ec063c498b42cdbbc38506c12402f2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c119677fdcaa4d8b8cbaa8b2b00171d1.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a8984d3d3f1a4fbfa4f58aeed4bd9a12.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8d0df92e3f55429e8f801fd58ba85b41.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7d5e17022a574711a78f337eb5ad6a6e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7383ccbf80a24dd7951f949063c328a3.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/747805ddb2ae45c0babbe6b22e87079d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/20eca3327d2f4082aa7863245dd0cc46.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e1bbcb60687b439aae5bc0d8f90ecafe.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6251e8090f214d8a920117e4566361eb.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fe73ba7b547649708dbdd281f4d4cf9d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5552e3c468844adc8349b9a44e8077f9.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7106960da1af40ba99da901d75150334.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ca98e7025fa045729f611acfe458deb1.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a390d0b4b88346bba2e0150b435e4d5c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7421d21063f3425cbf32e0e5cd746e9f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ef6abc5a5ac843b9b3468500a00657cc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c1a0d14c78514e40abdef652306f24be.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/791d4d29e0944fa584a316c29adde12f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/108713d857d248768fb0576edc624ed6.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9a64173295ca443fb595a78bfb07bd5f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f6194019d7d941fe8c1316dfc5ea6d01.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b01d83752ff14db6b589b0204c5ce244.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/037938562c894437a394eb24ac44727e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/84bb7bce0642436fa90369735e445017.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e1d66ef4050546f586c92903886b72fe.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0ae3d9c53c494f0bb0896a2fb29599eb.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e68d1e44a4fd460e852bdab780ae3a6a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9c19659a2da049a5ab0a18f3a9ed553a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/eeb090262a6041a88699996edf9e1320.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/853b52998f4849aa9bb33859bee8784f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d12bffea759942349824564a6063290b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6ae4f212a74c4225a0f50d2a7c68dc97.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/aec83ba48f034849824ec3c2777d44fc.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/394cd2de213945b08006e83a3917add6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8400762171e74a3c8bfd63040253cdcc.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/971745d12ffd41d49a6ca134230a9bce.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4611b650c5654acfa705aeb4024bfb3d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/242f999962a24b3cb97841f005990ef9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c1e8fe2b4d4c44529900d199bcd1c6c2.png",
+    "a_pos": 1
+   }
+  ],
+  "2": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7c08833a737c47e89a563fb48641056a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/62c8cbbf65d249588ec752577c01839b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fad363e9e21c47118e6882a5136cec3c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0f62433ac3b4412985cfb353e8c17648.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b7fb9b7d937640eb9d96a7087f66b89a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/dd3d4a4010de4fb6ae73d55a59525f63.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9c5d9d56ebac4292b406a61fa67620f7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/908b3d463f25414aae570be721c12402.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9c19659a2da049a5ab0a18f3a9ed553a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5d189c5340504ff09abffdb56d9b67b3.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d3916794c1364faaa506ca0629ccef17.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/18f148661abe4efd8e96e876c1d74654.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4970328255894b9280c6f6634dc45fb5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/51d31e17077046e8a2dbf17160380a64.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/86ed18518af842ceb73f94d1e8c3daa7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/423dafa3c6494b6c9bb9c939d16ce486.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a292a1e4c4d4408a848774919f2e9b42.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7342020e55e5429c97c87eecb68a5777.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/364835f21940428c9fa72cd918c07065.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/504f542bc379495d98475b7910a45008.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c8105149c9314eb498e0eb0ba44c3943.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ef6abc5a5ac843b9b3468500a00657cc.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ca765032eff441dba0b769eb607324c6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1dc6f0501d5b412ca7fdb65ecbc6e808.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ba481aa7daa64f34bf91b57a2c01383b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ebe0d29c0cf945d7b65426f025c9f8b5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ea0ca5f248724d15835a0aee4e19d218.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/85d550c0e45241f7961c0132845764e4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/520988c3945c467d82a8a9b30e6674e5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/46a1247c62574e179573ab7505aa91a8.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8d824276dce4407c898ab0942d263e93.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/125f865c9baf45d091a4fbeb52cf81bd.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0e6a1304010f4ff5928de2e9acd97bf5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/19ba3f0875074047a292a80fda176fe9.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3d76e4d187fc48d596f5ba95cb528cf6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/088db446747d4108a6c5fbd3a2cc4048.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a07c601b2b1349e8831883353a636d39.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fa64e80f7f594e2f9e7d4e6b212855f4.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1aeee2e5907e4b1684e8510820454d65.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b148b76db0e44136916bba45f76a30d2.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/87b043b99ed04f6a857da0561da180b1.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c1e8fe2b4d4c44529900d199bcd1c6c2.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6ae4f212a74c4225a0f50d2a7c68dc97.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d22559865dcc4638b9eb5857efedd112.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/499f75782d79437f950f9f6e32b2c8cc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d6eddeb12e7d4f55996c8ca81effb8f4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/826cf8fc18b64e648119d3584648e0af.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e52ed91a922849209f5487940096963e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b76dbcd31eb24fc8af7e3c47ca7109ba.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/794e24d3604a4ab5a5234e7364ed60f1.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b599f9d1d3064fbea996f6b9393ecf09.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ba49aeb9f87449d09688e8d64b84d015.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7299bd5197be415987920c660828537d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d4c89e27242b413892c30c20b8c9bf57.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6cbb7c45ac8a4724b8cefa6cb2631b29.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e85f0c51ff6242fdb3e6ba34da1d1072.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/822166a9454f45f08f3e40e826425d5a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2f0c598ee25348f8b16a310613e07099.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/35a3a4daee0b4b8d877418267ffac980.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/257980dfa071444e85a9054ff25c02be.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1c816e04e3354d4896f74b68cf55e12a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/34aa6a9620c042b1a5e65a8ad8c269a5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/05dd294b5c874dd4b0721256bae2ba53.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6fb63e57a79047838cc8c5dc2cf2fccc.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/95411a948d1a4527b5970050490704b8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/92985b84b51f4c76999a8b1872f6c610.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d53dbf4e91574ba3b153462c3c3231c8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5b09b7dbb79e462fa6f1180edaf127b3.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f0f374132c604b93be6ed4a1b2c1ec2b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/84bb7bce0642436fa90369735e445017.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fe682f94c03b47d688f001836d27b74b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8ceb4156f239471eb96ee4085c834c1a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b187b7c0b0e540248f975bc10b5bb810.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f01c3997cb5f461c88e0233894a68e1d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/979d957ac8d3464a80453b38ad7c1b08.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/87174e8cb563402b8f78c8e1e2b793d9.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1c70433071184c5190492ba8ae522b5a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d439b6ae221745a7a2030bce0bae1671.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9d06e51a487a4ee9980c1247aab62e7a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d342180f3d87420a9bc7cf80647e01fe.png",
+    "a_pos": 1
+   }
+  ],
+  "3": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d08b461066424923a2c4954f71857766.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5d6cdf38f004479d96041eff7e70572e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9d6bc96b41214de0a117939b9ffcd61c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/34aa6a9620c042b1a5e65a8ad8c269a5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8a78ec67f2a44a0795a777da2af355a7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ddccb42bb47e4c4898d7148ef0330054.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ef6abc5a5ac843b9b3468500a00657cc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c2731dd6f0944860b870263d5cade0a1.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/24661a0802fd4a7b9cbae2f1531593f7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/95185067d247442bb432289e3588d4dd.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/982847442b9c4c9d8274f36c63099bac.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9a96262c3ffa4a8a83cfc62fa316738c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/855d2ac029d94fe2903d22c154cab770.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/55d3288cba51483faf5b63fe408bd622.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1c703088c042469baf349783d1c7dd9b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/37a37e352a5043d4a5e76cb58dbb4066.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/736f1415eea04015a31f022ce2c87bd6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d603b72286894a95a57bde8a89f1396b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/223766bb8eb6460e9d96d5acb6b2ae8d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/49bd7337c2ed4b8da0bc1b674add5f22.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/264d39da8b13400dad91308cf09f62ec.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c2f9abc52193452aa92a0300aa6e84a3.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/df3850393a7643e5a03c597f4f8c29f0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/39ec063c498b42cdbbc38506c12402f2.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8b4d08c001354635a65f36b31c66e8c3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/695b2096fb6743ed8ed42fd2535c4e27.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ab3618a85bd1483f8a98f2faf7999b81.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/926269f7dc0d4d7fa155f9d974ecb76c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/776d5c7942be47c784f6ffb88a3fe424.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9fdd8f1a0949454ebe95f00acf9b4cad.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/269abee7b48d44afa687396ba5e2361b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/45a4d03bab734899a8523acdee340a4b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/757e4f469a654854b584d84d9b813fec.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b2195a596bd64fe09160b626724e2474.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/055d61dbadf240dabece5200c04cba68.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2908c06e6a2b456c807ea7c4dc1f3f37.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a7a3463c7856436692d968a7efad67a8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3fe2b55514e744a989f1b011e21c8627.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/df994f75e9184763a1321cfe9a092149.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4639a251dc9f43968ab01918774a9418.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/148156f57abf48fea5228fe150ecf467.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/42ba1e8f42d24faab07718f01fcd16c2.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/13bfdd82c7e7429db616e3fa004737b3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ea0ca5f248724d15835a0aee4e19d218.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/bf86dbba3048452899a34ef4719beaa2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e6c7a728a3334d18875c097f803d184e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1715e254018742ebb7c91042307bb5e1.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ab94dda66c7c47268499a7c237253bb0.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2c06f1ed020a441693b4419587e8e76a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e22f301fc92b4fcc90765f052d6ebc23.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/745f894aee324863b132ccb609459c2f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/71bc6c0b801b4061b6f8f1c54abf2957.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ad6db28df3a844c8b9abab4f9721562a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0544dcc23cff4e759ef43ee19da933f6.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/643553f831074c81bc8cb75b7e1a9365.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/853b52998f4849aa9bb33859bee8784f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2f0c598ee25348f8b16a310613e07099.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/19ba3f0875074047a292a80fda176fe9.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/25e30dac0f6349f7bfb03e7798f3744a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5397f1322c0e4a8fa8fda0829ecb6233.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b35c049953a64158b3f8710a39d989d3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8e4a86629ac84a689c0a4c3e54da3eab.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/467d7eec4ec143f08da9f889c8dcf726.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8277cbefd67d4033b427d780351c7f0a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0312ebc47660442a94084863323a34bf.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5bfc4f9f293846d8ae28c61202fb06cf.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9ebaa0b436504f63b2af3b8afb74a47a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4fc4c5bbe11745b5894244646ec903b5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5e991c9e88a74d8680f5d364c02e2ffe.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/125f865c9baf45d091a4fbeb52cf81bd.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/65c4745df3384cc494338f96fcea5d93.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5aa39e2cac08498da372efca68511898.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2e8e0f8b459f45ef83fd38d87d83d89a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0926e77026c642318ed696b41698a0ab.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/70ea99c86684410caab8d90e35966965.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5e52c624d28c4ebba11379699608992a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/44f5623490ea4267b2c4a1ba7c85b5dc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5fb93b204b204c988ebe1a9f87745c5c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/908b3d463f25414aae570be721c12402.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e85f0c51ff6242fdb3e6ba34da1d1072.png",
+    "a_pos": 1
+   }
+  ],
+  "4": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7503eb54040545daa3cf1228c491a9a8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ff613e49301f4974b69fdc2501113664.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b08e368a406e45908dccabb11a29b3c6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/25163cb15723452c8433b58c0af53983.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8a78ec67f2a44a0795a777da2af355a7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4148dcb23f34497da2afed16ccb6bcd3.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e4058fd261a44a9f8b9ae10a933fe74a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fe73ba7b547649708dbdd281f4d4cf9d.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f8094220e09a4e759bd3b019121a937c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/64f3815c042b438fac82c811d6a12a3d.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/86485e4447aa4ff2a104001a14fb2a43.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/93958a2af9c44e2995fcf67215d7d58f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f0d20370998e4244af5c38b3c4943487.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/543c5a81ff0041dabccf15248e36609d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ffeee284dcf84700919474b9d70fa64e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/24661a0802fd4a7b9cbae2f1531593f7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0c7c9e8c645441b68553fecf4c034a6c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1c816e04e3354d4896f74b68cf55e12a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8861119001c54a2c90c2d9b7c8a35b49.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/eeeeb246421c428d89cf92f2b46143b5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2e4d4cc7d1214c8c84b15612f75cde19.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/69015f25f5d84eee95d9afae1c9e8506.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7c485e3fb0db409687447a107cfbe2a1.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cfb3d5108a5a410db8f8f238ea02b10b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b440ce2680e4465190b89bdac321c2ec.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/aa005c1aa61247d297f20bc6414e380b.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b321f100835a4e62b9706a85eeffb0c7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3f86d40fd79849b38a23d48b575d6f3f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b7853aad3b8041879a1334eb49354a02.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/740a773abb144965ad5d3155f5b83c47.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/89ad852ce9af492dab45e0a77f301fae.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5b6b2e98fa6a4de7be3f63a2084ec974.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/25872f5ad9d248ec92d1a343c74f906a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ab2a88c76ae94f18946bbb49749ab72a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8e4a86629ac84a689c0a4c3e54da3eab.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a8984d3d3f1a4fbfa4f58aeed4bd9a12.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/25e30dac0f6349f7bfb03e7798f3744a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/668fec2a504a462795f18ffe9031945c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/745f894aee324863b132ccb609459c2f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/687ffd57d7254bdfbde07eaab17850a4.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9b88b0b9d78b485d8486aaac4663d4fe.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/936ae790982c4ffea0031f9a5250b3ab.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/51c6fd68d7e349118970c34af38a1efd.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6b982ad9f1284db5a242584ba17c5a65.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f9bcd98781bd49eaa6bb9a67db53a298.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6e7b9e614b3e425d866b59fea9e083c1.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/86020b24d14b4f42a51aa6f245293d61.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cd7c6777a9e64423b2511e2b311ce724.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e8eb9b736d0044f6a132976edd3a0ade.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1e7f6af561b74138bb58b927f02dd6a5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a4d98800c02f4e64924ce6e4465330e3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cf0c60784d4949e9bb96e71be9a31544.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/259ee29442c646578bf7869f3df8fbc0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4dfd79b9480948e482f92c229adf92d6.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/78e4b341f14f48d29cdfa4f8b641cb27.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ba7a2579ebbb49c7a86a4b7e581957cc.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b76dbcd31eb24fc8af7e3c47ca7109ba.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/72a0f5f9ae1c4a1a9089099ad0500389.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/84bedaa8c4874fea99d88add5e9f1983.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/98e9fdbd6dad4f708e18729386088cbf.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8c490fa28f9149b9b61f7533fed223fa.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/477d714a39b44e3ba20986d01df24a78.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/56ba9b748b904e48bcf1b6d82ba46a8a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fff120ca1c154286a9f09c0dd4f76716.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1dc6f0501d5b412ca7fdb65ecbc6e808.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8c3093a5720b494c99f82454831da669.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cd7b973af5624d949fe6bb9745f7599e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/791d4d29e0944fa584a316c29adde12f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8d2e440f2a6940ef8ccc161e1463798a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4173115d592c4ba0adfc982c5e22953e.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/756701401ebd4d63aacd31818a5d6eb7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/78c47ea271e04ac789110fe38f1e9a48.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2dea3ba76ce44f1cabb12fdf72d40417.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/167a4bf00cef4149ab5f34ba7c7e6884.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/89375090f3e64ee6b33bb0a5156f243a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/37a37e352a5043d4a5e76cb58dbb4066.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ad6db28df3a844c8b9abab4f9721562a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d4e71428781745fab0704e540e1b6c77.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a4c1e86bc21848a497302a1e27ac606f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ddbce7f126b949ceb53759ae0f9f2235.png",
+    "a_pos": 2
+   }
+  ],
+  "5": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c41e781f196e453ead8b0b3145ab5fb9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2f0c598ee25348f8b16a310613e07099.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/86020b24d14b4f42a51aa6f245293d61.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0309e14425a84fe29e65c68970b05eca.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a2f3be900cb04d078446029aa53ce7d5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/228deb1abc8841d2aef4f34e27887d3f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b53d4d8603794cfca16dbbbc0c10b8e4.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e9b1750aef124b65b8cc29534fcd481f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/269abee7b48d44afa687396ba5e2361b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5394741c64ef40ab9da731ae80daca9f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4dfd79b9480948e482f92c229adf92d6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/90aac1f7e7e94e21993a472c0d3880e2.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c5b99d75eb5a470e8364f65a17e4cbf2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9f1b78c798d74487ad0853e03f45505f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/695b2096fb6743ed8ed42fd2535c4e27.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fabd781bfb924c9684444fecb860d708.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6aea08e4ed1b4dcca429b36ae990b18a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/25163cb15723452c8433b58c0af53983.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4148dcb23f34497da2afed16ccb6bcd3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f2930d85108e472989acec69500f56c0.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b699729d9894489db434f0d07402ef39.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4168c7ab224a4711aedf8953a6097e3e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/35c08ba83cc247b0ad490d767318503d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d6fcc7f3fb1e44cea18c18ed7936d920.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/bb438fbe1ff94509bf796ff77d71a109.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/86ed18518af842ceb73f94d1e8c3daa7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/190d5ca9375e4eaeb20cbcf475162a94.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6078dd9f8401458d890050cf98ba3294.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b6d3bc43206f48ac831a2461afc28701.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6dff356f6c7347b5820bc5f16a454389.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/56ba9b748b904e48bcf1b6d82ba46a8a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/728291ece8804f9880bd53aef88dad95.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/557f84c5b9774298b5ce895a48c22b03.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ba392fcbaba54780825b217b1c0881d0.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a5470639b6a04f6594c480cb6cc02ae1.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/25558e5741ae42fb9bbea0dc46d0453a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a005b8f429d04b398ea34f59dc5033dd.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/782071e05e0b48fb88eee448df307380.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0356642b29c14244be744f5d38ea60f6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/18f2a03d205843ab99ee47b512121454.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/11494933b537482f85c5e2be69cec144.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e949d6ea410e4efcb986aca52e92270b.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/df994f75e9184763a1321cfe9a092149.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a157411614a040ee971282c28f1918e6.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/164db244cff142e793b20004f334b845.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/17071233b1b3498882c00421df0dca18.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0f773d74ec5d40519810db663d1715f9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a9b70418e08e4dbda59744f2afafcc1a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/543c5a81ff0041dabccf15248e36609d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/bc0e0392c04f47fe830afeb7846cf808.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/767f0e043a784ab9afce1e6a147e0f23.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fad363e9e21c47118e6882a5136cec3c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3e092952d45a44c7b739d7c98257c8ab.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9a5af294b82e416a94d181db24ba0676.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ae8adee9a39f47929801769e11ef3a92.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a98916ef7d2e4b929c7ab129a1a93ff6.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ab3618a85bd1483f8a98f2faf7999b81.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/91a43c101dfb47a0afd6399058a9e916.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/aaa0af0d0f06478483c9d829828433bc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9c19659a2da049a5ab0a18f3a9ed553a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2c06f1ed020a441693b4419587e8e76a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6ac7fadd43894a23a10ecf7cf6d34ef9.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4a311b28a8e14d1b99c1b0f8ccb1a6de.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fd48b8ff6b954f1399da202f0b72328c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d68ee68ed06e4f548fa3ab53272e8ad9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/531b3500a89845a98b5298aae8088ff9.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4e7304efb0ab471aa6a50f6ff03c2caa.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/432df79cda1e4132b51b8f3971b33b90.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0312ebc47660442a94084863323a34bf.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/96a3e34f76e6435e903abcdb4db72266.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/deb2059279d14842aa3ff66c13a5aa00.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ca98e7025fa045729f611acfe458deb1.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/84561d11f13c4daaa7383577f177c4ff.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9e47d60765504c598619d62fa1d7ce0c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e8db763ff69b4caa9eb46dae8ae72f20.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/501ab7c4ed104206b6323a7f7623cae2.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9fff667fb23d4e99a3d0874b6199e518.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5ef4dd6a26264f41a3de022464c306f7.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/baf764fc32294e8da41755820eb7d3c4.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b94271eca328463cb906582f877f0e03.png",
+    "a_pos": 2
+   }
+  ],
+  "6": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8fb8e2520af44ff4b5eff78486f06391.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/84bedaa8c4874fea99d88add5e9f1983.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cd7b973af5624d949fe6bb9745f7599e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/107e055d029147a6a193b03692d735b0.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cce0736b9b0441a193d346685868ea55.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2584017e721c4e7ea4b60d61ad3e7a18.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ddccb42bb47e4c4898d7148ef0330054.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5c3d64c830404569b29cef30640d6919.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e12085330c7e4f72957702aecffaf580.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/286aa1b544874b3bb2c3966a8b927017.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d1aeff17f7984460bb26ba5ed4b3a65f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6d74a6b21e74419d87ddd92c4e3df0e4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a98916ef7d2e4b929c7ab129a1a93ff6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/264d39da8b13400dad91308cf09f62ec.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e9b4de7b85c24af78e1244704257d8bb.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6eb2e75e84d746acb67dc7c8ba05f86e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/94683125e7aa49dd94dcb068ffd254c3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cd497844f2e54ff796b2db53942aa983.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/499f75782d79437f950f9f6e32b2c8cc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5397f1322c0e4a8fa8fda0829ecb6233.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/86c46f1b207d464e998dbdc197b9f228.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f0d20370998e4244af5c38b3c4943487.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/bee87123b633452ca094638488e9a5c4.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2918a27c89bc41ed999103ee89a0270a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fc026a0258fd4ceab84853a0fe4906e5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/855d2ac029d94fe2903d22c154cab770.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9d06e51a487a4ee9980c1247aab62e7a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/91a43c101dfb47a0afd6399058a9e916.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7952a1b834724fde8f9a3895a7f95684.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/33407601174a41b699a0549811460d4b.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4112ef40e0264bfa93796fda7a660b35.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6f70c2d1f85047f6b9429a6a19aeb342.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f142038dd9994f7e934d79366199aaf6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/477d714a39b44e3ba20986d01df24a78.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/aef56f38c91b4bc9a1b195d33e6c3e4d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/db7efc31d25842598d7a2be11067272b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/512df91bf6434e309b1e56d5bf9375c2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fe6838cd3c1f40d4aac3af5db5c17649.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6aea8f318cb74b3590fae6a0311eb010.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2569d39ad03b48efb5b296ec3ea9c06e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/88cbf5a432704b86921230b735852b6d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d12bffea759942349824564a6063290b.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7479c12b16b64539896b28d68ff4caf6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/eab35c6ba7d349a39a942d8ac7354f44.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0356642b29c14244be744f5d38ea60f6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/113a34c87dda452b8d2303ba5f2a2158.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c71061a7f3ac42e3a5f36c25903ed30c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/16bc0aa9781842b0b1c5a762519095eb.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/341d4a7629674daabb1cc8560fe09611.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d3916794c1364faaa506ca0629ccef17.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0544dcc23cff4e759ef43ee19da933f6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/afcda6afb894453bacffffdcb510cf78.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/926269f7dc0d4d7fa155f9d974ecb76c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b35c049953a64158b3f8710a39d989d3.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/17345927a35f47cca5e62591a604cac2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f28f586363df4c00836a0a163f7ff1fe.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d8b35c9ef820460d9c937a33be1bed6d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4f0b7f3a2219486092ff9a9d17d49587.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4491917d21fe4dfbb1ad0037984c6783.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/114e4ce806064e1ca8eee08c1bee9df7.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a65c23cedfd746c6ab42b960fd30b0f5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f702cbdf4e8e4bb584f232399974a0b0.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/536aa745cbe54323b44143b3bdb48ee2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cb09256b5e5846a88f07026db122f149.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3d7cc22436e046a287093e4ee44a50f9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/827590eb1f8c4220b8883921d9145202.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/242f999962a24b3cb97841f005990ef9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cc6ab67de9da4398a7e5b90548d36587.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/87174e8cb563402b8f78c8e1e2b793d9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/96a4060645824cd8ba25c9b974714658.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ba5dddbf1b394433809ef3e3d6291aa7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fc24d87ab8954691a8ace19a0c7db1b7.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/782071e05e0b48fb88eee448df307380.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ff613e49301f4974b69fdc2501113664.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/467d7eec4ec143f08da9f889c8dcf726.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4d91cc191c134cb1b5d99966062a0909.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/557f84c5b9774298b5ce895a48c22b03.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/14cf93abccf14b22927533f4e988d959.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c757def850e849eb951cfd9c46a531de.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4a311b28a8e14d1b99c1b0f8ccb1a6de.png",
+    "a_pos": 2
+   }
+  ],
+  "7": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d8ffa39f16974c4cb913925d30c7c8ac.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9ee50270dffa4684930c35624926d515.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d557d8a486a44c409d8721e76d9079ff.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ea0ca5f248724d15835a0aee4e19d218.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7b46026109a24a45be6d9b3ada62da91.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ac5b6867413f477284bfabd5a430af04.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b604d75d287443b1928d2b6c1c74fffd.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/979d957ac8d3464a80453b38ad7c1b08.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b68f69fea24f49a4811843d40549719d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f9c50a73f14f448b84d3c8d7b1a96d2b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f1b4e568530f4b68a4515229b57be8f7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d60364f8fa13494b96964b07e55076b9.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/02ca65ed6a7f4b698d521a40b9f346eb.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4e0d7c3bf81c419bb0eb2260f61ad923.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d4e71428781745fab0704e540e1b6c77.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/06704ecbd1144167a6c08f5b2566b3d7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a694d65a9b834d2c9776e990facc7c74.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c2f9abc52193452aa92a0300aa6e84a3.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6ef279b20429410daf58273dfa475753.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/65c4745df3384cc494338f96fcea5d93.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b35c049953a64158b3f8710a39d989d3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a1fc2b4d566047729ea476bf0840cda7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/efc10c1e8d2447c89b48047d113c7563.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/20600061d32042e8a743b676845dfc1d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e67fa45305c2422fa0971cfbf3898bf3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7503eb54040545daa3cf1228c491a9a8.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9bded9a11c9943cab112ec7c034b2e82.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9f99455cb1ef4ac9a21cf6d6d572e85e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/df85486edc3b417bac942fe3850846ad.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b699729d9894489db434f0d07402ef39.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/99172b576a584768b3b6c18fca4b1831.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6edff3385f134df9bc68c66e38d390fb.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1ff02b8eefc34c0594c1753f33f402c4.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/37dfa7cfeed9421d8c7ac13f3cd0a39f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ddbce7f126b949ceb53759ae0f9f2235.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8a78ec67f2a44a0795a777da2af355a7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/50b75551665645999bd6726b02931f01.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/242f999962a24b3cb97841f005990ef9.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/72a0f5f9ae1c4a1a9089099ad0500389.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6251e8090f214d8a920117e4566361eb.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fd48b8ff6b954f1399da202f0b72328c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/afcda6afb894453bacffffdcb510cf78.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5657d67f45da43e788867e4c3d6afd9a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9a5af294b82e416a94d181db24ba0676.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/98e9fdbd6dad4f708e18729386088cbf.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/df6c2f10dc464b5d9ecb9d9dc29a0070.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/96d88093e57f4f70b95e7369ef38305a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4c69990fc96a44efbdfc726a2ff8bc0e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/71bc6c0b801b4061b6f8f1c54abf2957.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/af66736024764b01a326cf4ec810e552.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6e47628ec42446a796a0726d3dac7b25.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9c5d9d56ebac4292b406a61fa67620f7.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/dee9e1439a954cf790e53d38356813e3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b2195a596bd64fe09160b626724e2474.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1dc6f0501d5b412ca7fdb65ecbc6e808.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fe6838cd3c1f40d4aac3af5db5c17649.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ad6db28df3a844c8b9abab4f9721562a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/07ae7299cf304066afa7aa259e5eaafc.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/853b52998f4849aa9bb33859bee8784f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c82a602329534de2aaec204aff7283bc.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/25bddb37063a4c2abb9a5a85ee56046e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1ea60b19a42442afa48fe85a17bc6325.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/94ec94157cbd4fe2a1e754308e1939c6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5bfc4f9f293846d8ae28c61202fb06cf.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/11929fc5393340d2b212995c3132a98a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d603b72286894a95a57bde8a89f1396b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/97c1669c31044548b95e21ffd7384f2a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d06787c0566e479ca2d7519986b75e5f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c6c762c4f8b243f59dac7d80745a6144.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/642b5cae0ca94c4cacf95052563c44b7.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1ad4ac13c3d8400a92efeb9aa7ec1d79.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3362d877f4f7425895887978d45924ba.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2e742ee72b3842f3a905c1cc31f8c17f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2a0401e937f648eb984c67935541a19d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/55a34d9065cc42b9878200a286e6c58d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/95411a948d1a4527b5970050490704b8.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8c3093a5720b494c99f82454831da669.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/70931d9dd85846a8b089d0593340b265.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6ae4f212a74c4225a0f50d2a7c68dc97.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/684d448324ba48cd8f3efdb4d1afa1ea.png",
+    "a_pos": 1
+   }
+  ],
+  "8": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/137ea14a12b74d9ea1cb468a111e786f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/bf342d3219a8418882ab91f787392d21.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/18a67690cd5e41caa4bdbeab83d746b5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b187b7c0b0e540248f975bc10b5bb810.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/71caabe21f3a42759a4f65f62348e8bf.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/50b75551665645999bd6726b02931f01.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/70931d9dd85846a8b089d0593340b265.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/18f2a03d205843ab99ee47b512121454.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/522a13aad59941b5ad31e43bcb24eb56.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c2af9f027f5a4abc9c752d2c2cb158c5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/50237793a27a48bcaf8fd6ba2a5e0533.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7229d8a5f6ce448cb080f13efb4a3daf.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6ac7fadd43894a23a10ecf7cf6d34ef9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e12085330c7e4f72957702aecffaf580.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0ba56bccd73b454fab2c94b1c8eb425b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/68f61ac8c70647019c3df955e5ea0e69.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cce0736b9b0441a193d346685868ea55.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8277cbefd67d4033b427d780351c7f0a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b6d3bc43206f48ac831a2461afc28701.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/64c0b10c1e7c4f4c867cbb43aa48351a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/46a1247c62574e179573ab7505aa91a8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cc413b80700048bcaa9efa9bf46ef674.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b99c222896a84ae08e6728927fec0146.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/745f894aee324863b132ccb609459c2f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/164d1c857e4c4cf09e5e9332b56a0166.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9adffa7cea1143908ec4ecd667f0288c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fb70ac4a0b074734844f2d4e4938bc97.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5c3a04595be940dea9408e2e0cb79daa.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/928a428620c54a8dac98b1578e47e648.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4fc4c5bbe11745b5894244646ec903b5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c3fa986b6ffd41d6ae461848da64e5c2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c707060b3d994be7830e4d04058782c2.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c097e547f3ef4bee9ab5d235313bb51e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8d2fc747b6264b74ace85583aa3f3dbf.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6e47628ec42446a796a0726d3dac7b25.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/02b592a2614e4224ae57d51b99b8c8ec.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cc434a61a3544e4b80c651bd1975f5d1.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/94ec94157cbd4fe2a1e754308e1939c6.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/87174e8cb563402b8f78c8e1e2b793d9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/40da50e0577641b38c8aad57020c2f19.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/aef56f38c91b4bc9a1b195d33e6c3e4d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c71061a7f3ac42e3a5f36c25903ed30c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0901bafd25a344e296e042870cd5d822.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/74fd95709ac04562b356fc1d8cd41821.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/37dfa7cfeed9421d8c7ac13f3cd0a39f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3b11491a943d482dbe3ca300c8c9260f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a5b90866f1c541f7b4a8592ca617aff0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2de8a946d68f48cf834cb56a684087f4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/62c2f81f1726420f9eb0d0412918f01e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/40b7eac0535a4210b3cc3c5f788c1c54.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ca98e7025fa045729f611acfe458deb1.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ab2a88c76ae94f18946bbb49749ab72a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/55a34d9065cc42b9878200a286e6c58d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3f4885a9ac3c4d888aabf7cec0b3b414.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/84562f8dd2a6465f9727acc2ca216cee.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3000c1d1b9994e7bae5ddc432f08231a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/aefa92d6848c424b9d4a44121b474a47.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8d824276dce4407c898ab0942d263e93.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5d6cdf38f004479d96041eff7e70572e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/512f43f5898f4944a57419ffad3b8d64.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/056317664f874eafa5c2543621386b38.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/32bd9b0bf8854537b3921ae33b87b19a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/25e30dac0f6349f7bfb03e7798f3744a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b699729d9894489db434f0d07402ef39.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9bded9a11c9943cab112ec7c034b2e82.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5394741c64ef40ab9da731ae80daca9f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/269abee7b48d44afa687396ba5e2361b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b01d83752ff14db6b589b0204c5ce244.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4112ef40e0264bfa93796fda7a660b35.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d216d0d706a44383af087f4d94379f7a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7f259cf8dfb240a9a804d556c6a4d98b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c2e809b86e7f4f9cb892fb35cf8fc088.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6c9825eff58b45feab51ad982f4ece62.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ab9c48449d574a3ab9c7ff57c1bea15f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c0a0e97f5a4643cf99a78d7d7d99f3c5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a9829d3dc56a4341aa0d4f65db9d0288.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a956444e43a64576a791c1b575444da5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1dc5418ee28d45baa3f3610a083a997b.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a292a1e4c4d4408a848774919f2e9b42.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8551479dbb074c169d7f76c7902a9fe0.png",
+    "a_pos": 2
+   }
+  ],
+  "9": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/40f239521d9c44a9899933c64aa64620.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8b4d08c001354635a65f36b31c66e8c3.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/32ce9e313cf54e41a7afc40780669913.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/740a773abb144965ad5d3155f5b83c47.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4bec096d02f341f983221217f55e1cc9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0c7c9e8c645441b68553fecf4c034a6c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/65313c69735d4930906f8ce8e3cd5a80.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1ad4ac13c3d8400a92efeb9aa7ec1d79.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c2e809b86e7f4f9cb892fb35cf8fc088.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e51792a83b274e979a0a3a6e40caffe0.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/deb2059279d14842aa3ff66c13a5aa00.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c66dcb15cf3c42f4bc05832837fddb6a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8066594a706542ed8d0293ea5825f8e7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cba3117d0a36400eb1f7e0b965d3381f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2dea3ba76ce44f1cabb12fdf72d40417.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3c641d1404734483b1c494973b39ddd7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e2c2fcd5f0da406b9d1a519f4dc4f5ee.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9c19659a2da049a5ab0a18f3a9ed553a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/714a868fc5f4414fa306d93d890b7fac.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2caf007e9eea49b48b801d73c6bd02ad.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cce0736b9b0441a193d346685868ea55.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4171bdbd85b348a1b146d720597330aa.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/873757b2c9b1491b90d20b0c02a77189.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/137ea14a12b74d9ea1cb468a111e786f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b7fb9b7d937640eb9d96a7087f66b89a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/46167190f0ef4d8fb5721ae23fe33c2e.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5b09b7dbb79e462fa6f1180edaf127b3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9ebaa0b436504f63b2af3b8afb74a47a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f65d90c7fb874bd993a98f96d812c8b4.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4970328255894b9280c6f6634dc45fb5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0ac25889fbe64f4e9a72268b5e8abc6c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1186649d0ddd46c3b4d83edf909e124e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c2f5da09987848a6ada41c89d14a4d5c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/794e24d3604a4ab5a5234e7364ed60f1.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f1b4e568530f4b68a4515229b57be8f7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/414cf503594b4cdbae1d9e9f7295ad9e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/13bfdd82c7e7429db616e3fa004737b3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/18a67690cd5e41caa4bdbeab83d746b5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2584017e721c4e7ea4b60d61ad3e7a18.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d4f4013138d54a65b666ee58c50b2ce4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/68e67eff30f64784b9195808febcae89.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a905bb7c17eb481fb848a2c5452aaaf2.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e9ab2012c9eb4aeeace5a2dbba1e7242.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/dbfa7e30fa204ea0b2ed45cd46eebfe5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/782071e05e0b48fb88eee448df307380.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ae0d7ba09fc64df68f95709e0672c9d6.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9d06e51a487a4ee9980c1247aab62e7a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/18f148661abe4efd8e96e876c1d74654.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f16f0f24a4f74ec790829066134dc73a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/728291ece8804f9880bd53aef88dad95.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7503eb54040545daa3cf1228c491a9a8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cd497844f2e54ff796b2db53942aa983.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7d04a7df04b941dcac0f105f737f23f8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/853b52998f4849aa9bb33859bee8784f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/50b75551665645999bd6726b02931f01.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b7bc08b1602642c8a5ea57fc98f38581.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e04a762663104586a0c1c0250c6a7327.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5ecb163fbfff49afac2759345f78dee0.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/72a0f5f9ae1c4a1a9089099ad0500389.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/87b62f249b5a42ddb72a829f57329895.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/78f795a50251498994d33352c1d56489.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/65734d48db0a434ca9554e7f299a47fe.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/72d2b153b15c431e9af2bfd8518cfe6a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4fc4c5bbe11745b5894244646ec903b5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e949d6ea410e4efcb986aca52e92270b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c2af9f027f5a4abc9c752d2c2cb158c5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/aef56f38c91b4bc9a1b195d33e6c3e4d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ddbce7f126b949ceb53759ae0f9f2235.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d557d8a486a44c409d8721e76d9079ff.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c255097ca7164ddf8b11bbbe3b1a5ee5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/042b7f988e4b44eca08be00d15705b25.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/98e9fdbd6dad4f708e18729386088cbf.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c6c762c4f8b243f59dac7d80745a6144.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fc026a0258fd4ceab84853a0fe4906e5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/164d1c857e4c4cf09e5e9332b56a0166.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f6d26bde769c4555836573cc95329c9f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e0bac5f8fc0e4b2698e614a220978c1f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ba54e1779ba540699692f04875fa237c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/46a1247c62574e179573ab7505aa91a8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7d5e17022a574711a78f337eb5ad6a6e.png",
+    "a_pos": 1
+   }
+  ],
+  "10": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/708653f443ec4aa599ba13997a0b8fc8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2a0401e937f648eb984c67935541a19d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b943d76984ec498bbe99f1c8357994e4.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1787548edca54ed4b294df296b6e6fd4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ea0ca5f248724d15835a0aee4e19d218.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ba54e1779ba540699692f04875fa237c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6f033ff9e5274e139d7bb7aaede909ca.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4f267c2f8b30469488d7bce6f50568d0.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/504f542bc379495d98475b7910a45008.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5966d3256e764dc480e3c6548f7c822c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/16bc0aa9781842b0b1c5a762519095eb.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0c01af9aaad74986b5793f9cc01537df.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8c73778c437c45948c56fec790413ac9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/84bb7bce0642436fa90369735e445017.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ee334d65d7a540ab81c207d1a22e14ac.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/286aa1b544874b3bb2c3966a8b927017.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/17cef3b61d9a422186c243c2683bad09.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e13eaab37cef405cb9695a30781f2b5d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f8cca26529714035ac6290fa2068f277.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/557f84c5b9774298b5ce895a48c22b03.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6d52a8dde7624639a5d187f1b9585147.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/224eef71c1c84dc19e0bbf41cd28095a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1f37e8c972c541e49b0578ae95d48b16.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7f5e6931043b434a8ab0f9de71596268.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ff2cde52d3b547969b4f6abe0f5227c8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8227932447ab43d091e7a0dbd03a6546.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0bb2ca85d948487cb6938fe27b7afc0a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9bded9a11c9943cab112ec7c034b2e82.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/dc17cf26926a4077999618ec852a97a0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7c08833a737c47e89a563fb48641056a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f893159281734fbd8ee7ac139b911750.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/108713d857d248768fb0576edc624ed6.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6eb6521f94144971a44f7b6255254d8a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ab3618a85bd1483f8a98f2faf7999b81.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a905bb7c17eb481fb848a2c5452aaaf2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f28f586363df4c00836a0a163f7ff1fe.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ce318928614f48d1bb454db3768a9fa0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/face4762cff9410a9473e47f1fa79d34.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7229d8a5f6ce448cb080f13efb4a3daf.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/055d61dbadf240dabece5200c04cba68.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/aec83ba48f034849824ec3c2777d44fc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b6d3bc43206f48ac831a2461afc28701.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f702cbdf4e8e4bb584f232399974a0b0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8d0df92e3f55429e8f801fd58ba85b41.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/db7efc31d25842598d7a2be11067272b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/93358cb82f1241c4825d96ebab6ebac9.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9aa2c9f5c6ae42d19bf28d60a588c4ca.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f194e4d2b42440d0b14b536b917a40d1.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/167a4bf00cef4149ab5f34ba7c7e6884.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2f0c598ee25348f8b16a310613e07099.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cfc72915c72b4d68b9dcde582a96aa28.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c758324fa2ed49abb8d6f763f137eb0a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ba4a0f82d287468ba5add38154be35a9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/49e4c75a89944d04af99ed735f479897.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e01e6b0e068b49bc911b8e25da1a6a35.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c2af9f027f5a4abc9c752d2c2cb158c5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/93958a2af9c44e2995fcf67215d7d58f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/55d3288cba51483faf5b63fe408bd622.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/225a577810a94504a34185ad238e5ad5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8551479dbb074c169d7f76c7902a9fe0.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/135feda5a432452896e72eaa148db649.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6bf3ce6fafe1407fba47522c0cead0ae.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9995577ab8e84c3d85885ea69aa61e1d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8fb8e2520af44ff4b5eff78486f06391.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8c490fa28f9149b9b61f7533fed223fa.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/36f9ec57e7204f9b8e1d11e94b8e0494.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/74fd95709ac04562b356fc1d8cd41821.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/264d39da8b13400dad91308cf09f62ec.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/810d40a575a6457ba1e911765fa24da7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/79af59f252f74ef2810ff7afb0ecccaf.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/757e4f469a654854b584d84d9b813fec.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6251e8090f214d8a920117e4566361eb.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/83f6add403e44f909acb268bc4e4c42f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4cde4cfc392249519f79009a59ba6779.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d08b461066424923a2c4954f71857766.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0544dcc23cff4e759ef43ee19da933f6.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2b378f1a3dab4bde9f6a400a59f32b7d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/512df91bf6434e309b1e56d5bf9375c2.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e78337ff24ce4fd79908ce81a5ac0865.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c202d0d944654386ad9b65068f854597.png",
+    "a_pos": 1
+   }
+  ],
+  "11": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/bf86dbba3048452899a34ef4719beaa2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/167a4bf00cef4149ab5f34ba7c7e6884.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7f259cf8dfb240a9a804d556c6a4d98b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/eed5be1ca368404682de25cb9a3ebd97.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/708653f443ec4aa599ba13997a0b8fc8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/164db244cff142e793b20004f334b845.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e0490130a46045cfb1db3a7da39cca91.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7616375cc6c14300a83699efac4068b9.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7342020e55e5429c97c87eecb68a5777.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/87174e8cb563402b8f78c8e1e2b793d9.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c5b99d75eb5a470e8364f65a17e4cbf2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c4ea293c1f624b9a8e1340a623cd190c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6de8dd744a224c5c9f2b860f27710a82.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b440ce2680e4465190b89bdac321c2ec.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e6c7a728a3334d18875c097f803d184e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2cd3d90a7d06402ab64878d292efc0a5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/86485e4447aa4ff2a104001a14fb2a43.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f802a5f3c793430292bc46df28659f78.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1f21018d87f94d9cb76d0972242a4bf2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3b6d7e87c36042cf98c80d02bd016cf4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0c01af9aaad74986b5793f9cc01537df.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e949d6ea410e4efcb986aca52e92270b.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/dd3d4a4010de4fb6ae73d55a59525f63.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ae0d7ba09fc64df68f95709e0672c9d6.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7f064c34585447aa91f4f21a3d18dbe9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8861119001c54a2c90c2d9b7c8a35b49.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ba49aeb9f87449d09688e8d64b84d015.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6a658810fd6941d89f721f5f1df31eeb.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a5470639b6a04f6594c480cb6cc02ae1.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c3aa8da53858414580f16db22a648a14.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/dd54ce618cd441c594c18ddc2fc013c4.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9f99455cb1ef4ac9a21cf6d6d572e85e.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/42ba1e8f42d24faab07718f01fcd16c2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/234c8e5ddc954aef9a711c8c2cce6dde.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a440f7e38b9a4dcf9755b2163125c27c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/99172b576a584768b3b6c18fca4b1831.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2a0401e937f648eb984c67935541a19d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2d9d97d4c8ff4979b8895bfe8b656d35.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4f267c2f8b30469488d7bce6f50568d0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/077708c17802422db01038daf15f1ec5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/82850a3809ae4799af8ad09f8c7986ad.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/926269f7dc0d4d7fa155f9d974ecb76c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6e47628ec42446a796a0726d3dac7b25.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/756701401ebd4d63aacd31818a5d6eb7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/37dfa7cfeed9421d8c7ac13f3cd0a39f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/520988c3945c467d82a8a9b30e6674e5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/aa0feda3306e4409b5b6b8439a595fb2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e2a5e60e59e9405487609e5348a63374.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/22a0f65d99e647c288850850a18b2289.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8c7f5cc48b5746b69e4f7922c77fe742.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6c9825eff58b45feab51ad982f4ece62.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/88d5e83c8a874b8ca89bc9a068fa7557.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d46e81c897544e95871753870b372791.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/235b617f47f74d8d8d643142c05c02ab.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6aea8f318cb74b3590fae6a0311eb010.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c6c762c4f8b243f59dac7d80745a6144.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b26e403fb69f4dbb866b386e8783ee8f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/96edac02a6384524b667fe5529b4da73.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/face4762cff9410a9473e47f1fa79d34.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6258ffd6aa7b416392d59c0022c1480c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/02b592a2614e4224ae57d51b99b8c8ec.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d22559865dcc4638b9eb5857efedd112.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/969ef36145604918b95010573db978d0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a292a1e4c4d4408a848774919f2e9b42.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f3f0cf15400a4133953ca68c48ef6975.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6f5a05fd47bb4de99fdfaabe70a88678.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c758324fa2ed49abb8d6f763f137eb0a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7fab32c268e44cfe8446cc3d8428b9ac.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d409e82eb8804f90820bdda6b152b266.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/40cdfef0c2174cf5b5df1e98281537fd.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3d06f3855f014b52b8d8049b2b6183a6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7106960da1af40ba99da901d75150334.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/67e37c3e29a941478c0f2176ec4c1417.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b7fb9b7d937640eb9d96a7087f66b89a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/96a4060645824cd8ba25c9b974714658.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/89375090f3e64ee6b33bb0a5156f243a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b148b76db0e44136916bba45f76a30d2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ca1d03ad63c04b3cac3a62f6ed8cf705.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/25872f5ad9d248ec92d1a343c74f906a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0c2d0e734bc4410cbf2903f5787c428c.png",
+    "a_pos": 2
+   }
+  ],
+  "12": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e17929bfbcc74b71967740991d3aefa9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/088b01ec30b74c54a83c194c7afa50b5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ca98e7025fa045729f611acfe458deb1.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f0d20370998e4244af5c38b3c4943487.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e2c2fcd5f0da406b9d1a519f4dc4f5ee.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c71061a7f3ac42e3a5f36c25903ed30c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8c490fa28f9149b9b61f7533fed223fa.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/71caabe21f3a42759a4f65f62348e8bf.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3eed0c47b41f425fa6fad32db6e631f8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/42ba1e8f42d24faab07718f01fcd16c2.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8e6931a210054ae09cf0a747687b271e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/deb2059279d14842aa3ff66c13a5aa00.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3ea75299f6844d41809a80f96d616938.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fc7527ec7c67486a9085dffeda275935.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/71bc6c0b801b4061b6f8f1c54abf2957.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/394cd2de213945b08006e83a3917add6.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b9682046cc6d4a2a91368a0d926f6c16.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a1fc2b4d566047729ea476bf0840cda7.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3fb9e3ba00d54ff4ae3803fae39e2e89.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0c0b0a19848c4c12afe710cf29b84924.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3a00acdeda084aeeb358504e32ce89b5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/dbfa7e30fa204ea0b2ed45cd46eebfe5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/695b2096fb6743ed8ed42fd2535c4e27.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/235b617f47f74d8d8d643142c05c02ab.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5b09b7dbb79e462fa6f1180edaf127b3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0f9c5a3d51644518b1c9715cfc7bd246.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a88b103e54a540db89e37c074e3e3f20.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/40cdfef0c2174cf5b5df1e98281537fd.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/bf761b7620194ed8ab3ef118d10108fc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/34882a787d714264b5944b1ca3cbcf2c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b599f9d1d3064fbea996f6b9393ecf09.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6301562d81554902bd2eabbbcc935056.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/520988c3945c467d82a8a9b30e6674e5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a47512226b724a0891e1101e64a44907.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/31966879c5a74699ac522f2d14165d93.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/714a868fc5f4414fa306d93d890b7fac.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d342180f3d87420a9bc7cf80647e01fe.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0bb018c872c94dfcb6e266db8dcb952c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/35a3a4daee0b4b8d877418267ffac980.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/85d550c0e45241f7961c0132845764e4.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6ae4f212a74c4225a0f50d2a7c68dc97.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/15a31e5d84b04585869495acd3309e26.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d4c89e27242b413892c30c20b8c9bf57.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/14cf93abccf14b22927533f4e988d959.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/84562f8dd2a6465f9727acc2ca216cee.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/64eeea4e6dc04bf1a2f9ec9ff5836cd1.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/33407601174a41b699a0549811460d4b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cfc72915c72b4d68b9dcde582a96aa28.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/853b52998f4849aa9bb33859bee8784f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e1d66ef4050546f586c92903886b72fe.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/791d4d29e0944fa584a316c29adde12f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d02acc8dacdb438e971b53303571fb4b.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cd497844f2e54ff796b2db53942aa983.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/96a4060645824cd8ba25c9b974714658.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/45a271c8a2f747338a6601fa655220a0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a5b90866f1c541f7b4a8592ca617aff0.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6b982ad9f1284db5a242584ba17c5a65.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/17cef3b61d9a422186c243c2683bad09.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e0bac5f8fc0e4b2698e614a220978c1f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/30444bf98e8c4f2a9d4a14f1be5c341f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/86020b24d14b4f42a51aa6f245293d61.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/79af59f252f74ef2810ff7afb0ecccaf.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0511e940c362431883e186f9bb1b015e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/87b043b99ed04f6a857da0561da180b1.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/23c8f16f3ab24fbfac500022a8cb39a9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/501ab7c4ed104206b6323a7f7623cae2.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b4a651f7248447c5b1d9428934c776c9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6cbb7c45ac8a4724b8cefa6cb2631b29.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/00ac3d459b904c95981ba07235beda70.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/db1bc7a360834f12bb780ff7a6f5417f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/642b5cae0ca94c4cacf95052563c44b7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9f1b78c798d74487ad0853e03f45505f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e0853a8cae1b4e628405c99b2fc81ab8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cddb9a2509bd4505bf259ac243ddf4b5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/767f0e043a784ab9afce1e6a147e0f23.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5f9e753ec1e04758b054af7598598136.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9568a9c7ef6d4abd9a3c530889db3357.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cd7b973af5624d949fe6bb9745f7599e.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c758324fa2ed49abb8d6f763f137eb0a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4112ef40e0264bfa93796fda7a660b35.png",
+    "a_pos": 2
+   }
+  ],
+  "13": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c33afb2f6d9d4ae29b200d2c42fd9adf.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cb922169ce0740d49f167a8103c8d424.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/037938562c894437a394eb24ac44727e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fe682f94c03b47d688f001836d27b74b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c707060b3d994be7830e4d04058782c2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c71061a7f3ac42e3a5f36c25903ed30c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/96edac02a6384524b667fe5529b4da73.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/49bd7337c2ed4b8da0bc1b674add5f22.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d1aeff17f7984460bb26ba5ed4b3a65f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/48220a9eb76d4ae9b2fd6fe320c95675.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b35c049953a64158b3f8710a39d989d3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2fa15daa83e546cf854522a5cd9cad59.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9d733abd7cca4c72a26f89138ec4ed42.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7ff2b6dcd9ff4986856e29422f8b8951.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/979d957ac8d3464a80453b38ad7c1b08.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/31966879c5a74699ac522f2d14165d93.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/62c8cbbf65d249588ec752577c01839b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1dc5418ee28d45baa3f3610a083a997b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2e4d4cc7d1214c8c84b15612f75cde19.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b321f100835a4e62b9706a85eeffb0c7.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7fab32c268e44cfe8446cc3d8428b9ac.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ca765032eff441dba0b769eb607324c6.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8613f91b12f743dfad08797c6e6127aa.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a9829d3dc56a4341aa0d4f65db9d0288.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/051a0f9c810d4ad0b27f7c9f9e8da916.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ddccb42bb47e4c4898d7148ef0330054.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cb6c7522313e48318e65a4b9bf436913.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/25558e5741ae42fb9bbea0dc46d0453a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5ef4dd6a26264f41a3de022464c306f7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8c3420ad10744fa8ad75cb5bac22e610.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7952a1b834724fde8f9a3895a7f95684.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6e47628ec42446a796a0726d3dac7b25.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fb4e408761494884840b5a61d42c4e1a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7c2e1d496d9b4d6d8d5f38b9e47da4ec.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/971745d12ffd41d49a6ca134230a9bce.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d4e71428781745fab0704e540e1b6c77.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ef08b012fae646288e41c2954d184dd2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a7a3463c7856436692d968a7efad67a8.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9c19659a2da049a5ab0a18f3a9ed553a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/46a1247c62574e179573ab7505aa91a8.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d557d8a486a44c409d8721e76d9079ff.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1e7f6af561b74138bb58b927f02dd6a5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6d52a8dde7624639a5d187f1b9585147.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/06704ecbd1144167a6c08f5b2566b3d7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/72a0f5f9ae1c4a1a9089099ad0500389.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e52ed91a922849209f5487940096963e.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/747805ddb2ae45c0babbe6b22e87079d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/56ba9b748b904e48bcf1b6d82ba46a8a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7c50a258fd01486497241077df954071.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c6c762c4f8b243f59dac7d80745a6144.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/93958a2af9c44e2995fcf67215d7d58f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3b11491a943d482dbe3ca300c8c9260f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fad363e9e21c47118e6882a5136cec3c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c3fa986b6ffd41d6ae461848da64e5c2.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1c84e57ac0b842dca03929adfc8ba584.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e70ff3d1112b444795148010088dbc7a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/70931d9dd85846a8b089d0593340b265.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1c816e04e3354d4896f74b68cf55e12a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/efc10c1e8d2447c89b48047d113c7563.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ab3618a85bd1483f8a98f2faf7999b81.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/df3850393a7643e5a03c597f4f8c29f0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/28d238059d374681a9079c74a85ad5c7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9ebaa0b436504f63b2af3b8afb74a47a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2e742ee72b3842f3a905c1cc31f8c17f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2e8e0f8b459f45ef83fd38d87d83d89a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ab2a88c76ae94f18946bbb49749ab72a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6f5a05fd47bb4de99fdfaabe70a88678.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c763bb975c3e4ba79227c69d7cfe1949.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5657d67f45da43e788867e4c3d6afd9a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2de8a946d68f48cf834cb56a684087f4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2584017e721c4e7ea4b60d61ad3e7a18.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/71bc6c0b801b4061b6f8f1c54abf2957.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c3b6855d765a42bda498144e2bd61b40.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3fe2b55514e744a989f1b011e21c8627.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/40da50e0577641b38c8aad57020c2f19.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f59c3e4649924c4485eae8fec789ac63.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/286aa1b544874b3bb2c3966a8b927017.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3e092952d45a44c7b739d7c98257c8ab.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/855d2ac029d94fe2903d22c154cab770.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4a153ca171974c6baf4e7e679629b24e.png",
+    "a_pos": 2
+   }
+  ],
+  "14": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2cd3d90a7d06402ab64878d292efc0a5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b6662d2e98a248dbb62116f713e2a179.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ebee16d27c694e3f915db20e10a5b3c4.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5d189c5340504ff09abffdb56d9b67b3.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/928a428620c54a8dac98b1578e47e648.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/78e4b341f14f48d29cdfa4f8b641cb27.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cb09256b5e5846a88f07026db122f149.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5bfc4f9f293846d8ae28c61202fb06cf.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0270d4e44e604981bdae240f398f7766.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a9b70418e08e4dbda59744f2afafcc1a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6f5a05fd47bb4de99fdfaabe70a88678.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1b00bd766b774c5fb7d8f847b6219c48.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9623f34812ae40c990e1670e96511bf4.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/014fcd27fcf2492092a4cca34aeedb9d.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/13bfdd82c7e7429db616e3fa004737b3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3d76e4d187fc48d596f5ba95cb528cf6.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/414cf503594b4cdbae1d9e9f7295ad9e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0f3d2d45a18248f08010b1a1b5dcee38.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4491917d21fe4dfbb1ad0037984c6783.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d1aeff17f7984460bb26ba5ed4b3a65f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9105657f805d47049351caa57fd2d86c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2dea3ba76ce44f1cabb12fdf72d40417.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/70931d9dd85846a8b089d0593340b265.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/50237793a27a48bcaf8fd6ba2a5e0533.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a5dde1076eac41bab7376bae3e3a01e6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7ff2b6dcd9ff4986856e29422f8b8951.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b08e368a406e45908dccabb11a29b3c6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/708653f443ec4aa599ba13997a0b8fc8.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/da45d1d5a6594e158916a7e49abad4fd.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4112ef40e0264bfa93796fda7a660b35.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cc6ab67de9da4398a7e5b90548d36587.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f6194019d7d941fe8c1316dfc5ea6d01.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6a658810fd6941d89f721f5f1df31eeb.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fe6838cd3c1f40d4aac3af5db5c17649.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/979d957ac8d3464a80453b38ad7c1b08.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/643553f831074c81bc8cb75b7e1a9365.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2918a27c89bc41ed999103ee89a0270a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5a14c7b039d44abf94ab1db06095613c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fabd781bfb924c9684444fecb860d708.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/db7efc31d25842598d7a2be11067272b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/51c6fd68d7e349118970c34af38a1efd.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e9ab2012c9eb4aeeace5a2dbba1e7242.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1c703088c042469baf349783d1c7dd9b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6655a61698f44cbf9ae9d947a7306a6d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/18f3d7eec6bf48989686aed60976ae2c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f59c3e4649924c4485eae8fec789ac63.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0de8919f6ee94fbf8690e19a5ee5ad65.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/55a34d9065cc42b9878200a286e6c58d.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/994b016b33914f419957533ca75096ed.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/dc17cf26926a4077999618ec852a97a0.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b7fb9b7d937640eb9d96a7087f66b89a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/eeeeb246421c428d89cf92f2b46143b5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c2d3a4b7ca6a4b2094a2dd1d9ffbc503.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/bb438fbe1ff94509bf796ff77d71a109.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0309e14425a84fe29e65c68970b05eca.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/90aac1f7e7e94e21993a472c0d3880e2.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/25e30dac0f6349f7bfb03e7798f3744a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f16f0f24a4f74ec790829066134dc73a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/95185067d247442bb432289e3588d4dd.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/45a271c8a2f747338a6601fa655220a0.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1c6e077d57b34603a6b7a5c792f46b85.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/311d06b02a204df2a011ecc2b8e6a836.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3e092952d45a44c7b739d7c98257c8ab.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8c7f5cc48b5746b69e4f7922c77fe742.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/96a3e34f76e6435e903abcdb4db72266.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d99acb304b5e42f5b45057e308df2e43.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ed0e1c0eae334d659e7a226898f34f5f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/22a0f65d99e647c288850850a18b2289.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/aa0feda3306e4409b5b6b8439a595fb2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f6d9be443cb84c42b68d5a30a2330155.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8277cbefd67d4033b427d780351c7f0a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ce318928614f48d1bb454db3768a9fa0.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4171bdbd85b348a1b146d720597330aa.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/27754288aecd40ac9fd7f1e5d482668a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2569d39ad03b48efb5b296ec3ea9c06e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/11494933b537482f85c5e2be69cec144.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ee334d65d7a540ab81c207d1a22e14ac.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9e47d60765504c598619d62fa1d7ce0c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/67ca8e5d4ff941ca99dc2172e1e7ab43.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fc802b5453444bdf81ff71307105c488.png",
+    "a_pos": 1
+   }
+  ],
+  "15": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/05da977c9c3c47d499c5f7bf9ae853ab.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d860ca12c92849368d6fe65064b65573.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/99172b576a584768b3b6c18fca4b1831.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c255097ca7164ddf8b11bbbe3b1a5ee5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/557f84c5b9774298b5ce895a48c22b03.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/643553f831074c81bc8cb75b7e1a9365.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ad6db28df3a844c8b9abab4f9721562a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/aceb9f0bef56426a8be554697e98957c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e29e6fc182a547a8bdb58a570c666e7e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/747805ddb2ae45c0babbe6b22e87079d.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a41d5644ef2f45d590ac984ee41baac9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/44c914bf4d124f56a07dc3fe423a4494.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/99b142ef6cd3422881bed7e21a007706.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/67ca8e5d4ff941ca99dc2172e1e7ab43.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2529a6344b1b43deb1d7346f0fc71733.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a88b103e54a540db89e37c074e3e3f20.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cc728fd3b0614989a70c187ab8e56616.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/deb2059279d14842aa3ff66c13a5aa00.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ace3756798cf491fa09125a77483364e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3000c1d1b9994e7bae5ddc432f08231a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/db71d90bc31245dcaaff49ca4f75de4d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a3fb5bb50e864e268175aae763241818.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7f1a7332d3434cb492dfc3d88e7f8507.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3f4885a9ac3c4d888aabf7cec0b3b414.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f16f0f24a4f74ec790829066134dc73a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a57fd57159624e88bc8c6fab8ecf0974.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/492c00f4883f42558431b0f9137eac2d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1f81041b99a94848bde0d291a22f62ca.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/69d0548ba6a64f57a2c1a4ff22db914f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/aacbfbbf12c94f89999cac513893a8e7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b5c064d000d84fbab871f2a68559ad66.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6aea8f318cb74b3590fae6a0311eb010.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e17929bfbcc74b71967740991d3aefa9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/20eca3327d2f4082aa7863245dd0cc46.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1aeee2e5907e4b1684e8510820454d65.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1186649d0ddd46c3b4d83edf909e124e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4a311b28a8e14d1b99c1b0f8ccb1a6de.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c772323c6f1c4a0dbda8dee099c08c2c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fc026a0258fd4ceab84853a0fe4906e5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e52ed91a922849209f5487940096963e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fe73ba7b547649708dbdd281f4d4cf9d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8d2e440f2a6940ef8ccc161e1463798a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/95c44a2b918a4c86a968a9be5344b842.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7299bd5197be415987920c660828537d.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/740a773abb144965ad5d3155f5b83c47.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4611b650c5654acfa705aeb4024bfb3d.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ab609654c4b84504b65400c6afc85ab9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f6759da3c3334722aedaea0d64355c4d.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1c70433071184c5190492ba8ae522b5a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0ba56bccd73b454fab2c94b1c8eb425b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7f259cf8dfb240a9a804d556c6a4d98b.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1787548edca54ed4b294df296b6e6fd4.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/97c1669c31044548b95e21ffd7384f2a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1ff02b8eefc34c0594c1753f33f402c4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/341d4a7629674daabb1cc8560fe09611.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7d04a7df04b941dcac0f105f737f23f8.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8c3093a5720b494c99f82454831da669.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/486601a30064468c82588bc33204862a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fc7527ec7c67486a9085dffeda275935.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fff120ca1c154286a9f09c0dd4f76716.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6301562d81554902bd2eabbbcc935056.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4f898eca2d984bad9234051161c16d34.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ddbce7f126b949ceb53759ae0f9f2235.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0e882ee0ae564c0894c4be484268465d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/745f894aee324863b132ccb609459c2f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/86ed18518af842ceb73f94d1e8c3daa7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f147a39e33bf4ab5b2a2ec5a74c0eb82.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/30444bf98e8c4f2a9d4a14f1be5c341f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c41e781f196e453ead8b0b3145ab5fb9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/54fa94e96ba34268bacb1cb835598df5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7b46026109a24a45be6d9b3ada62da91.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d29c3d70b84b4d7684a4f4ca04b24c25.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4f0b7f3a2219486092ff9a9d17d49587.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/dd092f9bd6ca4671a3e297031b6800a6.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6c25c06860a644ca8fc075a33c7ec66d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/45b105f96ef44abc9260148f26a9c729.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6f70c2d1f85047f6b9429a6a19aeb342.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b7bc08b1602642c8a5ea57fc98f38581.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b08e368a406e45908dccabb11a29b3c6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0c0b0a19848c4c12afe710cf29b84924.png",
+    "a_pos": 2
+   }
+  ],
+  "16": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1e6eb440e6664533be8add9f55bcb7be.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8551479dbb074c169d7f76c7902a9fe0.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4f267c2f8b30469488d7bce6f50568d0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/654094de0da9478c851b34ede2a1a41e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8b4d08c001354635a65f36b31c66e8c3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6eb2e75e84d746acb67dc7c8ba05f86e.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9623f34812ae40c990e1670e96511bf4.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/35c08ba83cc247b0ad490d767318503d.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c59d82e7c07b41fdb6c9bc1d0257af79.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2e8e0f8b459f45ef83fd38d87d83d89a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/37dfa7cfeed9421d8c7ac13f3cd0a39f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/98e9fdbd6dad4f708e18729386088cbf.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7299bd5197be415987920c660828537d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fb4e408761494884840b5a61d42c4e1a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/86ed18518af842ceb73f94d1e8c3daa7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ca1d03ad63c04b3cac3a62f6ed8cf705.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a157411614a040ee971282c28f1918e6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a440f7e38b9a4dcf9755b2163125c27c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6078dd9f8401458d890050cf98ba3294.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/13bfdd82c7e7429db616e3fa004737b3.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/35a25e517e2842a8a8d4ccf2187e9742.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6fb63e57a79047838cc8c5dc2cf2fccc.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ab3618a85bd1483f8a98f2faf7999b81.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/878a37ccac7d4220942fb40067d544ad.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/447dc1f8c7ee4be1b46e9779161bdc44.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f194e4d2b42440d0b14b536b917a40d1.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cba2e309e540453c8d444a7a9db51d4c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ace3756798cf491fa09125a77483364e.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1522426ce5e7427aa5b736f1e5cc3023.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3000c1d1b9994e7bae5ddc432f08231a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/853b52998f4849aa9bb33859bee8784f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/eed5be1ca368404682de25cb9a3ebd97.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/77264975ec1a498dad8f422fcc2f32c4.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4cde4cfc392249519f79009a59ba6779.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7c50a258fd01486497241077df954071.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0c2d0e734bc4410cbf2903f5787c428c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7421d21063f3425cbf32e0e5cd746e9f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3d0c5eb7f8344533a94d779627cc8cea.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/dbfa7e30fa204ea0b2ed45cd46eebfe5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ac5b6867413f477284bfabd5a430af04.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ae8adee9a39f47929801769e11ef3a92.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d6eddeb12e7d4f55996c8ca81effb8f4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/536aa745cbe54323b44143b3bdb48ee2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1aeee2e5907e4b1684e8510820454d65.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f6d9be443cb84c42b68d5a30a2330155.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a9b70418e08e4dbda59744f2afafcc1a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a4d98800c02f4e64924ce6e4465330e3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5b09b7dbb79e462fa6f1180edaf127b3.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/1f81041b99a94848bde0d291a22f62ca.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8e4a86629ac84a689c0a4c3e54da3eab.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f01c3997cb5f461c88e0233894a68e1d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/596e403db4a3475fafbd6e81376e5729.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c097e547f3ef4bee9ab5d235313bb51e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3862edce381340ae851d08215ab39b09.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0502dedf5bb94ef98d4e8bcb9f6fef58.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/198948aa8e654bea8b54c8574cb73bc6.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/e12085330c7e4f72957702aecffaf580.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/34882a787d714264b5944b1ca3cbcf2c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b604d75d287443b1928d2b6c1c74fffd.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f1f42bbae9f6457b9489286e0c287641.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d4e71428781745fab0704e540e1b6c77.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/72d2b153b15c431e9af2bfd8518cfe6a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0926e77026c642318ed696b41698a0ab.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ba5dddbf1b394433809ef3e3d6291aa7.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/325e159c2f8945408dd1c61fd6a66c63.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/822166a9454f45f08f3e40e826425d5a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/face4762cff9410a9473e47f1fa79d34.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a7a575b5032f434fb665b0089a6cc745.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6d52a8dde7624639a5d187f1b9585147.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ddfc4c015c124f379aefc542cf714e41.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d60364f8fa13494b96964b07e55076b9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5341d52a6c4840fab0e9e7abff28bbe0.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4a3146eb1a1d4150abb0542867dc3e03.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6a66af28c44044eb9b696e73fb9a0db5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f4cb61dda653480cbce8efef87a3b902.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8c3420ad10744fa8ad75cb5bac22e610.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/20600061d32042e8a743b676845dfc1d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/34aa6a9620c042b1a5e65a8ad8c269a5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/40b7eac0535a4210b3cc3c5f788c1c54.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3d06f3855f014b52b8d8049b2b6183a6.png",
+    "a_pos": 2
+   }
+  ],
+  "17": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/dd3d4a4010de4fb6ae73d55a59525f63.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1f81041b99a94848bde0d291a22f62ca.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c255097ca7164ddf8b11bbbe3b1a5ee5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f9bcd98781bd49eaa6bb9a67db53a298.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c3aa8da53858414580f16db22a648a14.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/32bd9b0bf8854537b3921ae33b87b19a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/09c169dc8c394a7284bec3ada7040531.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b699729d9894489db434f0d07402ef39.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fc026a0258fd4ceab84853a0fe4906e5.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f96d3d3c64684e44990be393e915306f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4cde4cfc392249519f79009a59ba6779.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/79af59f252f74ef2810ff7afb0ecccaf.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f2930d85108e472989acec69500f56c0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c23a351034334c28a834fcc5c4aaac0f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/db1bc7a360834f12bb780ff7a6f5417f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4112ef40e0264bfa93796fda7a660b35.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8c490fa28f9149b9b61f7533fed223fa.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9a96262c3ffa4a8a83cfc62fa316738c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/de57ac522f934bb0afe280a7bbd2c1cd.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ac767343410943a69572bca98f71835f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7c50a258fd01486497241077df954071.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d439b6ae221745a7a2030bce0bae1671.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3b11491a943d482dbe3ca300c8c9260f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3f86d40fd79849b38a23d48b575d6f3f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/94683125e7aa49dd94dcb068ffd254c3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8d80f050975541208e882663a39b2212.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a63ed92ff97c428f979b8a9dab0c7887.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d3916794c1364faaa506ca0629ccef17.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/668fec2a504a462795f18ffe9031945c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/36adee322cc54d6e91f859cd2daf6afb.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3d76e4d187fc48d596f5ba95cb528cf6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/84bb7bce0642436fa90369735e445017.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b604d75d287443b1928d2b6c1c74fffd.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d6fcc7f3fb1e44cea18c18ed7936d920.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/223766bb8eb6460e9d96d5acb6b2ae8d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/e52ed91a922849209f5487940096963e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c55fe50745a0466da01312a2f89f5095.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8c7f5cc48b5746b69e4f7922c77fe742.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/912248d936f94e92a525b35532140d70.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/88d5e83c8a874b8ca89bc9a068fa7557.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/54826ba760aa4ce896a596f9f970b3cb.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/36f9ec57e7204f9b8e1d11e94b8e0494.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6f5ac057181246048fe79a5816df379c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/235b617f47f74d8d8d643142c05c02ab.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/fbf0f6a221ee49db868d3bd8ee729da3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/3a00acdeda084aeeb358504e32ce89b5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ef08b012fae646288e41c2954d184dd2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/148156f57abf48fea5228fe150ecf467.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9bded9a11c9943cab112ec7c034b2e82.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/dd559fc971164cc5b548eccf7211deac.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b94271eca328463cb906582f877f0e03.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/16bc0aa9781842b0b1c5a762519095eb.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/cad091c7a10a4500ab8bc0feece6638e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a1fc2b4d566047729ea476bf0840cda7.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/947d7dcb27df42dc82534535d413e6ce.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a8984d3d3f1a4fbfa4f58aeed4bd9a12.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4dfd79b9480948e482f92c229adf92d6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ba49aeb9f87449d09688e8d64b84d015.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/70ea99c86684410caab8d90e35966965.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/531b3500a89845a98b5298aae8088ff9.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b148b76db0e44136916bba45f76a30d2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d51965afb74e4945a1c8d09d46a48a10.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4611b650c5654acfa705aeb4024bfb3d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/fe73ba7b547649708dbdd281f4d4cf9d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b2195a596bd64fe09160b626724e2474.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/543c5a81ff0041dabccf15248e36609d.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/447dc1f8c7ee4be1b46e9779161bdc44.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8ceb4156f239471eb96ee4085c834c1a.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/96d88093e57f4f70b95e7369ef38305a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d46e81c897544e95871753870b372791.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4f267c2f8b30469488d7bce6f50568d0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6078dd9f8401458d890050cf98ba3294.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/853d6f2b5fe94715b5c415c7fddc7a42.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1c70433071184c5190492ba8ae522b5a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c41e781f196e453ead8b0b3145ab5fb9.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2caf007e9eea49b48b801d73c6bd02ad.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9f4ed599e9e44841b57a62da7a35ae4c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1787548edca54ed4b294df296b6e6fd4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/40b7eac0535a4210b3cc3c5f788c1c54.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5d259936f450480399dba79d67ed5b70.png",
+    "a_pos": 1
+   }
+  ],
+  "18": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/596e403db4a3475fafbd6e81376e5729.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/46cf74f5d59d4fa9b27adfeebececffe.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/782071e05e0b48fb88eee448df307380.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/cd497844f2e54ff796b2db53942aa983.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/643553f831074c81bc8cb75b7e1a9365.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1186649d0ddd46c3b4d83edf909e124e.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8fb8e2520af44ff4b5eff78486f06391.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/756701401ebd4d63aacd31818a5d6eb7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/25e30dac0f6349f7bfb03e7798f3744a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/7f259cf8dfb240a9a804d556c6a4d98b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8400762171e74a3c8bfd63040253cdcc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4112ef40e0264bfa93796fda7a660b35.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ddbce7f126b949ceb53759ae0f9f2235.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/223766bb8eb6460e9d96d5acb6b2ae8d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9995577ab8e84c3d85885ea69aa61e1d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4f267c2f8b30469488d7bce6f50568d0.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ef6abc5a5ac843b9b3468500a00657cc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/18f7ac522d4d46e09237539181a15f6e.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6069d46ee3f74cc99ec230f8d0c2ee9d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b187b7c0b0e540248f975bc10b5bb810.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/44f5623490ea4267b2c4a1ba7c85b5dc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1e4e9e9330164ebf8431235d48ddccac.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2c06f1ed020a441693b4419587e8e76a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/42ba1e8f42d24faab07718f01fcd16c2.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4148dcb23f34497da2afed16ccb6bcd3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f96d3d3c64684e44990be393e915306f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2d6f3d3013bd4c1294338b05af49863d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c772323c6f1c4a0dbda8dee099c08c2c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b407afce9cd84f869df3dfd147d295e0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/ebe0d29c0cf945d7b65426f025c9f8b5.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3d76e4d187fc48d596f5ba95cb528cf6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a8984d3d3f1a4fbfa4f58aeed4bd9a12.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/12e7b0938a334a988da8a61128380f4e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/791d4d29e0944fa584a316c29adde12f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ee334d65d7a540ab81c207d1a22e14ac.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9b88b0b9d78b485d8486aaac4663d4fe.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3862edce381340ae851d08215ab39b09.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/928a428620c54a8dac98b1578e47e648.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4f0b7f3a2219486092ff9a9d17d49587.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/695b2096fb6743ed8ed42fd2535c4e27.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/9a64173295ca443fb595a78bfb07bd5f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d51965afb74e4945a1c8d09d46a48a10.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5ebf40c0aee5408081a770448503ec10.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/da45d1d5a6594e158916a7e49abad4fd.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7f37f32c0356431988fc7de1e7a5124e.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1c0172af2a7c42fdb71058543eb5cefb.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5c32e387f6064dab8c52f035dc62f3f3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a98916ef7d2e4b929c7ab129a1a93ff6.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/107e055d029147a6a193b03692d735b0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9105657f805d47049351caa57fd2d86c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5394741c64ef40ab9da731ae80daca9f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/25872f5ad9d248ec92d1a343c74f906a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/042b7f988e4b44eca08be00d15705b25.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/45a4d03bab734899a8523acdee340a4b.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/99b142ef6cd3422881bed7e21a007706.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f6194019d7d941fe8c1316dfc5ea6d01.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/64f3815c042b438fac82c811d6a12a3d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1e7020c0ce5f4cac9090c092dec8c004.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/bf2d54523a2c444c8188564ea409eabd.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/dbfa7e30fa204ea0b2ed45cd46eebfe5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/8d0df92e3f55429e8f801fd58ba85b41.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4c69990fc96a44efbdfc726a2ff8bc0e.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/09c169dc8c394a7284bec3ada7040531.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b94271eca328463cb906582f877f0e03.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/486601a30064468c82588bc33204862a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8c3093a5720b494c99f82454831da669.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a6c50ca6186b4fee8d40c2b9db2f1a6f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d4f4013138d54a65b666ee58c50b2ce4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c8105149c9314eb498e0eb0ba44c3943.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/740a773abb144965ad5d3155f5b83c47.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7fab32c268e44cfe8446cc3d8428b9ac.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/17345927a35f47cca5e62591a604cac2.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/df994f75e9184763a1321cfe9a092149.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9623f34812ae40c990e1670e96511bf4.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6a0d69fb961943ff8c5339931f1d78f3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2d3dfc4c81bd45b4b7ba279acc6fd66c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b321f100835a4e62b9706a85eeffb0c7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/dfae5ef6e80a441a8f25869b1e82978c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6f70c2d1f85047f6b9429a6a19aeb342.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c6c762c4f8b243f59dac7d80745a6144.png",
+    "a_pos": 1
+   }
+  ],
+  "19": [
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/64e68b1374f045b494dc48fdf25605a6.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/36f9ec57e7204f9b8e1d11e94b8e0494.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ef6abc5a5ac843b9b3468500a00657cc.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/45a4d03bab734899a8523acdee340a4b.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5ebf40c0aee5408081a770448503ec10.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f35196584644430486c72786e1a97084.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/982847442b9c4c9d8274f36c63099bac.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/64f3815c042b438fac82c811d6a12a3d.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/543c5a81ff0041dabccf15248e36609d.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/a1fc2b4d566047729ea476bf0840cda7.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/89171e44207042f3b70bc187e7bcd854.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0bb018c872c94dfcb6e266db8dcb952c.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5a6db022863d4b198d1883e042454e89.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6f5a05fd47bb4de99fdfaabe70a88678.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/25163cb15723452c8433b58c0af53983.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/504f542bc379495d98475b7910a45008.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a7a3463c7856436692d968a7efad67a8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/d08b461066424923a2c4954f71857766.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7b46026109a24a45be6d9b3ada62da91.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/44f5623490ea4267b2c4a1ba7c85b5dc.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/91587859d512474fb2329eecd64cc946.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/02b592a2614e4224ae57d51b99b8c8ec.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4d79101eecb2453baf8e545466f5f897.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9d6bc96b41214de0a117939b9ffcd61c.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/aceb9f0bef56426a8be554697e98957c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0bce8b5d884f4168962f4e7e7071c953.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b01d83752ff14db6b589b0204c5ce244.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/9a64173295ca443fb595a78bfb07bd5f.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a4dbe71515c9461f8519d67ca8a6ca24.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/68f61ac8c70647019c3df955e5ea0e69.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/936ae790982c4ffea0031f9a5250b3ab.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/557f84c5b9774298b5ce895a48c22b03.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a77ecae3eb8840dbbf8387f929a9b327.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/190d5ca9375e4eaeb20cbcf475162a94.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/3f4885a9ac3c4d888aabf7cec0b3b414.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1f21018d87f94d9cb76d0972242a4bf2.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4f0b7f3a2219486092ff9a9d17d49587.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c23a351034334c28a834fcc5c4aaac0f.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/167a4bf00cef4149ab5f34ba7c7e6884.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6ac7fadd43894a23a10ecf7cf6d34ef9.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/f6194019d7d941fe8c1316dfc5ea6d01.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/5bfc4f9f293846d8ae28c61202fb06cf.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d6eddeb12e7d4f55996c8ca81effb8f4.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/f147a39e33bf4ab5b2a2ec5a74c0eb82.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/a5b90866f1c541f7b4a8592ca617aff0.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/28a10f763a174fc89d79f519e9974076.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/67e37c3e29a941478c0f2176ec4c1417.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/0270d4e44e604981bdae240f398f7766.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4148dcb23f34497da2afed16ccb6bcd3.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/c0a0e97f5a4643cf99a78d7d7d99f3c5.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d51965afb74e4945a1c8d09d46a48a10.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b7fb9b7d937640eb9d96a7087f66b89a.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c2f5da09987848a6ada41c89d14a4d5c.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b9682046cc6d4a2a91368a0d926f6c16.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/2529a6344b1b43deb1d7346f0fc71733.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2584017e721c4e7ea4b60d61ad3e7a18.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/782071e05e0b48fb88eee448df307380.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/1b9bd714691648a9b0138901778c014d.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/6cb6833c93b5450ab7f2308094bdff7a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6ffb0ae5ca21459596043b3d6eaa7402.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/7086dd18f7cb40c792ddc3065c8f37b8.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/b2195a596bd64fe09160b626724e2474.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/ba5dddbf1b394433809ef3e3d6291aa7.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/48b877d71d5d4868b25da541fefbbf36.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/5c3a04595be940dea9408e2e0cb79daa.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/6078dd9f8401458d890050cf98ba3294.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d1aeff17f7984460bb26ba5ed4b3a65f.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/4dfd79b9480948e482f92c229adf92d6.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/878a37ccac7d4220942fb40067d544ad.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8b4d08c001354635a65f36b31c66e8c3.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/0a926f902f374bc08b5097627f2aa21a.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2b378f1a3dab4bde9f6a400a59f32b7d.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/4112ef40e0264bfa93796fda7a660b35.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/36adee322cc54d6e91f859cd2daf6afb.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/c1e8fe2b4d4c44529900d199bcd1c6c2.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/87b62f249b5a42ddb72a829f57329895.png",
+    "a_pos": 2
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/b6d3bc43206f48ac831a2461afc28701.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/8c7f5cc48b5746b69e4f7922c77fe742.png",
+    "a_pos": 1
+   },
+   {
+    "img_a": "/home/aid1/langres_state/fn/renders/d342180f3d87420a9bc7cf80647e01fe.png",
+    "img_b": "/home/aid1/langres_state/fn/renders/2dcd67305e55407ca591d02efca4f563.png",
+    "a_pos": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "name_a": "Open-water dominated",
+  "name_b": "Land and vegetation dominated",
+  "definition": "A patch lies closer to A when more of its visible area consists of continuous dark blue water, with little near-infrared red response and few terrestrial features. It lies closer to B when vegetation, fields, roads, or other land textures occupy more of the scene. Featureless black areas alone are inconclusive.",
+  "cues": [
+    "Extent of continuous dark blue water versus recognizable land cover.",
+    "Fine, repeated wave-like texture across broad areas at A.",
+    "Extensive red or pink vegetation in false color at B.",
+    "Field boundaries, roads, clearings, and varied terrestrial textures at B."
+  ],
+  "visible": "high"
+}

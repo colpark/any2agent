@@ -1,0 +1,12 @@
+{
+  "name_a": "Bright, open surfaces",
+  "name_b": "Dark water and shaded terrain",
+  "definition": "A patch lies closer to A when light-toned, relatively uniform surfaces dominate, such as snow or exposed agricultural ground, often with bright red crop parcels in false color. It lies closer to B when dark water or rugged land with extensive dark slopes and shadows dominates. Judge the overall area and brightness of these surfaces.",
+  "cues": [
+    "Large expanses of white or pale ground favor A; extensive deep blue, brown-black or black surfaces favor B.",
+    "Broad, bright red agricultural parcels in false color favor A; predominantly dark or muted false color favors B.",
+    "Regular field strips or continuous snow cover favor A.",
+    "Strongly shaded ridges and valleys, or dark water with fine ripple texture, favor B."
+  ],
+  "visible": "high"
+}

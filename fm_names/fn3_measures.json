@@ -1,0 +1,399 @@
+{
+ "per_direction": {
+  "0": {
+   "d1": 0.925,
+   "d1_ci": [
+    0.8013546984090248,
+    0.9741644432281419
+   ],
+   "d0s_raw": 0.3,
+   "d0s": 0.7,
+   "d0s_from": 4,
+   "named": true,
+   "evr": 0.3281429409980774,
+   "visible_r2": 0.8406064510345459,
+   "full_r2": 0.8813232779502869,
+   "swir_gain": 0.04071682691574097,
+   "visible": "high",
+   "name_a": "Near-black, low-detail patches",
+   "name_b": "Bright, clearly textured land"
+  },
+  "1": {
+   "d1": 0.875,
+   "d1_ci": [
+    0.7388757932976187,
+    0.9454058022645873
+   ],
+   "d0s_raw": 0.425,
+   "d0s": 0.575,
+   "d0s_from": 19,
+   "named": true,
+   "evr": 0.10354207456111908,
+   "visible_r2": 0.38920843601226807,
+   "full_r2": 0.4445977210998535,
+   "swir_gain": 0.05538928508758545,
+   "visible": "high",
+   "name_a": "Open fields and sparse vegetation",
+   "name_b": "Dense woodland and tree cover"
+  },
+  "2": {
+   "d1": 0.6,
+   "d1_ci": [
+    0.445956198273935,
+    0.7365188938759863
+   ],
+   "d0s_raw": 0.35,
+   "d0s": 0.65,
+   "d0s_from": 6,
+   "named": false,
+   "evr": 0.07822861522436142,
+   "visible_r2": 0.6911729574203491,
+   "full_r2": 0.7970824241638184,
+   "swir_gain": 0.10590946674346924,
+   "visible": "high",
+   "name_a": "Snow-free terrain",
+   "name_b": "Snow-covered terrain"
+  },
+  "3": {
+   "d1": 0.975,
+   "d1_ci": [
+    0.8711834051199223,
+    0.9955732825922052
+   ],
+   "d0s_raw": 0.175,
+   "d0s": 0.825,
+   "d0s_from": 2,
+   "named": true,
+   "evr": 0.06636705994606018,
+   "visible_r2": 0.41881734132766724,
+   "full_r2": 0.5286802053451538,
+   "swir_gain": 0.10986286401748657,
+   "visible": "high",
+   "name_a": "Rugged, irregular landscapes",
+   "name_b": "Green agricultural field mosaics"
+  },
+  "4": {
+   "d1": 0.575,
+   "d1_ci": [
+    0.42194800436059987,
+    0.7149083147518411
+   ],
+   "d0s_raw": 0.55,
+   "d0s": 0.55,
+   "d0s_from": 13,
+   "named": false,
+   "evr": 0.05007512494921684,
+   "visible_r2": 0.22822946310043335,
+   "full_r2": 0.2906695604324341,
+   "swir_gain": 0.06244009733200073,
+   "visible": "high",
+   "name_a": "Pervasive surface texture",
+   "name_b": "Smooth water with discrete land"
+  },
+  "5": {
+   "d1": 0.35,
+   "d1_ci": [
+    0.2213433317104915,
+    0.5049440300646263
+   ],
+   "d0s_raw": 0.475,
+   "d0s": 0.525,
+   "d0s_from": 16,
+   "named": false,
+   "evr": 0.032201822847127914,
+   "visible_r2": 0.4665074944496155,
+   "full_r2": 0.48287755250930786,
+   "swir_gain": 0.016370058059692383,
+   "visible": "high",
+   "name_a": "Mostly snow-free terrain",
+   "name_b": "Snow-covered terrain"
+  },
+  "6": {
+   "d1": 0.525,
+   "d1_ci": [
+    0.37497106853929735,
+    0.6706477044981831
+   ],
+   "d0s_raw": 0.55,
+   "d0s": 0.55,
+   "d0s_from": 3,
+   "named": false,
+   "evr": 0.02759021334350109,
+   "visible_r2": 0.2738814353942871,
+   "full_r2": 0.3756974935531616,
+   "swir_gain": 0.10181605815887451,
+   "visible": "high",
+   "name_a": "Vegetation or open water",
+   "name_b": "Exposed-soil cropland"
+  },
+  "7": {
+   "d1": 0.7,
+   "d1_ci": [
+    0.545696893456796,
+    0.8192532908430471
+   ],
+   "d0s_raw": 0.675,
+   "d0s": 0.675,
+   "d0s_from": 11,
+   "named": true,
+   "evr": 0.024134814739227295,
+   "visible_r2": 0.18003112077713013,
+   "full_r2": 0.2512857913970947,
+   "swir_gain": 0.0712546706199646,
+   "visible": "medium",
+   "name_a": "Reflective water and open cropland",
+   "name_b": "Dark water and dense woodland"
+  },
+  "8": {
+   "d1": 0.675,
+   "d1_ci": [
+    0.52017458088898,
+    0.7991568303733828
+   ],
+   "d0s_raw": 0.75,
+   "d0s": 0.75,
+   "d0s_from": 10,
+   "named": true,
+   "evr": 0.02138727717101574,
+   "visible_r2": 0.22364598512649536,
+   "full_r2": 0.3988972306251526,
+   "swir_gain": 0.17525124549865723,
+   "visible": "high",
+   "name_a": "Green, densely vegetated farmland",
+   "name_b": "Dry, sparsely vegetated farmland"
+  },
+  "9": {
+   "d1": 0.625,
+   "d1_ci": [
+    0.47032160054531913,
+    0.7577722646420829
+   ],
+   "d0s_raw": 0.6,
+   "d0s": 0.6,
+   "d0s_from": 8,
+   "named": false,
+   "evr": 0.01775496080517769,
+   "visible_r2": 0.05855077505111694,
+   "full_r2": 0.09322923421859741,
+   "swir_gain": 0.03467845916748047,
+   "visible": "high",
+   "name_a": "Broad agricultural fields",
+   "name_b": "Narrow agricultural strips"
+  },
+  "10": {
+   "d1": 0.6,
+   "d1_ci": [
+    0.445956198273935,
+    0.7365188938759863
+   ],
+   "d0s_raw": 0.425,
+   "d0s": 0.575,
+   "d0s_from": 0,
+   "named": false,
+   "evr": 0.016911789774894714,
+   "visible_r2": 0.15162378549575806,
+   "full_r2": 0.19114965200424194,
+   "swir_gain": 0.03952586650848389,
+   "visible": "high",
+   "name_a": "Vegetated, gentle terrain",
+   "name_b": "Rugged, sparsely vegetated mountains"
+  },
+  "11": {
+   "d1": 0.625,
+   "d1_ci": [
+    0.47032160054531913,
+    0.7577722646420829
+   ],
+   "d0s_raw": 0.625,
+   "d0s": 0.625,
+   "d0s_from": 12,
+   "named": false,
+   "evr": 0.013827195391058922,
+   "visible_r2": 0.2348417043685913,
+   "full_r2": 0.26993101835250854,
+   "swir_gain": 0.035089313983917236,
+   "visible": "high",
+   "name_a": "Smooth, continuous cover",
+   "name_b": "Contrasting, fragmented cover"
+  },
+  "12": {
+   "d1": 0.425,
+   "d1_ci": [
+    0.28509168524815875,
+    0.5780519956394001
+   ],
+   "d0s_raw": 0.4,
+   "d0s": 0.6,
+   "d0s_from": 7,
+   "named": false,
+   "evr": 0.012827388942241669,
+   "visible_r2": 0.028619110584259033,
+   "full_r2": 0.08816218376159668,
+   "swir_gain": 0.059543073177337646,
+   "visible": "medium",
+   "name_a": "Bright, open surfaces",
+   "name_b": "Dark water and green cover"
+  },
+  "13": {
+   "d1": 0.6,
+   "d1_ci": [
+    0.445956198273935,
+    0.7365188938759863
+   ],
+   "d0s_raw": 0.5,
+   "d0s": 0.5,
+   "d0s_from": 5,
+   "named": false,
+   "evr": 0.010084666311740875,
+   "visible_r2": 0.2518038749694824,
+   "full_r2": 0.3068092465400696,
+   "swir_gain": 0.05500537157058716,
+   "visible": "medium",
+   "name_a": "Fine, fragmented texture",
+   "name_b": "Broad, continuous cover"
+  },
+  "14": {
+   "d1": 0.625,
+   "d1_ci": [
+    0.47032160054531913,
+    0.7577722646420829
+   ],
+   "d0s_raw": 0.55,
+   "d0s": 0.55,
+   "d0s_from": 18,
+   "named": false,
+   "evr": 0.009290812537074089,
+   "visible_r2": 0.1536923050880432,
+   "full_r2": 0.22258484363555908,
+   "swir_gain": 0.06889253854751587,
+   "visible": "medium",
+   "name_a": "Strong directional structure",
+   "name_b": "Mixed or irregular structure"
+  },
+  "15": {
+   "d1": 0.5,
+   "d1_ci": [
+    0.35199278797099753,
+    0.6480072120290025
+   ],
+   "d0s_raw": 0.45,
+   "d0s": 0.55,
+   "d0s_from": 17,
+   "named": false,
+   "evr": 0.008067748509347439,
+   "visible_r2": 0.1645154356956482,
+   "full_r2": 0.2834808826446533,
+   "swir_gain": 0.11896544694900513,
+   "visible": "high",
+   "name_a": "Bright, open surfaces",
+   "name_b": "Dark water and shaded terrain"
+  },
+  "16": {
+   "d1": 0.475,
+   "d1_ci": [
+    0.32935229550181694,
+    0.6250289314607027
+   ],
+   "d0s_raw": 0.575,
+   "d0s": 0.575,
+   "d0s_from": 14,
+   "named": false,
+   "evr": 0.0074988058768212795,
+   "visible_r2": 0.14294278621673584,
+   "full_r2": 0.15635931491851807,
+   "swir_gain": 0.013416528701782227,
+   "visible": "high",
+   "name_a": "Snow-free surfaces",
+   "name_b": "Snow-covered terrain"
+  },
+  "17": {
+   "d1": 0.575,
+   "d1_ci": [
+    0.42194800436059987,
+    0.7149083147518411
+   ],
+   "d0s_raw": 0.55,
+   "d0s": 0.55,
+   "d0s_from": 9,
+   "named": false,
+   "evr": 0.007212821859866381,
+   "visible_r2": 0.12275928258895874,
+   "full_r2": 0.2530753016471863,
+   "swir_gain": 0.13031601905822754,
+   "visible": "medium",
+   "name_a": "Snow-free, greener appearance",
+   "name_b": "Wintry, snow-covered appearance"
+  },
+  "18": {
+   "d1": 0.525,
+   "d1_ci": [
+    0.37497106853929735,
+    0.6706477044981831
+   ],
+   "d0s_raw": 0.475,
+   "d0s": 0.525,
+   "d0s_from": 1,
+   "named": false,
+   "evr": 0.006835418753325939,
+   "visible_r2": 0.09824997186660767,
+   "full_r2": 0.13615763187408447,
+   "swir_gain": 0.03790766000747681,
+   "visible": "medium",
+   "name_a": "Greener, summer-like surfaces",
+   "name_b": "Dormant, winter-like surfaces"
+  },
+  "19": {
+   "d1": 0.525,
+   "d1_ci": [
+    0.37497106853929735,
+    0.6706477044981831
+   ],
+   "d0s_raw": 0.5,
+   "d0s": 0.5,
+   "d0s_from": 15,
+   "named": false,
+   "evr": 0.006349930074065924,
+   "visible_r2": 0.045662641525268555,
+   "full_r2": 0.09400618076324463,
+   "swir_gain": 0.048343539237976074,
+   "visible": "high",
+   "name_a": "Open-water dominated",
+   "name_b": "Land and vegetation dominated"
+  }
+ },
+ "n_named": 5,
+ "named": [
+  0,
+  1,
+  3,
+  7,
+  8
+ ],
+ "mean_d1": 0.615,
+ "mean_d0s": 0.5975,
+ "wilcoxon": {
+  "stat": 76.5,
+  "p": 0.6945074983580521
+ },
+ "named_variance_share": 0.6407568015037169,
+ "spearman_d1": {
+  "pc_rank": [
+   -0.5221067877898715,
+   0.01820570911544253
+  ],
+  "swir_gain": [
+   0.23800815941217007,
+   0.3122626344685403
+  ],
+  "visible": [
+   0.0855677237050196,
+   0.7198273978272309
+  ]
+ },
+ "reader_share_1": {
+  "D1": 0.59625,
+  "D0s": 0.59875
+ },
+ "unparsed": 0,
+ "verdict_N1": false
+}

@@ -1,0 +1,298 @@
+{
+ "0": {
+  "pc": 0,
+  "pc_rank": 1,
+  "a_end": "high",
+  "name_a": "Near-black, low-detail patches",
+  "name_b": "Bright, clearly textured land",
+  "definition": "A patch lies closer to end A when both its true-color and false-color halves are predominantly near-black, with faint contrast and few discernible surface features. End B has brighter, varied colors and recognizable landscape structure.",
+  "cues": [
+   "Near-black coverage across both halves is much greater toward A.",
+   "Fields, roads, buildings, and vegetation boundaries are readily discernible toward B.",
+   "False-color vegetation appears strongly red toward B but is barely visible toward A.",
+   "Local color and brightness variation are much weaker toward A."
+  ],
+  "visible": "high"
+ },
+ "1": {
+  "pc": 1,
+  "pc_rank": 2,
+  "a_end": "low",
+  "name_a": "Open fields and sparse vegetation",
+  "name_b": "Dense woodland and tree cover",
+  "definition": "A patch lies closer to A when broad, smooth areas of cropland, bare ground or sparse vegetation dominate, with relatively little tree canopy. It lies closer to B when dense, textured tree cover dominates, with open ground mostly confined to clearings or narrow strips.",
+  "cues": [
+   "Dominant cover: extensive open surfaces in A versus largely continuous tree canopy in B.",
+   "Texture: smooth field interiors in A versus finely mottled or grainy canopy, sometimes arranged in rows, in B.",
+   "Color: A mixes pale tan ground and green or bright-red fields; B is predominantly dark green in true color and deeper red in false color.",
+   "Layout: A has broad exposed parcels with isolated trees or thin tree lines; B has clearings embedded within wooded blocks."
+  ],
+  "visible": "high"
+ },
+ "2": {
+  "pc": 2,
+  "pc_rank": 3,
+  "a_end": "high",
+  "name_a": "Snow-free terrain",
+  "name_b": "Snow-covered terrain",
+  "definition": "A patch lies closer to A when more of its land shows exposed tan or brown ground and less shows bright white or cyan snow cover. Patches closer to B have extensive snow interspersed with dark vegetation and terrain features.",
+  "cues": [
+   "B has extensive bright white to icy cyan areas in both composites; A largely lacks these.",
+   "A has broad tan or brown ground surfaces in true color, turning greenish or turquoise in false color.",
+   "B shows dark trees and wooded slopes contrasting sharply with bright snow; A shows trees against exposed earth."
+  ],
+  "visible": "high"
+ },
+ "3": {
+  "pc": 3,
+  "pc_rank": 4,
+  "a_end": "high",
+  "name_a": "Rugged, irregular landscapes",
+  "name_b": "Green agricultural field mosaics",
+  "definition": "A patch lies closer to A when it shows more ridges, branching hollows, dark slope shadows and coarse, irregular land-cover patches, with fewer broad, smooth agricultural parcels. B is dominated by open green fields with clear boundaries and relatively little visible relief.",
+  "cues": [
+   "Ridges and shadowed hollows in A versus comparatively smooth terrain in B.",
+   "Irregular, coarse-textured cover in A versus broad, clearly bounded field mosaics in B.",
+   "Mostly muted or dark near-infrared reds in A versus extensive bright red fields in B.",
+   "Roads and clearings winding around terrain in A versus field-aligned lanes and hedgerows in B."
+  ],
+  "visible": "high"
+ },
+ "4": {
+  "pc": 4,
+  "pc_rank": 5,
+  "a_end": "high",
+  "name_a": "Pervasive surface texture",
+  "name_b": "Smooth water with discrete land",
+  "definition": "A patch lies closer to A when fine ridges, ripples, or mottled relief form a continuous texture across most of its area. It lies closer to B when broad, relatively uniform water surrounds distinct islands or borders a localized coastline. Judge spatial texture rather than overall brightness or color.",
+  "cues": [
+   "A has repeated light\u2013dark variations throughout the patch; B has large nearly uniform areas.",
+   "A\u2019s water shows conspicuous elongated, often diagonal ripple bands.",
+   "B\u2019s strongest contrasts outline isolated islands, rocks, or a coastal margin.",
+   "A\u2019s land examples also show extensive irregular ridge-and-hollow texture."
+  ],
+  "visible": "high"
+ },
+ "5": {
+  "pc": 5,
+  "pc_rank": 6,
+  "a_end": "high",
+  "name_a": "Mostly snow-free terrain",
+  "name_b": "Snow-covered terrain",
+  "definition": "A patch lies closer to A when less of its land surface is covered by bright white to cyan snow and more exposed vegetation or brown ground is visible. B has extensive snow cover, often interrupted by dark wooded slopes.",
+  "cues": [
+   "B has widespread bright white areas in true color that remain white or cyan in false color; A largely lacks these.",
+   "A shows extensive green or brown ground in true color, with vegetation often turning red in false color.",
+   "B shows snow filling openings and forming bands along terrain, interspersed with dark vegetation."
+  ],
+  "visible": "high"
+ },
+ "6": {
+  "pc": 6,
+  "pc_rank": 7,
+  "a_end": "low",
+  "name_a": "Vegetation or open water",
+  "name_b": "Exposed-soil cropland",
+  "definition": "A patch lies closer to A when exposed brown or tan soil occupies less of its area and leafy vegetation or open water occupies more. B is dominated by bare or sparsely vegetated agricultural fields.",
+  "cues": [
+   "B has extensive brown\u2013tan fields in true color, appearing cyan or muted gray-green in false color.",
+   "A generally has more green vegetation that becomes vivid red in false color.",
+   "B shows repeated narrow agricultural strips, with green or red vegetation confined to scattered strips and margins.",
+   "Continuous tree cover or open water favors A; water appears blue-green in true color and dark blue in false color."
+  ],
+  "visible": "high"
+ },
+ "7": {
+  "pc": 7,
+  "pc_rank": 8,
+  "a_end": "high",
+  "name_a": "Reflective water and open cropland",
+  "name_b": "Dark water and dense woodland",
+  "definition": "A patch lies closer to A when water has visible blue-green or gray reflectance and surface texture, or land forms open rectangular agricultural parcels. It lies closer to B when water is nearly black in both composites, or land has extensive dark-green woodland turning strongly red in false color. Use brightness together with spatial structure.",
+  "cues": [
+   "Water: visible blue-green/gray tones and ripples toward A; nearly black, featureless surfaces toward B.",
+   "Land: straight boundaries and rectangular fields toward A; irregular, continuous wooded areas toward B.",
+   "Vegetation: varied green, muted red or pink parcels toward A; extensive vivid-red canopy toward B."
+  ],
+  "visible": "medium"
+ },
+ "8": {
+  "pc": 8,
+  "pc_rank": 9,
+  "a_end": "high",
+  "name_a": "Green, densely vegetated farmland",
+  "name_b": "Dry, sparsely vegetated farmland",
+  "definition": "A patch lies closer to A when more of its agricultural area consists of continuous green crop cover, appearing red or pink in false color. It lies closer to B when tan or pale brown fields dominate, appearing pale cyan or green in false color, with vegetation mainly in scattered trees or narrow corridors.",
+  "cues": [
+   "A has extensive red or pink field interiors in false color; B has predominantly pale cyan or green fields.",
+   "True-color fields are frequently dark or vivid green in A, versus tan, straw-colored or light brown in B.",
+   "A's vegetation forms solid crop parcels; B's vegetation more often appears as isolated dots, clusters or streamside strips.",
+   "A generally has closely packed, narrow rectangular fields; B often has broader, less regular parcels."
+  ],
+  "visible": "high"
+ },
+ "9": {
+  "pc": 9,
+  "pc_rank": 10,
+  "a_end": "low",
+  "name_a": "Broad agricultural fields",
+  "name_b": "Narrow agricultural strips",
+  "definition": "A patch lies closer to A when its farmland is dominated by fewer, wider, more expansive parcels. It lies closer to B when farmland is divided into many thin, elongated strips with closely spaced parallel boundaries. Judge parcel geometry across the patch rather than crop color.",
+  "cues": [
+   "A has wider, blockier fields; B has more long, narrow ribbons.",
+   "B shows denser sequences of parallel field boundaries and alternating crop or soil bands.",
+   "A more often contains broad, uninterrupted field interiors with mottled texture."
+  ],
+  "visible": "high"
+ },
+ "10": {
+  "pc": 10,
+  "pc_rank": 11,
+  "a_end": "high",
+  "name_a": "Vegetated, gentle terrain",
+  "name_b": "Rugged, sparsely vegetated mountains",
+  "definition": "A patch lies closer to A when it shows relatively gentle terrain dominated by green vegetation, woodland or cultivated fields. It lies closer to B when pronounced ridges, shadowed valleys and brown or gray slopes dominate, often with scattered snow and less extensive vivid-red vegetation in false color.",
+  "cues": [
+   "B has repeated ridges and deep terrain shadows; A generally lacks strong relief shading.",
+   "A has extensive green vegetation that turns red in false color; B has more brown, gray or muted vegetation cover.",
+   "Regular agricultural parcels support A; irregular slopes and branching valleys support B.",
+   "Scattered bright snow patches among exposed slopes support B; nearly complete white obscuration, as in A6, is inconclusive."
+  ],
+  "visible": "high"
+ },
+ "11": {
+  "pc": 11,
+  "pc_rank": 12,
+  "a_end": "low",
+  "name_a": "Smooth, continuous cover",
+  "name_b": "Contrasting, fragmented cover",
+  "definition": "A patch lies closer to A when broad, relatively uniform surfaces dominate, with fewer strong internal boundaries. It lies closer to B when contrasting surfaces form a dense mosaic of strips, blocks, or irregular fragments. Judge spatial texture and contrast across the whole patch.",
+  "cues": [
+   "A has broad areas of nearly constant color; B has frequent abrupt changes in color or brightness.",
+   "B shows many distinct edges, including long field boundaries or intricate shorelines.",
+   "A is mostly continuous water, with one predominantly green landscape; B mixes dark surfaces with conspicuously lighter areas.",
+   "B\u2019s agricultural patches alternate vegetated red strips with muted cyan or gray fields in false color."
+  ],
+  "visible": "high"
+ },
+ "12": {
+  "pc": 12,
+  "pc_rank": 13,
+  "a_end": "high",
+  "name_a": "Bright, open surfaces",
+  "name_b": "Dark water and green cover",
+  "definition": "A patch lies closer to A when its background contains more pale or exposed surfaces\u2014snow, tan agricultural soil, or light-colored water\u2014and less dark water or dense green vegetation. Judge the underlying surface where visible; isolated bright clouds alone should not move a patch toward A.",
+  "cues": [
+   "Extensive pale surfaces versus nearly black or dark-blue water in both composites.",
+   "Tan or pale agricultural fields versus predominantly green fields.",
+   "Broad white snow cover or uniformly pale water, rather than isolated white clouds.",
+   "More exposed ground and mixed field colors versus continuous vegetation that appears red in false color."
+  ],
+  "visible": "medium"
+ },
+ "13": {
+  "pc": 13,
+  "pc_rank": 14,
+  "a_end": "high",
+  "name_a": "Fine, fragmented texture",
+  "name_b": "Broad, continuous cover",
+  "definition": "A patch lies closer to A when its visible pattern breaks into smaller, more irregular elements with frequent local changes in brightness, color or texture. It lies closer to B when larger continuous areas dominate, with fewer internal interruptions. Compare spatial organization rather than land-cover identity.",
+  "cues": [
+   "Fine mottling and frequent local transitions versus broad areas of similar appearance.",
+   "Small interwoven buildings, fields, vegetation or exposed ground versus larger coherent blocks.",
+   "Broken snow or shoreline patterns versus more continuous snow or vegetation cover.",
+   "Numerous irregular boundaries versus fewer long boundaries enclosing large parcels."
+  ],
+  "visible": "medium"
+ },
+ "14": {
+  "pc": 14,
+  "pc_rank": 15,
+  "a_end": "low",
+  "name_a": "Strong directional structure",
+  "name_b": "Mixed or irregular structure",
+  "definition": "A patch lies closer to A when its visible layout is dominated by long, straight, similarly oriented bands or boundaries. It lies closer to B when boundaries curve, change direction, or form a fragmented mosaic without one dominant orientation. Judge spatial organization rather than vegetation color or land-cover type.",
+  "cues": [
+   "Long parallel edges or bands extending across much of the patch.",
+   "Elongated fields, planting rows, or woodland strips sharing a common orientation.",
+   "Straight, coherent major boundaries, including the shoreline in A5.",
+   "Toward B: irregular lake outlines, winding boundaries, and small parcels with varied orientations."
+  ],
+  "visible": "medium"
+ },
+ "15": {
+  "pc": 15,
+  "pc_rank": 16,
+  "a_end": "high",
+  "name_a": "Bright, open surfaces",
+  "name_b": "Dark water and shaded terrain",
+  "definition": "A patch lies closer to A when light-toned, relatively uniform surfaces dominate, such as snow or exposed agricultural ground, often with bright red crop parcels in false color. It lies closer to B when dark water or rugged land with extensive dark slopes and shadows dominates. Judge the overall area and brightness of these surfaces.",
+  "cues": [
+   "Large expanses of white or pale ground favor A; extensive deep blue, brown-black or black surfaces favor B.",
+   "Broad, bright red agricultural parcels in false color favor A; predominantly dark or muted false color favors B.",
+   "Regular field strips or continuous snow cover favor A.",
+   "Strongly shaded ridges and valleys, or dark water with fine ripple texture, favor B."
+  ],
+  "visible": "high"
+ },
+ "16": {
+  "pc": 16,
+  "pc_rank": 17,
+  "a_end": "high",
+  "name_a": "Snow-free surfaces",
+  "name_b": "Snow-covered terrain",
+  "definition": "A patch lies closer to A when it shows less visible ground snow or ice: predominantly vegetation, bare ground, or dark open water. B has extensive or patchy snow, appearing white in true color and bright cyan in false color, interspersed with darker terrain. Distinguish ground-following snow from clouds.",
+  "cues": [
+   "White areas in true color that turn bright cyan in false color favor B.",
+   "Irregular snow patches tracing terrain and filling gaps among dark vegetation or rock favor B.",
+   "Green vegetation turning strongly red, including clear agricultural parcels, favors A.",
+   "Broad, uniformly dark water without bright snow or ice favors A."
+  ],
+  "visible": "high"
+ },
+ "17": {
+  "pc": 17,
+  "pc_rank": 18,
+  "a_end": "high",
+  "name_a": "Snow-free, greener appearance",
+  "name_b": "Wintry, snow-covered appearance",
+  "definition": "A patch lies closer to A if it shows exposed ground, buildings or vegetation rather than extensive bright snow cover. Green vegetation in true color and strong red vegetation in false color support A. Water-only patches are less diagnostic; these A examples look bluer and smoother than the darker, visibly rippled B examples.",
+  "cues": [
+   "Extensive white cover across terrain, remaining white or pale cyan in false color, favors B.",
+   "Green vegetation that becomes vivid red in false color favors A.",
+   "Clearly exposed fields, streets and roofs with little white ground cover favor A.",
+   "For water-only scenes, blue and relatively smooth favors A; darker, more visibly rippled water favors B, weakly."
+  ],
+  "visible": "medium"
+ },
+ "18": {
+  "pc": 18,
+  "pc_rank": 19,
+  "a_end": "high",
+  "name_a": "Greener, summer-like surfaces",
+  "name_b": "Dormant, winter-like surfaces",
+  "definition": "A patch lies closer to A when it shows greener, snow-free land with stronger red vegetation in false color, or relatively bright green-blue water. B favors dark, sparsely vegetated fields, snow-like white/cyan cover, and very dark water. This describes visible appearance rather than establishing the season.",
+  "cues": [
+   "Vegetation: extensive green land and strong false-color red favor A; subdued fields with isolated red strips favor B.",
+   "White cover with cyan detail in false color, as in B6, favors B.",
+   "Water: brighter green/teal in true color favors A; nearly black water in both composites favors B.",
+   "Water texture: smoother surfaces favor A; conspicuous repeated ripples favor B."
+  ],
+  "visible": "medium"
+ },
+ "19": {
+  "pc": 19,
+  "pc_rank": 20,
+  "a_end": "high",
+  "name_a": "Open-water dominated",
+  "name_b": "Land and vegetation dominated",
+  "definition": "A patch lies closer to A when more of its visible area consists of continuous dark blue water, with little near-infrared red response and few terrestrial features. It lies closer to B when vegetation, fields, roads, or other land textures occupy more of the scene. Featureless black areas alone are inconclusive.",
+  "cues": [
+   "Extent of continuous dark blue water versus recognizable land cover.",
+   "Fine, repeated wave-like texture across broad areas at A.",
+   "Extensive red or pink vegetation in false color at B.",
+   "Field boundaries, roads, clearings, and varied terrestrial textures at B."
+  ],
+  "visible": "high"
+ }
+}

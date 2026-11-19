@@ -1,0 +1,12 @@
+{
+  "name_a": "Strong directional structure",
+  "name_b": "Mixed or irregular structure",
+  "definition": "A patch lies closer to A when its visible layout is dominated by long, straight, similarly oriented bands or boundaries. It lies closer to B when boundaries curve, change direction, or form a fragmented mosaic without one dominant orientation. Judge spatial organization rather than vegetation color or land-cover type.",
+  "cues": [
+    "Long parallel edges or bands extending across much of the patch.",
+    "Elongated fields, planting rows, or woodland strips sharing a common orientation.",
+    "Straight, coherent major boundaries, including the shoreline in A5.",
+    "Toward B: irregular lake outlines, winding boundaries, and small parcels with varied orientations."
+  ],
+  "visible": "medium"
+}
