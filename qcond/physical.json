@@ -1,0 +1,296 @@
+{
+ "questions": [
+  {
+   "id": "P1_0_top",
+   "question": "Is the patch's brightness in the top quarter of patches?",
+   "definition": "Yes if the patch's mean over pixels of (B02 + B03 + B04) / 3 is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_0_bottom",
+   "question": "Is the patch's brightness in the bottom quarter of patches?",
+   "definition": "Yes if the patch's mean over pixels of (B02 + B03 + B04) / 3 is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_1_top",
+   "question": "Is the patch's greenness (NDVI) in the top quarter of patches?",
+   "definition": "Yes if the patch's mean NDVI, (B08 - B04) / (B08 + B04) is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_1_bottom",
+   "question": "Is the patch's greenness (NDVI) in the bottom quarter of patches?",
+   "definition": "Yes if the patch's mean NDVI, (B08 - B04) / (B08 + B04) is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_2_top",
+   "question": "Is the patch's variation in greenness in the top quarter of patches?",
+   "definition": "Yes if the patch's standard deviation over pixels of NDVI is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_2_bottom",
+   "question": "Is the patch's variation in greenness in the bottom quarter of patches?",
+   "definition": "Yes if the patch's standard deviation over pixels of NDVI is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_3_top",
+   "question": "Is the patch's vegetated share in the top quarter of patches?",
+   "definition": "Yes if the patch's share of pixels with NDVI above 0.5 is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_3_bottom",
+   "question": "Is the patch's vegetated share in the bottom quarter of patches?",
+   "definition": "Yes if the patch's share of pixels with NDVI above 0.5 is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_4_top",
+   "question": "Is the patch's water index (NDWI) in the top quarter of patches?",
+   "definition": "Yes if the patch's mean NDWI, (B03 - B08) / (B03 + B08) is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_4_bottom",
+   "question": "Is the patch's water index (NDWI) in the bottom quarter of patches?",
+   "definition": "Yes if the patch's mean NDWI, (B03 - B08) / (B03 + B08) is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_5_top",
+   "question": "Is the patch's water share in the top quarter of patches?",
+   "definition": "Yes if the patch's share of pixels with NDWI above 0 is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_5_bottom",
+   "question": "Is the patch's water share in the bottom quarter of patches?",
+   "definition": "Yes if the patch's share of pixels with NDWI above 0 is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_6_top",
+   "question": "Is the patch's moisture (NDMI) in the top quarter of patches?",
+   "definition": "Yes if the patch's mean NDMI, (B8A - B11) / (B8A + B11) is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "held_out"
+  },
+  {
+   "id": "P1_6_bottom",
+   "question": "Is the patch's moisture (NDMI) in the bottom quarter of patches?",
+   "definition": "Yes if the patch's mean NDMI, (B8A - B11) / (B8A + B11) is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "held_out"
+  },
+  {
+   "id": "P1_7_top",
+   "question": "Is the patch's shortwave infrared 1 brightness in the top quarter of patches?",
+   "definition": "Yes if the patch's mean of B11 is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_7_bottom",
+   "question": "Is the patch's shortwave infrared 1 brightness in the bottom quarter of patches?",
+   "definition": "Yes if the patch's mean of B11 is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P1_8_top",
+   "question": "Is the patch's shortwave infrared 2 brightness in the top quarter of patches?",
+   "definition": "Yes if the patch's mean of B12 is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "held_out"
+  },
+  {
+   "id": "P1_8_bottom",
+   "question": "Is the patch's shortwave infrared 2 brightness in the bottom quarter of patches?",
+   "definition": "Yes if the patch's mean of B12 is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "held_out"
+  },
+  {
+   "id": "P1_9_top",
+   "question": "Is the patch's near-infrared texture in the top quarter of patches?",
+   "definition": "Yes if the patch's standard deviation over pixels of B08 is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "held_out"
+  },
+  {
+   "id": "P1_9_bottom",
+   "question": "Is the patch's near-infrared texture in the bottom quarter of patches?",
+   "definition": "Yes if the patch's standard deviation over pixels of B08 is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+   "kind": "physical",
+   "split": "held_out"
+  },
+  {
+   "id": "P2_greener_lr",
+   "question": "Is the left half greener than the right half?",
+   "definition": "Yes if the mean NDVI over the left half of the patch exceeds the mean over the right half.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P2_greener_tb",
+   "question": "Is the top half greener than the bottom half?",
+   "definition": "Yes if the mean NDVI over the top half of the patch exceeds the mean over the bottom half.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P2_index_lr",
+   "question": "Is the left half higher in water index than the right half?",
+   "definition": "Yes if the mean NDWI over the left half of the patch exceeds the mean over the right half.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P2_index_tb",
+   "question": "Is the top half higher in water index than the bottom half?",
+   "definition": "Yes if the mean NDWI over the top half of the patch exceeds the mean over the bottom half.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P2_moister_lr",
+   "question": "Is the left half moister than the right half?",
+   "definition": "Yes if the mean NDMI over the left half of the patch exceeds the mean over the right half.",
+   "kind": "physical",
+   "split": "held_out"
+  },
+  {
+   "id": "P2_moister_tb",
+   "question": "Is the top half moister than the bottom half?",
+   "definition": "Yes if the mean NDMI over the top half of the patch exceeds the mean over the bottom half.",
+   "kind": "physical",
+   "split": "held_out"
+  },
+  {
+   "id": "P2_brighter_lr",
+   "question": "Is the left half brighter than the right half?",
+   "definition": "Yes if the mean brightness, (B02 + B03 + B04) / 3, over the left half of the patch exceeds the mean over the right half.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P2_brighter_tb",
+   "question": "Is the top half brighter than the bottom half?",
+   "definition": "Yes if the mean brightness, (B02 + B03 + B04) / 3, over the top half of the patch exceeds the mean over the bottom half.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P3_ndmi",
+   "question": "Is the patch moister than its visible and near-infrared appearance predicts?",
+   "definition": "Yes if the patch's mean NDMI, (B8A - B11) / (B8A + B11), exceeds the value predicted by a linear regression on the B02, B03, B04 and B08 means, NDVI mean and NDWI mean fitted over a reference pool.",
+   "kind": "physical",
+   "split": "held_out"
+  },
+  {
+   "id": "P3_b11",
+   "question": "Is the patch brighter in shortwave infrared 1 than its visible and near-infrared appearance predicts?",
+   "definition": "Yes if the patch's mean B11 exceeds the value predicted by a linear regression on the B02, B03, B04 and B08 means, NDVI mean and NDWI mean fitted over a reference pool.",
+   "kind": "physical",
+   "split": "practice"
+  },
+  {
+   "id": "P3_b12",
+   "question": "Is the patch brighter in shortwave infrared 2 than its visible and near-infrared appearance predicts?",
+   "definition": "Yes if the patch's mean B12 exceeds the value predicted by a linear regression on the B02, B03, B04 and B08 means, NDVI mean and NDWI mean fitted over a reference pool.",
+   "kind": "physical",
+   "split": "held_out"
+  }
+ ],
+ "facts": {
+  "r2": {
+   "ndmi": 0.5917121767997742,
+   "b11": 0.890534520149231,
+   "b12": 0.846396267414093
+  },
+  "q17_matches_fb_rlpool": true,
+  "yes_rate_practice": {
+   "P1_0_top": 0.23,
+   "P1_0_bottom": 0.273,
+   "P1_1_top": 0.26,
+   "P1_1_bottom": 0.233,
+   "P1_2_top": 0.25,
+   "P1_2_bottom": 0.253,
+   "P1_3_top": 0.26,
+   "P1_3_bottom": 0.233,
+   "P1_4_top": 0.247,
+   "P1_4_bottom": 0.257,
+   "P1_5_top": 0.257,
+   "P1_5_bottom": 0.0,
+   "P1_6_top": 0.22,
+   "P1_6_bottom": 0.257,
+   "P1_7_top": 0.233,
+   "P1_7_bottom": 0.25,
+   "P1_8_top": 0.227,
+   "P1_8_bottom": 0.25,
+   "P1_9_top": 0.25,
+   "P1_9_bottom": 0.26,
+   "P2_greener_lr": 0.517,
+   "P2_greener_tb": 0.483,
+   "P2_index_lr": 0.497,
+   "P2_index_tb": 0.517,
+   "P2_moister_lr": 0.52,
+   "P2_moister_tb": 0.5,
+   "P2_brighter_lr": 0.47,
+   "P2_brighter_tb": 0.49,
+   "P3_ndmi": 0.397,
+   "P3_b11": 0.483,
+   "P3_b12": 0.437
+  },
+  "yes_rate_test": {
+   "P1_0_top": 0.269,
+   "P1_0_bottom": 0.274,
+   "P1_1_top": 0.292,
+   "P1_1_bottom": 0.215,
+   "P1_2_top": 0.247,
+   "P1_2_bottom": 0.241,
+   "P1_3_top": 0.282,
+   "P1_3_bottom": 0.209,
+   "P1_4_top": 0.204,
+   "P1_4_bottom": 0.307,
+   "P1_5_top": 0.21,
+   "P1_5_bottom": 0.0,
+   "P1_6_top": 0.245,
+   "P1_6_bottom": 0.271,
+   "P1_7_top": 0.258,
+   "P1_7_bottom": 0.191,
+   "P1_8_top": 0.266,
+   "P1_8_bottom": 0.194,
+   "P1_9_top": 0.279,
+   "P1_9_bottom": 0.236,
+   "P2_greener_lr": 0.524,
+   "P2_greener_tb": 0.496,
+   "P2_index_lr": 0.493,
+   "P2_index_tb": 0.513,
+   "P2_moister_lr": 0.52,
+   "P2_moister_tb": 0.493,
+   "P2_brighter_lr": 0.473,
+   "P2_brighter_tb": 0.478,
+   "P3_ndmi": 0.478,
+   "P3_b11": 0.45,
+   "P3_b12": 0.415
+  },
+  "desc_check_practice_maxdiff": 8.940696716308594e-08
+ }
+}

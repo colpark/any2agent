@@ -1,0 +1,754 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do fields and woodland each occupy a substantial part of the patch?",
+      "definition": "Answer yes when recognizable agricultural parcels and areas with woodland canopy texture each cover at least approximately 10% of the patch."
+    },
+    {
+      "id": 2,
+      "question": "Do vegetated fields and exposed-soil fields occur together?",
+      "definition": "Answer yes when at least one bounded field is predominantly vegetation-red in false color and another is predominantly exposed soil, with each occupying at least 1% of the patch."
+    },
+    {
+      "id": 3,
+      "question": "Are there at least three fields with visibly different surface appearances?",
+      "definition": "Answer yes when three recognizable fields differ clearly in color or texture across their interiors, excluding differences attributable to cloud or cast shadow."
+    },
+    {
+      "id": 4,
+      "question": "Does one field occupy more area than all the other visible fields combined?",
+      "definition": "Answer yes when the portion of one agricultural parcel inside the image exceeds half of the total visible field area."
+    },
+    {
+      "id": 5,
+      "question": "Is the patch divided between a predominantly wooded part and a predominantly open part?",
+      "definition": "Answer yes when two broad adjoining portions, each covering at least 20% of the patch, are respectively dominated by canopy texture and open ground or low vegetation."
+    },
+    {
+      "id": 6,
+      "question": "Are both smooth and coarse vegetation textures prominent?",
+      "definition": "Answer yes when smooth vegetation and visibly mottled or crown-textured vegetation each occupy at least 10% of the patch, excluding illumination differences."
+    },
+    {
+      "id": 7,
+      "question": "Does exposed ground form several separate patches rather than one continuous area?",
+      "definition": "Answer yes when at least three exposed-ground areas of approximately 30 m or more across are separated by vegetation, water, or built surfaces."
+    },
+    {
+      "id": 8,
+      "question": "Are artificial surfaces interspersed with substantial vegetation?",
+      "definition": "Answer yes when recognizable roofs, roads, or paving occur among vegetation, with artificial surfaces covering at least 3% and vegetation at least 20% of the patch."
+    },
+    {
+      "id": 9,
+      "question": "Are compact woodland blocks and narrow woody strips both visible?",
+      "definition": "Answer yes when the patch contains a canopy-textured block at least 100 m across and a separate or attached woody strip at least four times longer than wide."
+    },
+    {
+      "id": 10,
+      "question": "Does the patch contain both large open areas and small enclosed openings?",
+      "definition": "Answer yes when an open area at least 200 m across coexists with an opening no more than 100 m across enclosed on at least three sides by woodland or built surfaces."
+    },
+    {
+      "id": 11,
+      "question": "Are green-looking and straw-colored open vegetation both present?",
+      "definition": "Answer yes when areas interpreted as low vegetation include both predominantly green and predominantly yellow or tan surfaces in true color, each covering at least 2% of the patch."
+    },
+    {
+      "id": 12,
+      "question": "Are woody vegetation and low vegetation visibly intermingled?",
+      "definition": "Answer yes when canopy-textured patches alternate with smoother low vegetation in at least three places within a shared area, rather than meeting along only one boundary."
+    },
+    {
+      "id": 13,
+      "question": "Do small fields collectively occupy more area than large fields?",
+      "definition": "Answer yes when visible fields smaller than approximately 1 hectare together cover more area than fields larger than approximately 4 hectares, and both size groups are present."
+    },
+    {
+      "id": 14,
+      "question": "Are both pale and dark exposed soils visible?",
+      "definition": "Answer yes when two clearly exposed-soil areas of at least 30 m across differ substantially in true-color brightness, with neither difference explained by shadow."
+    },
+    {
+      "id": 15,
+      "question": "Does vegetation surround a substantial nonvegetated area?",
+      "definition": "Answer yes when an exposed-ground, built, or water area of at least 1% of the patch has vegetation along more than three-quarters of its visible perimeter."
+    },
+    {
+      "id": 16,
+      "question": "Does nonvegetated ground surround a substantial vegetation patch?",
+      "definition": "Answer yes when a vegetation patch of at least 1% of the image is bordered along more than three-quarters of its perimeter by exposed ground, artificial surfaces, or water."
+    },
+    {
+      "id": 17,
+      "question": "Are there at least two sizeable woodland areas separated by open land?",
+      "definition": "Answer yes when two canopy-textured areas each cover at least 2% of the patch and are separated by a clearly visible open gap at least approximately 30 m wide."
+    },
+    {
+      "id": 18,
+      "question": "Does one continuous vegetation area span most of the patch?",
+      "definition": "Answer yes when a connected vegetation area extends at least 900 m in one direction and maintains a width of at least approximately 100 m along a route through it."
+    },
+    {
+      "id": 19,
+      "question": "Are there abrupt changes between several broad surface types?",
+      "definition": "Answer yes when at least three visually distinct surface types form adjoining areas of at least 2% of the patch each, with sharp boundaries between them."
+    },
+    {
+      "id": 20,
+      "question": "Does much of the open land have irregular rather than parcel-like outlines?",
+      "definition": "Answer yes when open land covers at least 20% of the patch and more than half of that area has curved or irregular boundaries without a repeated field pattern."
+    },
+    {
+      "id": 21,
+      "question": "Are agricultural parcels mixed with irregular vegetation patches?",
+      "definition": "Answer yes when recognizable fields and irregular non-field vegetation patches each cover at least 10% of the patch."
+    },
+    {
+      "id": 22,
+      "question": "Are vegetation and exposed ground finely interspersed?",
+      "definition": "Answer yes when an area covering at least 10% of the patch contains repeated vegetation and exposed-ground patches approximately 20–100 m across."
+    },
+    {
+      "id": 23,
+      "question": "Are contrasting woodland canopy appearances visible within the patch?",
+      "definition": "Answer yes when at least two woodland areas of approximately 1 hectare each differ clearly in canopy color or texture beyond the effects of cast shadow."
+    },
+    {
+      "id": 24,
+      "question": "Does a narrow surface type separate two much broader areas?",
+      "definition": "Answer yes when a strip no more than approximately 60 m wide runs for at least 200 m between broader areas with a different surface appearance."
+    },
+    {
+      "id": 25,
+      "question": "Is one half of the patch noticeably more vegetated than the other?",
+      "definition": "Answer yes when either the left–right or top–bottom division produces a difference of at least approximately 30 percentage points in vegetation cover between halves."
+    },
+    {
+      "id": 26,
+      "question": "Does a continuous vegetation strip connect two larger vegetation areas?",
+      "definition": "Answer yes when a clearly resolved strip at least 100 m long and narrower than either adjoining vegetation area provides an unbroken visible connection between them."
+    },
+    {
+      "id": 27,
+      "question": "Does an open corridor cut through a wooded area?",
+      "definition": "Answer yes when a non-canopy strip at least approximately 20 m wide and 200 m long passes through woodland with canopy on both sides."
+    },
+    {
+      "id": 28,
+      "question": "Does a major boundary run diagonally across the image?",
+      "definition": "Answer yes when a boundary between contrasting surfaces extends at least 400 m at an angle approximately 20–70 degrees from the horizontal image edge."
+    },
+    {
+      "id": 29,
+      "question": "Are several long boundaries approximately parallel?",
+      "definition": "Answer yes when at least three distinct boundaries, each at least 150 m long, follow directions differing by no more than approximately 15 degrees."
+    },
+    {
+      "id": 30,
+      "question": "Do boundaries form a visibly rectangular network?",
+      "definition": "Answer yes when at least four adjoining parcels or blocks have predominantly straight edges and approximately right-angled corners."
+    },
+    {
+      "id": 31,
+      "question": "Do curved boundaries organize a substantial part of the landscape?",
+      "definition": "Answer yes when at least three boundaries follow clear curves through an area covering at least 20% of the patch."
+    },
+    {
+      "id": 32,
+      "question": "Is there a pronounced bend in a long landscape boundary?",
+      "definition": "Answer yes when a continuous boundary at least 300 m long changes direction by approximately 60 degrees or more within the patch."
+    },
+    {
+      "id": 33,
+      "question": "Does a sizeable patch of one surface type lie entirely inside another?",
+      "definition": "Answer yes when an area at least approximately 50 m across is fully enclosed by a visibly different surface type without touching the image boundary."
+    },
+    {
+      "id": 34,
+      "question": "Does a vegetation area have a narrow connection between two broad portions?",
+      "definition": "Answer yes when two vegetation portions at least 100 m across are joined by a visible neck less than half the width of either portion."
+    },
+    {
+      "id": 35,
+      "question": "Are open areas arranged as elongated strips?",
+      "definition": "Answer yes when at least three open areas are each at least three times longer than wide and at least 100 m long."
+    },
+    {
+      "id": 36,
+      "question": "Is woodland concentrated near the image edges?",
+      "definition": "Answer yes when woodland covers at least 10% of the patch and more than two-thirds of its visible area lies within approximately 200 m of the image boundary."
+    },
+    {
+      "id": 37,
+      "question": "Is a substantial vegetation block isolated from the image edges?",
+      "definition": "Answer yes when a connected vegetation block of at least approximately 2 hectares lies entirely inside the patch and is separated from every image edge by another surface type."
+    },
+    {
+      "id": 38,
+      "question": "Are small vegetation patches clustered in one part of the image?",
+      "definition": "Answer yes when at least three distinct vegetation patches no more than approximately 100 m across lie within one image quarter, with fewer such patches in each other quarter."
+    },
+    {
+      "id": 39,
+      "question": "Does a long boundary have a visibly jagged outline?",
+      "definition": "Answer yes when a boundary extending at least 300 m contains at least three distinct projections or recesses approximately 30 m or more deep."
+    },
+    {
+      "id": 40,
+      "question": "Does vegetation project into open land in several fingers?",
+      "definition": "Answer yes when a vegetation area has at least three attached projections extending approximately 50 m or more into surrounding open land."
+    },
+    {
+      "id": 41,
+      "question": "Do open areas penetrate a wooded block from several directions?",
+      "definition": "Answer yes when at least three open indentations extend approximately 50 m or more into the same woodland block from at least two different sides."
+    },
+    {
+      "id": 42,
+      "question": "Is there a broad transition zone between two surface types?",
+      "definition": "Answer yes when contrasting surfaces are separated along at least 150 m by a mixed or gradually changing zone approximately 30 m or more wide."
+    },
+    {
+      "id": 43,
+      "question": "Does the same pair of surface types meet along both straight and irregular edges?",
+      "definition": "Answer yes when two identifiable surface types share a straight boundary segment at least 150 m long and a separate clearly irregular segment of comparable length."
+    },
+    {
+      "id": 44,
+      "question": "Are neighboring fields markedly different in size?",
+      "definition": "Answer yes when two fields sharing a boundary have visible areas differing by a factor of at least approximately four."
+    },
+    {
+      "id": 45,
+      "question": "Does the dominant parcel orientation change within the patch?",
+      "definition": "Answer yes when two groups of at least three elongated parcels have main orientations differing by at least approximately 30 degrees."
+    },
+    {
+      "id": 46,
+      "question": "Are several boundaries aligned across intervening gaps?",
+      "definition": "Answer yes when at least three field or vegetation boundaries continue along approximately matching lines on opposite sides of a road, strip, or other interruption."
+    },
+    {
+      "id": 47,
+      "question": "Does a long strip vary substantially in width?",
+      "definition": "Answer yes when a continuous strip at least 300 m long has a clearly resolved widest section at least three times wider than its narrowest section."
+    },
+    {
+      "id": 48,
+      "question": "Are multiple enclosed areas linked by narrow passages?",
+      "definition": "Answer yes when at least three broader areas of similar surface appearance are joined in sequence by visibly narrower connections."
+    },
+    {
+      "id": 49,
+      "question": "Does a boundary divide the patch into two approximately equal areas?",
+      "definition": "Answer yes when a continuous boundary between contrasting surfaces reaches two image edges and leaves approximately 35–65% of the patch on each side."
+    },
+    {
+      "id": 50,
+      "question": "Are several small openings enclosed within vegetation?",
+      "definition": "Answer yes when at least three nonvegetated or low-vegetation openings approximately 30–100 m across are each fully enclosed by a denser vegetation matrix."
+    },
+    {
+      "id": 51,
+      "question": "Do narrow vegetation strips form a branching network?",
+      "definition": "Answer yes when at least three clearly resolved vegetation strips meet in a connected network containing at least two junctions."
+    },
+    {
+      "id": 52,
+      "question": "Does a straight corridor interrupt an otherwise irregular landscape?",
+      "definition": "Answer yes when a corridor remains approximately straight for at least 400 m through surrounding surfaces whose boundaries are predominantly curved or irregular."
+    },
+    {
+      "id": 53,
+      "question": "Are contrasting surfaces arranged in a checkerboard-like pattern?",
+      "definition": "Answer yes when at least four adjoining blocks form two or more rows with repeated alternation between two visibly different surface appearances."
+    },
+    {
+      "id": 54,
+      "question": "Does one elongated feature organize nearby parcel boundaries?",
+      "definition": "Answer yes when at least three parcel boundaries terminate at or run alongside the same visible road, channel, or vegetation strip for a combined length of at least 300 m."
+    },
+    {
+      "id": 55,
+      "question": "Does a vegetation boundary contain a conspicuously straight segment?",
+      "definition": "Answer yes when a woodland or other dense-vegetation edge remains approximately straight for at least 250 m despite irregular vegetation texture on one side."
+    },
+    {
+      "id": 56,
+      "question": "Do neighboring vegetated fields differ strongly in false-color redness?",
+      "definition": "Answer yes when two adjoining fields are both visibly vegetated but have clearly different red intensity or saturation across most of their interiors in the false-color image."
+    },
+    {
+      "id": 57,
+      "question": "Does a single field contain large patches of contrasting vegetation appearance?",
+      "definition": "Answer yes when one field contains at least two interior vegetation zones approximately 50 m or more across that differ clearly in color, excluding cast shadows."
+    },
+    {
+      "id": 58,
+      "question": "Does vegetation appear stronger around a field's edge than in its center?",
+      "definition": "Answer yes when a vegetation-red margin extends along at least half of a field's perimeter and is visibly redder than the field interior in false color."
+    },
+    {
+      "id": 59,
+      "question": "Does vegetation appear stronger in a field's center than along its edges?",
+      "definition": "Answer yes when the interior of a vegetated field is visibly redder in false color than a broad margin along at least half of its perimeter."
+    },
+    {
+      "id": 60,
+      "question": "Are there broad strips of contrasting vegetation within a field?",
+      "definition": "Answer yes when a field contains at least three alternating vegetation bands approximately 20 m or more wide that differ clearly in true or false color."
+    },
+    {
+      "id": 61,
+      "question": "Does vegetation appearance change gradually across an open area?",
+      "definition": "Answer yes when an open vegetation area shows a sustained color gradient over at least 150 m without a sharp parcel boundary or corresponding shadow edge."
+    },
+    {
+      "id": 62,
+      "question": "Are there pale gaps within otherwise red vegetation in false color?",
+      "definition": "Answer yes when at least three clearly resolved pale or weakly red gaps approximately 20 m or more across occur inside a predominantly red vegetation area."
+    },
+    {
+      "id": 63,
+      "question": "Does a field appear sparsely vegetated rather than fully covered?",
+      "definition": "Answer yes when a recognizable field shows widespread visible soil mixed with vegetation across at least half its area, rather than only at its margins."
+    },
+    {
+      "id": 64,
+      "question": "Do neighboring open areas contrast between green and brown appearances?",
+      "definition": "Answer yes when two adjoining open areas of at least approximately 1 hectare each are predominantly green and predominantly brown or tan respectively in true color."
+    },
+    {
+      "id": 65,
+      "question": "Does woody vegetation appear redder than nearby low vegetation?",
+      "definition": "Answer yes when a canopy-textured area and nearby smooth low vegetation each cover at least 1% of the patch and the canopy area is clearly redder in false color."
+    },
+    {
+      "id": 66,
+      "question": "Does low vegetation appear redder than nearby woody vegetation?",
+      "definition": "Answer yes when smooth low vegetation and a nearby canopy-textured area each cover at least 1% of the patch and the low vegetation is clearly redder in false color."
+    },
+    {
+      "id": 67,
+      "question": "Does a wooded area contain broad zones of contrasting false color?",
+      "definition": "Answer yes when a continuous woodland block includes at least two zones approximately 50 m or more across with distinct false-color hues or red intensities unrelated to cast shadow."
+    },
+    {
+      "id": 68,
+      "question": "Is a woodland edge visibly different from the woodland interior?",
+      "definition": "Answer yes when a canopy-textured edge band approximately 20 m or more wide differs consistently in color or texture from the interior along at least 200 m."
+    },
+    {
+      "id": 69,
+      "question": "Are there brown or yellow canopy-textured areas beside green canopy-textured areas?",
+      "definition": "Answer yes when adjoining wooded areas approximately 50 m or more across differ between predominantly brown or yellow and predominantly green in true color, excluding exposed clearings."
+    },
+    {
+      "id": 70,
+      "question": "Does vegetation retain a clear red signal where it looks dull in true color?",
+      "definition": "Answer yes when an area of at least approximately 1 hectare appears muted brown, gray-green, or olive in true color but remains clearly vegetation-red in false color."
+    },
+    {
+      "id": 71,
+      "question": "Are some green-looking surfaces much less red than others in false color?",
+      "definition": "Answer yes when two areas of at least approximately 1 hectare each look comparably green in true color but show a clear difference in false-color redness."
+    },
+    {
+      "id": 72,
+      "question": "Do several adjoining fields share a similarly strong vegetation signal?",
+      "definition": "Answer yes when at least three fields with distinguishable boundaries have similarly strong red appearance across most of their interiors in false color."
+    },
+    {
+      "id": 73,
+      "question": "Are red vegetation patches scattered across a predominantly pale field?",
+      "definition": "Answer yes when a recognizable field is mostly pale or weakly red in false color but contains at least three distinct red vegetation patches approximately 20 m or more across."
+    },
+    {
+      "id": 74,
+      "question": "Does a broad vegetation band remain green beside brown open ground?",
+      "definition": "Answer yes when a green band at least approximately 20 m wide extends for at least 150 m alongside predominantly brown or tan open ground."
+    },
+    {
+      "id": 75,
+      "question": "Does vegetation show a mottled pattern at scales larger than individual crowns?",
+      "definition": "Answer yes when an area of at least approximately 2 hectares contains repeated contrasting vegetation patches approximately 30–100 m across rather than only fine canopy texture."
+    },
+    {
+      "id": 76,
+      "question": "Are vegetation contrasts sharper at parcel boundaries than within parcels?",
+      "definition": "Answer yes when at least three adjoining vegetated parcels have relatively uniform interiors but clear color changes at their shared boundaries."
+    },
+    {
+      "id": 77,
+      "question": "Does a vegetation color pattern continue across a field boundary?",
+      "definition": "Answer yes when a coherent band or patch of contrasting vegetation color extends across a recognizable boundary into both adjoining fields for at least approximately 50 m on each side."
+    },
+    {
+      "id": 78,
+      "question": "Does one field contain both green-looking and straw-colored vegetation?",
+      "definition": "Answer yes when a single bounded field includes distinct green and yellow or tan vegetated portions, each covering at least approximately one-quarter of that field."
+    },
+    {
+      "id": 79,
+      "question": "Is there a sharp internal division between red vegetation and pale ground?",
+      "definition": "Answer yes when a recognizable field or open parcel has a straight or smoothly defined internal boundary separating vegetation-red and predominantly pale non-red portions."
+    },
+    {
+      "id": 80,
+      "question": "Do narrow vegetation strips look more continuous than the vegetation in adjacent fields?",
+      "definition": "Answer yes when a boundary strip at least 150 m long has an unbroken vegetation signal while adjoining field interiors contain clearly resolved gaps or exposed ground."
+    },
+    {
+      "id": 81,
+      "question": "Does one vegetation patch have a distinct outer ring?",
+      "definition": "Answer yes when a vegetation patch at least approximately 100 m across has a contrasting vegetation band along more than half its perimeter, excluding cast shadow."
+    },
+    {
+      "id": 82,
+      "question": "Are pale vegetation areas concentrated in one part of the patch?",
+      "definition": "Answer yes when yellow, tan, or weakly red vegetation covers at least 10% of the patch and more than two-thirds of it lies within one image half."
+    },
+    {
+      "id": 83,
+      "question": "Does a long vegetation strip change appearance along its length?",
+      "definition": "Answer yes when a continuous vegetation strip at least 300 m long contains two sections at least 100 m long with clearly different color or canopy texture."
+    },
+    {
+      "id": 84,
+      "question": "Are darker and lighter canopy patches interspersed within the same woodland?",
+      "definition": "Answer yes when one woodland block contains at least three lighter and three darker canopy patches approximately 20 m or more across, excluding a regular cast-shadow pattern."
+    },
+    {
+      "id": 85,
+      "question": "Do open vegetation and woodland show different degrees of browning?",
+      "definition": "Answer yes when open vegetation and woodland each occupy at least 5% of the patch and one is predominantly green while the other is predominantly yellow or brown in true color."
+    },
+    {
+      "id": 86,
+      "question": "Are there repeated straight-edged parcels suggesting managed land?",
+      "definition": "Answer yes when at least four distinct open parcels have predominantly straight boundaries and collectively cover at least 20% of the patch."
+    },
+    {
+      "id": 87,
+      "question": "Are broad parallel working patterns visible inside a field?",
+      "definition": "Answer yes when at least three repeated light–dark or vegetation bands are resolved inside one field and terminate at or turn near its boundaries."
+    },
+    {
+      "id": 88,
+      "question": "Does a field contain a visibly different band around its perimeter?",
+      "definition": "Answer yes when a band approximately 20 m or more wide follows at least two adjoining field edges and differs from the interior in color or texture."
+    },
+    {
+      "id": 89,
+      "question": "Do agricultural parcels meet woodland along a straight edge?",
+      "definition": "Answer yes when one or more recognizable fields share an approximately straight boundary at least 250 m long with canopy-textured woodland."
+    },
+    {
+      "id": 90,
+      "question": "Does a recognizable road pass between fields?",
+      "definition": "Answer yes when a continuous road-like artificial strip can be traced for at least 300 m with recognizable agricultural parcels on both sides for part of its length."
+    },
+    {
+      "id": 91,
+      "question": "Does a road follow the edge of a vegetation block?",
+      "definition": "Answer yes when a recognizable road runs beside the same woodland or dense-vegetation boundary for at least 200 m."
+    },
+    {
+      "id": 92,
+      "question": "Does a road cut through a large vegetation area?",
+      "definition": "Answer yes when a recognizable road crosses a vegetation area for at least 300 m with vegetation on both sides and continues beyond that area or the image edge."
+    },
+    {
+      "id": 93,
+      "question": "Are buildings concentrated in a compact group beside open land?",
+      "definition": "Answer yes when several discernible roof-like forms make a compact built group at least approximately 50 m across that directly borders fields or other open ground."
+    },
+    {
+      "id": 94,
+      "question": "Are separate building groups scattered among fields or vegetation?",
+      "definition": "Answer yes when at least three discernible building groups are separated from one another by at least approximately 100 m of predominantly open or vegetated land."
+    },
+    {
+      "id": 95,
+      "question": "Are buildings arranged along a road?",
+      "definition": "Answer yes when discernible built forms follow the same road for at least 200 m in an elongated arrangement rather than a single compact cluster."
+    },
+    {
+      "id": 96,
+      "question": "Does a built area have an abrupt edge against agricultural land?",
+      "definition": "Answer yes when recognizable roofs or paving share a clearly defined boundary at least 150 m long with agricultural parcels."
+    },
+    {
+      "id": 97,
+      "question": "Are vegetation strips retained between adjoining fields?",
+      "definition": "Answer yes when clearly resolved vegetation strips separate at least three pairs of agricultural parcels rather than merely occurring within field interiors."
+    },
+    {
+      "id": 98,
+      "question": "Do field boundaries remain visible between similarly colored fields?",
+      "definition": "Answer yes when at least three adjoining fields have similar interior colors but are separated by visible tracks, margins, hedges, or other persistent linear features."
+    },
+    {
+      "id": 99,
+      "question": "Do different surface treatments occupy adjoining rectangular parcels?",
+      "definition": "Answer yes when at least three adjoining straight-edged parcels contrast between vegetation, exposed soil, or pale stubble-like cover."
+    },
+    {
+      "id": 100,
+      "question": "Does exposed ground have a geometric outline consistent with management?",
+      "definition": "Answer yes when an exposed-ground area of at least approximately 1 hectare has two or more long straight edges or an approximately rectangular outline."
+    },
+    {
+      "id": 101,
+      "question": "Is there a straight-edged opening within woodland?",
+      "definition": "Answer yes when an opening of at least approximately 0.5 hectare is bordered by woodland on at least three sides and has at least two clearly straight edges."
+    },
+    {
+      "id": 102,
+      "question": "Are woodland blocks divided by straight internal boundaries?",
+      "definition": "Answer yes when a wooded area contains at least two straight boundaries, each at least 150 m long, separating canopy zones with different color or texture."
+    },
+    {
+      "id": 103,
+      "question": "Do several fields have similar elongated shapes and widths?",
+      "definition": "Answer yes when at least four neighboring fields are at least three times longer than wide and their widths differ by less than approximately a factor of two."
+    },
+    {
+      "id": 104,
+      "question": "Does a track or access route end inside open land?",
+      "definition": "Answer yes when a recognizable access strip at least 150 m long visibly terminates within a field or opening, rather than at the image edge or beneath obscuring canopy."
+    },
+    {
+      "id": 105,
+      "question": "Do access routes form a junction within managed open land?",
+      "definition": "Answer yes when at least three recognizable road or track branches meet at one visible junction among fields or other geometrically bounded open parcels."
+    },
+    {
+      "id": 106,
+      "question": "Do several field corners meet near one point?",
+      "definition": "Answer yes when at least four distinguishable agricultural parcels converge within an area approximately 50 m across, allowing a narrow road or margin between them."
+    },
+    {
+      "id": 107,
+      "question": "Does an irregular landscape feature constrain otherwise straight field boundaries?",
+      "definition": "Answer yes when at least three fields have straight boundaries elsewhere but curved or indented edges alongside the same woodland, water feature, or irregular vegetation strip."
+    },
+    {
+      "id": 108,
+      "question": "Are field edges aligned with a nearby road?",
+      "definition": "Answer yes when at least three recognizable parcels have a major edge approximately parallel to the same road segment over a combined distance of at least 300 m."
+    },
+    {
+      "id": 109,
+      "question": "Does a large field contain an isolated uncultivated-looking island?",
+      "definition": "Answer yes when a recognizable field fully surrounds a contrasting woody or rough-vegetation patch at least approximately 30 m across."
+    },
+    {
+      "id": 110,
+      "question": "Are adjacent fields divided by bare or paved strips rather than vegetation?",
+      "definition": "Answer yes when at least two shared field boundaries contain clearly visible nonvegetated strips extending for at least 100 m each."
+    },
+    {
+      "id": 111,
+      "question": "Does management geometry remain visible beneath varied vegetation color?",
+      "definition": "Answer yes when at least four straight-edged parcels remain recognizable even though their interiors contain substantial color variation."
+    },
+    {
+      "id": 112,
+      "question": "Are similarly shaped managed parcels present at different vegetation stages?",
+      "definition": "Answer yes when at least three comparably shaped parcels include both predominantly vegetation-red and predominantly bare or straw-colored interiors, without assigning a crop type or date."
+    },
+    {
+      "id": 113,
+      "question": "Does an open parcel contain a coherent pale section beside a vegetated section?",
+      "definition": "Answer yes when one recognizable parcel has adjacent pale and vegetation-red sections each covering at least 20% of its area and separated by a clear internal edge."
+    },
+    {
+      "id": 114,
+      "question": "Are human-made linear features aligned in more than one dominant direction?",
+      "definition": "Answer yes when recognizable roads, tracks, or straight parcel margins form at least two groups of three approximately parallel lines, with group directions differing by at least 30 degrees."
+    },
+    {
+      "id": 115,
+      "question": "Does a narrow access strip separate woodland from open managed land?",
+      "definition": "Answer yes when a recognizable road or track occupies the boundary between woodland and fields for at least 200 m."
+    },
+    {
+      "id": 116,
+      "question": "Is there a water-like surface with a visible land margin?",
+      "definition": "Answer yes when a smooth area at least approximately 30 m across has low near-infrared expression and a coherent shoreline-like boundary supported by both composites, excluding identifiable cast shadow."
+    },
+    {
+      "id": 117,
+      "question": "Does a dark channel-like feature extend through the patch?",
+      "definition": "Answer yes when a continuous dark feature at least 200 m long follows a channel-like path with coherent banks or bordering vegetation and cannot be explained by a road or cast shadow."
+    },
+    {
+      "id": 118,
+      "question": "Are there irregular dark areas suggestive of wet or ponded ground within open land?",
+      "definition": "Answer yes when open land contains smooth dark patches approximately 30 m or more across with pooled, lobed, or drainage-connected shapes, treating wetness as an appearance rather than a confirmed cause."
+    },
+    {
+      "id": 119,
+      "question": "Does exposed ground contain a broad dark-to-light transition?",
+      "definition": "Answer yes when a continuous exposed-ground area shows a coherent brightness transition over at least 50 m without a corresponding vegetation, material, or shadow boundary, regardless of whether moisture causes it."
+    },
+    {
+      "id": 120,
+      "question": "Does vegetation trace a sinuous drainage-like route?",
+      "definition": "Answer yes when a continuous vegetation band follows a winding route for at least 300 m through otherwise more open land, without requiring visible water or proof of drainage."
+    },
+    {
+      "id": 121,
+      "question": "Are dark surface patches connected by narrow dark extensions?",
+      "definition": "Answer yes when at least two smooth dark patches approximately 30 m or more across are visibly joined by narrower dark features in open ground, excluding cast shadows and artificial paving."
+    },
+    {
+      "id": 122,
+      "question": "Does a dark channel or water-like area have a vegetation fringe?",
+      "definition": "Answer yes when a coherent channel-like or water-like feature is bordered by a clearly resolved vegetation strip along at least half of a visible margin of 150 m or more."
+    },
+    {
+      "id": 123,
+      "question": "Does a pale exposed margin border a dark water-like surface?",
+      "definition": "Answer yes when a smooth low-near-infrared surface with shoreline-like geometry has a clearly resolved pale nonvegetated margin along at least 100 m, excluding roads and roof edges."
+    },
+    {
+      "id": 124,
+      "question": "Does open land contain branching dark patterns?",
+      "definition": "Answer yes when darker ground forms at least three connected branches over a span of at least 150 m within open land, excluding road networks and cast shadows."
+    },
+    {
+      "id": 125,
+      "question": "Is vegetation greener or redder along a drainage-like feature than farther away?",
+      "definition": "Answer yes when vegetation beside a visible channel, dark branching line, or sinuous corridor is consistently greener in true color or redder in false color than comparable vegetation at least 50 m away."
+    },
+    {
+      "id": 126,
+      "question": "Do small fields have more woody boundaries than nearby large fields?",
+      "definition": "Answer yes when a group of at least three smaller fields has woody strips along most of its visible boundaries while a nearby field at least four times their typical area has woody strips along less than half its perimeter."
+    },
+    {
+      "id": 127,
+      "question": "Do wooded and open areas form alternating broad bands?",
+      "definition": "Answer yes when at least four successive bands alternate between canopy-textured and open surfaces, with each band approximately 30 m or more wide and 150 m or more long."
+    },
+    {
+      "id": 128,
+      "question": "Are the brightest red vegetation areas concentrated in geometrically bounded parcels?",
+      "definition": "Answer yes when at least two of the patch's most conspicuously red vegetation areas have clear straight-sided parcel outlines and differ from their surroundings."
+    },
+    {
+      "id": 129,
+      "question": "Are the brightest red vegetation areas concentrated along irregular corridors?",
+      "definition": "Answer yes when conspicuously red vegetation follows curved or branching strips for at least 300 m and is visibly redder than adjoining broad open areas."
+    },
+    {
+      "id": 130,
+      "question": "Does a road separate vegetation with contrasting appearances?",
+      "definition": "Answer yes when a recognizable road has vegetation on both sides for at least 200 m and those sides differ consistently in color or texture beyond cast-shadow effects."
+    },
+    {
+      "id": 131,
+      "question": "Does vegetation remain connected around a built group?",
+      "definition": "Answer yes when a discernible building group at least approximately 50 m across is bordered on at least three sides by one visibly connected vegetation area."
+    },
+    {
+      "id": 132,
+      "question": "Are vegetation strips wider near woodland than farther into fields?",
+      "definition": "Answer yes when a vegetation strip connects woodland to agricultural land and its width near the woodland is at least twice its clearly resolved width farther along the strip."
+    },
+    {
+      "id": 133,
+      "question": "Do field color differences coincide with changes in field size?",
+      "definition": "Answer yes when a group of at least three small fields shares one broad color appearance while adjacent fields at least four times larger show a consistently different appearance."
+    },
+    {
+      "id": 134,
+      "question": "Does a straight boundary separate smooth vegetation from mottled vegetation?",
+      "definition": "Answer yes when a boundary at least 200 m long separates relatively uniform vegetation from visibly patchy or canopy-textured vegetation, with substantial vegetation on both sides."
+    },
+    {
+      "id": 135,
+      "question": "Are exposed-ground patches concentrated beside roads or built surfaces?",
+      "definition": "Answer yes when exposed ground covers at least 3% of the patch and more than half of it lies within approximately 50 m of recognizable roads, paving, or building groups."
+    },
+    {
+      "id": 136,
+      "question": "Do woodland fragments become smaller toward an open managed area?",
+      "definition": "Answer yes when a broad woodland block is followed toward recognizable fields by at least two progressively smaller detached canopy patches along an approximately 300 m sequence."
+    },
+    {
+      "id": 137,
+      "question": "Does a vegetation corridor connect woodland to a dark channel-like feature?",
+      "definition": "Answer yes when an unbroken visible vegetation strip joins a canopy-textured block to a coherent dark channel-like or water-like feature within the patch."
+    },
+    {
+      "id": 138,
+      "question": "Are contrasting vegetation conditions repeated on both sides of a corridor?",
+      "definition": "Answer yes when matching redder and paler vegetation zones occur on both sides of the same road, channel, or open strip over at least 200 m."
+    },
+    {
+      "id": 139,
+      "question": "Does a wooded edge coincide with a change in field appearance?",
+      "definition": "Answer yes when a band within an adjoining field differs from the rest of that field along at least 150 m of woodland edge, excluding clearly identifiable cast shadow."
+    },
+    {
+      "id": 140,
+      "question": "Are bare fields and wooded patches interleaved across the patch?",
+      "definition": "Answer yes when at least two predominantly bare agricultural parcels and two canopy-textured patches alternate along a transect of at least 500 m."
+    },
+    {
+      "id": 141,
+      "question": "Does an irregular vegetation boundary cut across the dominant field orientation?",
+      "definition": "Answer yes when a woodland or rough-vegetation edge truncates at least three similarly oriented fields at a clearly oblique or curved boundary."
+    },
+    {
+      "id": 142,
+      "question": "Are small vegetation islands more numerous in one type of open surface than another?",
+      "definition": "Answer yes when two open-surface areas each occupy at least 10% of the patch and one contains at least three isolated vegetation islands while the other contains none or one."
+    },
+    {
+      "id": 143,
+      "question": "Does a pale open area contrast with a surrounding network of red vegetation?",
+      "definition": "Answer yes when predominantly pale or weakly red open parcels covering at least 10% of the patch are bordered on several sides by connected vegetation-red strips."
+    },
+    {
+      "id": 144,
+      "question": "Do managed parcels interrupt a broader irregular vegetation pattern?",
+      "definition": "Answer yes when at least two straight-edged fields or clearings are embedded within vegetation whose other visible boundaries are predominantly irregular."
+    },
+    {
+      "id": 145,
+      "question": "Does a curving corridor separate different parcel patterns?",
+      "definition": "Answer yes when a road, channel, or vegetation corridor curves for at least 300 m and the parcels on its two sides differ clearly in typical size or orientation."
+    },
+    {
+      "id": 146,
+      "question": "Are vegetation color changes aligned with repeated straight boundaries?",
+      "definition": "Answer yes when at least three sharp vegetation color transitions follow approximately parallel straight lines at least 100 m long."
+    },
+    {
+      "id": 147,
+      "question": "Do dark ground patches coincide with changes in vegetation appearance?",
+      "definition": "Answer yes when at least two dark non-shadow ground patches touch or contain vegetation visibly different from nearby vegetation of the same general texture, without attributing the contrast to moisture."
+    },
+    {
+      "id": 148,
+      "question": "Does an open corridor contain both bare and vegetated sections?",
+      "definition": "Answer yes when one continuous corridor at least 300 m long includes clearly exposed-ground and vegetation-covered sections each at least 50 m long."
+    },
+    {
+      "id": 149,
+      "question": "Does a vegetation network connect otherwise separated managed parcels?",
+      "definition": "Answer yes when connected vegetation margins border at least three distinct agricultural parcels and can be traced continuously between them without crossing a resolved nonvegetated gap."
+    },
+    {
+      "id": 150,
+      "question": "Does the patch combine a regular field pattern with an irregular wooded boundary and contrasting vegetation colors?",
+      "definition": "Answer yes when at least three regularly shaped fields adjoin a visibly irregular woodland edge and at least two of those fields differ clearly in vegetation color beyond shadow effects."
+    }
+  ]
+}

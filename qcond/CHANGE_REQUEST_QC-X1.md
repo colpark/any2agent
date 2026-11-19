@@ -1,0 +1,9 @@
+# CHANGE_REQUEST_QC-X1: keep host skills out of the question-writing call
+
+**Problem.** The practice-question call (design: stage 1 image-QA settings, no images, empty folder, read-only, no tools, void any call that runs a tool) was voided twice (q001, q002). Both times Astra ran `cat ~/.codex/skills/qa-ladder/SKILL.md` (q002 also read `references/setup.md`) before answering. That user-level Codex skill describes itself as "Build reasoning QA items ... Use when asked to build reasoning questions ...", so the QC prompt triggers it. `--ignore-user-config` does not hide `~/.codex/skills`. Stage 1 image-QA prompts never matched the skill, which is why this did not happen before. Both voided outputs are kept in raw/ and are not used. Calls used: 2 of 140.
+
+**Proposed change (this call only).** Add `--enable skip_host_skill_discovery` (Codex 0.164.0 feature flag, marked "under development") to the codex command for the question-writing call, so host skills are not listed to the model. Prompt, schema, model, sandbox, empty folder and the void-on-any-tool rule stay unchanged. If the flag has no effect and the call is voided again, I stop and report (no further retries without approval).
+
+**Alternatives.** (a) Retry unchanged (probably voided again). (b) Run with a temporary CODEX_HOME holding only the login, which would need a copy of the auth file and is outside the allowed write paths, so I do not propose it. (c) You disable or move the skill yourself.
+
+**Effect on the design.** No change to what Astra sees from the task; it only removes a tool-use path the design already forbids. The 120 answer calls use the stage 1 image-QA prompt shape and keep stage 1 settings unchanged (the flag is not added there unless they are voided for the same reason, which would need another request).

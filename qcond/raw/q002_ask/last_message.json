@@ -1,0 +1,754 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do visibly bounded fields occupy more than half the patch?",
+      "definition": "Count open parcels distinguished by boundaries, texture or colour, excluding woodland, water and built surfaces, and answer yes when their combined interiors exceed half the image."
+    },
+    {
+      "id": 2,
+      "question": "Are at least three neighbouring fields predominantly rectangular?",
+      "definition": "Count adjoining open parcels with four approximately straight sides and roughly right-angled corners, allowing minor boundary irregularities."
+    },
+    {
+      "id": 3,
+      "question": "Does one uninterrupted field occupy at least a quarter of the patch?",
+      "definition": "Answer yes when a single open parcel covers at least one quarter of the image without a visible road, woody strip or contrasting parcel dividing it."
+    },
+    {
+      "id": 4,
+      "question": "Are markedly different field sizes present together?",
+      "definition": "Require two substantially visible fields whose apparent areas differ by at least a factor of four, ignoring parcels mostly outside the image."
+    },
+    {
+      "id": 5,
+      "question": "Are there several long, narrow fields?",
+      "definition": "Require at least three distinct open parcels whose visible lengths are at least three times their widths."
+    },
+    {
+      "id": 6,
+      "question": "Does a field have a substantially curved boundary?",
+      "definition": "Require a field edge that visibly bends over at least 100 metres, excluding small corner rounding and pixel-scale irregularities."
+    },
+    {
+      "id": 7,
+      "question": "Do several fields share a common orientation?",
+      "definition": "Answer yes when at least three elongated fields have long axes aligned within approximately 20 degrees of one another."
+    },
+    {
+      "id": 8,
+      "question": "Are two differently oriented groups of fields visible?",
+      "definition": "Require two groups containing at least two fields each, with their dominant boundary directions differing by roughly 30 degrees or more."
+    },
+    {
+      "id": 9,
+      "question": "Are neighbouring fields separated by a visible vegetation strip?",
+      "definition": "Require a continuous red-toned strip in false colour along at least 100 metres of a shared field boundary, rather than a colour difference between field interiors."
+    },
+    {
+      "id": 10,
+      "question": "Does a strongly vegetated field directly adjoin a bare-looking field?",
+      "definition": "Require a shared boundary between a red-dominant field in false colour and a brown or grey field lacking a comparable vegetation signal."
+    },
+    {
+      "id": 11,
+      "question": "Do neighbouring fields show at least three distinct cover appearances?",
+      "definition": "Require three parcels with clearly different combinations of colour and texture, such as strong vegetation, pale vegetation and exposed-looking ground, excluding illumination differences."
+    },
+    {
+      "id": 12,
+      "question": "Are repeated parallel bands visible within a field?",
+      "definition": "Require at least three alternating bands that are individually resolvable and remain inside the same field, excluding image-wide striping."
+    },
+    {
+      "id": 13,
+      "question": "Does a road or track run alongside several fields?",
+      "definition": "Require a continuous transport-like strip bordering at least three distinct open parcels along a combined length of at least 200 metres."
+    },
+    {
+      "id": 14,
+      "question": "Does open agricultural-looking ground contain scattered woody clumps?",
+      "definition": "Require at least three separated, coarse-textured vegetation clumps within or between fields, excluding vegetation confined to one continuous woodland edge."
+    },
+    {
+      "id": 15,
+      "question": "Is a field bordered by woody vegetation on at least two sides?",
+      "definition": "Require coarse-textured vegetation to follow two distinct sides of an open parcel for at least half the visible length of each side."
+    },
+    {
+      "id": 16,
+      "question": "Is a woody vegetation island enclosed by open ground?",
+      "definition": "Require a coarse-textured vegetation block at least 30 metres across with a visible ring of open ground separating it from other woody cover."
+    },
+    {
+      "id": 17,
+      "question": "Do several field boundaries converge near a road junction?",
+      "definition": "Require at least three parcel edges to terminate within approximately 50 metres of a visible junction between road-like strips."
+    },
+    {
+      "id": 18,
+      "question": "Does a field combine a straight edge with an irregular opposite edge?",
+      "definition": "Require an open parcel with one boundary straight for at least 100 metres and an opposing boundary showing a clear curve, indentation or protrusion."
+    },
+    {
+      "id": 19,
+      "question": "Do narrow fields occur beside a much broader field?",
+      "definition": "Require at least two elongated parcels adjoining or lying within 50 metres of a parcel at least three times as wide."
+    },
+    {
+      "id": 20,
+      "question": "Is there a large field with a visually uniform interior?",
+      "definition": "Require a parcel covering at least 10 percent of the patch whose interior lacks conspicuous colour patches, bands or woody inclusions."
+    },
+    {
+      "id": 21,
+      "question": "Does an apparently continuous open parcel contain a sharp internal colour division?",
+      "definition": "Require two substantial colour zones separated by a clear line without a visible road, hedge or other physical divider."
+    },
+    {
+      "id": 22,
+      "question": "Do several fields meet without visible woody boundary strips?",
+      "definition": "Require at least three neighbouring parcels distinguished by colour or texture whose shared boundaries lack resolvable coarse-textured vegetation."
+    },
+    {
+      "id": 23,
+      "question": "Do adjoining vegetated fields differ strongly in false-colour redness?",
+      "definition": "Require two fields sharing an edge whose interiors both show vegetation but differ conspicuously in red intensity across most of their areas."
+    },
+    {
+      "id": 24,
+      "question": "Is there a visibly tapering field?",
+      "definition": "Require an open parcel whose width decreases by at least half along its visible length, excluding apparent narrowing caused solely by the image boundary."
+    },
+    {
+      "id": 25,
+      "question": "Are angular fields interspersed with irregular open vegetation patches?",
+      "definition": "Require both clearly straight-edged parcels and irregularly bounded open vegetation areas, each occupying at least 5 percent of the patch."
+    },
+    {
+      "id": 26,
+      "question": "Are built-looking surfaces concentrated in one compact cluster?",
+      "definition": "Answer yes when most visible roofs and associated hard surfaces form one cluster, with gaps between its main components generally below 50 metres."
+    },
+    {
+      "id": 27,
+      "question": "Are built-looking groups separated by substantial open land?",
+      "definition": "Require at least two groups of roof-like shapes separated by at least 100 metres of fields or other vegetation."
+    },
+    {
+      "id": 28,
+      "question": "Do buildings form a ribbon along a road?",
+      "definition": "Require repeated roof-like elements extending along at least 200 metres of a road, with the occupied ribbon clearly longer than it is wide."
+    },
+    {
+      "id": 29,
+      "question": "Is a small building group surrounded mainly by open ground?",
+      "definition": "Require a distinguishable group of roof-like shapes with fields or open vegetation around at least three quarters of its visible perimeter."
+    },
+    {
+      "id": 30,
+      "question": "Does a built-up edge directly face fields?",
+      "definition": "Require a roof-and-street cluster to share at least 100 metres of boundary with recognizable field parcels, allowing a separating road."
+    },
+    {
+      "id": 31,
+      "question": "Are conspicuous vegetation patches embedded among buildings?",
+      "definition": "Require at least two vegetated areas approximately 30 metres across within a broader arrangement of visible roofs and streets."
+    },
+    {
+      "id": 32,
+      "question": "Does a road cross most of the patch?",
+      "definition": "Require a traceable road-like corridor connecting opposite image edges or extending continuously for at least 900 metres."
+    },
+    {
+      "id": 33,
+      "question": "Is a road junction visible within open land?",
+      "definition": "Require at least three connected road arms meeting away from a dense building cluster, with fields or vegetation occupying most surrounding ground."
+    },
+    {
+      "id": 34,
+      "question": "Does a road make a pronounced bend?",
+      "definition": "Require a traceable road segment whose direction changes by at least approximately 45 degrees within the patch, excluding junction turns."
+    },
+    {
+      "id": 35,
+      "question": "Are two transport corridors visibly different in width?",
+      "definition": "Require two road-like strips each traceable for at least 150 metres, with one appearing at least twice as wide as the other."
+    },
+    {
+      "id": 36,
+      "question": "Does a road visibly divide a large vegetation area?",
+      "definition": "Require a continuous road-like strip to pass through a vegetation block with substantial vegetation extending at least 50 metres on both sides."
+    },
+    {
+      "id": 37,
+      "question": "Are buildings distributed along branching roads?",
+      "definition": "Require roof-like elements beside at least three connected road arms rather than solely along one unbranched corridor."
+    },
+    {
+      "id": 38,
+      "question": "Does built cover become visibly sparser toward an adjoining open area?",
+      "definition": "Require a transition from closely spaced roof-like elements to separated building groups and then open ground within the image."
+    },
+    {
+      "id": 39,
+      "question": "Are unusually large roof-like surfaces mixed with smaller roofs?",
+      "definition": "Require at least one coherent rectangular roof-like feature approximately 40 metres across alongside several visibly smaller roof-like features."
+    },
+    {
+      "id": 40,
+      "question": "Is a broad hard-looking surface attached to a building group?",
+      "definition": "Require a smooth grey, pale or bluish area at least 30 metres across adjoining roof-like shapes and connected to a visible access route."
+    },
+    {
+      "id": 41,
+      "question": "Does a built-looking cluster have an irregular, indented edge?",
+      "definition": "Require at least two open or vegetated indentations penetrating approximately 50 metres into the outer boundary of a building cluster."
+    },
+    {
+      "id": 42,
+      "question": "Do visible roads form enclosed blocks?",
+      "definition": "Require at least two areas enclosed by connected road-like strips, excluding field boundaries without a discernible transport surface."
+    },
+    {
+      "id": 43,
+      "question": "Does a road follow a woodland edge?",
+      "definition": "Require a road-like strip to remain within approximately 30 metres of a coarse-textured woody vegetation boundary for at least 150 metres."
+    },
+    {
+      "id": 44,
+      "question": "Does a road pass between contrasting land-cover patterns?",
+      "definition": "Require at least 150 metres of road with consistently different surroundings on its two sides, such as woodland versus fields or buildings versus open vegetation."
+    },
+    {
+      "id": 45,
+      "question": "Are narrow access routes visible inside a field mosaic?",
+      "definition": "Require at least two road- or track-like strips extending into or between recognizable fields, each traceable for approximately 100 metres."
+    },
+    {
+      "id": 46,
+      "question": "Does woody vegetation closely border a building group?",
+      "definition": "Require coarse-textured vegetation within approximately 30 metres of roof-like elements along a combined frontage of at least 100 metres."
+    },
+    {
+      "id": 47,
+      "question": "Is built-looking cover largely confined to one side of the patch?",
+      "definition": "Require identifiable buildings, with at least four fifths of their visible footprint lying within one image half and the opposite half mainly open or vegetated."
+    },
+    {
+      "id": 48,
+      "question": "Do buildings and vegetation form a fine-grained mosaic?",
+      "definition": "Require repeated alternation between roof-like surfaces and vegetation at spacings of roughly 20–100 metres across an area at least 200 metres wide."
+    },
+    {
+      "id": 49,
+      "question": "Are straight transport segments prominent in the landscape?",
+      "definition": "Require at least two road-like segments each approximately 200 metres long whose paths deviate little from a straight line."
+    },
+    {
+      "id": 50,
+      "question": "Does a road connect separate building groups across open land?",
+      "definition": "Require a traceable road joining two distinguishable roof clusters with at least 100 metres of fields or vegetation between them."
+    },
+    {
+      "id": 51,
+      "question": "Does open vegetation appear more intensely red than nearby woody vegetation?",
+      "definition": "Require a smooth-textured open vegetation area to be conspicuously brighter red in false colour than an adjacent coarse-textured woody area outside shadow."
+    },
+    {
+      "id": 52,
+      "question": "Does woody vegetation appear more intensely red than nearby open vegetation?",
+      "definition": "Require a coarse-textured woody area to be conspicuously brighter red in false colour than an adjacent smooth-textured vegetated area outside shadow."
+    },
+    {
+      "id": 53,
+      "question": "Are strongly red and weakly red vegetation patches intermingled?",
+      "definition": "Require at least three alternations between conspicuously different vegetation redness levels within a connected area, excluding obvious shadows."
+    },
+    {
+      "id": 54,
+      "question": "Does a vegetation area contain pale or brown-looking gaps?",
+      "definition": "Require at least two internal gaps approximately 20 metres across that are pale or brown in true colour and show weaker vegetation redness than their surroundings."
+    },
+    {
+      "id": 55,
+      "question": "Does a field have a greener-looking margin than interior?",
+      "definition": "Require a boundary strip at least approximately 20 metres wide to appear greener in true colour and redder in false colour than most of the field interior."
+    },
+    {
+      "id": 56,
+      "question": "Does a field have a greener-looking interior than margin?",
+      "definition": "Require a substantial field interior to appear greener in true colour and redder in false colour than a visible peripheral strip along at least two sides."
+    },
+    {
+      "id": 57,
+      "question": "Are diffuse vegetation-colour gradients visible within open ground?",
+      "definition": "Require a gradual colour transition extending over at least 50 metres inside one open area, rather than a sharp parcel boundary or cast shadow."
+    },
+    {
+      "id": 58,
+      "question": "Are sharply bounded vegetation-colour patches visible within a field?",
+      "definition": "Require at least two internal zones approximately 30 metres across separated by an abrupt change in vegetation redness without a visible physical boundary."
+    },
+    {
+      "id": 59,
+      "question": "Do neighbouring woody vegetation blocks have contrasting canopy appearances?",
+      "definition": "Require adjoining coarse-textured vegetation blocks with a consistent difference in true-colour tone or false-colour redness across areas at least 50 metres wide."
+    },
+    {
+      "id": 60,
+      "question": "Does a woody area have a visibly mottled canopy?",
+      "definition": "Require repeated light and dark or differently red canopy patches at scales of roughly 20–60 metres across a woody area at least 150 metres wide."
+    },
+    {
+      "id": 61,
+      "question": "Is there a woody area with a comparatively uniform canopy appearance?",
+      "definition": "Require a coarse-textured vegetation block at least 200 metres across with broadly consistent colour and no large internal gaps or contrasting compartments."
+    },
+    {
+      "id": 62,
+      "question": "Does vegetation form repeated rows or broad aligned bands?",
+      "definition": "Require at least three resolvable, approximately parallel vegetation bands separated by less vegetated-looking ground, without identifying a crop or planting purpose."
+    },
+    {
+      "id": 63,
+      "question": "Does woody cover appear open enough for background ground to show through?",
+      "definition": "Require repeated pale or brown spaces between coarse vegetation clumps across a substantial area, rather than a closed canopy with isolated clearings."
+    },
+    {
+      "id": 64,
+      "question": "Are lush-looking and dry-looking open vegetation areas present together?",
+      "definition": "Require both green, strongly red open vegetation and yellow-brown open cover with a weaker but discernible vegetation signal, each covering at least 5 percent of the patch."
+    },
+    {
+      "id": 65,
+      "question": "Does yellow or brown vegetation retain a visible false-colour vegetation signal?",
+      "definition": "Require a non-shadowed area at least 50 metres across that looks yellow or brown in true colour but remains visibly reddish in false colour."
+    },
+    {
+      "id": 66,
+      "question": "Do some vegetation patches stand out much more clearly in false colour?",
+      "definition": "Require at least two patches approximately 30 metres across that blend with surrounding ground in true colour but become clearly differentiated by redness in false colour."
+    },
+    {
+      "id": 67,
+      "question": "Does a pale field contain scattered greener-looking patches?",
+      "definition": "Require at least three internal patches with stronger vegetation redness inside a predominantly pale or brown field, excluding woody islands."
+    },
+    {
+      "id": 68,
+      "question": "Does a predominantly green field contain substantial weak-vegetation patches?",
+      "definition": "Require non-shadowed internal patches with conspicuously reduced false-colour redness to occupy at least approximately one tenth of an otherwise green field."
+    },
+    {
+      "id": 69,
+      "question": "Do vegetation-colour patterns cross visible parcel boundaries?",
+      "definition": "Require a similarly shaped colour anomaly or gradient to continue across at least one clear field boundary without simply following that boundary."
+    },
+    {
+      "id": 70,
+      "question": "Do vegetation-colour changes closely follow parcel boundaries?",
+      "definition": "Require at least three adjacent fields with relatively consistent internal colour and abrupt vegetation-colour differences at their shared boundaries."
+    },
+    {
+      "id": 71,
+      "question": "Are narrow vegetation strips redder than the larger areas they separate?",
+      "definition": "Require at least 100 metres of boundary vegetation that is conspicuously redder in false colour than open land on both sides."
+    },
+    {
+      "id": 72,
+      "question": "Does woody vegetation have a paler, less red outer margin?",
+      "definition": "Require a coherent edge zone approximately 20 metres wide that is lighter in true colour and less red in false colour than the adjacent canopy interior, excluding shadows."
+    },
+    {
+      "id": 73,
+      "question": "Does one open parcel contain both exposed-looking ground and vegetation?",
+      "definition": "Require soil-like brown or grey cover and visibly red vegetation each to occupy at least one quarter of the same parcel."
+    },
+    {
+      "id": 74,
+      "question": "Are green-looking open areas present among predominantly muted woody cover?",
+      "definition": "Require strongly vegetated smooth-textured openings alongside coarse-textured woody cover whose false-colour redness is consistently weaker, without inferring a season."
+    },
+    {
+      "id": 75,
+      "question": "Is the strongest vegetation signal concentrated in woody strips or blocks?",
+      "definition": "Answer yes when the conspicuously reddest substantial areas in false colour are coarse-textured woody features and the surrounding open ground is markedly less red."
+    },
+    {
+      "id": 76,
+      "question": "Do two contrasting cover types divide the patch into broad zones?",
+      "definition": "Require two visually distinct cover patterns each occupying at least one quarter of the patch and mainly lying on opposite sides of one dominant boundary."
+    },
+    {
+      "id": 77,
+      "question": "Does the patch contain a fine-grained mixture of cover types?",
+      "definition": "Require at least three visibly different cover patterns repeatedly interspersed in units mostly below approximately 100 metres across."
+    },
+    {
+      "id": 78,
+      "question": "Is most woody vegetation concentrated in one continuous block?",
+      "definition": "Require woody vegetation covering at least 10 percent of the patch, with at least four fifths of that cover belonging to one visibly connected block."
+    },
+    {
+      "id": 79,
+      "question": "Is woody vegetation split among several separate blocks?",
+      "definition": "Require at least three coarse-textured vegetation blocks approximately 30 metres across, separated by resolvable strips of open ground, water or built surfaces."
+    },
+    {
+      "id": 80,
+      "question": "Do narrow vegetation links connect broader vegetation blocks?",
+      "definition": "Require a visible vegetated corridor at least 50 metres long and clearly narrower than the two blocks it joins."
+    },
+    {
+      "id": 81,
+      "question": "Are two woody blocks separated by only a narrow open gap?",
+      "definition": "Require coarse-textured vegetation blocks facing each other across approximately 20–60 metres of non-woody ground for at least 50 metres."
+    },
+    {
+      "id": 82,
+      "question": "Does a woody boundary have several deep indentations?",
+      "definition": "Require at least two open-ground indentations extending approximately 50 metres into a coarse-textured vegetation block."
+    },
+    {
+      "id": 83,
+      "question": "Does woody vegetation project into open land as a narrow tongue?",
+      "definition": "Require a connected woody extension at least twice as long as it is wide, with open land along both sides and around its visible tip."
+    },
+    {
+      "id": 84,
+      "question": "Does open ground form a clearing enclosed by woody vegetation?",
+      "definition": "Require an open area at least 30 metres across with coarse-textured vegetation visibly surrounding its entire perimeter."
+    },
+    {
+      "id": 85,
+      "question": "Does open land penetrate a woody area as a broad corridor?",
+      "definition": "Require a non-woody strip at least 40 metres wide extending approximately 150 metres into or through a woody block."
+    },
+    {
+      "id": 86,
+      "question": "Are long straight edges prominent between major cover areas?",
+      "definition": "Require at least two boundaries between visibly contrasting cover areas that remain approximately straight for 200 metres or more."
+    },
+    {
+      "id": 87,
+      "question": "Are curved boundaries prominent between major cover areas?",
+      "definition": "Require at least two substantial cover boundaries that each change direction smoothly over a length of approximately 150 metres or more."
+    },
+    {
+      "id": 88,
+      "question": "Do linear vegetation features form a branching network?",
+      "definition": "Require connected vegetation strips with at least two visible branch junctions, excluding broad canopy areas whose internal gaps merely suggest lines."
+    },
+    {
+      "id": 89,
+      "question": "Do several linear features run approximately parallel across the patch?",
+      "definition": "Require at least three roads, vegetation strips or parcel boundaries each approximately 150 metres long and aligned within roughly 20 degrees."
+    },
+    {
+      "id": 90,
+      "question": "Does a diagonal corridor structure much of the patch?",
+      "definition": "Require a continuous road, water or vegetation corridor at least 600 metres long whose overall direction lies clearly oblique to both image axes."
+    },
+    {
+      "id": 91,
+      "question": "Is an extensive open area nearly surrounded by contrasting cover?",
+      "definition": "Require an open area at least 100 metres across with woodland, buildings or water bordering at least three quarters of its visible perimeter."
+    },
+    {
+      "id": 92,
+      "question": "Do three distinct cover patterns meet at one visible junction?",
+      "definition": "Require three substantial areas, such as woody vegetation, fields and buildings, to approach within approximately 30 metres of the same point."
+    },
+    {
+      "id": 93,
+      "question": "Does cover become progressively more fragmented across the patch?",
+      "definition": "Require one side to contain a broad continuous cover area and the opposite side to contain several separated remnants of the same visible cover pattern."
+    },
+    {
+      "id": 94,
+      "question": "Are small contrasting patches embedded in a dominant cover?",
+      "definition": "Require one cover pattern to occupy more than half the patch and contain at least three distinguishable inclusions approximately 20 metres across."
+    },
+    {
+      "id": 95,
+      "question": "Does one continuous vegetation area connect opposite image edges?",
+      "definition": "Require a visibly vegetated connection between opposite borders that remains at least approximately 30 metres wide throughout and covers less than the entire patch."
+    },
+    {
+      "id": 96,
+      "question": "Is woody vegetation concentrated near the image perimeter?",
+      "definition": "Require woody cover to occur mainly within approximately 150 metres of the image edges while the central 600-metre square is predominantly non-woody."
+    },
+    {
+      "id": 97,
+      "question": "Is woody vegetation concentrated around the centre of the patch?",
+      "definition": "Require a central woody block with most of the outer 150-metre image margin occupied by open ground, water or built surfaces."
+    },
+    {
+      "id": 98,
+      "question": "Do broad open and woody areas alternate across the image?",
+      "definition": "Require a traverse across the patch to encounter at least four alternating open and woody zones, each approximately 50 metres wide or more."
+    },
+    {
+      "id": 99,
+      "question": "Does a boundary separate coarse-textured vegetation from smooth vegetation?",
+      "definition": "Require at least 150 metres of shared edge between a woody-looking canopy texture and a comparatively smooth vegetated surface."
+    },
+    {
+      "id": 100,
+      "question": "Are several cover patches visibly elongated in the same direction?",
+      "definition": "Require at least three separate vegetation, bare-ground or built-looking patches with length-to-width ratios above two and similarly aligned long axes."
+    },
+    {
+      "id": 101,
+      "question": "Does open water form an elongated feature?",
+      "definition": "Require a smooth, non-red water-like surface with coherent banks whose visible length is at least three times its width, excluding road surfaces and cast shadows."
+    },
+    {
+      "id": 102,
+      "question": "Does an open-water area have a visibly irregular edge?",
+      "definition": "Require a confidently recognizable water surface with at least two shoreline bends or indentations larger than approximately 20 metres."
+    },
+    {
+      "id": 103,
+      "question": "Does visible water directly border vegetation?",
+      "definition": "Require a coherent water-like surface to share at least 100 metres of visible edge with red-toned vegetation, allowing a narrow unresolved bank."
+    },
+    {
+      "id": 104,
+      "question": "Does a visible water feature continue beyond the image boundary?",
+      "definition": "Require an identifiable water surface at least approximately 20 metres wide to meet an image edge with its banks or shoreline visibly continuing out of view."
+    },
+    {
+      "id": 105,
+      "question": "Does water create a clear break between terrestrial areas?",
+      "definition": "Require a continuous water-like strip at least approximately 20 metres wide with visible land on both sides over a length of at least 100 metres."
+    },
+    {
+      "id": 106,
+      "question": "Does open water contrast strongly with nearby red-toned vegetation?",
+      "definition": "Require a coherent water-like area at least 30 metres across that is dark or non-red in false colour beside conspicuously red vegetation."
+    },
+    {
+      "id": 107,
+      "question": "Is there a sinuous vegetation corridor through open land?",
+      "definition": "Require a red-toned strip approximately 20–100 metres wide that bends repeatedly over at least 200 metres, whether or not water is visible."
+    },
+    {
+      "id": 108,
+      "question": "Does greener-looking vegetation follow a narrow dark corridor?",
+      "definition": "Require stronger vegetation redness along at least 100 metres of a dark linear feature than in the adjoining open ground, without assuming the feature contains water."
+    },
+    {
+      "id": 109,
+      "question": "Do narrow dark channels or ditches subdivide open ground?",
+      "definition": "Require at least two connected or parallel dark strips traceable for approximately 100 metres whose form suggests channels rather than shadows or broad roads."
+    },
+    {
+      "id": 110,
+      "question": "Does a bare-looking field contain diffuse darker areas?",
+      "definition": "Require gradual darkening across patches at least 30 metres wide within soil-like ground, excluding cloud shadows, terrain shading and clearly vegetated patches."
+    },
+    {
+      "id": 111,
+      "question": "Do darker ground patches cross more than one field?",
+      "definition": "Require a coherent dark-toned pattern on exposed-looking ground to continue across a visible parcel boundary without following a cast-shadow direction."
+    },
+    {
+      "id": 112,
+      "question": "Are dark ground patches concentrated along field margins?",
+      "definition": "Require non-shadowed, weakly vegetated dark ground along at least 100 metres of a field edge while most of that field's interior is visibly lighter."
+    },
+    {
+      "id": 113,
+      "question": "Are dark ground patches concentrated inside fields rather than along their edges?",
+      "definition": "Require at least two non-shadowed dark patches approximately 20 metres across that are enclosed by lighter soil-like ground within field interiors."
+    },
+    {
+      "id": 114,
+      "question": "Does exposed-looking ground grade from dark to pale within one parcel?",
+      "definition": "Require a broad tonal gradient across at least 100 metres of a largely non-vegetated parcel, excluding obvious illumination effects."
+    },
+    {
+      "id": 115,
+      "question": "Do dark open-ground patches have irregular, lobed outlines?",
+      "definition": "Require at least two non-shadowed dark patches with curved protrusions or indentations rather than straight parcel-shaped outlines."
+    },
+    {
+      "id": 116,
+      "question": "Do wet-looking dark areas alternate with visibly vegetated areas?",
+      "definition": "Require repeated interspersion of smooth, weakly red dark ground and red-toned vegetation across at least 100 metres, treating wetness only as an appearance."
+    },
+    {
+      "id": 117,
+      "question": "Does a winding corridor interrupt otherwise straight field boundaries?",
+      "definition": "Require a curving dark or vegetated strip to truncate or deflect at least two boundaries in an otherwise angular field pattern."
+    },
+    {
+      "id": 118,
+      "question": "Do branching dark or vegetated strips converge into a broader corridor?",
+      "definition": "Require at least two narrow strips to visibly join a wider continuous strip, without inferring water flow direction or drainage function."
+    },
+    {
+      "id": 119,
+      "question": "Are dark smooth surfaces distinguishable from nearby cast shadows?",
+      "definition": "Require a dark water-like or ground surface with its own coherent boundary and at least one separate shadow visibly attached to a raised feature."
+    },
+    {
+      "id": 120,
+      "question": "Does a dark or vegetated corridor have a visibly uneven width?",
+      "definition": "Require a continuous corridor at least 200 metres long whose width changes by approximately a factor of two, excluding perspective or image-edge truncation."
+    },
+    {
+      "id": 121,
+      "question": "Do buildings, fields and woody vegetation all occupy substantial parts of the patch?",
+      "definition": "Require roof-and-road patterns, bounded open parcels and coarse-textured woody cover each to occupy at least approximately 5 percent of the image."
+    },
+    {
+      "id": 122,
+      "question": "Does a road cross both open fields and woody vegetation?",
+      "definition": "Require the same traceable road to pass through at least 100 metres of field surroundings and at least 100 metres of woody surroundings."
+    },
+    {
+      "id": 123,
+      "question": "Are the fields closest to buildings visually different from more distant fields?",
+      "definition": "Require at least two fields beside a building group to share a colour or texture contrast with at least two fields farther away, without assigning a cause."
+    },
+    {
+      "id": 124,
+      "question": "Do small fields occur around a building cluster while larger fields lie farther away?",
+      "definition": "Require at least two near-cluster parcels whose visible areas are each less than half those of at least two more distant parcels."
+    },
+    {
+      "id": 125,
+      "question": "Does woody vegetation separate buildings from fields?",
+      "definition": "Require a visible woody strip to lie between a building group and open parcels along at least 100 metres of their facing edges."
+    },
+    {
+      "id": 126,
+      "question": "Do vegetation strips connect a built-looking area to a larger woody block?",
+      "definition": "Require a traceable vegetated connection from within approximately 30 metres of roofs to a coarse-textured vegetation block at least 100 metres across."
+    },
+    {
+      "id": 127,
+      "question": "Are intensely red vegetation patches embedded in a mostly non-vegetated setting?",
+      "definition": "Require at least two strongly red patches approximately 30 metres across surrounded predominantly by bare-looking ground or built surfaces."
+    },
+    {
+      "id": 128,
+      "question": "Are pale non-vegetated patches embedded in a mostly woody setting?",
+      "definition": "Require at least two pale, weakly red openings approximately 30 metres across within a landscape whose visible surroundings are predominantly coarse-textured vegetation."
+    },
+    {
+      "id": 129,
+      "question": "Do bare-looking and strongly vegetated fields both touch the same woody block?",
+      "definition": "Require one soil-like parcel and one strongly red parcel each to share at least 50 metres of boundary with the same connected woody area."
+    },
+    {
+      "id": 130,
+      "question": "Does a road separate fields with contrasting vegetation states?",
+      "definition": "Require at least 100 metres of road with predominantly strong vegetation redness on one side and pale or weakly vegetated field cover on the other."
+    },
+    {
+      "id": 131,
+      "question": "Do fields beside a woody edge contain visible edge-to-interior colour changes?",
+      "definition": "Require a colour change extending approximately 20 metres or more into at least one adjoining field, excluding a narrow cast shadow from the woody edge."
+    },
+    {
+      "id": 132,
+      "question": "Does a large open parcel contrast with a finely divided neighbouring landscape?",
+      "definition": "Require one field covering at least 10 percent of the patch beside an area containing at least five smaller parcels, vegetation strips or building groups."
+    },
+    {
+      "id": 133,
+      "question": "Do both straight and sinuous vegetation corridors occur in the patch?",
+      "definition": "Require one vegetation strip approximately straight for 150 metres and another that bends conspicuously over a comparable length."
+    },
+    {
+      "id": 134,
+      "question": "Are isolated woody clumps accompanied by continuous woody boundaries?",
+      "definition": "Require at least two detached coarse-textured vegetation clumps and at least one woody boundary strip extending approximately 150 metres."
+    },
+    {
+      "id": 135,
+      "question": "Does a road interrupt an otherwise connected vegetation strip?",
+      "definition": "Require aligned vegetation segments on opposite sides of a visible road, with the road forming the principal gap between them."
+    },
+    {
+      "id": 136,
+      "question": "Does a vegetation corridor widen into a larger vegetation patch?",
+      "definition": "Require a narrow vegetated strip at least 100 metres long to merge continuously into a patch at least three times its width."
+    },
+    {
+      "id": 137,
+      "question": "Do the most irregular field edges occur beside woody vegetation?",
+      "definition": "Require at least two fields with visibly curved or indented woody-facing edges and comparatively straight edges facing other open parcels."
+    },
+    {
+      "id": 138,
+      "question": "Does a built-looking group occupy a gap between vegetation blocks?",
+      "definition": "Require roof-like surfaces situated between two substantial vegetation blocks whose facing edges lie within approximately 100 metres of the buildings."
+    },
+    {
+      "id": 139,
+      "question": "Are vegetated and exposed-looking strips aligned in the same direction?",
+      "definition": "Require at least two vegetation bands and two pale or brown ground bands with approximately parallel long axes across a common open area."
+    },
+    {
+      "id": 140,
+      "question": "Does a winding corridor separate contrasting field patterns?",
+      "definition": "Require a curving dark or vegetated strip with visibly different parcel size, orientation or colour patterns on its two sides for at least 150 metres."
+    },
+    {
+      "id": 141,
+      "question": "Are dark ground patches associated with stronger nearby vegetation redness?",
+      "definition": "Require at least two non-shadowed dark ground patches bordered by vegetation that is conspicuously redder than vegetation farther away in the same open area."
+    },
+    {
+      "id": 142,
+      "question": "Does a narrow vegetation strip cross predominantly pale open land?",
+      "definition": "Require a red-toned strip at least 200 metres long with pale, weakly vegetated ground occupying most of the visible area on both sides."
+    },
+    {
+      "id": 143,
+      "question": "Do fields and roads share a dominant geometric alignment?",
+      "definition": "Require at least three field boundaries and two road segments to be approximately parallel or perpendicular to the same dominant direction."
+    },
+    {
+      "id": 144,
+      "question": "Does a road cut obliquely across the dominant field alignment?",
+      "definition": "Require a road at least 200 metres long that intersects the prevailing direction of at least three field boundaries at an angle clearly different from a right angle."
+    },
+    {
+      "id": 145,
+      "question": "Are visibly vegetated openings present inside a larger woody area?",
+      "definition": "Require at least two smooth-textured, red-toned openings approximately 30 metres across substantially surrounded by coarse-textured woody vegetation."
+    },
+    {
+      "id": 146,
+      "question": "Do neighbouring open areas differ in both colour and internal texture?",
+      "definition": "Require two adjoining open areas with a clear colour contrast and a separate texture contrast, such as uniform versus banded or smooth versus mottled."
+    },
+    {
+      "id": 147,
+      "question": "Are buildings concentrated where several open parcels meet?",
+      "definition": "Require a roof-like cluster within approximately 50 metres of the convergence of at least three distinguishable field or open-ground parcels."
+    },
+    {
+      "id": 148,
+      "question": "Does vegetation form a partial ring around a contrasting open or built area?",
+      "definition": "Require a connected vegetated belt surrounding at least three quarters of an area at least 50 metres across while leaving a visible opening."
+    },
+    {
+      "id": 149,
+      "question": "Do narrow woody strips and broad woody blocks show different false-colour tones?",
+      "definition": "Require a woody strip and a woody block in the same patch to differ consistently in redness over non-shadowed portions at least 100 metres long."
+    },
+    {
+      "id": 150,
+      "question": "Does the patch combine a broad uniform area with a heterogeneous margin?",
+      "definition": "Require a visually uniform cover area occupying at least one quarter of the patch beside a margin containing at least three distinct cover patterns in smaller units."
+    }
+  ]
+}
