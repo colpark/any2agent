@@ -1,0 +1,1514 @@
+[
+ {
+  "id": "C1",
+  "question": "Does any part of the patch belong to Urban fabric, following the CORINE Land Cover nomenclature?",
+  "definition": "Residential and mixed urban areas form a dense or discontinuous network of buildings, streets and associated gardens or other vegetation.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 0
+ },
+ {
+  "id": "C3",
+  "question": "Does any part of the patch belong to Arable land, following the CORINE Land Cover nomenclature?",
+  "definition": "Land cultivated for annually harvested crops typically forms managed fields that may appear vegetated, recently harvested, ploughed or temporarily fallow.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 1
+ },
+ {
+  "id": "C4",
+  "question": "Does any part of the patch belong to Permanent crops, following the CORINE Land Cover nomenclature?",
+  "definition": "Long-lived agricultural plantings such as orchards, vineyards and olive groves often show repeated rows or regularly spaced woody plants.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 2
+ },
+ {
+  "id": "C5",
+  "question": "Does any part of the patch belong to Pastures, following the CORINE Land Cover nomenclature?",
+  "definition": "Managed grassland used for grazing or fodder production usually appears as bounded herbaceous fields with few trees.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 3
+ },
+ {
+  "id": "C6",
+  "question": "Does any part of the patch belong to Complex cultivation patterns, following the CORINE Land Cover nomenclature?",
+  "definition": "A fine-grained agricultural mosaic combines small parcels of annual crops, permanent crops and pasture with differing colors, textures and seasonal states.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 4
+ },
+ {
+  "id": "C7",
+  "question": "Does any part of the patch belong to Land principally occupied by agriculture, with significant areas of natural vegetation, following the CORINE Land Cover nomenclature?",
+  "definition": "An agriculture-dominated landscape contains substantial interspersed patches of natural woodland, scrub, grassland or other seminatural vegetation.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 5
+ },
+ {
+  "id": "C8",
+  "question": "Does any part of the patch belong to Agro-forestry areas, following the CORINE Land Cover nomenclature?",
+  "definition": "Agricultural crops or grazing land occupy the same land as an overstory of scattered trees or other forest elements.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 6
+ },
+ {
+  "id": "C9",
+  "question": "Does any part of the patch belong to Broad-leaved forest, following the CORINE Land Cover nomenclature?",
+  "definition": "Forest dominated by broad-leaved trees generally forms a continuous or broken canopy whose appearance varies strongly with species and season.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 7
+ },
+ {
+  "id": "C10",
+  "question": "Does any part of the patch belong to Coniferous forest, following the CORINE Land Cover nomenclature?",
+  "definition": "Forest dominated by needle-leaved or scale-leaved trees often has a relatively dark canopy and fine crown texture, although its appearance varies with stand structure and season.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 8
+ },
+ {
+  "id": "C11",
+  "question": "Does any part of the patch belong to Mixed forest, following the CORINE Land Cover nomenclature?",
+  "definition": "Forest contains substantial broad-leaved and coniferous tree components, potentially visible as intermingled crowns or adjoining canopy patches.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 9
+ },
+ {
+  "id": "C13",
+  "question": "Does any part of the patch belong to Moors, heathland and sclerophyllous vegetation, following the CORINE Land Cover nomenclature?",
+  "definition": "Open landscapes dominated by low shrubs, heath or hard-leaved evergreen vegetation typically show irregular scrub cover rather than a closed forest canopy.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 10
+ },
+ {
+  "id": "C14",
+  "question": "Does any part of the patch belong to Transitional woodland, shrub, following the CORINE Land Cover nomenclature?",
+  "definition": "Shrub and young-tree vegetation forms an intermediate stage between open land and established forest, often following regeneration, abandonment or disturbance.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 11
+ },
+ {
+  "id": "C16",
+  "question": "Does any part of the patch belong to Inland wetlands, following the CORINE Land Cover nomenclature?",
+  "definition": "Noncoastal marshes and peatlands contain waterlogged ground, wetland vegetation and sometimes interspersed shallow open water.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 12
+ },
+ {
+  "id": "C18",
+  "question": "Does any part of the patch belong to Inland waters, following the CORINE Land Cover nomenclature?",
+  "definition": "Inland rivers, canals, lakes and reservoirs form open-water channels or basins whose color varies with depth, sediment and aquatic material.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 13
+ },
+ {
+  "id": "C19",
+  "question": "Does any part of the patch belong to Marine waters, following the CORINE Land Cover nomenclature?",
+  "definition": "Seas, oceans, estuaries and coastal lagoons form marine or coastally connected water surfaces whose geographic identity cannot generally be determined from water color alone.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 14
+ },
+ {
+  "id": "G1",
+  "question": "Is any forest present?",
+  "definition": "Yes if any part of the patch belongs to Broad-leaved forest, Coniferous forest or Mixed forest in the CORINE Land Cover nomenclature.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 15
+ },
+ {
+  "id": "G2",
+  "question": "Is any farmland present?",
+  "definition": "Yes if any part of the patch belongs to Arable land, Permanent crops, Pastures, Complex cultivation patterns, Land principally occupied by agriculture, with significant areas of natural vegetation or Agro-forestry areas in the CORINE Land Cover nomenclature.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 16
+ },
+ {
+  "id": "G3",
+  "question": "Is any built-up land present?",
+  "definition": "Yes if any part of the patch belongs to Urban fabric or Industrial or commercial units in the CORINE Land Cover nomenclature.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 17
+ },
+ {
+  "id": "G4",
+  "question": "Is any open water present?",
+  "definition": "Yes if any part of the patch belongs to Inland waters or Marine waters in the CORINE Land Cover nomenclature.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 18
+ },
+ {
+  "id": "G5",
+  "question": "Is any wetland present?",
+  "definition": "Wetland as defined by its member classes in the CORINE Land Cover nomenclature: Inland wetlands or Coastal wetlands.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 19
+ },
+ {
+  "id": "G6",
+  "question": "Is any natural open land present, such as grassland, heath, shrub or sand?",
+  "definition": "Natural open land as defined by its member classes in the CORINE Land Cover nomenclature: Natural grassland and sparsely vegetated areas, Moors, heathland and sclerophyllous vegetation, Transitional woodland, shrub or Beaches, dunes, sands.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 20
+ },
+ {
+  "id": "G7",
+  "question": "Does the patch mix farmland with forest, wetland or natural open land?",
+  "definition": "Yes if the patch contains farmland (any CORINE Land Cover class from arable land to agro-forestry areas) and also forest, wetland or natural open land.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 21
+ },
+ {
+  "id": "G8",
+  "question": "Does the patch contain more than three land cover types?",
+  "definition": "Yes if the patch contains more than three distinct CORINE Land Cover classes.",
+  "kind": "semantic",
+  "split": "held_out",
+  "emb_row": 22
+ },
+ {
+  "id": "P1_0_top",
+  "question": "Is the patch's brightness in the top quarter of patches?",
+  "definition": "Yes if the patch's mean over pixels of (B02 + B03 + B04) / 3 is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 23
+ },
+ {
+  "id": "P1_0_bottom",
+  "question": "Is the patch's brightness in the bottom quarter of patches?",
+  "definition": "Yes if the patch's mean over pixels of (B02 + B03 + B04) / 3 is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 24
+ },
+ {
+  "id": "P1_1_top",
+  "question": "Is the patch's greenness (NDVI) in the top quarter of patches?",
+  "definition": "Yes if the patch's mean NDVI, (B08 - B04) / (B08 + B04) is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 25
+ },
+ {
+  "id": "P1_1_bottom",
+  "question": "Is the patch's greenness (NDVI) in the bottom quarter of patches?",
+  "definition": "Yes if the patch's mean NDVI, (B08 - B04) / (B08 + B04) is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 26
+ },
+ {
+  "id": "P1_2_top",
+  "question": "Is the patch's variation in greenness in the top quarter of patches?",
+  "definition": "Yes if the patch's standard deviation over pixels of NDVI is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 27
+ },
+ {
+  "id": "P1_2_bottom",
+  "question": "Is the patch's variation in greenness in the bottom quarter of patches?",
+  "definition": "Yes if the patch's standard deviation over pixels of NDVI is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 28
+ },
+ {
+  "id": "P1_3_top",
+  "question": "Is the patch's vegetated share in the top quarter of patches?",
+  "definition": "Yes if the patch's share of pixels with NDVI above 0.5 is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 29
+ },
+ {
+  "id": "P1_3_bottom",
+  "question": "Is the patch's vegetated share in the bottom quarter of patches?",
+  "definition": "Yes if the patch's share of pixels with NDVI above 0.5 is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 30
+ },
+ {
+  "id": "P1_4_top",
+  "question": "Is the patch's water index (NDWI) in the top quarter of patches?",
+  "definition": "Yes if the patch's mean NDWI, (B03 - B08) / (B03 + B08) is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 31
+ },
+ {
+  "id": "P1_4_bottom",
+  "question": "Is the patch's water index (NDWI) in the bottom quarter of patches?",
+  "definition": "Yes if the patch's mean NDWI, (B03 - B08) / (B03 + B08) is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 32
+ },
+ {
+  "id": "P1_5_top",
+  "question": "Is the patch's water share in the top quarter of patches?",
+  "definition": "Yes if the patch's share of pixels with NDWI above 0 is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 33
+ },
+ {
+  "id": "P1_5_bottom",
+  "question": "Is the patch's water share in the bottom quarter of patches?",
+  "definition": "Yes if the patch's share of pixels with NDWI above 0 is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 34
+ },
+ {
+  "id": "P1_6_top",
+  "question": "Is the patch's moisture (NDMI) in the top quarter of patches?",
+  "definition": "Yes if the patch's mean NDMI, (B8A - B11) / (B8A + B11) is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "held_out",
+  "emb_row": 35
+ },
+ {
+  "id": "P1_6_bottom",
+  "question": "Is the patch's moisture (NDMI) in the bottom quarter of patches?",
+  "definition": "Yes if the patch's mean NDMI, (B8A - B11) / (B8A + B11) is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "held_out",
+  "emb_row": 36
+ },
+ {
+  "id": "P1_7_top",
+  "question": "Is the patch's shortwave infrared 1 brightness in the top quarter of patches?",
+  "definition": "Yes if the patch's mean of B11 is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 37
+ },
+ {
+  "id": "P1_7_bottom",
+  "question": "Is the patch's shortwave infrared 1 brightness in the bottom quarter of patches?",
+  "definition": "Yes if the patch's mean of B11 is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 38
+ },
+ {
+  "id": "P1_8_top",
+  "question": "Is the patch's shortwave infrared 2 brightness in the top quarter of patches?",
+  "definition": "Yes if the patch's mean of B12 is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "held_out",
+  "emb_row": 39
+ },
+ {
+  "id": "P1_8_bottom",
+  "question": "Is the patch's shortwave infrared 2 brightness in the bottom quarter of patches?",
+  "definition": "Yes if the patch's mean of B12 is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "held_out",
+  "emb_row": 40
+ },
+ {
+  "id": "P1_9_top",
+  "question": "Is the patch's near-infrared texture in the top quarter of patches?",
+  "definition": "Yes if the patch's standard deviation over pixels of B08 is above the 75th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "held_out",
+  "emb_row": 41
+ },
+ {
+  "id": "P1_9_bottom",
+  "question": "Is the patch's near-infrared texture in the bottom quarter of patches?",
+  "definition": "Yes if the patch's standard deviation over pixels of B08 is below the 25th percentile of a reference set of 497 Sentinel-2 patches.",
+  "kind": "physical",
+  "split": "held_out",
+  "emb_row": 42
+ },
+ {
+  "id": "P2_greener_lr",
+  "question": "Is the left half greener than the right half?",
+  "definition": "Yes if the mean NDVI over the left half of the patch exceeds the mean over the right half.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 43
+ },
+ {
+  "id": "P2_greener_tb",
+  "question": "Is the top half greener than the bottom half?",
+  "definition": "Yes if the mean NDVI over the top half of the patch exceeds the mean over the bottom half.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 44
+ },
+ {
+  "id": "P2_index_lr",
+  "question": "Is the left half higher in water index than the right half?",
+  "definition": "Yes if the mean NDWI over the left half of the patch exceeds the mean over the right half.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 45
+ },
+ {
+  "id": "P2_index_tb",
+  "question": "Is the top half higher in water index than the bottom half?",
+  "definition": "Yes if the mean NDWI over the top half of the patch exceeds the mean over the bottom half.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 46
+ },
+ {
+  "id": "P2_moister_lr",
+  "question": "Is the left half moister than the right half?",
+  "definition": "Yes if the mean NDMI over the left half of the patch exceeds the mean over the right half.",
+  "kind": "physical",
+  "split": "held_out",
+  "emb_row": 47
+ },
+ {
+  "id": "P2_moister_tb",
+  "question": "Is the top half moister than the bottom half?",
+  "definition": "Yes if the mean NDMI over the top half of the patch exceeds the mean over the bottom half.",
+  "kind": "physical",
+  "split": "held_out",
+  "emb_row": 48
+ },
+ {
+  "id": "P2_brighter_lr",
+  "question": "Is the left half brighter than the right half?",
+  "definition": "Yes if the mean brightness, (B02 + B03 + B04) / 3, over the left half of the patch exceeds the mean over the right half.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 49
+ },
+ {
+  "id": "P2_brighter_tb",
+  "question": "Is the top half brighter than the bottom half?",
+  "definition": "Yes if the mean brightness, (B02 + B03 + B04) / 3, over the top half of the patch exceeds the mean over the bottom half.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 50
+ },
+ {
+  "id": "P3_ndmi",
+  "question": "Is the patch moister than its visible and near-infrared appearance predicts?",
+  "definition": "Yes if the patch's mean NDMI, (B8A - B11) / (B8A + B11), exceeds the value predicted by a linear regression on the B02, B03, B04 and B08 means, NDVI mean and NDWI mean fitted over a reference pool.",
+  "kind": "physical",
+  "split": "held_out",
+  "emb_row": 51
+ },
+ {
+  "id": "P3_b11",
+  "question": "Is the patch brighter in shortwave infrared 1 than its visible and near-infrared appearance predicts?",
+  "definition": "Yes if the patch's mean B11 exceeds the value predicted by a linear regression on the B02, B03, B04 and B08 means, NDVI mean and NDWI mean fitted over a reference pool.",
+  "kind": "physical",
+  "split": "practice",
+  "emb_row": 52
+ },
+ {
+  "id": "P3_b12",
+  "question": "Is the patch brighter in shortwave infrared 2 than its visible and near-infrared appearance predicts?",
+  "definition": "Yes if the patch's mean B12 exceeds the value predicted by a linear regression on the B02, B03, B04 and B08 means, NDVI mean and NDWI mean fitted over a reference pool.",
+  "kind": "physical",
+  "split": "held_out",
+  "emb_row": 53
+ },
+ {
+  "id": "A1",
+  "question": "Do two visually distinct surface types each occupy at least a quarter of the patch?",
+  "definition": "Count differences in color and texture that indicate different surfaces, excluding differences caused solely by shadow.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6933836936950684,
+  "emb_row": 54
+ },
+ {
+  "id": "A2",
+  "question": "Does one continuous, visually uniform area occupy between one-third and two-thirds of the patch?",
+  "definition": "Treat an area as uniform when its dominant color and texture remain similar despite small internal features.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6376177072525024,
+  "emb_row": 55
+ },
+ {
+  "id": "A3",
+  "question": "Is the patch divided into two contrasting parts by a prominent boundary?",
+  "definition": "Count a boundary extending at least halfway across the patch with visibly different surface patterns on its two sides.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6532853841781616,
+  "emb_row": 56
+ },
+ {
+  "id": "A4",
+  "question": "Do at least three substantial areas meet near the center of the patch?",
+  "definition": "Count distinct areas each covering at least 5% of the patch whose boundaries meet within the central third.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.711614727973938,
+  "emb_row": 57
+ },
+ {
+  "id": "A5",
+  "question": "Are straight boundaries more prominent than curved boundaries?",
+  "definition": "Compare the combined visible lengths of major surface boundaries, ignoring the image frame and very small features.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.532325267791748,
+  "emb_row": 58
+ },
+ {
+  "id": "A6",
+  "question": "Do curved or irregular boundaries separate at least three substantial areas?",
+  "definition": "Count areas covering at least 5% of the patch whose shared boundaries visibly bend or meander.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.607125461101532,
+  "emb_row": 59
+ },
+ {
+  "id": "A7",
+  "question": "Is one surface type visibly fragmented into at least five separate pieces?",
+  "definition": "Count pieces with matching color and texture separated by clearly different surfaces, excluding isolated single-pixel variations.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6277510523796082,
+  "emb_row": 60
+ },
+ {
+  "id": "A8",
+  "question": "Is a contrasting area completely enclosed by another surface type?",
+  "definition": "Count an enclosed area covering at least 2% of the patch with no visible connection to the image edge.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.7040913105010986,
+  "emb_row": 61
+ },
+ {
+  "id": "A9",
+  "question": "Does a narrow linear feature connect opposite sides of the patch?",
+  "definition": "Count a visible road, water feature, vegetation strip, or comparable corridor narrower than one-tenth of the patch width.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5701054334640503,
+  "emb_row": 62
+ },
+ {
+  "id": "A10",
+  "question": "Does a broad band of one surface type cross the patch?",
+  "definition": "Count a connected band between one-tenth and one-third of the patch width that reaches two opposite image edges.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6096832156181335,
+  "emb_row": 63
+ },
+ {
+  "id": "A11",
+  "question": "Are most major boundaries aligned in one common direction?",
+  "definition": "Count a shared alignment when more than half the visible length of major boundaries falls within approximately 20 degrees of one orientation.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5085022449493408,
+  "emb_row": 64
+ },
+ {
+  "id": "A12",
+  "question": "Are two different boundary orientations prominent in separate parts of the patch?",
+  "definition": "Count two groups of at least three boundaries whose dominant directions differ by approximately 30 degrees or more.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.569015383720398,
+  "emb_row": 65
+ },
+ {
+  "id": "A13",
+  "question": "Is the pattern noticeably finer on one side of the patch than on the other?",
+  "definition": "Count a contrast where typical visible surface units on one side are approximately half the width of those on the other.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6144344210624695,
+  "emb_row": 66
+ },
+ {
+  "id": "A14",
+  "question": "Does a large uniform area adjoin a mosaic of smaller areas?",
+  "definition": "Count a uniform area covering at least a quarter of the patch that shares a boundary with at least four smaller contrasting units.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6463785767555237,
+  "emb_row": 67
+ },
+ {
+  "id": "A15",
+  "question": "Are at least three elongated surface units arranged side by side?",
+  "definition": "Count units at least three times longer than wide that share a broadly similar orientation.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5330871343612671,
+  "emb_row": 68
+ },
+ {
+  "id": "A16",
+  "question": "Does a branching network structure the visible landscape?",
+  "definition": "Count connected linear features with at least three visible junctions that separate or connect substantial surface areas.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5358576774597168,
+  "emb_row": 69
+ },
+ {
+  "id": "A17",
+  "question": "Is there a gradual transition between contrasting surfaces?",
+  "definition": "Count a transition at least approximately 50 meters wide in which color or texture changes progressively rather than at a sharp boundary.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.517918586730957,
+  "emb_row": 70
+ },
+ {
+  "id": "A18",
+  "question": "Does a narrow contrasting strip separate two large areas?",
+  "definition": "Count a strip under approximately 50 meters wide extending at least 300 meters between areas each covering at least 10% of the patch.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5826107263565063,
+  "emb_row": 71
+ },
+ {
+  "id": "A19",
+  "question": "Does the central part of the patch differ markedly from most of its perimeter?",
+  "definition": "Compare the dominant surface in the central third with the surface along more than half the image perimeter.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6556808352470398,
+  "emb_row": 72
+ },
+ {
+  "id": "A20",
+  "question": "Are three visibly different surface types arranged in successive bands?",
+  "definition": "Count three adjoining bands with distinct color or texture, each extending at least a quarter of the patch width.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6528151035308838,
+  "emb_row": 73
+ },
+ {
+  "id": "A21",
+  "question": "Does visibly vegetated ground occupy between one-quarter and three-quarters of the patch?",
+  "definition": "Estimate vegetation extent jointly from true-color appearance and the red vegetation response in false color.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.680941641330719,
+  "emb_row": 74
+ },
+ {
+  "id": "A22",
+  "question": "Is vegetation concentrated mainly in one half of the patch?",
+  "definition": "Count a concentration when one horizontal or vertical half contains roughly twice as much visibly vegetated area as the other.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.7049176692962646,
+  "emb_row": 75
+ },
+ {
+  "id": "A23",
+  "question": "Does the vegetation form at least three disconnected substantial patches?",
+  "definition": "Count vegetated patches each covering at least 2% of the image and separated by visibly nonvegetated surfaces.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6860722303390503,
+  "emb_row": 76
+ },
+ {
+  "id": "A24",
+  "question": "Does a continuous vegetation corridor link two larger vegetated areas?",
+  "definition": "Count a visible vegetated connection narrower than both areas it joins, with no clearly resolved nonvegetated break.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5740500688552856,
+  "emb_row": 77
+ },
+ {
+  "id": "A25",
+  "question": "Are narrow vegetation strips a prominent part of the patch?",
+  "definition": "Count at least three vegetation strips each approximately 100 meters long and no more than 50 meters wide.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6009170413017273,
+  "emb_row": 78
+ },
+ {
+  "id": "A26",
+  "question": "Are both smooth and coarse vegetation textures present over substantial areas?",
+  "definition": "Count each texture when it occupies at least 5% of the patch, with coarse texture showing repeated resolved tonal irregularities.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6194643378257751,
+  "emb_row": 79
+ },
+ {
+  "id": "A27",
+  "question": "Does a coarse-textured vegetation block have a straight edge?",
+  "definition": "Count a woody-looking vegetation block with a boundary remaining approximately straight for at least 200 meters.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5067964792251587,
+  "emb_row": 80
+ },
+ {
+  "id": "A28",
+  "question": "Does a coarse-textured vegetation block have a deeply indented edge?",
+  "definition": "Count an edge with at least two visible indentations extending approximately 50 meters or more into the block.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.47205376625061035,
+  "emb_row": 81
+ },
+ {
+  "id": "A29",
+  "question": "Are open gaps visible inside a larger vegetation block?",
+  "definition": "Count at least two clearly resolved gaps with weaker vegetation signals that are surrounded by the same connected vegetation block.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.4913441836833954,
+  "emb_row": 82
+ },
+ {
+  "id": "A30",
+  "question": "Does vegetation along a boundary appear denser than vegetation in the adjoining interior?",
+  "definition": "Count a continuous margin at least 100 meters long with a stronger red vegetation response and less exposed substrate than the adjacent interior.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.48556196689605713,
+  "emb_row": 83
+ },
+ {
+  "id": "A31",
+  "question": "Do neighboring vegetated areas have markedly different false-color tones?",
+  "definition": "Count adjoining areas each covering at least 2% of the patch whose dominant vegetation tones differ clearly beyond small local fluctuations.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6947923898696899,
+  "emb_row": 84
+ },
+ {
+  "id": "A32",
+  "question": "Does one continuous vegetated area contain a broad gradient in vegetation signal?",
+  "definition": "Count a progressive change in false-color red intensity extending approximately 100 meters or more without a clear intervening boundary.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5406960248947144,
+  "emb_row": 85
+ },
+ {
+  "id": "A33",
+  "question": "Does a vegetated area contain irregular patches with a weaker vegetation signal?",
+  "definition": "Count at least three resolved internal patches that are less red in false color than their surroundings and do not match obvious shadows.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6000245213508606,
+  "emb_row": 86
+ },
+ {
+  "id": "A34",
+  "question": "Are stronger vegetation signals arranged in bands within a larger area?",
+  "definition": "Count at least three resolved bands that are redder in false color than the intervening surface.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.502281904220581,
+  "emb_row": 87
+ },
+ {
+  "id": "A35",
+  "question": "Are green-looking and yellow-brown-looking vegetated areas both substantial?",
+  "definition": "Count each appearance over at least 5% of the patch where texture or false color supports a vegetation interpretation.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5723854899406433,
+  "emb_row": 88
+ },
+ {
+  "id": "A36",
+  "question": "Does yellow-brown vegetation form a continuous area rather than only scattered spots?",
+  "definition": "Count a connected yellow-brown vegetated area covering at least 10% of the patch, excluding clearly bare soil.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6008584499359131,
+  "emb_row": 89
+ },
+ {
+  "id": "A37",
+  "question": "Do some pale or brown-looking areas retain a visible vegetation response in false color?",
+  "definition": "Count an area covering at least 2% of the patch that looks pale or brown in true color but has a spatially matching red vegetation signal.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5823767185211182,
+  "emb_row": 90
+ },
+ {
+  "id": "A38",
+  "question": "Does sparse vegetation visibly intermingle with exposed ground?",
+  "definition": "Count an area covering at least 5% of the patch with a resolved mixture of vegetation signals and bare-looking substrate.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6208984851837158,
+  "emb_row": 91
+ },
+ {
+  "id": "A39",
+  "question": "Are dense-looking and sparse-looking vegetation directly adjacent?",
+  "definition": "Count a shared boundary at least 100 meters long between nearly continuous vegetation and vegetation visibly mixed with exposed ground.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5357803702354431,
+  "emb_row": 92
+ },
+ {
+  "id": "A40",
+  "question": "Does a vegetation boundary become much clearer in false color than in true color?",
+  "definition": "Count a boundary at least 200 meters long whose vegetation contrast is conspicuous in false color but weak in true color.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5250741243362427,
+  "emb_row": 93
+ },
+ {
+  "id": "A41",
+  "question": "Does vegetation form a branching pattern through more open ground?",
+  "definition": "Count connected vegetation strips with at least two branch points and a total visible extent of approximately 300 meters or more.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5303083658218384,
+  "emb_row": 94
+ },
+ {
+  "id": "A42",
+  "question": "Are several isolated coarse-textured vegetation clumps scattered through smoother ground?",
+  "definition": "Count at least three resolved woody-looking clumps separated from one another by smoother vegetation or exposed ground.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5834003686904907,
+  "emb_row": 95
+ },
+ {
+  "id": "A43",
+  "question": "Does a woody-looking vegetation block contain two broad tonal zones?",
+  "definition": "Count adjoining zones each approximately 100 meters across with consistently different false-color vegetation tones, excluding obvious illumination effects.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5827215909957886,
+  "emb_row": 96
+ },
+ {
+  "id": "A44",
+  "question": "Is the interior of a vegetation block more uniform than its margins?",
+  "definition": "Count a block covering at least 10% of the patch whose margins show clearly greater color or texture variation than its central area.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5999612212181091,
+  "emb_row": 97
+ },
+ {
+  "id": "A45",
+  "question": "Does a narrow vegetation strip stand out against pale or brown surroundings?",
+  "definition": "Count a strip at least 200 meters long with a clear red vegetation signal bordered predominantly by pale or brown surfaces.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.4768247604370117,
+  "emb_row": 98
+ },
+ {
+  "id": "A46",
+  "question": "Are contrasting vegetation conditions distributed as a fine mosaic?",
+  "definition": "Count at least five adjoining vegetation units under approximately 150 meters across that alternate between clearly different color or signal states.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6011406183242798,
+  "emb_row": 99
+ },
+ {
+  "id": "A47",
+  "question": "Do large vegetation areas look internally uniform despite differing from one another?",
+  "definition": "Count at least two areas each covering 10% of the patch that have relatively uniform interiors but clearly different dominant vegetation tones.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5882641077041626,
+  "emb_row": 100
+ },
+ {
+  "id": "A48",
+  "question": "Does vegetation extend into an otherwise nonvegetated area as a tongue or wedge?",
+  "definition": "Count a vegetated projection at least approximately 100 meters long that is bordered on both sides by nonvegetated ground.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5214791297912598,
+  "emb_row": 101
+ },
+ {
+  "id": "A49",
+  "question": "Are vegetation patches connected only by narrow visible necks?",
+  "definition": "Count at least one connection less than one-third the width of the two substantial vegetated areas it joins.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5994935631752014,
+  "emb_row": 102
+ },
+ {
+  "id": "A50",
+  "question": "Is a sharp change in vegetation appearance aligned with a straight boundary?",
+  "definition": "Count a tonal or density change following an approximately straight line for at least 200 meters, excluding a shadow edge.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5138551592826843,
+  "emb_row": 103
+ },
+ {
+  "id": "A51",
+  "question": "Are at least three field-like parcels visibly distinguishable?",
+  "definition": "Count bounded, relatively smooth areas whose geometric arrangement supports a field interpretation, even if their crop types cannot be identified.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6327103972434998,
+  "emb_row": 104
+ },
+ {
+  "id": "A52",
+  "question": "Do field-like parcels occupy between one-quarter and three-quarters of the patch?",
+  "definition": "Estimate the combined area of visibly bounded agricultural-looking parcels, including vegetated and bare-looking interiors.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6328648924827576,
+  "emb_row": 105
+ },
+ {
+  "id": "A53",
+  "question": "Are both large and small field-like parcels present?",
+  "definition": "Count at least two examples in each size group where the larger visible parcels have approximately four times the area of the smaller ones.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5297602415084839,
+  "emb_row": 106
+ },
+ {
+  "id": "A54",
+  "question": "Are at least three field-like parcels long and narrow?",
+  "definition": "Count visibly bounded parcels with lengths at least three times their widths, using only the portion visible when a boundary meets the image edge.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5966523289680481,
+  "emb_row": 107
+ },
+ {
+  "id": "A55",
+  "question": "Do several field-like parcels share a rectangular arrangement?",
+  "definition": "Count at least three parcels with mostly straight sides and approximately right-angle corners.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5145772695541382,
+  "emb_row": 108
+ },
+ {
+  "id": "A56",
+  "question": "Do several field-like parcels have irregular outlines?",
+  "definition": "Count at least three parcels with substantial curved sides, oblique corners, or indentations rather than approximately rectangular outlines.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5389479398727417,
+  "emb_row": 109
+ },
+ {
+  "id": "A57",
+  "question": "Do neighboring field-like parcels alternate between vegetated and bare-looking surfaces?",
+  "definition": "Count a sequence of at least three adjoining parcels in which a bare-looking parcel lies between vegetated parcels or the reverse.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5913561582565308,
+  "emb_row": 110
+ },
+ {
+  "id": "A58",
+  "question": "Are at least three distinct surface conditions visible among field-like parcels?",
+  "definition": "Count clearly different parcel appearances such as strong vegetation, weak or yellow-brown vegetation, and exposed soil without assigning crop identities.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6313192844390869,
+  "emb_row": 111
+ },
+ {
+  "id": "A59",
+  "question": "Is one field-like parcel visibly different from all its immediate neighbors?",
+  "definition": "Count a parcel sharing boundaries with at least two others whose dominant color or vegetation signal contrasts with every visible neighbor.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6480450630187988,
+  "emb_row": 112
+ },
+ {
+  "id": "A60",
+  "question": "Do adjacent field-like parcels have similar vegetation signals but different textures?",
+  "definition": "Count an adjoining pair with broadly matching false-color vegetation tones and a clear difference in smoothness, striping, or mottling.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6388288736343384,
+  "emb_row": 113
+ },
+ {
+  "id": "A61",
+  "question": "Are resolved parallel stripes visible within an open managed-looking area?",
+  "definition": "Count at least three repeated stripes within a field-like or regularly maintained area, excluding display artifacts and unresolved crop rows.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5576708316802979,
+  "emb_row": 114
+ },
+ {
+  "id": "A62",
+  "question": "Does one field-like parcel contain two sharply separated surface conditions?",
+  "definition": "Count a parcel with a recognizable common outer boundary and an internal division separating contrasting surfaces that each occupy at least one-fifth of it.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5685387849807739,
+  "emb_row": 115
+ },
+ {
+  "id": "A63",
+  "question": "Does a field-like parcel contain an irregular area of weaker vegetation?",
+  "definition": "Count a resolved weak-signal area occupying approximately 10% or more of a vegetated parcel and not following its full outer boundary.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.519367516040802,
+  "emb_row": 116
+ },
+ {
+  "id": "A64",
+  "question": "Do vegetation strips separate several field-like parcels?",
+  "definition": "Count clearly vegetated strips along at least three parcel boundaries rather than color changes between adjoining parcel interiors.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5254658460617065,
+  "emb_row": 117
+ },
+ {
+  "id": "A65",
+  "question": "Do several field-like parcels meet without visible woody boundaries?",
+  "definition": "Count at least three adjoining parcels separated by direct surface transitions or narrow bare lines with no resolved coarse-textured vegetation strip.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5640705823898315,
+  "emb_row": 118
+ },
+ {
+  "id": "A66",
+  "question": "Does a field-like parcel have a broad margin that differs from its interior?",
+  "definition": "Count a margin at least approximately 20 meters wide following two sides of a parcel and differing consistently in color or vegetation signal.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5169790983200073,
+  "emb_row": 119
+ },
+ {
+  "id": "A67",
+  "question": "Are bare-looking field surfaces visibly different in color from one another?",
+  "definition": "Count at least two agricultural-looking parcels with little vegetation response and clearly different dominant soil-like tones.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5347582101821899,
+  "emb_row": 120
+ },
+ {
+  "id": "A68",
+  "question": "Does a bare-looking field contain broad dark and light patches?",
+  "definition": "Count resolved tonal patches each approximately 50 meters across within one parcel, excluding recognizable shadows and vegetation patches.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6252236366271973,
+  "emb_row": 121
+ },
+ {
+  "id": "A69",
+  "question": "Do several neighboring fields have similarly strong vegetation signals?",
+  "definition": "Count at least three visibly separate parcels whose interiors are predominantly strong red in false color with little exposed substrate.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.527032732963562,
+  "emb_row": 122
+ },
+ {
+  "id": "A70",
+  "question": "Are green-looking fields interspersed with yellow-brown fields?",
+  "definition": "Count at least two parcels of each appearance within the same visible field mosaic, without inferring a particular season or management event.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6356626152992249,
+  "emb_row": 123
+ },
+ {
+  "id": "A71",
+  "question": "Does a field-like parcel wrap around a contrasting feature?",
+  "definition": "Count a parcel that borders at least three sides of a woody patch, built feature, water feature, or other clearly different surface.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6280196905136108,
+  "emb_row": 124
+ },
+ {
+  "id": "A72",
+  "question": "Does a woody-looking patch interrupt an otherwise regular field pattern?",
+  "definition": "Count a coarse-textured vegetation patch that forces at least two neighboring field boundaries to bend or terminate.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5736417174339294,
+  "emb_row": 125
+ },
+ {
+  "id": "A73",
+  "question": "Do narrow access-like lines divide or connect several fields?",
+  "definition": "Count visible nonvegetated linear routes that border or enter at least three field-like parcels and appear connected.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5667142868041992,
+  "emb_row": 126
+ },
+ {
+  "id": "A74",
+  "question": "Is a small built-looking cluster embedded in a field mosaic?",
+  "definition": "Count a resolved cluster of roof-like angular surfaces and associated hard ground bordered on at least three sides by field-like parcels.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5667039752006531,
+  "emb_row": 127
+ },
+ {
+  "id": "A75",
+  "question": "Do field boundaries change direction around a curved feature?",
+  "definition": "Count at least three field edges that visibly adjust their orientation alongside a curving road, vegetation belt, or water feature.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.47984907031059265,
+  "emb_row": 128
+ },
+ {
+  "id": "A76",
+  "question": "Are repeated vegetation bands visible across more than one managed parcel?",
+  "definition": "Count at least two parcels containing resolved, regularly spaced vegetation bands without requiring identification as orchards, vineyards, or other crops.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6018269062042236,
+  "emb_row": 129
+ },
+ {
+  "id": "A77",
+  "question": "Are small enclosed vegetated plots grouped together?",
+  "definition": "Count at least five adjacent bounded plots each under approximately 100 meters across, with visible vegetation in most plots.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5470081567764282,
+  "emb_row": 130
+ },
+ {
+  "id": "A78",
+  "question": "Does a broad open area contain curved parallel bands?",
+  "definition": "Count at least three resolved bands that curve together within one field-like or managed-looking surface.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5484436750411987,
+  "emb_row": 131
+ },
+ {
+  "id": "A79",
+  "question": "Are apparent management boundaries clearer in false color than in true color?",
+  "definition": "Count at least two field or plot boundaries that strongly separate vegetation signals in false color while remaining subdued in true color.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5240861177444458,
+  "emb_row": 132
+ },
+ {
+  "id": "A80",
+  "question": "Does an abrupt change in parcel size divide the agricultural-looking part of the patch?",
+  "definition": "Count adjoining groups of at least three parcels where typical visible parcel area differs by approximately a factor of four.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6427030563354492,
+  "emb_row": 133
+ },
+ {
+  "id": "A81",
+  "question": "Are built-looking surfaces interspersed with substantial vegetation?",
+  "definition": "Count at least three resolved roof or paved clusters separated by vegetation areas of comparable or greater width.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6132825613021851,
+  "emb_row": 134
+ },
+ {
+  "id": "A82",
+  "question": "Is a built-looking area concentrated in one compact cluster?",
+  "definition": "Count a cluster covering at least 5% of the patch and containing more than three-quarters of its identifiable roof and paved surfaces.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.655376136302948,
+  "emb_row": 135
+ },
+ {
+  "id": "A83",
+  "question": "Are built-looking clusters scattered across the patch?",
+  "definition": "Count at least three distinct clusters separated from one another by approximately 100 meters or more of open or vegetated ground.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.620669424533844,
+  "emb_row": 136
+ },
+ {
+  "id": "A84",
+  "question": "Do built-looking features form a ribbon along a visible route?",
+  "definition": "Count roof-like clusters distributed along at least 300 meters of one road-like corridor with a developed strip much longer than it is wide.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.552442729473114,
+  "emb_row": 137
+ },
+ {
+  "id": "A85",
+  "question": "Is there a sharp boundary between a built-looking area and open ground?",
+  "definition": "Count a boundary at least 200 meters long where a roof-and-paving pattern ends abruptly against vegetation or exposed soil.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5631697177886963,
+  "emb_row": 138
+ },
+ {
+  "id": "A86",
+  "question": "Does the density of built-looking surfaces decrease gradually toward open ground?",
+  "definition": "Count a transition at least approximately 150 meters wide in which roof-like clusters become progressively more separated by vegetation or bare ground.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5341460704803467,
+  "emb_row": 139
+ },
+ {
+  "id": "A87",
+  "question": "Does a road-like corridor cross a predominantly open part of the patch?",
+  "definition": "Count a continuous linear route at least 400 meters long with vegetated or bare ground along most of both sides.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5298164486885071,
+  "emb_row": 140
+ },
+ {
+  "id": "A88",
+  "question": "Do visible road-like routes form at least two junctions?",
+  "definition": "Count clear connections among continuous route-like lines, excluding apparent crossings whose connection cannot be resolved.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.49974316358566284,
+  "emb_row": 141
+ },
+ {
+  "id": "A89",
+  "question": "Does a road-like route visibly curve around a large surface feature?",
+  "definition": "Count a route bending along the edge of a distinct area for at least approximately 150 meters.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.46087974309921265,
+  "emb_row": 142
+ },
+ {
+  "id": "A90",
+  "question": "Does a straight transport-like corridor cut across otherwise irregular boundaries?",
+  "definition": "Count an approximately straight route at least 400 meters long that crosses or truncates at least three irregular surface boundaries.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.4674092233181,
+  "emb_row": 143
+ },
+ {
+  "id": "A91",
+  "question": "Are pale hard-looking surfaces grouped with angular roof-like features?",
+  "definition": "Count a connected built-looking complex approximately 100 meters across containing both resolved angular roofs and adjoining relatively smooth pale ground.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.524415135383606,
+  "emb_row": 144
+ },
+ {
+  "id": "A92",
+  "question": "Are both compact and loosely spaced built patterns visible?",
+  "definition": "Count one area with mostly contiguous roof-and-paving texture and another where comparable built clusters are separated by substantial vegetation.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6167535185813904,
+  "emb_row": 145
+ },
+ {
+  "id": "A93",
+  "question": "Do built-looking surfaces occupy between 5% and 30% of the patch?",
+  "definition": "Estimate the combined extent of identifiable roofs, paved yards, and broad roads while excluding uncertain bare-soil surfaces.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.644123911857605,
+  "emb_row": 146
+ },
+ {
+  "id": "A94",
+  "question": "Does a substantial vegetated opening lie within a built-looking area?",
+  "definition": "Count a vegetated area approximately 100 meters across bordered on at least three sides by roof-and-paving patterns.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5766980648040771,
+  "emb_row": 147
+ },
+ {
+  "id": "A95",
+  "question": "Do vegetation strips follow visible roads?",
+  "definition": "Count vegetation aligned along at least 300 meters of a road-like route rather than merely crossing it.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5105209946632385,
+  "emb_row": 148
+ },
+ {
+  "id": "A96",
+  "question": "Does a road-like feature separate two contrasting vegetation patterns?",
+  "definition": "Count a visible route with consistently different vegetation color, texture, or parcel arrangement on its two sides for at least 200 meters.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5624148845672607,
+  "emb_row": 149
+ },
+ {
+  "id": "A97",
+  "question": "Are angular bare or hard-looking clearings visible beside built features?",
+  "definition": "Count at least two resolved nonvegetated clearings with geometric edges adjoining identifiable roof-like surfaces.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5248690247535706,
+  "emb_row": 150
+ },
+ {
+  "id": "A98",
+  "question": "Does a connected network of pale lines divide vegetation into blocks?",
+  "definition": "Count road- or track-like lines forming boundaries around at least three vegetated blocks, without requiring a specific route classification.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5832371115684509,
+  "emb_row": 151
+ },
+ {
+  "id": "A99",
+  "question": "Are visibly larger roof-like structures mixed with smaller built clusters?",
+  "definition": "Count at least one resolved angular roof footprint approximately four times the area of nearby distinguishable roof-like features.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.4906741976737976,
+  "emb_row": 152
+ },
+ {
+  "id": "A100",
+  "question": "Do built-looking features occupy a junction between several surface types?",
+  "definition": "Count a roof-and-paving cluster directly adjoining at least three visibly distinct surroundings such as fields, woody vegetation, open soil, or water.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6141468286514282,
+  "emb_row": 153
+ },
+ {
+  "id": "A101",
+  "question": "Does an open nonvegetated area have both geometric edges and internal irregularity?",
+  "definition": "Count an area covering at least 2% of the patch with straight outer boundaries but visibly mottled, disturbed-looking, or uneven interior texture.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5496810078620911,
+  "emb_row": 154
+ },
+ {
+  "id": "A102",
+  "question": "Are human-shaped features concentrated around the edges of a larger vegetated area?",
+  "definition": "Count roads, angular clearings, or built clusters along at least half the visible perimeter of a vegetation block covering 10% or more of the patch.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5419785380363464,
+  "emb_row": 155
+ },
+ {
+  "id": "A103",
+  "question": "Does a narrow route penetrate a large woody-looking block?",
+  "definition": "Count a continuous road- or track-like opening extending at least approximately 200 meters into coarse-textured vegetation.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5480950474739075,
+  "emb_row": 156
+ },
+ {
+  "id": "A104",
+  "question": "Does the patch contain a visible transition from a field pattern to a street-and-building pattern?",
+  "definition": "Count adjoining areas with clearly recognizable agricultural parcel geometry on one side and connected routes with roof-like clusters on the other.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6189941167831421,
+  "emb_row": 157
+ },
+ {
+  "id": "A105",
+  "question": "Are built-looking features aligned with the surrounding parcel boundaries?",
+  "definition": "Count at least three resolved built features or clusters whose principal orientation broadly matches neighboring field or plot edges.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5440324544906616,
+  "emb_row": 158
+ },
+ {
+  "id": "A106",
+  "question": "Does apparent open water share a substantial boundary with vegetation?",
+  "definition": "Count a smooth water-like surface with a weak near-infrared response adjoining vegetation along at least approximately 100 meters, excluding obvious shadows.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6779390573501587,
+  "emb_row": 159
+ },
+ {
+  "id": "A107",
+  "question": "Does a water-like feature have an elongated shape?",
+  "definition": "Count a coherent apparent water surface at least three times longer than wide and at least approximately 100 meters long.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5249866247177124,
+  "emb_row": 160
+ },
+ {
+  "id": "A108",
+  "question": "Is a water-like surface bordered by a distinct vegetation strip?",
+  "definition": "Count a resolved vegetation band following at least 100 meters of an apparent shoreline and differing from the land farther away.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5398355722427368,
+  "emb_row": 161
+ },
+ {
+  "id": "A109",
+  "question": "Does apparent water occur within a mosaic of fields or built surfaces?",
+  "definition": "Count a resolved water-like feature with field-like parcels or built-looking surfaces along at least half its visible land-facing boundary.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5920463800430298,
+  "emb_row": 162
+ },
+ {
+  "id": "A110",
+  "question": "Does a dark, sinuous corridor pass through open ground?",
+  "definition": "Count a winding corridor at least 200 meters long that is darker than adjacent open surfaces in both images and is not an obvious cast shadow.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.4852081835269928,
+  "emb_row": 163
+ },
+ {
+  "id": "A111",
+  "question": "Are dark smooth patches embedded in a vegetated area?",
+  "definition": "Count at least two coherent dark patches approximately 30 meters across with weak vegetation signals and no clear association with shadow-casting objects.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.6090288758277893,
+  "emb_row": 164
+ },
+ {
+  "id": "A112",
+  "question": "Does exposed ground contain a broad dark area consistent with wetter-looking soil?",
+  "definition": "Count a smooth dark zone at least approximately 50 meters across within otherwise lighter soil-like ground, treating darkness as an appearance rather than proof of moisture.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5507401823997498,
+  "emb_row": 165
+ },
+ {
+  "id": "A113",
+  "question": "Do dark soil-like patches follow a branching pattern?",
+  "definition": "Count connected dark areas within exposed ground with at least two branch points, excluding vegetation strips and recognizable shadows.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5960939526557922,
+  "emb_row": 166
+ },
+ {
+  "id": "A114",
+  "question": "Is stronger vegetation associated with a dark or water-like corridor?",
+  "definition": "Count a vegetation band with a stronger red response than nearby vegetation that follows at least 100 meters of a dark smooth corridor.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5273560285568237,
+  "emb_row": 167
+ },
+ {
+  "id": "A115",
+  "question": "Do dark and pale soil-like areas alternate within one open surface?",
+  "definition": "Count at least two dark and two pale resolved zones within a connected bare-looking area, excluding obvious vegetation and shadow.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5904590487480164,
+  "emb_row": 168
+ },
+ {
+  "id": "A116",
+  "question": "Does a broad darkening pattern cross a visible parcel boundary?",
+  "definition": "Count a coherent dark zone continuing across at least two neighboring open parcels without being explained by a common shadow.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5531357526779175,
+  "emb_row": 169
+ },
+ {
+  "id": "A117",
+  "question": "Are dark ground patches concentrated along the margins of open areas?",
+  "definition": "Count at least two nonshadow dark patches located along field or clearing edges with lighter ground toward the corresponding interiors.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5556899905204773,
+  "emb_row": 170
+ },
+ {
+  "id": "A118",
+  "question": "Does a dark surface grade gradually into lighter exposed ground?",
+  "definition": "Count a continuous tonal transition approximately 50 meters wide or more between dark and light soil-like surfaces without a sharp vegetation boundary.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5001358985900879,
+  "emb_row": 171
+ },
+ {
+  "id": "A119",
+  "question": "Are narrow dark lines accompanied by vegetation on both sides?",
+  "definition": "Count at least 150 meters of resolved dark linear surface flanked by vegetation, excluding obvious shadows cast along a single woody edge.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5301508903503418,
+  "emb_row": 172
+ },
+ {
+  "id": "A120",
+  "question": "Do visibly wet-looking or water-like surfaces form an irregular boundary with dry-looking open ground?",
+  "definition": "Count smooth dark or water-like ground adjoining lighter exposed ground along a boundary with at least two clear bends, without asserting actual moisture content.",
+  "kind": "semantic",
+  "split": "practice",
+  "max_cos_heldout": 0.5708032846450806,
+  "emb_row": 173
+ }
+]

@@ -1,0 +1,754 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Do two visually distinct surface types each occupy at least a quarter of the patch?",
+      "definition": "Count differences in color and texture that indicate different surfaces, excluding differences caused solely by shadow."
+    },
+    {
+      "id": 2,
+      "question": "Does one continuous, visually uniform area occupy between one-third and two-thirds of the patch?",
+      "definition": "Treat an area as uniform when its dominant color and texture remain similar despite small internal features."
+    },
+    {
+      "id": 3,
+      "question": "Is the patch divided into two contrasting parts by a prominent boundary?",
+      "definition": "Count a boundary extending at least halfway across the patch with visibly different surface patterns on its two sides."
+    },
+    {
+      "id": 4,
+      "question": "Do at least three substantial areas meet near the center of the patch?",
+      "definition": "Count distinct areas each covering at least 5% of the patch whose boundaries meet within the central third."
+    },
+    {
+      "id": 5,
+      "question": "Are straight boundaries more prominent than curved boundaries?",
+      "definition": "Compare the combined visible lengths of major surface boundaries, ignoring the image frame and very small features."
+    },
+    {
+      "id": 6,
+      "question": "Do curved or irregular boundaries separate at least three substantial areas?",
+      "definition": "Count areas covering at least 5% of the patch whose shared boundaries visibly bend or meander."
+    },
+    {
+      "id": 7,
+      "question": "Is one surface type visibly fragmented into at least five separate pieces?",
+      "definition": "Count pieces with matching color and texture separated by clearly different surfaces, excluding isolated single-pixel variations."
+    },
+    {
+      "id": 8,
+      "question": "Is a contrasting area completely enclosed by another surface type?",
+      "definition": "Count an enclosed area covering at least 2% of the patch with no visible connection to the image edge."
+    },
+    {
+      "id": 9,
+      "question": "Does a narrow linear feature connect opposite sides of the patch?",
+      "definition": "Count a visible road, water feature, vegetation strip, or comparable corridor narrower than one-tenth of the patch width."
+    },
+    {
+      "id": 10,
+      "question": "Does a broad band of one surface type cross the patch?",
+      "definition": "Count a connected band between one-tenth and one-third of the patch width that reaches two opposite image edges."
+    },
+    {
+      "id": 11,
+      "question": "Are most major boundaries aligned in one common direction?",
+      "definition": "Count a shared alignment when more than half the visible length of major boundaries falls within approximately 20 degrees of one orientation."
+    },
+    {
+      "id": 12,
+      "question": "Are two different boundary orientations prominent in separate parts of the patch?",
+      "definition": "Count two groups of at least three boundaries whose dominant directions differ by approximately 30 degrees or more."
+    },
+    {
+      "id": 13,
+      "question": "Is the pattern noticeably finer on one side of the patch than on the other?",
+      "definition": "Count a contrast where typical visible surface units on one side are approximately half the width of those on the other."
+    },
+    {
+      "id": 14,
+      "question": "Does a large uniform area adjoin a mosaic of smaller areas?",
+      "definition": "Count a uniform area covering at least a quarter of the patch that shares a boundary with at least four smaller contrasting units."
+    },
+    {
+      "id": 15,
+      "question": "Are at least three elongated surface units arranged side by side?",
+      "definition": "Count units at least three times longer than wide that share a broadly similar orientation."
+    },
+    {
+      "id": 16,
+      "question": "Does a branching network structure the visible landscape?",
+      "definition": "Count connected linear features with at least three visible junctions that separate or connect substantial surface areas."
+    },
+    {
+      "id": 17,
+      "question": "Is there a gradual transition between contrasting surfaces?",
+      "definition": "Count a transition at least approximately 50 meters wide in which color or texture changes progressively rather than at a sharp boundary."
+    },
+    {
+      "id": 18,
+      "question": "Does a narrow contrasting strip separate two large areas?",
+      "definition": "Count a strip under approximately 50 meters wide extending at least 300 meters between areas each covering at least 10% of the patch."
+    },
+    {
+      "id": 19,
+      "question": "Does the central part of the patch differ markedly from most of its perimeter?",
+      "definition": "Compare the dominant surface in the central third with the surface along more than half the image perimeter."
+    },
+    {
+      "id": 20,
+      "question": "Are three visibly different surface types arranged in successive bands?",
+      "definition": "Count three adjoining bands with distinct color or texture, each extending at least a quarter of the patch width."
+    },
+    {
+      "id": 21,
+      "question": "Does visibly vegetated ground occupy between one-quarter and three-quarters of the patch?",
+      "definition": "Estimate vegetation extent jointly from true-color appearance and the red vegetation response in false color."
+    },
+    {
+      "id": 22,
+      "question": "Is vegetation concentrated mainly in one half of the patch?",
+      "definition": "Count a concentration when one horizontal or vertical half contains roughly twice as much visibly vegetated area as the other."
+    },
+    {
+      "id": 23,
+      "question": "Does the vegetation form at least three disconnected substantial patches?",
+      "definition": "Count vegetated patches each covering at least 2% of the image and separated by visibly nonvegetated surfaces."
+    },
+    {
+      "id": 24,
+      "question": "Does a continuous vegetation corridor link two larger vegetated areas?",
+      "definition": "Count a visible vegetated connection narrower than both areas it joins, with no clearly resolved nonvegetated break."
+    },
+    {
+      "id": 25,
+      "question": "Are narrow vegetation strips a prominent part of the patch?",
+      "definition": "Count at least three vegetation strips each approximately 100 meters long and no more than 50 meters wide."
+    },
+    {
+      "id": 26,
+      "question": "Are both smooth and coarse vegetation textures present over substantial areas?",
+      "definition": "Count each texture when it occupies at least 5% of the patch, with coarse texture showing repeated resolved tonal irregularities."
+    },
+    {
+      "id": 27,
+      "question": "Does a coarse-textured vegetation block have a straight edge?",
+      "definition": "Count a woody-looking vegetation block with a boundary remaining approximately straight for at least 200 meters."
+    },
+    {
+      "id": 28,
+      "question": "Does a coarse-textured vegetation block have a deeply indented edge?",
+      "definition": "Count an edge with at least two visible indentations extending approximately 50 meters or more into the block."
+    },
+    {
+      "id": 29,
+      "question": "Are open gaps visible inside a larger vegetation block?",
+      "definition": "Count at least two clearly resolved gaps with weaker vegetation signals that are surrounded by the same connected vegetation block."
+    },
+    {
+      "id": 30,
+      "question": "Does vegetation along a boundary appear denser than vegetation in the adjoining interior?",
+      "definition": "Count a continuous margin at least 100 meters long with a stronger red vegetation response and less exposed substrate than the adjacent interior."
+    },
+    {
+      "id": 31,
+      "question": "Do neighboring vegetated areas have markedly different false-color tones?",
+      "definition": "Count adjoining areas each covering at least 2% of the patch whose dominant vegetation tones differ clearly beyond small local fluctuations."
+    },
+    {
+      "id": 32,
+      "question": "Does one continuous vegetated area contain a broad gradient in vegetation signal?",
+      "definition": "Count a progressive change in false-color red intensity extending approximately 100 meters or more without a clear intervening boundary."
+    },
+    {
+      "id": 33,
+      "question": "Does a vegetated area contain irregular patches with a weaker vegetation signal?",
+      "definition": "Count at least three resolved internal patches that are less red in false color than their surroundings and do not match obvious shadows."
+    },
+    {
+      "id": 34,
+      "question": "Are stronger vegetation signals arranged in bands within a larger area?",
+      "definition": "Count at least three resolved bands that are redder in false color than the intervening surface."
+    },
+    {
+      "id": 35,
+      "question": "Are green-looking and yellow-brown-looking vegetated areas both substantial?",
+      "definition": "Count each appearance over at least 5% of the patch where texture or false color supports a vegetation interpretation."
+    },
+    {
+      "id": 36,
+      "question": "Does yellow-brown vegetation form a continuous area rather than only scattered spots?",
+      "definition": "Count a connected yellow-brown vegetated area covering at least 10% of the patch, excluding clearly bare soil."
+    },
+    {
+      "id": 37,
+      "question": "Do some pale or brown-looking areas retain a visible vegetation response in false color?",
+      "definition": "Count an area covering at least 2% of the patch that looks pale or brown in true color but has a spatially matching red vegetation signal."
+    },
+    {
+      "id": 38,
+      "question": "Does sparse vegetation visibly intermingle with exposed ground?",
+      "definition": "Count an area covering at least 5% of the patch with a resolved mixture of vegetation signals and bare-looking substrate."
+    },
+    {
+      "id": 39,
+      "question": "Are dense-looking and sparse-looking vegetation directly adjacent?",
+      "definition": "Count a shared boundary at least 100 meters long between nearly continuous vegetation and vegetation visibly mixed with exposed ground."
+    },
+    {
+      "id": 40,
+      "question": "Does a vegetation boundary become much clearer in false color than in true color?",
+      "definition": "Count a boundary at least 200 meters long whose vegetation contrast is conspicuous in false color but weak in true color."
+    },
+    {
+      "id": 41,
+      "question": "Does vegetation form a branching pattern through more open ground?",
+      "definition": "Count connected vegetation strips with at least two branch points and a total visible extent of approximately 300 meters or more."
+    },
+    {
+      "id": 42,
+      "question": "Are several isolated coarse-textured vegetation clumps scattered through smoother ground?",
+      "definition": "Count at least three resolved woody-looking clumps separated from one another by smoother vegetation or exposed ground."
+    },
+    {
+      "id": 43,
+      "question": "Does a woody-looking vegetation block contain two broad tonal zones?",
+      "definition": "Count adjoining zones each approximately 100 meters across with consistently different false-color vegetation tones, excluding obvious illumination effects."
+    },
+    {
+      "id": 44,
+      "question": "Is the interior of a vegetation block more uniform than its margins?",
+      "definition": "Count a block covering at least 10% of the patch whose margins show clearly greater color or texture variation than its central area."
+    },
+    {
+      "id": 45,
+      "question": "Does a narrow vegetation strip stand out against pale or brown surroundings?",
+      "definition": "Count a strip at least 200 meters long with a clear red vegetation signal bordered predominantly by pale or brown surfaces."
+    },
+    {
+      "id": 46,
+      "question": "Are contrasting vegetation conditions distributed as a fine mosaic?",
+      "definition": "Count at least five adjoining vegetation units under approximately 150 meters across that alternate between clearly different color or signal states."
+    },
+    {
+      "id": 47,
+      "question": "Do large vegetation areas look internally uniform despite differing from one another?",
+      "definition": "Count at least two areas each covering 10% of the patch that have relatively uniform interiors but clearly different dominant vegetation tones."
+    },
+    {
+      "id": 48,
+      "question": "Does vegetation extend into an otherwise nonvegetated area as a tongue or wedge?",
+      "definition": "Count a vegetated projection at least approximately 100 meters long that is bordered on both sides by nonvegetated ground."
+    },
+    {
+      "id": 49,
+      "question": "Are vegetation patches connected only by narrow visible necks?",
+      "definition": "Count at least one connection less than one-third the width of the two substantial vegetated areas it joins."
+    },
+    {
+      "id": 50,
+      "question": "Is a sharp change in vegetation appearance aligned with a straight boundary?",
+      "definition": "Count a tonal or density change following an approximately straight line for at least 200 meters, excluding a shadow edge."
+    },
+    {
+      "id": 51,
+      "question": "Are at least three field-like parcels visibly distinguishable?",
+      "definition": "Count bounded, relatively smooth areas whose geometric arrangement supports a field interpretation, even if their crop types cannot be identified."
+    },
+    {
+      "id": 52,
+      "question": "Do field-like parcels occupy between one-quarter and three-quarters of the patch?",
+      "definition": "Estimate the combined area of visibly bounded agricultural-looking parcels, including vegetated and bare-looking interiors."
+    },
+    {
+      "id": 53,
+      "question": "Are both large and small field-like parcels present?",
+      "definition": "Count at least two examples in each size group where the larger visible parcels have approximately four times the area of the smaller ones."
+    },
+    {
+      "id": 54,
+      "question": "Are at least three field-like parcels long and narrow?",
+      "definition": "Count visibly bounded parcels with lengths at least three times their widths, using only the portion visible when a boundary meets the image edge."
+    },
+    {
+      "id": 55,
+      "question": "Do several field-like parcels share a rectangular arrangement?",
+      "definition": "Count at least three parcels with mostly straight sides and approximately right-angle corners."
+    },
+    {
+      "id": 56,
+      "question": "Do several field-like parcels have irregular outlines?",
+      "definition": "Count at least three parcels with substantial curved sides, oblique corners, or indentations rather than approximately rectangular outlines."
+    },
+    {
+      "id": 57,
+      "question": "Do neighboring field-like parcels alternate between vegetated and bare-looking surfaces?",
+      "definition": "Count a sequence of at least three adjoining parcels in which a bare-looking parcel lies between vegetated parcels or the reverse."
+    },
+    {
+      "id": 58,
+      "question": "Are at least three distinct surface conditions visible among field-like parcels?",
+      "definition": "Count clearly different parcel appearances such as strong vegetation, weak or yellow-brown vegetation, and exposed soil without assigning crop identities."
+    },
+    {
+      "id": 59,
+      "question": "Is one field-like parcel visibly different from all its immediate neighbors?",
+      "definition": "Count a parcel sharing boundaries with at least two others whose dominant color or vegetation signal contrasts with every visible neighbor."
+    },
+    {
+      "id": 60,
+      "question": "Do adjacent field-like parcels have similar vegetation signals but different textures?",
+      "definition": "Count an adjoining pair with broadly matching false-color vegetation tones and a clear difference in smoothness, striping, or mottling."
+    },
+    {
+      "id": 61,
+      "question": "Are resolved parallel stripes visible within an open managed-looking area?",
+      "definition": "Count at least three repeated stripes within a field-like or regularly maintained area, excluding display artifacts and unresolved crop rows."
+    },
+    {
+      "id": 62,
+      "question": "Does one field-like parcel contain two sharply separated surface conditions?",
+      "definition": "Count a parcel with a recognizable common outer boundary and an internal division separating contrasting surfaces that each occupy at least one-fifth of it."
+    },
+    {
+      "id": 63,
+      "question": "Does a field-like parcel contain an irregular area of weaker vegetation?",
+      "definition": "Count a resolved weak-signal area occupying approximately 10% or more of a vegetated parcel and not following its full outer boundary."
+    },
+    {
+      "id": 64,
+      "question": "Do vegetation strips separate several field-like parcels?",
+      "definition": "Count clearly vegetated strips along at least three parcel boundaries rather than color changes between adjoining parcel interiors."
+    },
+    {
+      "id": 65,
+      "question": "Do several field-like parcels meet without visible woody boundaries?",
+      "definition": "Count at least three adjoining parcels separated by direct surface transitions or narrow bare lines with no resolved coarse-textured vegetation strip."
+    },
+    {
+      "id": 66,
+      "question": "Does a field-like parcel have a broad margin that differs from its interior?",
+      "definition": "Count a margin at least approximately 20 meters wide following two sides of a parcel and differing consistently in color or vegetation signal."
+    },
+    {
+      "id": 67,
+      "question": "Are bare-looking field surfaces visibly different in color from one another?",
+      "definition": "Count at least two agricultural-looking parcels with little vegetation response and clearly different dominant soil-like tones."
+    },
+    {
+      "id": 68,
+      "question": "Does a bare-looking field contain broad dark and light patches?",
+      "definition": "Count resolved tonal patches each approximately 50 meters across within one parcel, excluding recognizable shadows and vegetation patches."
+    },
+    {
+      "id": 69,
+      "question": "Do several neighboring fields have similarly strong vegetation signals?",
+      "definition": "Count at least three visibly separate parcels whose interiors are predominantly strong red in false color with little exposed substrate."
+    },
+    {
+      "id": 70,
+      "question": "Are green-looking fields interspersed with yellow-brown fields?",
+      "definition": "Count at least two parcels of each appearance within the same visible field mosaic, without inferring a particular season or management event."
+    },
+    {
+      "id": 71,
+      "question": "Does a field-like parcel wrap around a contrasting feature?",
+      "definition": "Count a parcel that borders at least three sides of a woody patch, built feature, water feature, or other clearly different surface."
+    },
+    {
+      "id": 72,
+      "question": "Does a woody-looking patch interrupt an otherwise regular field pattern?",
+      "definition": "Count a coarse-textured vegetation patch that forces at least two neighboring field boundaries to bend or terminate."
+    },
+    {
+      "id": 73,
+      "question": "Do narrow access-like lines divide or connect several fields?",
+      "definition": "Count visible nonvegetated linear routes that border or enter at least three field-like parcels and appear connected."
+    },
+    {
+      "id": 74,
+      "question": "Is a small built-looking cluster embedded in a field mosaic?",
+      "definition": "Count a resolved cluster of roof-like angular surfaces and associated hard ground bordered on at least three sides by field-like parcels."
+    },
+    {
+      "id": 75,
+      "question": "Do field boundaries change direction around a curved feature?",
+      "definition": "Count at least three field edges that visibly adjust their orientation alongside a curving road, vegetation belt, or water feature."
+    },
+    {
+      "id": 76,
+      "question": "Are repeated vegetation bands visible across more than one managed parcel?",
+      "definition": "Count at least two parcels containing resolved, regularly spaced vegetation bands without requiring identification as orchards, vineyards, or other crops."
+    },
+    {
+      "id": 77,
+      "question": "Are small enclosed vegetated plots grouped together?",
+      "definition": "Count at least five adjacent bounded plots each under approximately 100 meters across, with visible vegetation in most plots."
+    },
+    {
+      "id": 78,
+      "question": "Does a broad open area contain curved parallel bands?",
+      "definition": "Count at least three resolved bands that curve together within one field-like or managed-looking surface."
+    },
+    {
+      "id": 79,
+      "question": "Are apparent management boundaries clearer in false color than in true color?",
+      "definition": "Count at least two field or plot boundaries that strongly separate vegetation signals in false color while remaining subdued in true color."
+    },
+    {
+      "id": 80,
+      "question": "Does an abrupt change in parcel size divide the agricultural-looking part of the patch?",
+      "definition": "Count adjoining groups of at least three parcels where typical visible parcel area differs by approximately a factor of four."
+    },
+    {
+      "id": 81,
+      "question": "Are built-looking surfaces interspersed with substantial vegetation?",
+      "definition": "Count at least three resolved roof or paved clusters separated by vegetation areas of comparable or greater width."
+    },
+    {
+      "id": 82,
+      "question": "Is a built-looking area concentrated in one compact cluster?",
+      "definition": "Count a cluster covering at least 5% of the patch and containing more than three-quarters of its identifiable roof and paved surfaces."
+    },
+    {
+      "id": 83,
+      "question": "Are built-looking clusters scattered across the patch?",
+      "definition": "Count at least three distinct clusters separated from one another by approximately 100 meters or more of open or vegetated ground."
+    },
+    {
+      "id": 84,
+      "question": "Do built-looking features form a ribbon along a visible route?",
+      "definition": "Count roof-like clusters distributed along at least 300 meters of one road-like corridor with a developed strip much longer than it is wide."
+    },
+    {
+      "id": 85,
+      "question": "Is there a sharp boundary between a built-looking area and open ground?",
+      "definition": "Count a boundary at least 200 meters long where a roof-and-paving pattern ends abruptly against vegetation or exposed soil."
+    },
+    {
+      "id": 86,
+      "question": "Does the density of built-looking surfaces decrease gradually toward open ground?",
+      "definition": "Count a transition at least approximately 150 meters wide in which roof-like clusters become progressively more separated by vegetation or bare ground."
+    },
+    {
+      "id": 87,
+      "question": "Does a road-like corridor cross a predominantly open part of the patch?",
+      "definition": "Count a continuous linear route at least 400 meters long with vegetated or bare ground along most of both sides."
+    },
+    {
+      "id": 88,
+      "question": "Do visible road-like routes form at least two junctions?",
+      "definition": "Count clear connections among continuous route-like lines, excluding apparent crossings whose connection cannot be resolved."
+    },
+    {
+      "id": 89,
+      "question": "Does a road-like route visibly curve around a large surface feature?",
+      "definition": "Count a route bending along the edge of a distinct area for at least approximately 150 meters."
+    },
+    {
+      "id": 90,
+      "question": "Does a straight transport-like corridor cut across otherwise irregular boundaries?",
+      "definition": "Count an approximately straight route at least 400 meters long that crosses or truncates at least three irregular surface boundaries."
+    },
+    {
+      "id": 91,
+      "question": "Are pale hard-looking surfaces grouped with angular roof-like features?",
+      "definition": "Count a connected built-looking complex approximately 100 meters across containing both resolved angular roofs and adjoining relatively smooth pale ground."
+    },
+    {
+      "id": 92,
+      "question": "Are both compact and loosely spaced built patterns visible?",
+      "definition": "Count one area with mostly contiguous roof-and-paving texture and another where comparable built clusters are separated by substantial vegetation."
+    },
+    {
+      "id": 93,
+      "question": "Do built-looking surfaces occupy between 5% and 30% of the patch?",
+      "definition": "Estimate the combined extent of identifiable roofs, paved yards, and broad roads while excluding uncertain bare-soil surfaces."
+    },
+    {
+      "id": 94,
+      "question": "Does a substantial vegetated opening lie within a built-looking area?",
+      "definition": "Count a vegetated area approximately 100 meters across bordered on at least three sides by roof-and-paving patterns."
+    },
+    {
+      "id": 95,
+      "question": "Do vegetation strips follow visible roads?",
+      "definition": "Count vegetation aligned along at least 300 meters of a road-like route rather than merely crossing it."
+    },
+    {
+      "id": 96,
+      "question": "Does a road-like feature separate two contrasting vegetation patterns?",
+      "definition": "Count a visible route with consistently different vegetation color, texture, or parcel arrangement on its two sides for at least 200 meters."
+    },
+    {
+      "id": 97,
+      "question": "Are angular bare or hard-looking clearings visible beside built features?",
+      "definition": "Count at least two resolved nonvegetated clearings with geometric edges adjoining identifiable roof-like surfaces."
+    },
+    {
+      "id": 98,
+      "question": "Does a connected network of pale lines divide vegetation into blocks?",
+      "definition": "Count road- or track-like lines forming boundaries around at least three vegetated blocks, without requiring a specific route classification."
+    },
+    {
+      "id": 99,
+      "question": "Are visibly larger roof-like structures mixed with smaller built clusters?",
+      "definition": "Count at least one resolved angular roof footprint approximately four times the area of nearby distinguishable roof-like features."
+    },
+    {
+      "id": 100,
+      "question": "Do built-looking features occupy a junction between several surface types?",
+      "definition": "Count a roof-and-paving cluster directly adjoining at least three visibly distinct surroundings such as fields, woody vegetation, open soil, or water."
+    },
+    {
+      "id": 101,
+      "question": "Does an open nonvegetated area have both geometric edges and internal irregularity?",
+      "definition": "Count an area covering at least 2% of the patch with straight outer boundaries but visibly mottled, disturbed-looking, or uneven interior texture."
+    },
+    {
+      "id": 102,
+      "question": "Are human-shaped features concentrated around the edges of a larger vegetated area?",
+      "definition": "Count roads, angular clearings, or built clusters along at least half the visible perimeter of a vegetation block covering 10% or more of the patch."
+    },
+    {
+      "id": 103,
+      "question": "Does a narrow route penetrate a large woody-looking block?",
+      "definition": "Count a continuous road- or track-like opening extending at least approximately 200 meters into coarse-textured vegetation."
+    },
+    {
+      "id": 104,
+      "question": "Does the patch contain a visible transition from a field pattern to a street-and-building pattern?",
+      "definition": "Count adjoining areas with clearly recognizable agricultural parcel geometry on one side and connected routes with roof-like clusters on the other."
+    },
+    {
+      "id": 105,
+      "question": "Are built-looking features aligned with the surrounding parcel boundaries?",
+      "definition": "Count at least three resolved built features or clusters whose principal orientation broadly matches neighboring field or plot edges."
+    },
+    {
+      "id": 106,
+      "question": "Does apparent open water share a substantial boundary with vegetation?",
+      "definition": "Count a smooth water-like surface with a weak near-infrared response adjoining vegetation along at least approximately 100 meters, excluding obvious shadows."
+    },
+    {
+      "id": 107,
+      "question": "Does a water-like feature have an elongated shape?",
+      "definition": "Count a coherent apparent water surface at least three times longer than wide and at least approximately 100 meters long."
+    },
+    {
+      "id": 108,
+      "question": "Is a water-like surface bordered by a distinct vegetation strip?",
+      "definition": "Count a resolved vegetation band following at least 100 meters of an apparent shoreline and differing from the land farther away."
+    },
+    {
+      "id": 109,
+      "question": "Does apparent water occur within a mosaic of fields or built surfaces?",
+      "definition": "Count a resolved water-like feature with field-like parcels or built-looking surfaces along at least half its visible land-facing boundary."
+    },
+    {
+      "id": 110,
+      "question": "Does a dark, sinuous corridor pass through open ground?",
+      "definition": "Count a winding corridor at least 200 meters long that is darker than adjacent open surfaces in both images and is not an obvious cast shadow."
+    },
+    {
+      "id": 111,
+      "question": "Are dark smooth patches embedded in a vegetated area?",
+      "definition": "Count at least two coherent dark patches approximately 30 meters across with weak vegetation signals and no clear association with shadow-casting objects."
+    },
+    {
+      "id": 112,
+      "question": "Does exposed ground contain a broad dark area consistent with wetter-looking soil?",
+      "definition": "Count a smooth dark zone at least approximately 50 meters across within otherwise lighter soil-like ground, treating darkness as an appearance rather than proof of moisture."
+    },
+    {
+      "id": 113,
+      "question": "Do dark soil-like patches follow a branching pattern?",
+      "definition": "Count connected dark areas within exposed ground with at least two branch points, excluding vegetation strips and recognizable shadows."
+    },
+    {
+      "id": 114,
+      "question": "Is stronger vegetation associated with a dark or water-like corridor?",
+      "definition": "Count a vegetation band with a stronger red response than nearby vegetation that follows at least 100 meters of a dark smooth corridor."
+    },
+    {
+      "id": 115,
+      "question": "Do dark and pale soil-like areas alternate within one open surface?",
+      "definition": "Count at least two dark and two pale resolved zones within a connected bare-looking area, excluding obvious vegetation and shadow."
+    },
+    {
+      "id": 116,
+      "question": "Does a broad darkening pattern cross a visible parcel boundary?",
+      "definition": "Count a coherent dark zone continuing across at least two neighboring open parcels without being explained by a common shadow."
+    },
+    {
+      "id": 117,
+      "question": "Are dark ground patches concentrated along the margins of open areas?",
+      "definition": "Count at least two nonshadow dark patches located along field or clearing edges with lighter ground toward the corresponding interiors."
+    },
+    {
+      "id": 118,
+      "question": "Does a dark surface grade gradually into lighter exposed ground?",
+      "definition": "Count a continuous tonal transition approximately 50 meters wide or more between dark and light soil-like surfaces without a sharp vegetation boundary."
+    },
+    {
+      "id": 119,
+      "question": "Are narrow dark lines accompanied by vegetation on both sides?",
+      "definition": "Count at least 150 meters of resolved dark linear surface flanked by vegetation, excluding obvious shadows cast along a single woody edge."
+    },
+    {
+      "id": 120,
+      "question": "Do visibly wet-looking or water-like surfaces form an irregular boundary with dry-looking open ground?",
+      "definition": "Count smooth dark or water-like ground adjoining lighter exposed ground along a boundary with at least two clear bends, without asserting actual moisture content."
+    },
+    {
+      "id": 121,
+      "question": "Are the strongest vegetation signals concentrated in narrow features rather than broad blocks?",
+      "definition": "Count this pattern when more than half the conspicuously strongest red vegetation occupies strips under approximately 50 meters wide."
+    },
+    {
+      "id": 122,
+      "question": "Do woody-looking vegetation and field-like parcels contribute comparable areas?",
+      "definition": "Count both patterns when each covers at least 20% of the patch and neither occupies more than twice the area of the other."
+    },
+    {
+      "id": 123,
+      "question": "Does a built-looking cluster adjoin both woody vegetation and open fields?",
+      "definition": "Count a single resolved roof-and-paving cluster sharing visible boundaries with coarse-textured vegetation and field-like open ground."
+    },
+    {
+      "id": 124,
+      "question": "Does a linear vegetation feature connect a built-looking area to a larger vegetation block?",
+      "definition": "Count a continuous visible vegetation strip linking the edge of a roof-and-paving cluster to a vegetation block approximately 100 meters across or larger."
+    },
+    {
+      "id": 125,
+      "question": "Are the smallest parcels concentrated near built-looking features?",
+      "definition": "Count a group of at least three parcels next to a built cluster whose typical visible area is less than half that of parcels farther away."
+    },
+    {
+      "id": 126,
+      "question": "Does a road-like route follow the boundary between woody vegetation and open ground?",
+      "definition": "Count a visible route running along that boundary for at least approximately 200 meters."
+    },
+    {
+      "id": 127,
+      "question": "Do open areas form fingers extending into woody-looking vegetation?",
+      "definition": "Count at least two open projections approximately 100 meters long bordered on both sides by coarse-textured vegetation."
+    },
+    {
+      "id": 128,
+      "question": "Do woody vegetation strips divide open land into enclosed compartments?",
+      "definition": "Count at least three open compartments each bounded on three or more sides by resolved coarse-textured vegetation strips."
+    },
+    {
+      "id": 129,
+      "question": "Are strong and weak vegetation signals associated with different parcel sizes?",
+      "definition": "Count at least two predominantly strong-signal parcels and two predominantly weak-signal parcels whose typical visible areas differ by approximately a factor of two."
+    },
+    {
+      "id": 130,
+      "question": "Is the vegetation around built-looking features less continuous than vegetation farther away?",
+      "definition": "Compare a belt approximately 100 meters around a built cluster with a similarly sized vegetated area elsewhere, requiring clearly more nonvegetated interruptions near the cluster."
+    },
+    {
+      "id": 131,
+      "question": "Does a continuous pale corridor interrupt an otherwise connected vegetation pattern?",
+      "definition": "Count a road-like or bare-ground band extending at least 300 meters with substantial vegetation on both sides and no resolved vegetation connection across it."
+    },
+    {
+      "id": 132,
+      "question": "Are irregular vegetation boundaries juxtaposed with regular field boundaries?",
+      "definition": "Count a woody-looking or rough vegetation area with a curved edge directly adjoining at least three straight-sided field-like parcels."
+    },
+    {
+      "id": 133,
+      "question": "Do vegetation strips remain visually strong beside weakly vegetated fields?",
+      "definition": "Count at least two field margins with conspicuous red vegetation signals beside parcel interiors that are mostly pale, brown, or weakly red."
+    },
+    {
+      "id": 134,
+      "question": "Does a bare-looking opening interrupt a strong vegetation signal?",
+      "definition": "Count an opening approximately 50 meters across or larger with little vegetation response embedded in or cutting into a predominantly strong-red area."
+    },
+    {
+      "id": 135,
+      "question": "Do neighboring smooth and woody-looking vegetation areas show opposite brightness rankings in the two images?",
+      "definition": "Count an adjoining pair where the area appearing lighter in true color appears darker in false color, using broad interiors rather than edge pixels."
+    },
+    {
+      "id": 136,
+      "question": "Are straight and winding linear features both prominent?",
+      "definition": "Count at least one approximately straight feature and one feature with multiple clear bends, each extending at least 300 meters."
+    },
+    {
+      "id": 137,
+      "question": "Does one corridor cross several contrasting land-use patterns?",
+      "definition": "Count a continuous road-like, water-like, or vegetated corridor passing through at least three visibly distinct patterns such as fields, woody blocks, or built clusters."
+    },
+    {
+      "id": 138,
+      "question": "Are nonvegetated surfaces more connected than the vegetation between them?",
+      "definition": "Count a connected nonvegetated network spanning the patch while the substantial vegetated areas within it remain visibly separated."
+    },
+    {
+      "id": 139,
+      "question": "Are small nonvegetated areas embedded in a connected vegetation matrix?",
+      "definition": "Count at least five resolved nonvegetated areas separated from one another by vegetation that remains visibly connected around them."
+    },
+    {
+      "id": 140,
+      "question": "Does surface heterogeneity increase near a major boundary?",
+      "definition": "Count a belt approximately 100 meters wide around a major boundary containing at least three surface appearances while the adjoining broad interiors are relatively uniform."
+    },
+    {
+      "id": 141,
+      "question": "Do similarly colored true-color areas separate into different patterns in false color?",
+      "definition": "Count at least two substantial areas with similar true-color appearance but clearly different false-color vegetation responses or textures."
+    },
+    {
+      "id": 142,
+      "question": "Do differently colored true-color areas share a similar strong vegetation response?",
+      "definition": "Count at least two areas approximately 100 meters across with clearly different true-color hues but comparably strong red vegetation signals."
+    },
+    {
+      "id": 143,
+      "question": "Does a dark linear feature coincide with a change in parcel orientation?",
+      "definition": "Count a nonshadow dark corridor with at least three parcel boundaries on each side whose dominant orientations differ visibly."
+    },
+    {
+      "id": 144,
+      "question": "Are dark ground patches spatially associated with stronger vegetation?",
+      "definition": "Count at least two nonshadow dark soil-like or water-like patches directly adjoining vegetation that is redder in false color than vegetation farther away."
+    },
+    {
+      "id": 145,
+      "question": "Does the patch contain both a connected woody block and isolated woody-looking remnants?",
+      "definition": "Count one coarse-textured vegetation block covering at least 10% of the patch plus at least three separated smaller clumps with similar texture."
+    },
+    {
+      "id": 146,
+      "question": "Do broad open areas contrast with a dense network of narrow vegetated boundaries?",
+      "definition": "Count at least three open areas approximately 100 meters across separated by connected vegetation strips under approximately 50 meters wide."
+    },
+    {
+      "id": 147,
+      "question": "Do two contrasting surface types recur on both sides of a major route?",
+      "definition": "Count a road-like corridor at least 300 meters long with substantial examples of the same two distinct surface types visible on each side."
+    },
+    {
+      "id": 148,
+      "question": "Is a small-scale mosaic enclosed on several sides by larger uniform areas?",
+      "definition": "Count a cluster of at least five small surface units bordered on three sides by areas each approximately 200 meters across or larger."
+    },
+    {
+      "id": 149,
+      "question": "Does the strongest vegetation contrast occur within managed-looking land rather than along its outer edge?",
+      "definition": "Count a field or plot complex whose clearest false-color vegetation difference separates internal parcels and exceeds the contrast along most of its external boundary."
+    },
+    {
+      "id": 150,
+      "question": "Does a narrow feature coincide with changes in both surface color and spatial organization?",
+      "definition": "Count a road-like, water-like, or vegetated line at least 200 meters long separating sides that differ in dominant color and in parcel size, texture, or built density."
+    }
+  ]
+}

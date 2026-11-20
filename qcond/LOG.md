@@ -18,3 +18,30 @@
 - Calls used: 3 of 140, no usage limit. **Stopped per QC-X1** (no more retries without approval). QC-2 to QC-4 not started; QC-5 (add-on) waits for QC-4.
 - User reported moving the skill out. QC-X1 flag removed (back to the frozen settings). Astra call q004 (question writing): **voided_tool**, 349 s; Astra read `~/.codex/skills/qa-ladder/SKILL.md` and references/setup.md again. My error: the `ls ~/.codex/skills` run just before the call already showed `qa-ladder` still on host A, and I launched without reading it. On host A the folder still holds `qa-ladder` (dated Nov 17) plus five hidden `.qa-ladder.bak-*` copies.
 - Calls used: 4 of 140. Stopped.
+- 17:56 With the user's go-ahead I moved ~/.codex/skills/qa-ladder and the five .qa-ladder.bak-* copies to ~/.codex/skills_off/ (restore after QC). ~/.codex/skills now holds only .system.
+- Astra call q005 (question writing, frozen settings, no extra flag): **ok**, 216 s, no tools, 150 questions -> generated.json (raw/q005_ask). Prompt sha256 in calls.jsonl.
+- `qc1.py embed` (GPU host A, nice 10, page cache evicted 424.7 GB): Qwen3-Embedding-4B 5cf2132…, bf16, no prefix, normalized; 204 texts (23 held-out semantic, 31 physical, 150 generated) in 3 s -> ~/langres_state/qc/emb_all.npy.
+- `qc1.py build`: leakage filter drops none (max cosine to a held-out question: min 0.461, median 0.570, max 0.712); first 120 kept (A1–A120) -> questions.json: 141 practice (120 semantic + 21 physical), 33 held out (23 semantic + 10 physical). leakage_filter.json.
+
+## QC-2
+- Order check (`qc2.py check`, q006–q009, group 1, halves A and B, given and reversed order): all ok, 103–192 s, no tools. Agreement 0.913 over 600 answers -> pass (order_check.json). Calls used 9 of 140. Renders: stage 1 render() (RL-pool 2–98% stretch, bicubic to 512) into ~/langres_state/qc/renders.
+- 18:05 main answer calls launched: `setsid nohup nice -n 10 python scripts/qc2.py main` (118 calls, groups 2–60 × halves A and B, concurrency 3, one retry on invalid or voided), python PID 583131 in ~/langres_state/qc/main.pid (the first value written was the shell wrapper and was corrected).
+- While the calls run: qc3.py, qc4.py and qc5.py dry-run on placeholder labels (order-check answers plus random fills; QC_DRY=_dry, outputs under ~/langres_state/qc and discarded). All three run end to end (qc3 58 s); the QC-5 logit identity check passes on the dry formula.
+- 19:30 main calls done: 118 of 118 ok on the first try (q010–q127), no tools, no usage limit. Calls used: **127 of 140** (123 planned + 4 voided question calls).
+- `qc2.py soft`: 300 × 120 soft labels, none missing. Yes rates (P ≥ 0.5) per question: min 0.02, median 0.41, max 0.79. Low-confidence answers are rare (216 of 36,000).
+
+## QC-3
+- `qc3.py` (CPU host A, nice 10, 12 jobs, 51 s): 139 answerers (skipped by the 10-answer rule: P1_5_bottom, A113). C = 0.01 (mean CV log loss 0.328, 0.405, 0.574 for C = 0.01, 0.1, 1). Ridge alpha = 0.316 (leave-one-question-out mean AUC 0.783; 0.856 on 119 semantic, 0.352 on 20 physical). T = 1.86. Held-out scores, language route, Astra and Qwen direct, reference heads and true-label heads (n = 30, 100, 300; seeds 0, 1, 2) -> ~/langres_state/qc/qc3.npz, qc3.json.
+
+## QC-4
+- `qc4.py` (CPU, 1,000 bootstrap resamples) -> qc4.json, figs/generalization.png, figs/cascade.png.
+- **R1 passes:** +0.031 [0.015, 0.048] (QC 0.672, language 0.641). **R2 fails:** 0.816 of the reference heads (0.824). **Cost fails:** Astra direct mean BA 0.731; QC alone 0.573; τ = 0.05 already sends 77% of Test200 patches to Astra.
+- Seven held-out questions have QC AUC below 0.5 (C8, C19, P1_6_bottom, P1_9_top, P2_moister_lr, P2_moister_tb, P3_ndmi). Their nearest practice questions are the opposite-polarity twins (top/bottom quarter cosine ~0.9).
+- REPORT_QC.md written.
+
+## QC-5 (add-on)
+- `DESIGN_QC5_addendum.md` = section "Frozen addendum" copied verbatim, sha256 4b097850addb84a2c765dbc472fca3e66c78809037a5fb5e89430ae3b18fb26c. Reads v1 artifacts only; no v1 file edited.
+- `qc5.py` (CPU, nice 10): logit identity check max abs diff 4.9e-15 (pass). Caption ridge alpha = 1000 (top of grid).
+- A: R@1 / R@10 / median rank: QC 0.006 / 0.041 / 301; caption ridge 0.008 / 0.054 / 234; shuffled control 0.002 / 0.010 / 504.
+- B: 997 patches, 0 skipped; QC 0.761, language 0.684, diff +0.077 [0.062, 0.091]. Effective rank of M_w 138.
+- REPORT_QC5.md written. No processes left running. The Codex skill stays parked in ~/.codex/skills_off/ until the user restores it.
