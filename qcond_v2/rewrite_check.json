@@ -1,0 +1,50 @@
+{
+ "n_valid": 174,
+ "n_total": 174,
+ "physical_compared": 31,
+ "sign_agreement": 1.0,
+ "pass": true,
+ "physical_disagree": [],
+ "semantic_sign_minus1": [
+  {
+   "id": "A19",
+   "split": "practice",
+   "question": "Does the central part of the patch differ markedly from most of its perimeter?"
+  },
+  {
+   "id": "A31",
+   "split": "practice",
+   "question": "Do neighboring vegetated areas have markedly different false-color tones?"
+  },
+  {
+   "id": "A33",
+   "split": "practice",
+   "question": "Does a vegetated area contain irregular patches with a weaker vegetation signal?"
+  },
+  {
+   "id": "A49",
+   "split": "practice",
+   "question": "Are vegetation patches connected only by narrow visible necks?"
+  },
+  {
+   "id": "A59",
+   "split": "practice",
+   "question": "Is one field-like parcel visibly different from all its immediate neighbors?"
+  },
+  {
+   "id": "A63",
+   "split": "practice",
+   "question": "Does a field-like parcel contain an irregular area of weaker vegetation?"
+  },
+  {
+   "id": "A65",
+   "split": "practice",
+   "question": "Do several field-like parcels meet without visible woody boundaries?"
+  },
+  {
+   "id": "A86",
+   "split": "practice",
+   "question": "Does the density of built-looking surfaces decrease gradually toward open ground?"
+  }
+ ]
+}

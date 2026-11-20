@@ -1,0 +1,7 @@
+{
+ "A1B1_mean_sem_auc": 0.6721324557009435,
+ "v1_stored": 0.6721324557009435,
+ "abs_diff": 0.0,
+ "pass": true,
+ "max_abs_prob_diff_vs_v1": 2.1094237467877974e-15
+}
